@@ -1,0 +1,5851 @@
+{
+      "BRP900~MS8103A1030/U": [
+            {
+                  "For Use With": "Two-Position (SPST) controller, Valves and dampers (with suitable linkage)"
+            },
+            {
+                  "Valve Compatibility": "With linkage"
+            },
+            {
+                  "Certificates and Standards": "UL873, cUL C22.2 No. 24-93, C Tick N314, UL1097 for Double Insulation, Certification Low Voltage Directive 2006/95/EC, EMC 2004/108/EC, IEC 60730-1 and Part 2-14"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Minimum Shaft Size": "9 round, 6 square"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Operating Torque": "27"
+            },
+            {
+                  "Overall Height": "6.95"
+            },
+            {
+                  "Supply Voltage Frequency": "50/60"
+            },
+            {
+                  "Includes": "Mounting bracket, Self-centering shaft adapter"
+            },
+            {
+                  "Overall Depth": "3.16"
+            },
+            {
+                  "Electrical Connection Type": "Screw terminals"
+            },
+            {
+                  "Minimum Operating Humidity": "0.05"
+            },
+            {
+                  "Maximum Shaft Size": "0.625 round, 0.5 square"
+            },
+            {
+                  "Control Signal": "Two-Position SPST"
+            },
+            {
+                  "Actuator Type": "Electric"
+            },
+            {
+                  "Manual Operation Type": NaN
+            },
+            {
+                  "Noise Rating": "40 (db(A) @ 1m)"
+            },
+            {
+                  "Enclosure Rating": "NEMA 2"
+            },
+            {
+                  "Maximum Storage Temperature": "150"
+            },
+            {
+                  "Application": "HVAC"
+            },
+            {
+                  "Drive Time": "45 sec"
+            },
+            {
+                  "Fail-Safe Action": "Spring Fail-safe"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "149"
+            },
+            {
+                  "Operating Torque": "3"
+            },
+            {
+                  "Overall Height": "177"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Overall Width": "3.86"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "65"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-22"
+            },
+            {
+                  "Maximum Angle Of Rotation": "95"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-30"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Feedback": "No Feedback Included"
+            },
+            {
+                  "Maximum Storage Temperature": "65"
+            },
+            {
+                  "Maximum Shaft Size": "16 round, 3 square"
+            },
+            {
+                  "Overall Width": "98"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Overall Depth": "80"
+            },
+            {
+                  "Driving Power Consumption": "6"
+            },
+            {
+                  "PNC-Display SKU": "MS Series"
+            },
+            {
+                  "Mounting Type": "Direct Coupled"
+            },
+            {
+                  "PNC-Selector": "Actuator"
+            },
+            {
+                  "Minimum Shaft Size": "0.375 round, 0.5 square"
+            },
+            {
+                  "Maximum Operating Humidity": "95 (non-condensing) %"
+            },
+            {
+                  "Number Of Auxiliary Switches": "0"
+            },
+            {
+                  "Fail-Safe Timing": "<25 sec"
+            }
+      ],
+      "BRP900~MS4103A1030/U": [
+            {
+                  "For Use With": "Two-Position (SPST) controller, Valves and dampers (with suitable linkage)"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Manual Operation Type": NaN
+            },
+            {
+                  "Fail-Safe Action": "Spring Fail-safe"
+            },
+            {
+                  "Maximum Shaft Size": "16 round, 3 square"
+            },
+            {
+                  "Overall Depth": "80"
+            },
+            {
+                  "Operating Torque": "27"
+            },
+            {
+                  "Operating Torque": "3"
+            },
+            {
+                  "Maximum Operating Humidity": "95 (non-condensing) %"
+            },
+            {
+                  "Overall Width": "98"
+            },
+            {
+                  "Overall Width": "3.86"
+            },
+            {
+                  "Supply Voltage": "100 to 250"
+            },
+            {
+                  "Overall Height": "6.95"
+            },
+            {
+                  "Overall Depth": "3.16"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-30"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "65"
+            },
+            {
+                  "Fail-Safe Timing": "<25 sec"
+            },
+            {
+                  "Number Of Auxiliary Switches": "0"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "149"
+            },
+            {
+                  "PNC-Display SKU": "MS Series"
+            },
+            {
+                  "Drive Time": "45 sec"
+            },
+            {
+                  "Certificates and Standards": "UL873, cUL C22.2 No. 24-93, C Tick N314, UL1097 for Double Insulation, Certification Low Voltage Directive 2006/95/EC, EMC 2004/108/EC, IEC 60730-1 and Part 2-14"
+            },
+            {
+                  "Enclosure Rating": "NEMA 2"
+            },
+            {
+                  "Electrical Connection Type": "Screw terminals"
+            },
+            {
+                  "Minimum Shaft Size": "9 round, 6 square"
+            },
+            {
+                  "Maximum Angle Of Rotation": "95"
+            },
+            {
+                  "Application": "HVAC"
+            },
+            {
+                  "Supply Voltage Frequency": "50/60"
+            },
+            {
+                  "Maximum Storage Temperature": "150"
+            },
+            {
+                  "Minimum Shaft Size": "0.375 round, 0.5 square"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Driving Power Consumption": "6"
+            },
+            {
+                  "PNC-Selector": "Actuator"
+            },
+            {
+                  "Mounting Type": "Direct Coupled"
+            },
+            {
+                  "Control Signal": "Two-Position SPST"
+            },
+            {
+                  "Includes": "Mounting bracket, Self-centering shaft adapter"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-22"
+            },
+            {
+                  "Maximum Shaft Size": "0.625 round, 0.5 square"
+            },
+            {
+                  "Maximum Storage Temperature": "65"
+            },
+            {
+                  "Overall Height": "177"
+            },
+            {
+                  "Minimum Operating Humidity": "0.05"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Feedback": "No Feedback Included"
+            },
+            {
+                  "Actuator Type": "Electric"
+            },
+            {
+                  "Valve Compatibility": "With linkage"
+            },
+            {
+                  "Noise Rating": "40 (db(A) @ 1m)"
+            }
+      ],
+      "BRP900~MS7503A2130/U": [
+            {
+                  "Valve Compatibility": "With linkage"
+            },
+            {
+                  "Drive Time": "90 sec"
+            },
+            {
+                  "Overall Depth": "80"
+            },
+            {
+                  "Mounting Type": "Direct Coupled"
+            },
+            {
+                  "Control Signal": "Two-Position SPST"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Fail-Safe Timing": "<25 sec"
+            },
+            {
+                  "Certificates and Standards": "UL873, cUL C22.2 No. 24-93, C Tick N314, UL1097 for Double Insulation, Certification Low Voltage Directive 2006/95/EC, EMC 2004/108/EC, IEC 60730-1 and Part 2-14"
+            },
+            {
+                  "Noise Rating": "40 (db(A) @ 1m)"
+            },
+            {
+                  "Feedback": "(0)2-10 Vdc"
+            },
+            {
+                  "Auxiliary Switch Rating": "250 V AC, 5 A inductive / 8 A resistive"
+            },
+            {
+                  "Control Signal": "Modulating 2-10 Vdc"
+            },
+            {
+                  "Supply Voltage Frequency": "50/60"
+            },
+            {
+                  "Overall Depth": "3.16"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Minimum Operating Humidity": "0.05"
+            },
+            {
+                  "Overall Height": "6.95"
+            },
+            {
+                  "Overall Height": "177"
+            },
+            {
+                  "Driving Power Consumption": "6"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "Maximum Storage Temperature": "150"
+            },
+            {
+                  "Minimum Shaft Size": "9 round, 6 square"
+            },
+            {
+                  "Maximum Operating Humidity": "95 (non-condensing) %"
+            },
+            {
+                  "Enclosure Rating": "NEMA 2"
+            },
+            {
+                  "Control Signal": "Floating"
+            },
+            {
+                  "Control Signal": "Modulating 0-10 Vdc"
+            },
+            {
+                  "Overall Width": "3.86"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "65"
+            },
+            {
+                  "Minimum Shaft Size": "0.375 round, 0.5 square"
+            },
+            {
+                  "Control Signal": "Two-Position SPDT"
+            },
+            {
+                  "PNC-Selector": "Actuator"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "149"
+            },
+            {
+                  "Maximum Shaft Size": "16 round, 3 square"
+            },
+            {
+                  "Operating Torque": "27"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Maximum Shaft Size": "0.625 round, 0.5 square"
+            },
+            {
+                  "Application": "HVAC"
+            },
+            {
+                  "Operating Torque": "3"
+            },
+            {
+                  "Maximum Storage Temperature": "65"
+            },
+            {
+                  "Maximum Angle Of Rotation": "95"
+            },
+            {
+                  "Electrical Connection Type": "Screw terminals"
+            },
+            {
+                  "Includes": "Mounting bracket, Self-centering shaft adapter"
+            },
+            {
+                  "Overall Width": "98"
+            },
+            {
+                  "PNC-Display SKU": "MS Series"
+            },
+            {
+                  "Number Of Auxiliary Switches": "1 SPDT"
+            },
+            {
+                  "Actuator Type": "Electric"
+            },
+            {
+                  "Fail-Safe Action": "Spring Fail-safe"
+            },
+            {
+                  "Manual Operation Type": NaN
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "For Use With": "Modulating controller, Valves and dampers (with suitable linkage)"
+            }
+      ],
+      "BRP900~MS4105A1030/U": [
+            {
+                  "Valve Compatibility": "With linkage"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Control Signal": "Two-Position SPST"
+            },
+            {
+                  "Mounting Type": "Direct Coupled"
+            },
+            {
+                  "PNC-Selector": "Actuator"
+            },
+            {
+                  "PNC-Display SKU": "MS Series"
+            },
+            {
+                  "Supply Voltage Frequency": "50/60"
+            },
+            {
+                  "Operating Torque": "44"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Supply Voltage": "100 to 250"
+            },
+            {
+                  "Maximum Storage Temperature": "65"
+            },
+            {
+                  "Minimum Shaft Size": "9 round, 6 square"
+            },
+            {
+                  "Includes": "Mounting bracket, Self-centering shaft adapter"
+            },
+            {
+                  "Maximum Storage Temperature": "150"
+            },
+            {
+                  "Overall Depth": "3.16"
+            },
+            {
+                  "Maximum Shaft Size": "16 round, 3 square"
+            },
+            {
+                  "Feedback": "No Feedback Included"
+            },
+            {
+                  "Certificates and Standards": "UL873, cUL C22.2 No. 24-93, C Tick N314, UL1097 for Double Insulation, Certification Low Voltage Directive 2006/95/EC, EMC 2004/108/EC, IEC 60730-1 and Part 2-14"
+            },
+            {
+                  "Drive Time": "45 sec"
+            },
+            {
+                  "Fail-Safe Timing": "<25 sec"
+            },
+            {
+                  "Enclosure Rating": "NEMA 2"
+            },
+            {
+                  "Noise Rating": "40 (db(A) @ 1m)"
+            },
+            {
+                  "Manual Operation Type": NaN
+            },
+            {
+                  "For Use With": "Two-Position (SPST) controller, Valves and dampers (with suitable linkage)"
+            },
+            {
+                  "Application": "HVAC"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "65"
+            },
+            {
+                  "Overall Depth": "80"
+            },
+            {
+                  "Overall Height": "177"
+            },
+            {
+                  "Overall Width": "3.86"
+            },
+            {
+                  "Maximum Operating Humidity": "95 (non-condensing) %"
+            },
+            {
+                  "Minimum Shaft Size": "0.375 round, 0.5 square"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-30"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-22"
+            },
+            {
+                  "Minimum Operating Humidity": "0.05"
+            },
+            {
+                  "Operating Torque": "5"
+            },
+            {
+                  "Driving Power Consumption": "6"
+            },
+            {
+                  "Overall Width": "98"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Overall Height": "6.95"
+            },
+            {
+                  "Maximum Shaft Size": "0.625 round, 0.5 square"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "149"
+            },
+            {
+                  "Electrical Connection Type": "Screw terminals"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Maximum Angle Of Rotation": "95"
+            },
+            {
+                  "Actuator Type": "Electric"
+            },
+            {
+                  "Fail-Safe Action": "Spring Fail-safe"
+            },
+            {
+                  "Number Of Auxiliary Switches": "0"
+            }
+      ],
+      "BRP900~MS8105A1130/U": [
+            {
+                  "Valve Compatibility": "With linkage"
+            },
+            {
+                  "For Use With": "Two-Position (SPST) controller, Valves and dampers (with suitable linkage)"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Noise Rating": "40 (db(A) @ 1m)"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-30"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "65"
+            },
+            {
+                  "Maximum Operating Humidity": "95 (non-condensing) %"
+            },
+            {
+                  "Overall Depth": "80"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "149"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Minimum Shaft Size": "0.375 round, 0.5 square"
+            },
+            {
+                  "Minimum Operating Humidity": "0.05"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Overall Height": "177"
+            },
+            {
+                  "Application": "HVAC"
+            },
+            {
+                  "Electrical Connection Type": "Screw terminals"
+            },
+            {
+                  "Supply Voltage Frequency": "50/60"
+            },
+            {
+                  "PNC-Display SKU": "MS Series"
+            },
+            {
+                  "Overall Width": "3.86"
+            },
+            {
+                  "Operating Torque": "44"
+            },
+            {
+                  "PNC-Selector": "Actuator"
+            },
+            {
+                  "Certificates and Standards": "UL873, cUL C22.2 No. 24-93, C Tick N314, UL1097 for Double Insulation, Certification Low Voltage Directive 2006/95/EC, EMC 2004/108/EC, IEC 60730-1 and Part 2-14"
+            },
+            {
+                  "Enclosure Rating": "NEMA 2"
+            },
+            {
+                  "Feedback": "No Feedback Included"
+            },
+            {
+                  "Manual Operation Type": NaN
+            },
+            {
+                  "Control Signal": "Two-Position SPST"
+            },
+            {
+                  "Number Of Auxiliary Switches": "1 SPDT"
+            },
+            {
+                  "Auxiliary Switch Rating": "250 V AC, 5 A inductive / 8 A resistive"
+            },
+            {
+                  "Fail-Safe Timing": "<25 sec"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-22"
+            },
+            {
+                  "Maximum Storage Temperature": "150"
+            },
+            {
+                  "Overall Height": "6.95"
+            },
+            {
+                  "Actuator Type": "Electric"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Maximum Shaft Size": "0.625 round, 0.5 square"
+            },
+            {
+                  "Overall Depth": "3.16"
+            },
+            {
+                  "Maximum Shaft Size": "16 round, 3 square"
+            },
+            {
+                  "Mounting Type": "Direct Coupled"
+            },
+            {
+                  "Operating Torque": "5"
+            },
+            {
+                  "Overall Width": "98"
+            },
+            {
+                  "Driving Power Consumption": "6"
+            },
+            {
+                  "Maximum Angle Of Rotation": "95"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Minimum Shaft Size": "9 round, 6 square"
+            },
+            {
+                  "Includes": "Mounting bracket, Self-centering shaft adapter"
+            },
+            {
+                  "Maximum Storage Temperature": "65"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Fail-Safe Action": "Spring Fail-safe"
+            },
+            {
+                  "Drive Time": "45 sec"
+            }
+      ],
+      "BRP900~MS4103A1130/U": [
+            {
+                  "For Use With": "Two-Position (SPST) controller, Valves and dampers (with suitable linkage)"
+            },
+            {
+                  "Fail-Safe Action": "Spring Fail-safe"
+            },
+            {
+                  "Minimum Operating Humidity": "0.05"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "65"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Overall Depth": "3.16"
+            },
+            {
+                  "Includes": "Mounting bracket, Self-centering shaft adapter"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-22"
+            },
+            {
+                  "Supply Voltage Frequency": "50/60"
+            },
+            {
+                  "Overall Width": "98"
+            },
+            {
+                  "Mounting Type": "Direct Coupled"
+            },
+            {
+                  "Maximum Operating Humidity": "95 (non-condensing) %"
+            },
+            {
+                  "Supply Voltage": "100 to 250"
+            },
+            {
+                  "Operating Torque": "3"
+            },
+            {
+                  "Overall Depth": "80"
+            },
+            {
+                  "Maximum Storage Temperature": "65"
+            },
+            {
+                  "Maximum Angle Of Rotation": "95"
+            },
+            {
+                  "Application": "HVAC"
+            },
+            {
+                  "Minimum Shaft Size": "9 round, 6 square"
+            },
+            {
+                  "Control Signal": "Two-Position SPST"
+            },
+            {
+                  "Feedback": "No Feedback Included"
+            },
+            {
+                  "Certificates and Standards": "UL873, cUL C22.2 No. 24-93, C Tick N314, UL1097 for Double Insulation, Certification Low Voltage Directive 2006/95/EC, EMC 2004/108/EC, IEC 60730-1 and Part 2-14"
+            },
+            {
+                  "Noise Rating": "40 (db(A) @ 1m)"
+            },
+            {
+                  "Drive Time": "45 sec"
+            },
+            {
+                  "Fail-Safe Timing": "<25 sec"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-30"
+            },
+            {
+                  "Manual Operation Type": NaN
+            },
+            {
+                  "Valve Compatibility": "With linkage"
+            },
+            {
+                  "Auxiliary Switch Rating": "250 V AC, 5 A inductive / 8 A resistive"
+            },
+            {
+                  "Number Of Auxiliary Switches": "1 SPDT"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "149"
+            },
+            {
+                  "Overall Height": "6.95"
+            },
+            {
+                  "Enclosure Rating": "NEMA 2"
+            },
+            {
+                  "Maximum Shaft Size": "16 round, 3 square"
+            },
+            {
+                  "Overall Height": "177"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "PNC-Display SKU": "MS Series"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Minimum Shaft Size": "0.375 round, 0.5 square"
+            },
+            {
+                  "Maximum Storage Temperature": "150"
+            },
+            {
+                  "Driving Power Consumption": "6"
+            },
+            {
+                  "Overall Width": "3.86"
+            },
+            {
+                  "Electrical Connection Type": "Screw terminals"
+            },
+            {
+                  "PNC-Selector": "Actuator"
+            },
+            {
+                  "Maximum Shaft Size": "0.625 round, 0.5 square"
+            },
+            {
+                  "Operating Torque": "27"
+            },
+            {
+                  "Actuator Type": "Electric"
+            },
+            {
+                  "Brand": "Honeywell"
+            }
+      ],
+      "BRP900~MS3105J3130/U": [
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Application": "HVAC"
+            },
+            {
+                  "Includes": "Mounting bracket, Self-centering shaft adapter"
+            },
+            {
+                  "Electrical Connection Type": "Screw terminals"
+            },
+            {
+                  "Minimum Operating Humidity": "5 %"
+            },
+            {
+                  "Maximum Storage Temperature": "150"
+            },
+            {
+                  "Overall Width": "3.654761905"
+            },
+            {
+                  "Maximum Storage Temperature": "65"
+            },
+            {
+                  "For Use With": "Sylk Enabled controller, Valves and dampers (with suitable linkage)"
+            },
+            {
+                  "Overall Height": "177"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Enclosure Rating": "NEMA 2, IP54"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Driving Power Consumption": "6"
+            },
+            {
+                  "Mounting Type": "Direct Coupled"
+            },
+            {
+                  "Drive Time": "90 sec"
+            },
+            {
+                  "Control Signal": "Sylk Enabled"
+            },
+            {
+                  "Valve Compatibility": "With linkage"
+            },
+            {
+                  "Noise Rating": "40 (db(A) @ 1m)"
+            },
+            {
+                  "Overall Depth": "3.15625"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "149"
+            },
+            {
+                  "Supply Voltage Frequency": "50/60"
+            },
+            {
+                  "Overall Height": "7.5"
+            },
+            {
+                  "Fail-Safe Action": "Spring Fail-Safe"
+            },
+            {
+                  "Overall Width": "98"
+            },
+            {
+                  "Operating Torque": "44"
+            },
+            {
+                  "Certificates and Standards": "C Tick N314, Certification Low Voltage Directive 2006/95/EC, EMC 2004/108/EC, UL 873"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "65"
+            },
+            {
+                  "Operating Torque": "5"
+            },
+            {
+                  "Maximum Operating Humidity": "95 (non-condensing) %"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Maximum Angle Of Rotation": "95"
+            },
+            {
+                  "Overall Depth": "80"
+            },
+            {
+                  "Manual Operation Type": NaN
+            },
+            {
+                  "Actuator Type": "Electric"
+            },
+            {
+                  "Feedback": "Sylk"
+            },
+            {
+                  "Fail-Safe Timing": "25 sec"
+            },
+            {
+                  "Number Of Auxiliary Switches": "1 SPDT"
+            }
+      ],
+      "BRP900~MS8105A1030/U": [
+            {
+                  "Valve Compatibility": "With linkage"
+            },
+            {
+                  "Mounting Type": "Direct Coupled"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Maximum Storage Temperature": "65"
+            },
+            {
+                  "Operating Torque": "5"
+            },
+            {
+                  "Overall Height": "177"
+            },
+            {
+                  "Maximum Operating Humidity": "95 (non-condensing) %"
+            },
+            {
+                  "Includes": "Mounting bracket, Self-centering shaft adapter"
+            },
+            {
+                  "Minimum Shaft Size": "9 round, 6 square"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "149"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-22"
+            },
+            {
+                  "Overall Depth": "3.16"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "65"
+            },
+            {
+                  "Overall Height": "6.95"
+            },
+            {
+                  "Overall Width": "3.86"
+            },
+            {
+                  "Application": "HVAC"
+            },
+            {
+                  "Enclosure Rating": "NEMA 2"
+            },
+            {
+                  "Feedback": "No Feedback Included"
+            },
+            {
+                  "Fail-Safe Action": "Spring Fail-safe"
+            },
+            {
+                  "Maximum Shaft Size": "16 round, 3 square"
+            },
+            {
+                  "Certificates and Standards": "UL873, cUL C22.2 No. 24-93, C Tick N314, UL1097 for Double Insulation, Certification Low Voltage Directive 2006/95/EC, EMC 2004/108/EC, IEC 60730-1 and Part 2-14"
+            },
+            {
+                  "For Use With": "Two-Position (SPST) controller, Valves and dampers (with suitable linkage)"
+            },
+            {
+                  "Noise Rating": "40 (db(A) @ 1m)"
+            },
+            {
+                  "Fail-Safe Timing": "<25 sec"
+            },
+            {
+                  "Overall Width": "98"
+            },
+            {
+                  "PNC-Display SKU": "MS Series"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-30"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Actuator Type": "Electric"
+            },
+            {
+                  "Control Signal": "Two-Position SPST"
+            },
+            {
+                  "Supply Voltage Frequency": "50/60"
+            },
+            {
+                  "Electrical Connection Type": "Screw terminals"
+            },
+            {
+                  "PNC-Selector": "Actuator"
+            },
+            {
+                  "Operating Torque": "44"
+            },
+            {
+                  "Overall Depth": "80"
+            },
+            {
+                  "Driving Power Consumption": "6"
+            },
+            {
+                  "Maximum Storage Temperature": "150"
+            },
+            {
+                  "Maximum Shaft Size": "0.625 round, 0.5 square"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Minimum Shaft Size": "0.375 round, 0.5 square"
+            },
+            {
+                  "Minimum Operating Humidity": "0.05"
+            },
+            {
+                  "Maximum Angle Of Rotation": "95"
+            },
+            {
+                  "Manual Operation Type": NaN
+            },
+            {
+                  "Number Of Auxiliary Switches": "0"
+            },
+            {
+                  "Drive Time": "45 sec"
+            },
+            {
+                  "Brand": "Honeywell"
+            }
+      ],
+      "BRP900~MS7505A2130/U": [
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "149"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Operating Torque": "5"
+            },
+            {
+                  "Enclosure Rating": "NEMA 2"
+            },
+            {
+                  "Actuator Type": "Electric"
+            },
+            {
+                  "For Use With": "Modulating controller, Valves and dampers (with suitable linkage)"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Electrical Connection Type": "Screw terminals"
+            },
+            {
+                  "Supply Voltage Frequency": "50/60"
+            },
+            {
+                  "Overall Width": "98"
+            },
+            {
+                  "Maximum Operating Humidity": "95 (non-condensing) %"
+            },
+            {
+                  "Maximum Storage Temperature": "150"
+            },
+            {
+                  "PNC-Selector": "Actuator"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Drive Time": "90 sec"
+            },
+            {
+                  "Number Of Auxiliary Switches": "1 SPDT"
+            },
+            {
+                  "Feedback": "(0)2-10 Vdc"
+            },
+            {
+                  "Noise Rating": "40 (db(A) @ 1m)"
+            },
+            {
+                  "Includes": "Mounting bracket, Self-centering shaft adapter"
+            },
+            {
+                  "Overall Depth": "3.16"
+            },
+            {
+                  "Fail-Safe Timing": "<25 sec"
+            },
+            {
+                  "Maximum Angle Of Rotation": "95"
+            },
+            {
+                  "Overall Width": "3.86"
+            },
+            {
+                  "Overall Depth": "80"
+            },
+            {
+                  "PNC-Display SKU": "MS Series"
+            },
+            {
+                  "Maximum Shaft Size": "16 round, 3 square"
+            },
+            {
+                  "Mounting Type": "Direct Coupled"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "65"
+            },
+            {
+                  "Maximum Storage Temperature": "65"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Control Signal": "Modulating 2-10 Vdc"
+            },
+            {
+                  "Control Signal": "Floating"
+            },
+            {
+                  "Minimum Shaft Size": "0.375 round, 0.5 square"
+            },
+            {
+                  "Control Signal": "Two-Position SPDT"
+            },
+            {
+                  "Maximum Shaft Size": "0.625 round, 0.5 square"
+            },
+            {
+                  "Driving Power Consumption": "6"
+            },
+            {
+                  "Minimum Shaft Size": "9 round, 6 square"
+            },
+            {
+                  "Overall Height": "177"
+            },
+            {
+                  "Operating Torque": "44"
+            },
+            {
+                  "Application": "HVAC"
+            },
+            {
+                  "Control Signal": "Two-Position SPST"
+            },
+            {
+                  "Minimum Operating Humidity": "0.05"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Overall Height": "6.95"
+            },
+            {
+                  "Control Signal": "Modulating 0-10 Vdc"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "Auxiliary Switch Rating": "250 V AC, 5 A inductive / 8 A resistive"
+            },
+            {
+                  "Manual Operation Type": NaN
+            },
+            {
+                  "Valve Compatibility": "With linkage"
+            },
+            {
+                  "Fail-Safe Action": "Spring Fail-safe"
+            },
+            {
+                  "Certificates and Standards": "UL873, cUL C22.2 No. 24-93, C Tick N314, UL1097 for Double Insulation, Certification Low Voltage Directive 2006/95/EC, EMC 2004/108/EC, IEC 60730-1 and Part 2-14"
+            }
+      ],
+      "BRP900~MS7505A2030/U": [
+            {
+                  "Valve Compatibility": "With linkage"
+            },
+            {
+                  "For Use With": "Modulating controller, Valves and dampers (with suitable linkage)"
+            },
+            {
+                  "Control Signal": "Modulating 2-10 Vdc"
+            },
+            {
+                  "Certificates and Standards": "UL873, cUL C22.2 No. 24-93, C Tick N314, UL1097 for Double Insulation, Certification Low Voltage Directive 2006/95/EC, EMC 2004/108/EC, IEC 60730-1 and Part 2-14"
+            },
+            {
+                  "Minimum Shaft Size": "0.375 round, 0.5 square"
+            },
+            {
+                  "Maximum Shaft Size": "0.625 round, 0.5 square"
+            },
+            {
+                  "Control Signal": "Two-Position SPST"
+            },
+            {
+                  "PNC-Selector": "Actuator"
+            },
+            {
+                  "Maximum Shaft Size": "16 round, 3 square"
+            },
+            {
+                  "Overall Height": "177"
+            },
+            {
+                  "Control Signal": "Two-Position SPDT"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "149"
+            },
+            {
+                  "Operating Torque": "5"
+            },
+            {
+                  "Mounting Type": "Direct Coupled"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "Supply Voltage Frequency": "50/60"
+            },
+            {
+                  "Overall Height": "6.95"
+            },
+            {
+                  "Maximum Angle Of Rotation": "95"
+            },
+            {
+                  "Actuator Type": "Electric"
+            },
+            {
+                  "Control Signal": "Modulating 0-10 Vdc"
+            },
+            {
+                  "Fail-Safe Timing": "<25 sec"
+            },
+            {
+                  "Control Signal": "Floating"
+            },
+            {
+                  "Manual Operation Type": NaN
+            },
+            {
+                  "Feedback": "(0)2-10 Vdc"
+            },
+            {
+                  "Drive Time": "90 sec"
+            },
+            {
+                  "Fail-Safe Action": "Spring Fail-safe"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "PNC-Display SKU": "MS Series"
+            },
+            {
+                  "Operating Torque": "44"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "65"
+            },
+            {
+                  "Maximum Operating Humidity": "95 (non-condensing) %"
+            },
+            {
+                  "Maximum Storage Temperature": "150"
+            },
+            {
+                  "Minimum Operating Humidity": "0.05"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Enclosure Rating": "NEMA 2"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Overall Width": "98"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Overall Width": "3.86"
+            },
+            {
+                  "Overall Depth": "3.16"
+            },
+            {
+                  "Maximum Storage Temperature": "65"
+            },
+            {
+                  "Electrical Connection Type": "Screw terminals"
+            },
+            {
+                  "Application": "HVAC"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Driving Power Consumption": "6"
+            },
+            {
+                  "Overall Depth": "80"
+            },
+            {
+                  "Includes": "Mounting bracket, Self-centering shaft adapter"
+            },
+            {
+                  "Minimum Shaft Size": "9 round, 6 square"
+            },
+            {
+                  "Number Of Auxiliary Switches": "0"
+            },
+            {
+                  "Noise Rating": "40 (db(A) @ 1m)"
+            }
+      ],
+      "BRP900~MS8103A1130/U": [
+            {
+                  "Valve Compatibility": "With linkage"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-30"
+            },
+            {
+                  "For Use With": "Two-Position (SPST) controller, Valves and dampers (with suitable linkage)"
+            },
+            {
+                  "PNC-Selector": "Actuator"
+            },
+            {
+                  "Includes": "Mounting bracket, Self-centering shaft adapter"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Operating Torque": "27"
+            },
+            {
+                  "PNC-Display SKU": "MS Series"
+            },
+            {
+                  "Maximum Storage Temperature": "65"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Operating Torque": "3"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "149"
+            },
+            {
+                  "Overall Width": "98"
+            },
+            {
+                  "Maximum Shaft Size": "0.625 round, 0.5 square"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "65"
+            },
+            {
+                  "Auxiliary Switch Rating": "250 V AC, 5 A inductive / 8 A resistive"
+            },
+            {
+                  "Manual Operation Type": NaN
+            },
+            {
+                  "Control Signal": "Two-Position SPST"
+            },
+            {
+                  "Fail-Safe Action": "Spring Fail-safe"
+            },
+            {
+                  "Feedback": "No Feedback Included"
+            },
+            {
+                  "Fail-Safe Timing": "<25 sec"
+            },
+            {
+                  "Overall Height": "177"
+            },
+            {
+                  "Noise Rating": "40 (db(A) @ 1m)"
+            },
+            {
+                  "Number Of Auxiliary Switches": "1 SPDT"
+            },
+            {
+                  "Enclosure Rating": "NEMA 2"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Application": "HVAC"
+            },
+            {
+                  "Maximum Shaft Size": "16 round, 3 square"
+            },
+            {
+                  "Electrical Connection Type": "Screw terminals"
+            },
+            {
+                  "Minimum Operating Humidity": "0.05"
+            },
+            {
+                  "Supply Voltage Frequency": "50/60"
+            },
+            {
+                  "Overall Height": "6.95"
+            },
+            {
+                  "Driving Power Consumption": "6"
+            },
+            {
+                  "Overall Depth": "3.16"
+            },
+            {
+                  "Overall Depth": "80"
+            },
+            {
+                  "Minimum Shaft Size": "0.375 round, 0.5 square"
+            },
+            {
+                  "Minimum Shaft Size": "9 round, 6 square"
+            },
+            {
+                  "Maximum Operating Humidity": "95 (non-condensing) %"
+            },
+            {
+                  "Maximum Storage Temperature": "150"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-22"
+            },
+            {
+                  "Overall Width": "3.86"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Maximum Angle Of Rotation": "95"
+            },
+            {
+                  "Mounting Type": "Direct Coupled"
+            },
+            {
+                  "Actuator Type": "Electric"
+            },
+            {
+                  "Certificates and Standards": "UL873, cUL C22.2 No. 24-93, C Tick N314, UL1097 for Double Insulation, Certification Low Voltage Directive 2006/95/EC, EMC 2004/108/EC, IEC 60730-1 and Part 2-14"
+            },
+            {
+                  "Drive Time": "45 sec"
+            },
+            {
+                  "Brand": "Honeywell"
+            }
+      ],
+      "BRP900~MS3105K3064/B": [
+            {
+                  "Control Signal": "Sylk Enabled"
+            },
+            {
+                  "Fail-Safe Action": "Spring Return"
+            },
+            {
+                  "Actuator Type": "Direct Coupled Actuator"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Operating Torque": "44"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Feedback": "Yes"
+            },
+            {
+                  "Supply Voltage": "24"
+            }
+      ],
+      "BRP900~MS7503A2030/U": [
+            {
+                  "Control Signal": "Modulating 0-10 Vdc"
+            },
+            {
+                  "Control Signal": "Floating"
+            },
+            {
+                  "Fail-Safe Timing": "<25 sec"
+            },
+            {
+                  "Number Of Auxiliary Switches": "0"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Electrical Connection Type": "Screw terminals"
+            },
+            {
+                  "Control Signal": "Two-Position SPST"
+            },
+            {
+                  "Mounting Type": "Direct Coupled"
+            },
+            {
+                  "Minimum Shaft Size": "0.375 round, 0.5 square"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "Overall Width": "3.86"
+            },
+            {
+                  "Maximum Storage Temperature": "65"
+            },
+            {
+                  "Minimum Shaft Size": "9 round, 6 square"
+            },
+            {
+                  "Application": "HVAC"
+            },
+            {
+                  "Driving Power Consumption": "6"
+            },
+            {
+                  "PNC-Selector": "Actuator"
+            },
+            {
+                  "Maximum Shaft Size": "16 round, 3 square"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Overall Depth": "3.16"
+            },
+            {
+                  "Fail-Safe Action": "Spring Fail-safe"
+            },
+            {
+                  "Valve Compatibility": "With linkage"
+            },
+            {
+                  "Feedback": "(0)2-10 Vdc"
+            },
+            {
+                  "Actuator Type": "Electric"
+            },
+            {
+                  "Drive Time": "90 sec"
+            },
+            {
+                  "Noise Rating": "40 (db(A) @ 1m)"
+            },
+            {
+                  "Certificates and Standards": "UL873, cUL C22.2 No. 24-93, C Tick N314, UL1097 for Double Insulation, Certification Low Voltage Directive 2006/95/EC, EMC 2004/108/EC, IEC 60730-1 and Part 2-14"
+            },
+            {
+                  "Maximum Storage Temperature": "150"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Control Signal": "Modulating 2-10 Vdc"
+            },
+            {
+                  "Enclosure Rating": "NEMA 2"
+            },
+            {
+                  "Supply Voltage Frequency": "50/60"
+            },
+            {
+                  "Overall Height": "177"
+            },
+            {
+                  "Control Signal": "Two-Position SPDT"
+            },
+            {
+                  "Maximum Operating Humidity": "95 (non-condensing) %"
+            },
+            {
+                  "PNC-Display SKU": "MS Series"
+            },
+            {
+                  "Overall Width": "98"
+            },
+            {
+                  "Minimum Operating Humidity": "0.05"
+            },
+            {
+                  "Operating Torque": "27"
+            },
+            {
+                  "Overall Height": "6.95"
+            },
+            {
+                  "Maximum Angle Of Rotation": "95"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "149"
+            },
+            {
+                  "Operating Torque": "3"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "65"
+            },
+            {
+                  "Overall Depth": "80"
+            },
+            {
+                  "Includes": "Mounting bracket, Self-centering shaft adapter"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Maximum Shaft Size": "0.625 round, 0.5 square"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "For Use With": "Modulating controller, Valves and dampers (with suitable linkage)"
+            },
+            {
+                  "Manual Operation Type": NaN
+            }
+      ],
+      "BRP900~MS4105A1130/U": [
+            {
+                  "Control Signal": "Two-Position SPST"
+            },
+            {
+                  "Valve Compatibility": "With linkage"
+            },
+            {
+                  "Fail-Safe Action": "Spring Fail-safe"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Overall Depth": "3.16"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "65"
+            },
+            {
+                  "Overall Width": "98"
+            },
+            {
+                  "Overall Height": "177"
+            },
+            {
+                  "Overall Height": "6.95"
+            },
+            {
+                  "Maximum Shaft Size": "16 round, 3 square"
+            },
+            {
+                  "Maximum Angle Of Rotation": "95"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Electrical Connection Type": "Screw terminals"
+            },
+            {
+                  "Minimum Shaft Size": "9 round, 6 square"
+            },
+            {
+                  "Certificates and Standards": "UL873, cUL C22.2 No. 24-93, C Tick N314, UL1097 for Double Insulation, Certification Low Voltage Directive 2006/95/EC, EMC 2004/108/EC, IEC 60730-1 and Part 2-14"
+            },
+            {
+                  "Actuator Type": "Electric"
+            },
+            {
+                  "Noise Rating": "40 (db(A) @ 1m)"
+            },
+            {
+                  "Feedback": "No Feedback Included"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Enclosure Rating": "NEMA 2"
+            },
+            {
+                  "Number Of Auxiliary Switches": "1 SPDT"
+            },
+            {
+                  "Manual Operation Type": NaN
+            },
+            {
+                  "Mounting Type": "Direct Coupled"
+            },
+            {
+                  "For Use With": "Two-Position (SPST) controller, Valves and dampers (with suitable linkage)"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "149"
+            },
+            {
+                  "Overall Width": "3.86"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "PNC-Display SKU": "MS Series"
+            },
+            {
+                  "Maximum Storage Temperature": "150"
+            },
+            {
+                  "Includes": "Mounting bracket, Self-centering shaft adapter"
+            },
+            {
+                  "Operating Torque": "5"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-22"
+            },
+            {
+                  "Drive Time": "45 sec"
+            },
+            {
+                  "Application": "HVAC"
+            },
+            {
+                  "Maximum Operating Humidity": "95 (non-condensing) %"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-30"
+            },
+            {
+                  "Maximum Shaft Size": "0.625 round, 0.5 square"
+            },
+            {
+                  "Overall Depth": "80"
+            },
+            {
+                  "Minimum Shaft Size": "0.375 round, 0.5 square"
+            },
+            {
+                  "Driving Power Consumption": "6"
+            },
+            {
+                  "PNC-Selector": "Actuator"
+            },
+            {
+                  "Supply Voltage": "100 to 250"
+            },
+            {
+                  "Operating Torque": "44"
+            },
+            {
+                  "Maximum Storage Temperature": "65"
+            },
+            {
+                  "Minimum Operating Humidity": "0.05"
+            },
+            {
+                  "Supply Voltage Frequency": "50/60"
+            },
+            {
+                  "Auxiliary Switch Rating": "250 V AC, 5 A inductive / 8 A resistive"
+            },
+            {
+                  "Fail-Safe Timing": "<25 sec"
+            }
+      ],
+      "BRP900~MS8105A1038/U": [
+            {
+                  "Control Signal": "2-Position"
+            },
+            {
+                  "Actuator Type": "Direct Coupled Actuator"
+            },
+            {
+                  "Fail-Safe Action": "Spring Return"
+            },
+            {
+                  "Operating Torque": "5"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Feedback": "No"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Supply Voltage": "24"
+            }
+      ],
+      "BRP900~MS3105J3030/B": [
+            {
+                  "Control Signal": "Sylk Enabled"
+            },
+            {
+                  "Maximum Storage Temperature": "150"
+            },
+            {
+                  "Drive Time": "90 sec"
+            },
+            {
+                  "Actuator Type": "Electric"
+            },
+            {
+                  "Maximum Storage Temperature": "65"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "65"
+            },
+            {
+                  "Maximum Operating Humidity": "95 (non-condensing) %"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Minimum Operating Humidity": "0.05"
+            },
+            {
+                  "Overall Height": "6.95"
+            },
+            {
+                  "Electrical Connection Type": "Screw terminals"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "Fail-Safe Timing": "<25 sec"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Valve Compatibility": "With linkage"
+            },
+            {
+                  "Fail-Safe Action": "Spring Fail-safe"
+            },
+            {
+                  "Enclosure Rating": "NEMA 2"
+            },
+            {
+                  "Number Of Auxiliary Switches": "0"
+            },
+            {
+                  "Application": "HVAC"
+            },
+            {
+                  "Overall Height": "177"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "Driving Power Consumption": "6"
+            },
+            {
+                  "For Use With": "Sylk Enabled controller, Valves and dampers (with suitable linkage)"
+            },
+            {
+                  "Feedback": "Sylk"
+            },
+            {
+                  "Noise Rating": "40 (db(A) @ 1m)"
+            },
+            {
+                  "Overall Depth": "3.16"
+            },
+            {
+                  "Overall Width": "98"
+            },
+            {
+                  "Overall Width": "3.86"
+            },
+            {
+                  "Includes": "Self-centering shaft adapter"
+            },
+            {
+                  "Minimum Shaft Size": "9 round, 6 square"
+            },
+            {
+                  "Operating Torque": "44"
+            },
+            {
+                  "Operating Torque": "5"
+            },
+            {
+                  "PNC-Display SKU": "MS Series"
+            },
+            {
+                  "Maximum Shaft Size": "16 round, 3 square"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "149"
+            },
+            {
+                  "Mounting Type": "Direct Coupled"
+            },
+            {
+                  "Overall Depth": "80"
+            },
+            {
+                  "Maximum Shaft Size": "0.625 round, 0.5 square"
+            },
+            {
+                  "Supply Voltage Frequency": "50/60"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Maximum Angle Of Rotation": "95"
+            },
+            {
+                  "Minimum Shaft Size": "0.375 round, 0.5 square"
+            },
+            {
+                  "Manual Operation Type": NaN
+            },
+            {
+                  "Certificates and Standards": "UL873, cUL C22.2 No. 24-93, C Tick N314, UL1097 for Double Insulation, Certification Low Voltage Directive 2006/95/EC, EMC 2004/108/EC, IEC 60730-1 and Part 2-14"
+            }
+      ],
+      "BRP900~MS3103J1030/U": [
+            {
+                  "Control Signal": "Sylk Enabled"
+            },
+            {
+                  "Valve Compatibility": "With linkage"
+            },
+            {
+                  "Noise Rating": "40 (db(A) @ 1m)"
+            },
+            {
+                  "Minimum Operating Humidity": "0.05"
+            },
+            {
+                  "Supply Voltage Frequency": "50/60"
+            },
+            {
+                  "Application": "HVAC"
+            },
+            {
+                  "Maximum Shaft Size": "16 round, 3 square"
+            },
+            {
+                  "Maximum Storage Temperature": "65"
+            },
+            {
+                  "Maximum Angle Of Rotation": "95"
+            },
+            {
+                  "Overall Width": "3.86"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "PNC-Selector": "Actuator"
+            },
+            {
+                  "Electrical Connection Type": "Screw terminals"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "149"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "65"
+            },
+            {
+                  "Drive Time": "90 sec"
+            },
+            {
+                  "Number Of Auxiliary Switches": "0"
+            },
+            {
+                  "Feedback": "Sylk"
+            },
+            {
+                  "Overall Depth": "80"
+            },
+            {
+                  "For Use With": "Sylk Enabled controller, Valves and dampers (with suitable linkage)"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Certificates and Standards": "UL873, cUL C22.2 No. 24-93, C Tick N314, UL1097 for Double Insulation, Certification Low Voltage Directive 2006/95/EC, EMC 2004/108/EC, IEC 60730-1 and Part 2-14"
+            },
+            {
+                  "Manual Operation Type": NaN
+            },
+            {
+                  "Fail-Safe Timing": "<25 sec"
+            },
+            {
+                  "Mounting Type": "Direct Coupled"
+            },
+            {
+                  "Operating Torque": "27"
+            },
+            {
+                  "Maximum Shaft Size": "0.625 round, 0.5 square"
+            },
+            {
+                  "Maximum Operating Humidity": "95 (non-condensing) %"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Minimum Shaft Size": "9 round, 6 square"
+            },
+            {
+                  "Minimum Shaft Size": "0.375 round, 0.5 square"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Fail-Safe Action": "Spring Fail-safe"
+            },
+            {
+                  "Operating Torque": "3"
+            },
+            {
+                  "Overall Depth": "3.16"
+            },
+            {
+                  "Overall Width": "98"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Maximum Storage Temperature": "150"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Overall Height": "6.95"
+            },
+            {
+                  "Driving Power Consumption": "6"
+            },
+            {
+                  "Overall Height": "177"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "Includes": "Mounting bracket, Self-centering shaft adapter"
+            },
+            {
+                  "PNC-Display SKU": "MS Series"
+            },
+            {
+                  "Enclosure Rating": "NEMA 2"
+            },
+            {
+                  "Actuator Type": "Electric"
+            }
+      ],
+      "BRP900~MS8103A1038/U": [
+            {
+                  "Control Signal": "SPST"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Actuator Type": "Direct Coupled Actuator"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Operating Torque": "5"
+            },
+            {
+                  "Feedback": "No"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Fail-Safe Action": "Spring Return"
+            }
+      ],
+      "BRP900~MS3103J1030/B": [
+            {
+                  "Control Signal": "Sylk Enabled"
+            },
+            {
+                  "Drive Time": "90 sec"
+            },
+            {
+                  "Enclosure Rating": "NEMA 2"
+            },
+            {
+                  "Minimum Operating Humidity": "0.05"
+            },
+            {
+                  "Maximum Shaft Size": "0.625 round, 0.5 square"
+            },
+            {
+                  "Maximum Shaft Size": "16 round, 3 square"
+            },
+            {
+                  "Driving Power Consumption": "6"
+            },
+            {
+                  "Overall Width": "3.86"
+            },
+            {
+                  "Supply Voltage Frequency": "50/60"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Operating Torque": "27"
+            },
+            {
+                  "Overall Height": "6.95"
+            },
+            {
+                  "Maximum Storage Temperature": "65"
+            },
+            {
+                  "Overall Depth": "80"
+            },
+            {
+                  "Fail-Safe Timing": "<25 sec"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Manual Operation Type": NaN
+            },
+            {
+                  "Valve Compatibility": "With linkage"
+            },
+            {
+                  "Fail-Safe Action": "Spring Fail-safe"
+            },
+            {
+                  "Noise Rating": "40 (db(A) @ 1m)"
+            },
+            {
+                  "Certificates and Standards": "UL873, cUL C22.2 No. 24-93, C Tick N314, UL1097 for Double Insulation, Certification Low Voltage Directive 2006/95/EC, EMC 2004/108/EC, IEC 60730-1 and Part 2-14"
+            },
+            {
+                  "For Use With": "Sylk Enabled controller, Valves and dampers (with suitable linkage)"
+            },
+            {
+                  "Application": "HVAC"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "65"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Operating Torque": "3"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "149"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "Feedback": "Sylk"
+            },
+            {
+                  "Maximum Storage Temperature": "150"
+            },
+            {
+                  "Maximum Angle Of Rotation": "95"
+            },
+            {
+                  "Includes": "Self-centering shaft adapter"
+            },
+            {
+                  "Overall Width": "98"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "PNC-Display SKU": "MS Series"
+            },
+            {
+                  "Minimum Shaft Size": "0.375 round, 0.5 square"
+            },
+            {
+                  "Overall Height": "177"
+            },
+            {
+                  "Mounting Type": "Direct Coupled"
+            },
+            {
+                  "Overall Depth": "3.16"
+            },
+            {
+                  "Minimum Shaft Size": "9 round, 6 square"
+            },
+            {
+                  "Electrical Connection Type": "Screw terminals"
+            },
+            {
+                  "Maximum Operating Humidity": "95 (non-condensing) %"
+            },
+            {
+                  "Actuator Type": "Electric"
+            },
+            {
+                  "Number Of Auxiliary Switches": "0"
+            }
+      ],
+      "BRP900~V5004TY10501200": [
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Minimum Medium Temperature": "-2"
+            },
+            {
+                  "Valve Size Diameter": "50"
+            },
+            {
+                  "Valve Type": "Pressure Independent Control Valve"
+            },
+            {
+                  "Actuator Voltage": "24"
+            },
+            {
+                  "Maximum Flow Rate Range": "3300 to 11000 L/hr"
+            },
+            {
+                  "Maximum Medium Temperature": "120"
+            },
+            {
+                  "Valve Series": "V5004T"
+            },
+            {
+                  "Valve Body Pattern": "2-way"
+            },
+            {
+                  "Valve Pressure Rating": "16"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "3300"
+            },
+            {
+                  "Maximum Operating Pressure": "232"
+            },
+            {
+                  "Minimum Differential Pressure": "40"
+            },
+            {
+                  "Control Type": "On/Off"
+            },
+            {
+                  "Head Loss Range": "40 to 400"
+            },
+            {
+                  "Actuator Fail-Safe Action": "Through additional battery"
+            },
+            {
+                  "Leakage Rating": "According to Class IV IEC 60534-4"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "48.4"
+            },
+            {
+                  "Head Loss Range": "5.8 to 58"
+            },
+            {
+                  "Valve Pressure Rating": "232"
+            },
+            {
+                  "Minimum Medium Temperature": "28"
+            },
+            {
+                  "Test Plugs": "Yes, 2"
+            },
+            {
+                  "Application": "Pressure Independent"
+            },
+            {
+                  "Maximum Medium Temperature": "248"
+            },
+            {
+                  "Valve Diaphragm Material": "SS AISI303"
+            },
+            {
+                  "Actuator Mount": "Rotary M7061"
+            },
+            {
+                  "Valve Seal Material": "EPDM"
+            },
+            {
+                  "Maximum Differential Pressure": "400"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "14.5"
+            },
+            {
+                  "Valve Trim": "Brass, SS, EPDM"
+            },
+            {
+                  "Minimum Differential Pressure": "5.8"
+            },
+            {
+                  "Maximum Differential Pressure": "58"
+            },
+            {
+                  "Controlled Medium": "Water / Glycol"
+            },
+            {
+                  "Actuator Included": "No"
+            },
+            {
+                  "Rangeability": ">100:1 IEC 60534-2-3"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "11000"
+            },
+            {
+                  "Maximum Operating Pressure": "16"
+            },
+            {
+                  "Actuator Power Consumption": "5"
+            },
+            {
+                  "Valve Body Material": "Ductile iron"
+            },
+            {
+                  "Valve Flow Characteristic": "Equal percentage"
+            },
+            {
+                  "Valve Diaphragm Material": "EPDM-X"
+            },
+            {
+                  "Valve Connection Type": "Union w Internal thread EN 10226-1"
+            },
+            {
+                  "Valve Stem Action": "90 degree rotary"
+            },
+            {
+                  "PNC-Display SKU": "V5004TY Series"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Control Type": "Modulating"
+            },
+            {
+                  "Valve Seat Material": "PTFE"
+            },
+            {
+                  "Valve Diaphragm Material": "Brass CW614N"
+            },
+            {
+                  "Maximum Flow Rate Range": "14.5 to 48.4 gpm"
+            },
+            {
+                  "Valve Plug Material": "Brass CW617N PTFE"
+            }
+      ],
+      "BRP900~V5004TY10251500": [
+            {
+                  "Valve Seal Material": "EPDM"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Actuator Power Consumption": "5"
+            },
+            {
+                  "Minimum Medium Temperature": "-2"
+            },
+            {
+                  "Leakage Rating": "According to Class IV IEC 60534-4"
+            },
+            {
+                  "Valve Stem Material": "Stainless Steel"
+            },
+            {
+                  "Valve Type": "Pressure Independent Control Valve"
+            },
+            {
+                  "Valve Size Diameter": "25"
+            },
+            {
+                  "Head Loss Range": "35 to 400"
+            },
+            {
+                  "Maximum Flow Rate Range": "1.98 to 6.6 gpm"
+            },
+            {
+                  "Valve Diaphragm Material": "High resistance polymer EPDM SS AISI 303"
+            },
+            {
+                  "Actuator Mount": "30mm thread"
+            },
+            {
+                  "Actuator Included": "No"
+            },
+            {
+                  "Actuator Fail-Safe Action": "Through additional battery"
+            },
+            {
+                  "Actuator Voltage": "24"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "1500"
+            },
+            {
+                  "Minimum Medium Temperature": "28"
+            },
+            {
+                  "Head Loss Range": "5.1 to 58"
+            },
+            {
+                  "Minimum Differential Pressure": "5.1"
+            },
+            {
+                  "Maximum Operating Pressure": "25"
+            },
+            {
+                  "Valve Body Material": "Corrosion resistant brass CW602N"
+            },
+            {
+                  "Control Type": "On/Off"
+            },
+            {
+                  "Valve Pressure Rating": "25"
+            },
+            {
+                  "Valve Flow Characteristic": "Equal percentage"
+            },
+            {
+                  "PNC-Display SKU": "V5004TY Series"
+            },
+            {
+                  "Actuator Stroke Length": "0.11397"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "1.98"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "450"
+            },
+            {
+                  "Maximum Differential Pressure": "400"
+            },
+            {
+                  "Minimum Differential Pressure": "35"
+            },
+            {
+                  "Valve Body Pattern": "2-way"
+            },
+            {
+                  "Valve Connection Type": "Internal thread EN 10226-1"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "6.6"
+            },
+            {
+                  "Maximum Medium Temperature": "120"
+            },
+            {
+                  "Maximum Medium Temperature": "248"
+            },
+            {
+                  "Valve Pressure Rating": "363"
+            },
+            {
+                  "Maximum Flow Rate Range": "450 to 1500 L/hr"
+            },
+            {
+                  "Maximum Operating Pressure": "363"
+            },
+            {
+                  "Valve Plug Material": "Brass CW614N SS 18-8"
+            },
+            {
+                  "Controlled Medium": "Water / Glycol"
+            },
+            {
+                  "Valve Stem Action": "Linear 2.9mm"
+            },
+            {
+                  "Actuator Stroke Length": "2.9"
+            },
+            {
+                  "Application": "Pressure Independent"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Test Plugs": "Yes, 2"
+            },
+            {
+                  "Control Type": "Modulating"
+            },
+            {
+                  "Rangeability": "50-100:1 IEC 60534-2-3"
+            },
+            {
+                  "Maximum Differential Pressure": "58"
+            },
+            {
+                  "Valve Series": "V5004T"
+            },
+            {
+                  "Valve Trim": "Brass, SS, EPDM"
+            }
+      ],
+      "BRP900~MS7505A2038/U": [
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Control Signal": "SPST"
+            },
+            {
+                  "Operating Torque": "5"
+            },
+            {
+                  "Feedback": "Yes"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Actuator Type": "Direct Coupled Actuator"
+            },
+            {
+                  "Fail-Safe Action": "Spring Return"
+            }
+      ],
+      "BRP900~V5004TY10150780": [
+            {
+                  "Maximum Flow Rate Range": "0.34 to 3.4 gpm"
+            },
+            {
+                  "Head Loss Range": "35 to 400"
+            },
+            {
+                  "Maximum Differential Pressure": "400"
+            },
+            {
+                  "Actuator Stroke Length": "2.9"
+            },
+            {
+                  "Valve Stem Action": "Linear 2.9mm"
+            },
+            {
+                  "Control Type": "Modulating"
+            },
+            {
+                  "Actuator Power Consumption": "5"
+            },
+            {
+                  "Valve Seal Material": "EPDM"
+            },
+            {
+                  "Actuator Included": "No"
+            },
+            {
+                  "Leakage Rating": "According to Class IV IEC 60534-4"
+            },
+            {
+                  "Maximum Flow Rate Range": "78 to 780 L/hr"
+            },
+            {
+                  "Maximum Medium Temperature": "120"
+            },
+            {
+                  "Actuator Voltage": "24"
+            },
+            {
+                  "Maximum Operating Pressure": "363"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "0.34"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "3.4"
+            },
+            {
+                  "Valve Body Material": "Corrosion resistant brass CW602N"
+            },
+            {
+                  "Minimum Differential Pressure": "35"
+            },
+            {
+                  "Application": "Pressure Independent"
+            },
+            {
+                  "Minimum Medium Temperature": "-2"
+            },
+            {
+                  "PNC-Display SKU": "V5004TY Series"
+            },
+            {
+                  "Valve Stem Material": "Stainless Steel"
+            },
+            {
+                  "Actuator Stroke Length": "0.11397"
+            },
+            {
+                  "Valve Plug Material": "Brass CW614N SS 18-8"
+            },
+            {
+                  "Rangeability": "50-100:1 IEC 60534-2-3"
+            },
+            {
+                  "Minimum Medium Temperature": "28"
+            },
+            {
+                  "Valve Pressure Rating": "363"
+            },
+            {
+                  "Maximum Differential Pressure": "58"
+            },
+            {
+                  "Valve Flow Characteristic": "Equal percentage"
+            },
+            {
+                  "Valve Size Diameter": "15"
+            },
+            {
+                  "Minimum Differential Pressure": "5.1"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "780"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Maximum Medium Temperature": "248"
+            },
+            {
+                  "Actuator Mount": "30mm thread"
+            },
+            {
+                  "Valve Trim": "Brass, SS, EPDM"
+            },
+            {
+                  "Valve Diaphragm Material": "High resistance polymer EPDM SS AISI 303"
+            },
+            {
+                  "Control Type": "On/Off"
+            },
+            {
+                  "Actuator Fail-Safe Action": "Through additional battery"
+            },
+            {
+                  "Valve Body Pattern": "2-way"
+            },
+            {
+                  "Controlled Medium": "Water / Glycol"
+            },
+            {
+                  "Valve Pressure Rating": "25"
+            },
+            {
+                  "Maximum Operating Pressure": "25"
+            },
+            {
+                  "Head Loss Range": "5.1 to 58"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "78"
+            },
+            {
+                  "Valve Connection Type": "Internal thread EN 10226-1"
+            },
+            {
+                  "Test Plugs": "Yes, 2"
+            },
+            {
+                  "Valve Series": "V5004T"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Valve Type": "Pressure Independent Control Valve"
+            }
+      ],
+      "BRP900~V5004TY10323000": [
+            {
+                  "Application": "Pressure Independent"
+            },
+            {
+                  "Maximum Flow Rate Range": "300 to 3000 L/hr"
+            },
+            {
+                  "Actuator Voltage": "24"
+            },
+            {
+                  "Leakage Rating": "According to Class IV IEC 60534-4"
+            },
+            {
+                  "Valve Connection Type": "Union w Internal thread EN 10226-1"
+            },
+            {
+                  "Actuator Mount": "30mm thread"
+            },
+            {
+                  "Actuator Fail-Safe Action": "Through additional battery"
+            },
+            {
+                  "Valve Pressure Rating": "25"
+            },
+            {
+                  "Valve Seal Material": "EPDM"
+            },
+            {
+                  "Maximum Operating Pressure": "25"
+            },
+            {
+                  "Minimum Medium Temperature": "-2"
+            },
+            {
+                  "Valve Type": "Pressure Independent Control Valve"
+            },
+            {
+                  "Maximum Medium Temperature": "120"
+            },
+            {
+                  "Valve Pressure Rating": "363"
+            },
+            {
+                  "Actuator Stroke Length": "6"
+            },
+            {
+                  "Actuator Included": "No"
+            },
+            {
+                  "Maximum Differential Pressure": "400"
+            },
+            {
+                  "Head Loss Range": "35 to 400"
+            },
+            {
+                  "Valve Stem Action": "Linear 6.5mm"
+            },
+            {
+                  "Valve Stem Material": "Stainless Steel"
+            },
+            {
+                  "Actuator Power Consumption": "5"
+            },
+            {
+                  "Valve Trim": "Brass, SS, EPDM"
+            },
+            {
+                  "Test Plugs": "Yes, 2"
+            },
+            {
+                  "Maximum Differential Pressure": "58"
+            },
+            {
+                  "Control Type": "On/Off"
+            },
+            {
+                  "Rangeability": "50-100:1 IEC 60534-2-3"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "1.32"
+            },
+            {
+                  "Valve Size Diameter": "32"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "300"
+            },
+            {
+                  "Minimum Medium Temperature": "28"
+            },
+            {
+                  "Minimum Differential Pressure": "5.1"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "13.2"
+            },
+            {
+                  "Valve Flow Characteristic": "Equal percentage"
+            },
+            {
+                  "Actuator Stroke Length": "0.2358"
+            },
+            {
+                  "Minimum Differential Pressure": "35"
+            },
+            {
+                  "Maximum Operating Pressure": "363"
+            },
+            {
+                  "Maximum Medium Temperature": "248"
+            },
+            {
+                  "Valve Body Material": "Corrosion resistant brass CW602N"
+            },
+            {
+                  "Head Loss Range": "5.1 to 58"
+            },
+            {
+                  "Valve Diaphragm Material": "High resistance polymer EPDM SS AISI 303"
+            },
+            {
+                  "Control Type": "Modulating"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Controlled Medium": "Water / Glycol"
+            },
+            {
+                  "Valve Body Pattern": "2-way"
+            },
+            {
+                  "Valve Plug Material": "Brass CW614N SS 18-8"
+            },
+            {
+                  "Maximum Flow Rate Range": "1.32 to 13.2 gpm"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Valve Series": "V5004T"
+            },
+            {
+                  "PNC-Display SKU": "V5004TY Series"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "3000"
+            }
+      ],
+      "BRP900~V5004TY10501700": [
+            {
+                  "PNC-Display SKU": "V5004TY Series"
+            },
+            {
+                  "Actuator Voltage": "24"
+            },
+            {
+                  "Valve Seal Material": "EPDM"
+            },
+            {
+                  "Valve Pressure Rating": "16"
+            },
+            {
+                  "Actuator Power Consumption": "5"
+            },
+            {
+                  "Test Plugs": "Yes, 2"
+            },
+            {
+                  "Valve Stem Action": "90 degree rotary"
+            },
+            {
+                  "Valve Seat Material": "PTFE"
+            },
+            {
+                  "Leakage Rating": "According to Class IV IEC 60534-4"
+            },
+            {
+                  "Actuator Mount": "Rotary M7061"
+            },
+            {
+                  "Valve Size Diameter": "50"
+            },
+            {
+                  "Maximum Differential Pressure": "400"
+            },
+            {
+                  "Maximum Operating Pressure": "16"
+            },
+            {
+                  "Actuator Included": "No"
+            },
+            {
+                  "Rangeability": ">100:1 IEC 60534-2-3"
+            },
+            {
+                  "Minimum Medium Temperature": "-2"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "5400"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "18000"
+            },
+            {
+                  "Valve Type": "Pressure Independent Control Valve"
+            },
+            {
+                  "Maximum Flow Rate Range": "23.8 to 79.3 gpm"
+            },
+            {
+                  "Control Type": "Modulating"
+            },
+            {
+                  "Head Loss Range": "5.1 to 58"
+            },
+            {
+                  "Maximum Flow Rate Range": "5400 to 18000 L/hr"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Maximum Operating Pressure": "232"
+            },
+            {
+                  "Head Loss Range": "35 to 400"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "79.3"
+            },
+            {
+                  "Valve Series": "V5004T"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "23.8"
+            },
+            {
+                  "Minimum Differential Pressure": "35"
+            },
+            {
+                  "Minimum Differential Pressure": "5.1"
+            },
+            {
+                  "Valve Plug Material": "Brass CW617N PTFE"
+            },
+            {
+                  "Valve Body Material": "Ductile iron"
+            },
+            {
+                  "Valve Body Pattern": "2-way"
+            },
+            {
+                  "Valve Diaphragm Material": "Brass CW614N"
+            },
+            {
+                  "Valve Trim": "Brass, SS, EPDM"
+            },
+            {
+                  "Maximum Medium Temperature": "248"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Control Type": "On/Off"
+            },
+            {
+                  "Controlled Medium": "Water / Glycol"
+            },
+            {
+                  "Actuator Fail-Safe Action": "Through additional battery"
+            },
+            {
+                  "Maximum Medium Temperature": "120"
+            },
+            {
+                  "Minimum Medium Temperature": "28"
+            },
+            {
+                  "Maximum Differential Pressure": "58"
+            },
+            {
+                  "Valve Pressure Rating": "232"
+            },
+            {
+                  "Valve Flow Characteristic": "Equal percentage"
+            },
+            {
+                  "Valve Connection Type": "Union w Internal thread EN 10226-1"
+            },
+            {
+                  "Application": "Pressure Independent"
+            },
+            {
+                  "Valve Diaphragm Material": "SS AISI303"
+            },
+            {
+                  "Valve Diaphragm Material": "EPDM-X"
+            }
+      ],
+      "BRP900~V5004TY10202700": [
+            {
+                  "Valve Stem Action": "Linear 6.5mm"
+            },
+            {
+                  "Application": "Pressure Independent"
+            },
+            {
+                  "Valve Size Diameter": "20"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "11.9"
+            },
+            {
+                  "Head Loss Range": "25 to 400"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Leakage Rating": "According to Class IV IEC 60534-4"
+            },
+            {
+                  "Actuator Stroke Length": "6"
+            },
+            {
+                  "Actuator Voltage": "24"
+            },
+            {
+                  "Maximum Operating Pressure": "25"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "1.19"
+            },
+            {
+                  "Valve Flow Characteristic": "Equal percentage"
+            },
+            {
+                  "Minimum Medium Temperature": "-2"
+            },
+            {
+                  "Actuator Power Consumption": "5"
+            },
+            {
+                  "Minimum Differential Pressure": "25"
+            },
+            {
+                  "Valve Body Material": "Corrosion resistant brass CW602N"
+            },
+            {
+                  "Valve Connection Type": "Union w Internal thread EN 10226-1"
+            },
+            {
+                  "Maximum Medium Temperature": "248"
+            },
+            {
+                  "Minimum Differential Pressure": "3.6"
+            },
+            {
+                  "Actuator Fail-Safe Action": "Through additional battery"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "270"
+            },
+            {
+                  "Maximum Differential Pressure": "58"
+            },
+            {
+                  "Minimum Medium Temperature": "28"
+            },
+            {
+                  "Valve Series": "V5004T"
+            },
+            {
+                  "Maximum Medium Temperature": "120"
+            },
+            {
+                  "Actuator Stroke Length": "0.2358"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "2700"
+            },
+            {
+                  "Valve Pressure Rating": "363"
+            },
+            {
+                  "Valve Trim": "Brass, SS, EPDM"
+            },
+            {
+                  "Maximum Differential Pressure": "400"
+            },
+            {
+                  "PNC-Display SKU": "V5004TY Series"
+            },
+            {
+                  "Valve Stem Material": "Stainless Steel"
+            },
+            {
+                  "Valve Diaphragm Material": "High resistance polymer EPDM SS AISI 303"
+            },
+            {
+                  "Rangeability": "50-100:1 IEC 60534-2-3"
+            },
+            {
+                  "Actuator Mount": "30mm thread"
+            },
+            {
+                  "Test Plugs": "Yes, 2"
+            },
+            {
+                  "Valve Seal Material": "EPDM"
+            },
+            {
+                  "Valve Type": "Pressure Independent Control Valve"
+            },
+            {
+                  "Maximum Flow Rate Range": "270 to 2700 L/hr"
+            },
+            {
+                  "Valve Pressure Rating": "25"
+            },
+            {
+                  "Actuator Included": "No"
+            },
+            {
+                  "Maximum Operating Pressure": "363"
+            },
+            {
+                  "Valve Plug Material": "Brass CW614N SS 18-8"
+            },
+            {
+                  "Controlled Medium": "Water / Glycol"
+            },
+            {
+                  "Head Loss Range": "3.6 to 58"
+            },
+            {
+                  "Valve Body Pattern": "2-way"
+            },
+            {
+                  "Control Type": "On/Off"
+            },
+            {
+                  "Control Type": "Modulating"
+            },
+            {
+                  "Maximum Flow Rate Range": "1.19 to 11.9 gpm"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            }
+      ],
+      "BRP900~V5004TY10150150": [
+            {
+                  "Rangeability": "50-100:1 IEC 60534-2-3"
+            },
+            {
+                  "Valve Type": "Pressure Independent Control Valve"
+            },
+            {
+                  "Actuator Stroke Length": "2.9"
+            },
+            {
+                  "Leakage Rating": "According to Class IV IEC 60534-4"
+            },
+            {
+                  "Maximum Operating Pressure": "25"
+            },
+            {
+                  "Maximum Flow Rate Range": "45 to 150 L/hr"
+            },
+            {
+                  "Actuator Mount": "30mm thread"
+            },
+            {
+                  "PNC-Display SKU": "V5004TY Series"
+            },
+            {
+                  "Application": "Pressure Independent"
+            },
+            {
+                  "Control Type": "Modulating"
+            },
+            {
+                  "Control Type": "On/Off"
+            },
+            {
+                  "Actuator Fail-Safe Action": "Through additional battery"
+            },
+            {
+                  "Valve Body Pattern": "2-way"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Maximum Flow Rate Range": "0.2 to 0.66 gpm"
+            },
+            {
+                  "Valve Stem Action": "Linear 2.9mm"
+            },
+            {
+                  "Valve Plug Material": "Brass CW614N SS 18-8"
+            },
+            {
+                  "Head Loss Range": "2.9 to 58"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Actuator Included": "No"
+            },
+            {
+                  "Valve Seal Material": "EPDM"
+            },
+            {
+                  "Valve Diaphragm Material": "High resistance polymer EPDM SS AISI 303"
+            },
+            {
+                  "Valve Stem Material": "Stainless Steel"
+            },
+            {
+                  "Valve Pressure Rating": "25"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "0.2"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "150"
+            },
+            {
+                  "Maximum Operating Pressure": "363"
+            },
+            {
+                  "Valve Size Diameter": "15"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "0.66"
+            },
+            {
+                  "Maximum Differential Pressure": "400"
+            },
+            {
+                  "Maximum Medium Temperature": "248"
+            },
+            {
+                  "Maximum Differential Pressure": "58"
+            },
+            {
+                  "Minimum Medium Temperature": "28"
+            },
+            {
+                  "Actuator Stroke Length": "0.11397"
+            },
+            {
+                  "Valve Series": "V5004T"
+            },
+            {
+                  "Minimum Medium Temperature": "-2"
+            },
+            {
+                  "Maximum Medium Temperature": "120"
+            },
+            {
+                  "Actuator Voltage": "24"
+            },
+            {
+                  "Minimum Differential Pressure": "20"
+            },
+            {
+                  "Head Loss Range": "20 to 400"
+            },
+            {
+                  "Valve Connection Type": "Internal thread EN 10226-1"
+            },
+            {
+                  "Valve Flow Characteristic": "Equal percentage"
+            },
+            {
+                  "Valve Body Material": "Corrosion resistant brass CW602N"
+            },
+            {
+                  "Valve Pressure Rating": "363"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "45"
+            },
+            {
+                  "Minimum Differential Pressure": "2.9"
+            },
+            {
+                  "Test Plugs": "Yes, 2"
+            },
+            {
+                  "Controlled Medium": "Water / Glycol"
+            },
+            {
+                  "Actuator Power Consumption": "5"
+            },
+            {
+                  "Valve Trim": "Brass, SS, EPDM"
+            }
+      ],
+      "BRP900~V5004TY10150600": [
+            {
+                  "Valve Diaphragm Material": "High resistance polymer EPDM SS AISI 303"
+            },
+            {
+                  "Valve Body Material": "Corrosion resistant brass CW602N"
+            },
+            {
+                  "Minimum Medium Temperature": "-2"
+            },
+            {
+                  "Minimum Differential Pressure": "25"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "2.6"
+            },
+            {
+                  "Actuator Power Consumption": "5"
+            },
+            {
+                  "Valve Pressure Rating": "25"
+            },
+            {
+                  "Maximum Operating Pressure": "25"
+            },
+            {
+                  "Valve Plug Material": "Brass CW614N SS 18-8"
+            },
+            {
+                  "Actuator Stroke Length": "2.9"
+            },
+            {
+                  "Maximum Flow Rate Range": "60 to 600 L/hr"
+            },
+            {
+                  "Maximum Medium Temperature": "120"
+            },
+            {
+                  "Leakage Rating": "According to Class IV IEC 60534-4"
+            },
+            {
+                  "Actuator Voltage": "24"
+            },
+            {
+                  "Maximum Operating Pressure": "363"
+            },
+            {
+                  "Minimum Medium Temperature": "28"
+            },
+            {
+                  "Head Loss Range": "25 to 400"
+            },
+            {
+                  "PNC-Display SKU": "V5004TY Series"
+            },
+            {
+                  "Actuator Included": "No"
+            },
+            {
+                  "Maximum Flow Rate Range": "0.26 to 2.6 gpm"
+            },
+            {
+                  "Valve Stem Action": "Linear 2.9mm"
+            },
+            {
+                  "Test Plugs": "Yes, 2"
+            },
+            {
+                  "Minimum Differential Pressure": "3.6"
+            },
+            {
+                  "Rangeability": "50-100:1 IEC 60534-2-3"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "0.26"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "60"
+            },
+            {
+                  "Head Loss Range": "3.6 to 58"
+            },
+            {
+                  "Valve Connection Type": "Internal thread EN 10226-1"
+            },
+            {
+                  "Control Type": "Modulating"
+            },
+            {
+                  "Valve Type": "Pressure Independent Control Valve"
+            },
+            {
+                  "Actuator Stroke Length": "0.11397"
+            },
+            {
+                  "Maximum Differential Pressure": "400"
+            },
+            {
+                  "Valve Size Diameter": "15"
+            },
+            {
+                  "Actuator Mount": "30mm thread"
+            },
+            {
+                  "Actuator Fail-Safe Action": "Through additional battery"
+            },
+            {
+                  "Valve Pressure Rating": "363"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "600"
+            },
+            {
+                  "Maximum Medium Temperature": "248"
+            },
+            {
+                  "Maximum Differential Pressure": "58"
+            },
+            {
+                  "Valve Seal Material": "EPDM"
+            },
+            {
+                  "Valve Flow Characteristic": "Equal percentage"
+            },
+            {
+                  "Valve Stem Material": "Stainless Steel"
+            },
+            {
+                  "Valve Series": "V5004T"
+            },
+            {
+                  "Controlled Medium": "Water / Glycol"
+            },
+            {
+                  "Control Type": "On/Off"
+            },
+            {
+                  "Valve Trim": "Brass, SS, EPDM"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Application": "Pressure Independent"
+            },
+            {
+                  "Valve Body Pattern": "2-way"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            }
+      ],
+      "BRP900~V5004TY10322700": [
+            {
+                  "Valve Plug Material": "Brass CW614N SS 18-8"
+            },
+            {
+                  "Maximum Differential Pressure": "400"
+            },
+            {
+                  "Maximum Flow Rate Range": "270 to 2700 L/hr"
+            },
+            {
+                  "Leakage Rating": "According to Class IV IEC 60534-4"
+            },
+            {
+                  "Control Type": "Modulating"
+            },
+            {
+                  "Actuator Stroke Length": "6"
+            },
+            {
+                  "Maximum Medium Temperature": "120"
+            },
+            {
+                  "Actuator Fail-Safe Action": "Through additional battery"
+            },
+            {
+                  "Valve Connection Type": "Union w Internal thread EN 10226-1"
+            },
+            {
+                  "Minimum Medium Temperature": "-2"
+            },
+            {
+                  "Valve Body Material": "Corrosion resistant brass CW602N"
+            },
+            {
+                  "Actuator Stroke Length": "0.2358"
+            },
+            {
+                  "Head Loss Range": "25 to 400"
+            },
+            {
+                  "Valve Diaphragm Material": "High resistance polymer EPDM SS AISI 303"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Minimum Medium Temperature": "28"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "270"
+            },
+            {
+                  "Minimum Differential Pressure": "3.6"
+            },
+            {
+                  "Maximum Operating Pressure": "25"
+            },
+            {
+                  "Actuator Power Consumption": "5"
+            },
+            {
+                  "Head Loss Range": "3.6 to 58"
+            },
+            {
+                  "Actuator Mount": "30mm thread"
+            },
+            {
+                  "Valve Body Pattern": "2-way"
+            },
+            {
+                  "Controlled Medium": "Water / Glycol"
+            },
+            {
+                  "Maximum Differential Pressure": "58"
+            },
+            {
+                  "Valve Flow Characteristic": "Equal percentage"
+            },
+            {
+                  "Valve Stem Action": "Linear 6.5mm"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "1.19"
+            },
+            {
+                  "Valve Pressure Rating": "25"
+            },
+            {
+                  "Maximum Flow Rate Range": "1.19 to 11.9 gpm"
+            },
+            {
+                  "Valve Size Diameter": "32"
+            },
+            {
+                  "Minimum Differential Pressure": "25"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "11.9"
+            },
+            {
+                  "Valve Type": "Pressure Independent Control Valve"
+            },
+            {
+                  "Valve Pressure Rating": "363"
+            },
+            {
+                  "Valve Stem Material": "Stainless Steel"
+            },
+            {
+                  "Valve Trim": "Brass, SS, EPDM"
+            },
+            {
+                  "Actuator Included": "No"
+            },
+            {
+                  "Application": "Pressure Independent"
+            },
+            {
+                  "Maximum Operating Pressure": "363"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "2700"
+            },
+            {
+                  "Actuator Voltage": "24"
+            },
+            {
+                  "Valve Seal Material": "EPDM"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Control Type": "On/Off"
+            },
+            {
+                  "Rangeability": "50-100:1 IEC 60534-2-3"
+            },
+            {
+                  "Valve Series": "V5004T"
+            },
+            {
+                  "Test Plugs": "Yes, 2"
+            },
+            {
+                  "Maximum Medium Temperature": "248"
+            },
+            {
+                  "PNC-Display SKU": "V5004TY Series"
+            }
+      ],
+      "BRP900~V5004TY10326000": [
+            {
+                  "Valve Diaphragm Material": "EPDM-X"
+            },
+            {
+                  "Valve Body Material": "Ductile iron"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "26.4"
+            },
+            {
+                  "Minimum Differential Pressure": "30"
+            },
+            {
+                  "Actuator Included": "No"
+            },
+            {
+                  "Actuator Mount": "Rotary M7061"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Actuator Voltage": "24"
+            },
+            {
+                  "Minimum Medium Temperature": "-2"
+            },
+            {
+                  "Valve Pressure Rating": "16"
+            },
+            {
+                  "Maximum Medium Temperature": "120"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Leakage Rating": "According to Class IV IEC 60534-4"
+            },
+            {
+                  "Maximum Flow Rate Range": "1800 to 6000 L/hr"
+            },
+            {
+                  "Minimum Differential Pressure": "4.4"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "1800"
+            },
+            {
+                  "Head Loss Range": "30 to 400"
+            },
+            {
+                  "Actuator Fail-Safe Action": "Through additional battery"
+            },
+            {
+                  "Actuator Power Consumption": "5"
+            },
+            {
+                  "Maximum Medium Temperature": "248"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "6000"
+            },
+            {
+                  "Valve Seal Material": "EPDM"
+            },
+            {
+                  "Valve Plug Material": "Brass CW617N PTFE"
+            },
+            {
+                  "Control Type": "On/Off"
+            },
+            {
+                  "Maximum Flow Rate Range": "7.93 to 26.4 gpm"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "7.93"
+            },
+            {
+                  "Maximum Differential Pressure": "400"
+            },
+            {
+                  "Control Type": "Modulating"
+            },
+            {
+                  "Valve Body Pattern": "2-way"
+            },
+            {
+                  "Valve Seat Material": "PTFE"
+            },
+            {
+                  "Valve Size Diameter": "32"
+            },
+            {
+                  "Valve Pressure Rating": "232"
+            },
+            {
+                  "Minimum Medium Temperature": "28"
+            },
+            {
+                  "Valve Type": "Pressure Independent Control Valve"
+            },
+            {
+                  "Maximum Differential Pressure": "58"
+            },
+            {
+                  "Maximum Operating Pressure": "232"
+            },
+            {
+                  "Maximum Operating Pressure": "16"
+            },
+            {
+                  "Head Loss Range": "4.4 to 58"
+            },
+            {
+                  "Valve Flow Characteristic": "Equal percentage"
+            },
+            {
+                  "Valve Trim": "Brass, SS, EPDM"
+            },
+            {
+                  "Valve Series": "V5004T"
+            },
+            {
+                  "Application": "Pressure Independent"
+            },
+            {
+                  "Valve Diaphragm Material": "Brass CW614N"
+            },
+            {
+                  "Valve Stem Action": "90 degree rotary"
+            },
+            {
+                  "Controlled Medium": "Water / Glycol"
+            },
+            {
+                  "Test Plugs": "Yes, 2"
+            },
+            {
+                  "PNC-Display SKU": "V5004TY Series"
+            },
+            {
+                  "Valve Diaphragm Material": "SS AISI303"
+            },
+            {
+                  "Valve Connection Type": "Union w Internal thread EN 10226-1"
+            },
+            {
+                  "Rangeability": ">100:1 IEC 60534-2-3"
+            }
+      ],
+      "BRP900~V5004TY10252200": [
+            {
+                  "Actuator Included": "No"
+            },
+            {
+                  "Valve Pressure Rating": "25"
+            },
+            {
+                  "Valve Stem Material": "Stainless Steel"
+            },
+            {
+                  "Maximum Operating Pressure": "25"
+            },
+            {
+                  "Maximum Flow Rate Range": "220 to 2200 L/hr"
+            },
+            {
+                  "Leakage Rating": "According to Class IV IEC 60534-4"
+            },
+            {
+                  "Valve Body Material": "Corrosion resistant brass CW602N"
+            },
+            {
+                  "Valve Plug Material": "Brass CW614N SS 18-8"
+            },
+            {
+                  "Rangeability": "50-100:1 IEC 60534-2-3"
+            },
+            {
+                  "Control Type": "On/Off"
+            },
+            {
+                  "Minimum Differential Pressure": "25"
+            },
+            {
+                  "Valve Flow Characteristic": "Equal percentage"
+            },
+            {
+                  "Valve Seal Material": "EPDM"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Actuator Stroke Length": "6"
+            },
+            {
+                  "Minimum Medium Temperature": "-2"
+            },
+            {
+                  "Head Loss Range": "25 to 400"
+            },
+            {
+                  "Actuator Power Consumption": "5"
+            },
+            {
+                  "Maximum Differential Pressure": "58"
+            },
+            {
+                  "Minimum Medium Temperature": "28"
+            },
+            {
+                  "Maximum Medium Temperature": "248"
+            },
+            {
+                  "Actuator Stroke Length": "0.2358"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "9.7"
+            },
+            {
+                  "Valve Type": "Pressure Independent Control Valve"
+            },
+            {
+                  "PNC-Display SKU": "V5004TY Series"
+            },
+            {
+                  "Valve Stem Action": "Linear 6.5mm"
+            },
+            {
+                  "Control Type": "Modulating"
+            },
+            {
+                  "Actuator Mount": "30mm thread"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "0.97"
+            },
+            {
+                  "Maximum Differential Pressure": "400"
+            },
+            {
+                  "Maximum Medium Temperature": "120"
+            },
+            {
+                  "Maximum Operating Pressure": "363"
+            },
+            {
+                  "Valve Pressure Rating": "363"
+            },
+            {
+                  "Head Loss Range": "3.6 to 58"
+            },
+            {
+                  "Application": "Pressure Independent"
+            },
+            {
+                  "Minimum Differential Pressure": "3.6"
+            },
+            {
+                  "Actuator Fail-Safe Action": "Through additional battery"
+            },
+            {
+                  "Valve Connection Type": "Union w Internal thread EN 10226-1"
+            },
+            {
+                  "Valve Size Diameter": "25"
+            },
+            {
+                  "Valve Diaphragm Material": "High resistance polymer EPDM SS AISI 303"
+            },
+            {
+                  "Actuator Voltage": "24"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "2200"
+            },
+            {
+                  "Controlled Medium": "Water / Glycol"
+            },
+            {
+                  "Test Plugs": "Yes, 2"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "220"
+            },
+            {
+                  "Valve Series": "V5004T"
+            },
+            {
+                  "Valve Trim": "Brass, SS, EPDM"
+            },
+            {
+                  "Maximum Flow Rate Range": "0.97 to 9.7 gpm"
+            },
+            {
+                  "Valve Body Pattern": "2-way"
+            }
+      ],
+      "BRP900~V5004TY10201500": [
+            {
+                  "Valve Type": "Pressure Independent Control Valve"
+            },
+            {
+                  "Actuator Stroke Length": "2.9"
+            },
+            {
+                  "Control Type": "On/Off"
+            },
+            {
+                  "Maximum Medium Temperature": "120"
+            },
+            {
+                  "Leakage Rating": "According to Class IV IEC 60534-4"
+            },
+            {
+                  "Valve Plug Material": "Brass CW614N SS 18-8"
+            },
+            {
+                  "Maximum Flow Rate Range": "1.98 to 6.6 gpm"
+            },
+            {
+                  "Actuator Voltage": "24"
+            },
+            {
+                  "Maximum Operating Pressure": "25"
+            },
+            {
+                  "Valve Series": "V5004T"
+            },
+            {
+                  "Valve Seal Material": "EPDM"
+            },
+            {
+                  "Actuator Mount": "30mm thread"
+            },
+            {
+                  "Valve Connection Type": "Internal thread EN 10226-1"
+            },
+            {
+                  "Minimum Medium Temperature": "-2"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "1500"
+            },
+            {
+                  "Maximum Differential Pressure": "58"
+            },
+            {
+                  "Valve Pressure Rating": "363"
+            },
+            {
+                  "Actuator Included": "No"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "1.98"
+            },
+            {
+                  "Minimum Differential Pressure": "35"
+            },
+            {
+                  "Test Plugs": "Yes, 2"
+            },
+            {
+                  "Actuator Fail-Safe Action": "Through additional battery"
+            },
+            {
+                  "Valve Body Pattern": "2-way"
+            },
+            {
+                  "Head Loss Range": "35 to 400"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "6.6"
+            },
+            {
+                  "Valve Size Diameter": "20"
+            },
+            {
+                  "Actuator Stroke Length": "0.11397"
+            },
+            {
+                  "Controlled Medium": "Water / Glycol"
+            },
+            {
+                  "Maximum Differential Pressure": "400"
+            },
+            {
+                  "Control Type": "Modulating"
+            },
+            {
+                  "Maximum Flow Rate Range": "450 to 1500 L/hr"
+            },
+            {
+                  "Minimum Medium Temperature": "28"
+            },
+            {
+                  "Maximum Medium Temperature": "248"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "450"
+            },
+            {
+                  "Valve Diaphragm Material": "High resistance polymer EPDM SS AISI 303"
+            },
+            {
+                  "Valve Body Material": "Corrosion resistant brass CW602N"
+            },
+            {
+                  "Application": "Pressure Independent"
+            },
+            {
+                  "Valve Stem Material": "Stainless Steel"
+            },
+            {
+                  "Head Loss Range": "5.1 to 58"
+            },
+            {
+                  "Minimum Differential Pressure": "5.1"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Rangeability": "50-100:1 IEC 60534-2-3"
+            },
+            {
+                  "Actuator Power Consumption": "5"
+            },
+            {
+                  "Maximum Operating Pressure": "363"
+            },
+            {
+                  "Valve Pressure Rating": "25"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Valve Flow Characteristic": "Equal percentage"
+            },
+            {
+                  "PNC-Display SKU": "V5004TY Series"
+            },
+            {
+                  "Valve Trim": "Brass, SS, EPDM"
+            },
+            {
+                  "Valve Stem Action": "Linear 2.9mm"
+            }
+      ],
+      "BRP900~MS7503A2038/U": [
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Actuator Type": "Direct Coupled Actuator"
+            },
+            {
+                  "Operating Torque": "5"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Control Signal": "SPST"
+            },
+            {
+                  "Fail-Safe Action": "Spring Return"
+            },
+            {
+                  "Feedback": "Yes"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Supply Voltage": "24"
+            }
+      ],
+      "BRP900~V5004TY10651800": [
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Controlled Medium": "Water or water-glycol mixture, quality to VDI 2035 (up to 50% Glycol)"
+            },
+            {
+                  "Valve Type": "PIV Valve"
+            }
+      ],
+      "BRP900~V5004TY10252700": [
+            {
+                  "Maximum Differential Pressure": "400"
+            },
+            {
+                  "Actuator Power Consumption": "5"
+            },
+            {
+                  "Leakage Rating": "According to Class IV IEC 60534-4"
+            },
+            {
+                  "Minimum Medium Temperature": "-2"
+            },
+            {
+                  "Actuator Included": "No"
+            },
+            {
+                  "Maximum Flow Rate Range": "1.19 to 11.9 gpm"
+            },
+            {
+                  "Actuator Voltage": "24"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "11.9"
+            },
+            {
+                  "PNC-Display SKU": "V5004TY Series"
+            },
+            {
+                  "Maximum Operating Pressure": "25"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Actuator Mount": "30mm thread"
+            },
+            {
+                  "Actuator Fail-Safe Action": "Through additional battery"
+            },
+            {
+                  "Maximum Differential Pressure": "58"
+            },
+            {
+                  "Maximum Flow Rate Range": "270 to 2700 L/hr"
+            },
+            {
+                  "Maximum Medium Temperature": "120"
+            },
+            {
+                  "Rangeability": "50-100:1 IEC 60534-2-3"
+            },
+            {
+                  "Valve Diaphragm Material": "High resistance polymer EPDM SS AISI 303"
+            },
+            {
+                  "Valve Flow Characteristic": "Equal percentage"
+            },
+            {
+                  "Maximum Operating Pressure": "363"
+            },
+            {
+                  "Minimum Differential Pressure": "3.6"
+            },
+            {
+                  "Control Type": "On/Off"
+            },
+            {
+                  "Head Loss Range": "3.6 to 58"
+            },
+            {
+                  "Valve Type": "Pressure Independent Control Valve"
+            },
+            {
+                  "Minimum Differential Pressure": "25"
+            },
+            {
+                  "Actuator Stroke Length": "0.2358"
+            },
+            {
+                  "Minimum Medium Temperature": "28"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "2700"
+            },
+            {
+                  "Application": "Pressure Independent"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "1.19"
+            },
+            {
+                  "Valve Series": "V5004T"
+            },
+            {
+                  "Test Plugs": "Yes, 2"
+            },
+            {
+                  "Valve Size Diameter": "25"
+            },
+            {
+                  "Head Loss Range": "25 to 400"
+            },
+            {
+                  "Valve Body Material": "Corrosion resistant brass CW602N"
+            },
+            {
+                  "Maximum Medium Temperature": "248"
+            },
+            {
+                  "Valve Stem Material": "Stainless Steel"
+            },
+            {
+                  "Controlled Medium": "Water / Glycol"
+            },
+            {
+                  "Control Type": "Modulating"
+            },
+            {
+                  "Valve Pressure Rating": "25"
+            },
+            {
+                  "Valve Stem Action": "Linear 6.5mm"
+            },
+            {
+                  "Valve Seal Material": "EPDM"
+            },
+            {
+                  "Valve Trim": "Brass, SS, EPDM"
+            },
+            {
+                  "Valve Connection Type": "Union w Internal thread EN 10226-1"
+            },
+            {
+                  "Valve Pressure Rating": "363"
+            },
+            {
+                  "Valve Body Pattern": "2-way"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Actuator Stroke Length": "6"
+            },
+            {
+                  "Valve Plug Material": "Brass CW614N SS 18-8"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "270"
+            }
+      ],
+      "BRP900~V5004TY10201000": [
+            {
+                  "Valve Type": "Pressure Independent Control Valve"
+            },
+            {
+                  "Actuator Fail-Safe Action": "Through additional battery"
+            },
+            {
+                  "Valve Body Material": "Corrosion resistant brass CW602N"
+            },
+            {
+                  "Valve Pressure Rating": "25"
+            },
+            {
+                  "Minimum Medium Temperature": "-2"
+            },
+            {
+                  "Valve Size Diameter": "20"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "PNC-Display SKU": "V5004TY Series"
+            },
+            {
+                  "Head Loss Range": "30 to 400"
+            },
+            {
+                  "Minimum Differential Pressure": "30"
+            },
+            {
+                  "Leakage Rating": "According to Class IV IEC 60534-4"
+            },
+            {
+                  "Actuator Voltage": "24"
+            },
+            {
+                  "Maximum Flow Rate Range": "100 to 1000 L/hr"
+            },
+            {
+                  "Actuator Included": "No"
+            },
+            {
+                  "Valve Seal Material": "EPDM"
+            },
+            {
+                  "Valve Pressure Rating": "363"
+            },
+            {
+                  "Maximum Medium Temperature": "248"
+            },
+            {
+                  "Minimum Medium Temperature": "28"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "1000"
+            },
+            {
+                  "Maximum Operating Pressure": "25"
+            },
+            {
+                  "Valve Diaphragm Material": "High resistance polymer EPDM SS AISI 303"
+            },
+            {
+                  "Valve Plug Material": "Brass CW614N SS 18-8"
+            },
+            {
+                  "Maximum Operating Pressure": "363"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "100"
+            },
+            {
+                  "Valve Flow Characteristic": "Equal percentage"
+            },
+            {
+                  "Actuator Stroke Length": "0.11397"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "0.44"
+            },
+            {
+                  "Valve Stem Action": "Linear 2.9mm"
+            },
+            {
+                  "Rangeability": "50-100:1 IEC 60534-2-3"
+            },
+            {
+                  "Control Type": "Modulating"
+            },
+            {
+                  "Valve Trim": "Brass, SS, EPDM"
+            },
+            {
+                  "Maximum Differential Pressure": "400"
+            },
+            {
+                  "Test Plugs": "Yes, 2"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "4.4"
+            },
+            {
+                  "Minimum Differential Pressure": "4.4"
+            },
+            {
+                  "Maximum Differential Pressure": "58"
+            },
+            {
+                  "Actuator Power Consumption": "5"
+            },
+            {
+                  "Head Loss Range": "4.4 to 58"
+            },
+            {
+                  "Actuator Mount": "30mm thread"
+            },
+            {
+                  "Actuator Stroke Length": "2.9"
+            },
+            {
+                  "Controlled Medium": "Water / Glycol"
+            },
+            {
+                  "Valve Body Pattern": "2-way"
+            },
+            {
+                  "Control Type": "On/Off"
+            },
+            {
+                  "Valve Connection Type": "Internal thread EN 10226-1"
+            },
+            {
+                  "Application": "Pressure Independent"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Maximum Medium Temperature": "120"
+            },
+            {
+                  "Valve Stem Material": "Stainless Steel"
+            },
+            {
+                  "Maximum Flow Rate Range": "0.44 to 4.4 gpm"
+            },
+            {
+                  "Valve Series": "V5004T"
+            }
+      ],
+      "BRP900~V5004TY10409000": [
+            {
+                  "Actuator Included": "No"
+            },
+            {
+                  "Valve Body Material": "Ductile iron"
+            },
+            {
+                  "Head Loss Range": "35 to 400"
+            },
+            {
+                  "Valve Seal Material": "EPDM"
+            },
+            {
+                  "Leakage Rating": "According to Class IV IEC 60534-4"
+            },
+            {
+                  "Actuator Power Consumption": "5"
+            },
+            {
+                  "Maximum Flow Rate Range": "2700 to 9000 L/hr"
+            },
+            {
+                  "Application": "Pressure Independent"
+            },
+            {
+                  "Minimum Medium Temperature": "28"
+            },
+            {
+                  "Maximum Medium Temperature": "248"
+            },
+            {
+                  "Head Loss Range": "5.1 to 58"
+            },
+            {
+                  "Actuator Voltage": "24"
+            },
+            {
+                  "Valve Size Diameter": "40"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Valve Pressure Rating": "16"
+            },
+            {
+                  "Valve Diaphragm Material": "SS AISI303"
+            },
+            {
+                  "Maximum Medium Temperature": "120"
+            },
+            {
+                  "Valve Diaphragm Material": "Brass CW614N"
+            },
+            {
+                  "Valve Stem Action": "90 degree rotary"
+            },
+            {
+                  "Minimum Differential Pressure": "5.1"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "9000"
+            },
+            {
+                  "Control Type": "Modulating"
+            },
+            {
+                  "Maximum Differential Pressure": "400"
+            },
+            {
+                  "Maximum Operating Pressure": "16"
+            },
+            {
+                  "Maximum Differential Pressure": "58"
+            },
+            {
+                  "Valve Body Pattern": "2-way"
+            },
+            {
+                  "Valve Connection Type": "Union w Internal thread EN 10226-1"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "11.9"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "2700"
+            },
+            {
+                  "Valve Series": "V5004T"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "39.6"
+            },
+            {
+                  "Valve Diaphragm Material": "EPDM-X"
+            },
+            {
+                  "Minimum Differential Pressure": "35"
+            },
+            {
+                  "Valve Pressure Rating": "232"
+            },
+            {
+                  "Minimum Medium Temperature": "-2"
+            },
+            {
+                  "Maximum Operating Pressure": "232"
+            },
+            {
+                  "Valve Seat Material": "PTFE"
+            },
+            {
+                  "Valve Type": "Pressure Independent Control Valve"
+            },
+            {
+                  "Rangeability": ">100:1 IEC 60534-2-3"
+            },
+            {
+                  "Controlled Medium": "Water / Glycol"
+            },
+            {
+                  "Actuator Fail-Safe Action": "Through additional battery"
+            },
+            {
+                  "Actuator Mount": "Rotary M7061"
+            },
+            {
+                  "Valve Plug Material": "Brass CW617N PTFE"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Control Type": "On/Off"
+            },
+            {
+                  "Valve Trim": "Brass, SS, EPDM"
+            },
+            {
+                  "Maximum Flow Rate Range": "11.9 to 39.6 gpm"
+            },
+            {
+                  "Valve Flow Characteristic": "Equal percentage"
+            },
+            {
+                  "PNC-Display SKU": "V5004TY Series"
+            },
+            {
+                  "Test Plugs": "Yes, 2"
+            }
+      ],
+      "BRP900~MS3105K3051/B": [
+            {
+                  "Operating Torque": "44"
+            },
+            {
+                  "Control Signal": "Sylk Enabled"
+            },
+            {
+                  "Fail-Safe Action": "Spring Return"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Feedback": "Yes"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Actuator Type": "Direct Coupled Actuator"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Supply Voltage": "24"
+            }
+      ],
+      "BRP900~MS7505W2030/U": [
+            {
+                  "Overall Width": "98"
+            },
+            {
+                  "Operating Torque": "44"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Maximum Angle Of Rotation": "95"
+            },
+            {
+                  "Operating Torque": "5"
+            },
+            {
+                  "Overall Depth": "3.15625"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Maximum Storage Temperature": "65"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "Overall Height": "177"
+            },
+            {
+                  "Overall Depth": "80"
+            },
+            {
+                  "Maximum Storage Temperature": "150"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "149"
+            },
+            {
+                  "Driving Power Consumption": "8"
+            },
+            {
+                  "Supply Voltage Frequency": "50/60"
+            },
+            {
+                  "Overall Width": "3.654761905"
+            },
+            {
+                  "Overall Height": "7.5"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "65"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            }
+      ],
+      "BRP900~MS3105K3050/B": [
+            {
+                  "Fail-Safe Action": "Spring Return"
+            },
+            {
+                  "Actuator Type": "Direct Coupled Actuator"
+            },
+            {
+                  "Control Signal": "Sylk Enabled"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Feedback": "Yes"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Operating Torque": "44"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            }
+      ],
+      "BRP900~MS7505W2130/U": [
+            {
+                  "Supply Voltage Frequency": "50/60"
+            },
+            {
+                  "Overall Depth": "3.15625"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "149"
+            },
+            {
+                  "Maximum Storage Temperature": "150"
+            },
+            {
+                  "Overall Height": "7.5"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "Overall Depth": "80"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "65"
+            },
+            {
+                  "Maximum Storage Temperature": "65"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Operating Torque": "44"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "Operating Torque": "5"
+            },
+            {
+                  "Overall Height": "177"
+            },
+            {
+                  "Driving Power Consumption": "8"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Overall Width": "3.654761905"
+            },
+            {
+                  "Overall Width": "98"
+            },
+            {
+                  "Maximum Angle Of Rotation": "95"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            }
+      ],
+      "BRP900~MS3105K3052/B": [
+            {
+                  "Feedback": "Yes"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Fail-Safe Action": "Spring Return"
+            },
+            {
+                  "Control Signal": "Sylk Enabled"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Actuator Type": "Direct Coupled Actuator"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Operating Torque": "44"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            }
+      ],
+      "BRP900~MS8105W1030/U": [
+            {
+                  "Overall Depth": "3.15625"
+            },
+            {
+                  "Overall Width": "98"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Overall Depth": "80"
+            },
+            {
+                  "Overall Height": "177"
+            },
+            {
+                  "Operating Torque": "44"
+            },
+            {
+                  "Maximum Angle Of Rotation": "95"
+            },
+            {
+                  "Operating Torque": "5"
+            },
+            {
+                  "Overall Height": "7.5"
+            },
+            {
+                  "Driving Power Consumption": "8"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "149"
+            },
+            {
+                  "Overall Width": "3.654761905"
+            },
+            {
+                  "Supply Voltage Frequency": "50/60"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "65"
+            },
+            {
+                  "Maximum Storage Temperature": "65"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-22"
+            },
+            {
+                  "Maximum Storage Temperature": "150"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-30"
+            }
+      ],
+      "BRP900~MS7403A2030/U": [
+            {
+                  "Holding Power Consumption": "3"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "149"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "Maximum Storage Temperature": "65"
+            },
+            {
+                  "Overall Width": "3.654761905"
+            },
+            {
+                  "Overall Height": "177"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Supply Voltage Frequency": "50/60"
+            },
+            {
+                  "Maximum Storage Temperature": "150"
+            },
+            {
+                  "Operating Torque": "3"
+            },
+            {
+                  "Driving Power Consumption": "6"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Operating Torque": "27"
+            },
+            {
+                  "Overall Depth": "80"
+            },
+            {
+                  "Overall Width": "98"
+            },
+            {
+                  "Overall Height": "7.5"
+            },
+            {
+                  "Overall Depth": "3.15625"
+            },
+            {
+                  "Maximum Angle Of Rotation": "95"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "65"
+            }
+      ],
+      "BRP900~MS3105J3030/U": [
+            {
+                  "Enclosure Rating": "NEMA 2"
+            },
+            {
+                  "Overall Width": "3.86"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "149"
+            },
+            {
+                  "Overall Depth": "80"
+            },
+            {
+                  "Minimum Shaft Size": "0.375 round, 0.5 square"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Minimum Shaft Size": "9 round, 6 square"
+            },
+            {
+                  "Electrical Connection Type": "Screw terminals"
+            },
+            {
+                  "Application": "HVAC"
+            },
+            {
+                  "Maximum Angle Of Rotation": "95"
+            },
+            {
+                  "PNC-Selector": "Actuator"
+            },
+            {
+                  "Maximum Storage Temperature": "150"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "Operating Torque": "5"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "Control Signal": "Sylk Enabled"
+            },
+            {
+                  "Actuator Type": "Electric"
+            },
+            {
+                  "For Use With": "Sylk Enabled controller, Valves and dampers (with suitable linkage)"
+            },
+            {
+                  "Certificates and Standards": "UL873, cUL C22.2 No. 24-93, C Tick N314, UL1097 for Double Insulation, Certification Low Voltage Directive 2006/95/EC, EMC 2004/108/EC, IEC 60730-1 and Part 2-14"
+            },
+            {
+                  "Drive Time": "90 sec"
+            },
+            {
+                  "Number Of Auxiliary Switches": "0"
+            },
+            {
+                  "Fail-Safe Timing": "<25 sec"
+            },
+            {
+                  "Feedback": "Sylk"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Manual Operation Type": NaN
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Maximum Storage Temperature": "65"
+            },
+            {
+                  "Operating Torque": "44"
+            },
+            {
+                  "Maximum Shaft Size": "0.625 round, 0.5 square"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "65"
+            },
+            {
+                  "Maximum Operating Humidity": "95 (non-condensing) %"
+            },
+            {
+                  "Overall Width": "98"
+            },
+            {
+                  "Fail-Safe Action": "Spring Fail-safe"
+            },
+            {
+                  "Noise Rating": "40 (db(A) @ 1m)"
+            },
+            {
+                  "Valve Compatibility": "With linkage"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Overall Depth": "3.16"
+            },
+            {
+                  "Overall Height": "177"
+            },
+            {
+                  "Includes": "Mounting bracket, Self-centering shaft adapter"
+            },
+            {
+                  "Maximum Shaft Size": "16 round, 3 square"
+            },
+            {
+                  "Driving Power Consumption": "6"
+            },
+            {
+                  "Supply Voltage Frequency": "50/60"
+            },
+            {
+                  "Mounting Type": "Direct Coupled"
+            },
+            {
+                  "Minimum Operating Humidity": "0.05"
+            },
+            {
+                  "Overall Height": "6.95"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "PNC-Display SKU": "MS Series"
+            }
+      ],
+      "BRP900~MS3105K3050/U": [
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Feedback": "Yes"
+            },
+            {
+                  "Fail-Safe Action": "Spring Return"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Control Signal": "Sylk Enabled"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Actuator Type": "Direct Coupled Actuator"
+            },
+            {
+                  "Operating Torque": "44"
+            }
+      ],
+      "BRP900~MS8105W1130/U": [
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Operating Torque": "44"
+            },
+            {
+                  "Operating Torque": "5"
+            },
+            {
+                  "Overall Width": "98"
+            },
+            {
+                  "Overall Width": "3.654761905"
+            },
+            {
+                  "Supply Voltage Frequency": "50/60"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Driving Power Consumption": "8"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-22"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "149"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-30"
+            },
+            {
+                  "Overall Height": "177"
+            },
+            {
+                  "Maximum Storage Temperature": "150"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Maximum Storage Temperature": "65"
+            },
+            {
+                  "Overall Height": "7.5"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "65"
+            },
+            {
+                  "Maximum Angle Of Rotation": "95"
+            },
+            {
+                  "Overall Depth": "80"
+            },
+            {
+                  "Overall Depth": "3.15625"
+            }
+      ],
+      "BRP900~V5004TY10202200": [
+            {
+                  "Valve Plug Material": "Brass CW614N SS 18-8"
+            },
+            {
+                  "Leakage Rating": "According to Class IV IEC 60534-4"
+            },
+            {
+                  "Valve Stem Action": "Linear 6.5mm"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Valve Body Material": "Corrosion resistant brass CW602N"
+            },
+            {
+                  "Control Type": "On/Off"
+            },
+            {
+                  "Valve Pressure Rating": "25"
+            },
+            {
+                  "Actuator Stroke Length": "6"
+            },
+            {
+                  "Maximum Flow Rate Range": "220 to 2200 L/hr"
+            },
+            {
+                  "Minimum Differential Pressure": "3.6"
+            },
+            {
+                  "Head Loss Range": "3.6 to 58"
+            },
+            {
+                  "Valve Size Diameter": "20"
+            },
+            {
+                  "Valve Seal Material": "EPDM"
+            },
+            {
+                  "Minimum Medium Temperature": "-2"
+            },
+            {
+                  "Actuator Fail-Safe Action": "Through additional battery"
+            },
+            {
+                  "Actuator Voltage": "24"
+            },
+            {
+                  "Valve Connection Type": "Union w Internal thread EN 10226-1"
+            },
+            {
+                  "Valve Type": "Pressure Independent Control Valve"
+            },
+            {
+                  "Actuator Mount": "30mm thread"
+            },
+            {
+                  "Maximum Differential Pressure": "400"
+            },
+            {
+                  "Actuator Stroke Length": "0.2358"
+            },
+            {
+                  "Valve Series": "V5004T"
+            },
+            {
+                  "Valve Diaphragm Material": "High resistance polymer EPDM SS AISI 303"
+            },
+            {
+                  "Valve Flow Characteristic": "Equal percentage"
+            },
+            {
+                  "Control Type": "Modulating"
+            },
+            {
+                  "Actuator Power Consumption": "5"
+            },
+            {
+                  "Minimum Differential Pressure": "25"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "0.97"
+            },
+            {
+                  "Maximum Medium Temperature": "248"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "2200"
+            },
+            {
+                  "Maximum Medium Temperature": "120"
+            },
+            {
+                  "Maximum Flow Rate Range": "0.97 to 9.7 gpm"
+            },
+            {
+                  "Rangeability": "50-100:1 IEC 60534-2-3"
+            },
+            {
+                  "Head Loss Range": "25 to 400"
+            },
+            {
+                  "Actuator Included": "No"
+            },
+            {
+                  "Maximum Operating Pressure": "25"
+            },
+            {
+                  "Maximum Flow Rate Range (max)": "9.7"
+            },
+            {
+                  "Test Plugs": "Yes, 2"
+            },
+            {
+                  "Valve Pressure Rating": "363"
+            },
+            {
+                  "Maximum Flow Rate Range (min)": "220"
+            },
+            {
+                  "Maximum Differential Pressure": "58"
+            },
+            {
+                  "Valve Stem Material": "Stainless Steel"
+            },
+            {
+                  "Controlled Medium": "Water / Glycol"
+            },
+            {
+                  "Application": "Pressure Independent"
+            },
+            {
+                  "Minimum Medium Temperature": "28"
+            },
+            {
+                  "Maximum Operating Pressure": "363"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "PNC-Display SKU": "V5004TY Series"
+            },
+            {
+                  "Valve Trim": "Brass, SS, EPDM"
+            },
+            {
+                  "Valve Body Pattern": "2-way"
+            }
+      ],
+      "BRP900~MS7503A2138/U": [
+            {
+                  "Operating Torque": "5"
+            },
+            {
+                  "Supply Voltage": "24"
+            }
+      ],
+      "BRP900~MS3103K1050/B": [
+            {
+                  "Actuator Type": "Direct Coupled Actuator"
+            },
+            {
+                  "Operating Torque": "27"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Fail-Safe Action": "Spring Return"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Control Signal": "Sylk Enabled"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Feedback": "Yes"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            }
+      ],
+      "BRP900~MS4103A1038/U": [
+            {
+                  "Supply Voltage": "120/230"
+            },
+            {
+                  "Operating Torque": "27"
+            }
+      ],
+      "BRP900~MS7405A2030/U": [
+            {
+                  "Fail-Safe Timing": "<25 sec"
+            },
+            {
+                  "Driving Power Consumption": "6"
+            },
+            {
+                  "Maximum Shaft Size": "16 round, 3 square"
+            },
+            {
+                  "Control Signal": "Two-Position SPDT"
+            },
+            {
+                  "Minimum Shaft Size": "0.375 round, 0.5 square"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Maximum Storage Temperature": "150"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "149"
+            },
+            {
+                  "Maximum Operating Humidity": "95 (non-condensing) %"
+            },
+            {
+                  "Overall Width": "98"
+            },
+            {
+                  "Overall Depth": "3.16"
+            },
+            {
+                  "Minimum Storage Temperature": "-40"
+            },
+            {
+                  "Maximum Operating Ambient Temperature": "65"
+            },
+            {
+                  "Manual Operation Type": NaN
+            },
+            {
+                  "Number Of Auxiliary Switches": "0"
+            },
+            {
+                  "Enclosure Rating": "NEMA 2"
+            },
+            {
+                  "Drive Time": "90 sec"
+            },
+            {
+                  "Certificates and Standards": "UL873, cUL C22.2 No. 24-93, C Tick N314, UL1097 for Double Insulation, Certification Low Voltage Directive 2006/95/EC, EMC 2004/108/EC, IEC 60730-1 and Part 2-14"
+            },
+            {
+                  "Valve Compatibility": "With linkage"
+            },
+            {
+                  "For Use With": "Economizers"
+            },
+            {
+                  "Fail-Safe Action": "Spring Fail-safe"
+            },
+            {
+                  "Mounting Type": "Direct Coupled"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Feedback": "(0)2-10 Vdc"
+            },
+            {
+                  "Noise Rating": "40 (db(A) @ 1m)"
+            },
+            {
+                  "Actuator Type": "Electric"
+            },
+            {
+                  "Control Signal": "Three-Position"
+            },
+            {
+                  "Control Signal": "Floating"
+            },
+            {
+                  "Includes": "Mounting bracket, Self-centering shaft adapter"
+            },
+            {
+                  "Operating Torque": "44"
+            },
+            {
+                  "Overall Depth": "80"
+            },
+            {
+                  "Overall Height": "177"
+            },
+            {
+                  "Maximum Angle Of Rotation": "95"
+            },
+            {
+                  "PNC-Display SKU": "MS Series"
+            },
+            {
+                  "Application": "HVAC"
+            },
+            {
+                  "Control Signal": "Modulating 2-10 Vdc"
+            },
+            {
+                  "Control Signal": "3 kOhm Thermistor"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Minimum Operating Humidity": "0.05"
+            },
+            {
+                  "PNC-Selector": "Actuator"
+            },
+            {
+                  "Electrical Connection Type": "Screw terminals"
+            },
+            {
+                  "Supply Voltage Frequency": "50/60"
+            },
+            {
+                  "Overall Width": "3.86"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "Minimum Operating Ambient Temperature": "-40"
+            },
+            {
+                  "Overall Height": "6.95"
+            },
+            {
+                  "Operating Torque": "5"
+            },
+            {
+                  "Maximum Storage Temperature": "65"
+            },
+            {
+                  "Minimum Shaft Size": "9 round, 6 square"
+            },
+            {
+                  "Maximum Shaft Size": "0.625 round, 0.5 square"
+            },
+            {
+                  "Brand": "Honeywell"
+            }
+      ],
+      "BRP900~MS3103K1050/U": [
+            {
+                  "Operating Torque": "27"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Fail-Safe Action": "Spring Return"
+            },
+            {
+                  "Actuator Type": "Direct Coupled Actuator"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Control Signal": "Sylk Enabled"
+            },
+            {
+                  "Feedback": "Yes"
+            }
+      ],
+      "BRP900~MS4105A1038/U": [
+            {
+                  "Actuator Type": "Direct Coupled Actuator"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Operating Torque": "44"
+            },
+            {
+                  "Control Signal": "2-Position (SPST)"
+            },
+            {
+                  "Feedback": "Yes"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Fail-Safe Action": "Spring Return"
+            },
+            {
+                  "Supply Voltage": "120/230"
+            }
+      ],
+      "BRP900~MS3105K3063/B": [
+            {
+                  "Feedback": "Yes"
+            },
+            {
+                  "Operating Torque": "44"
+            },
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Control Signal": "Sylk Enabled"
+            },
+            {
+                  "Brand": "Honeywell"
+            },
+            {
+                  "Actuator Type": "Direct Coupled Actuator"
+            },
+            {
+                  "Enclosure Rating": "IP54"
+            },
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Fail-Safe Action": "Spring Return"
+            }
+      ],
+      "BRP900~MS8105A1138/U": [
+            {
+                  "Operating Torque": "5"
+            },
+            {
+                  "Supply Voltage": "24"
+            }
+      ],
+      "BRP900~MS8105K1030/U": [
+            {
+                  "Supply Voltage": "24"
+            },
+            {
+                  "Operating Torque": "44"
+            }
+      ],
+      "BRP900~MS4105K1130/U": [
+            {
+                  "Supply Voltage": "120/230"
+            },
+            {
+                  "Operating Torque": "44"
+            }
+      ],
+      "BRP900~MS4103A1138/U": [
+            {
+                  "Supply Voltage": "120/230"
+            },
+            {
+                  "Operating Torque": "27"
+            }
+      ],
+      "BRP900~MS7105K2038/P": [
+            {
+                  "PNC-Selector": "Valve+Actuator"
+            },
+            {
+                  "Fail-Safe Action": "Spring Return"
+            },
+            {
+                  "Actuator Type": "Damper Actuator"
+            },
+            {
+                  "Brand": "Honeywell"
+            }
+      ],
+      "BRP900~MS4105K1030/U": [
+            {
+                  "Operating Torque": "44"
+            },
+            {
+                  "Supply Voltage": "120/230"
+            }
+      ]
+}

@@ -1,0 +1,1 @@
+#define PIM schema for product data
