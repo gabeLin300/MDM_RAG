@@ -68,3 +68,18 @@ PIM Export Layer
 - Consistent structured extraction with validation and normalization
 - Human validation for trust and correction
 - Export outputs ready for downstream PIM ingestion
+
+## Week 1 Commands
+- Sample run:
+  - `python -m pipeline.run_pipeline --profile sample`
+- Full run:
+  - `python -m pipeline.run_pipeline --profile full`
+
+Outputs:
+- `reports/week1_dataset_profile.json`
+- `reports/week1_dataset_profile.md`
+- `reports/week1_query_results.json`
+- `data/processed/baseline.index`
+- `data/processed/baseline_metadata.json`
+- `data/processed/baseline_manifest.json`
+- `data/processed/week1_metrics_<profile>.json`

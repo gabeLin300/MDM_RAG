@@ -1,6 +1,9 @@
-from langdetect import DetectorFactory, detect
+try:
+    from langdetect import DetectorFactory, detect
 
-DetectorFactory.seed = 0
+    DetectorFactory.seed = 0
+except Exception:  # pragma: no cover
+    detect = None
 
 
 def normalize_encoding(text: object) -> str:
@@ -18,6 +21,8 @@ def detect_language(text: object) -> str:
     """Detect language code from text with graceful fallback."""
     value = normalize_encoding(text)
     if not value or len(value) < 5:
+        return "unknown"
+    if detect is None:
         return "unknown"
     try:
         return detect(value)

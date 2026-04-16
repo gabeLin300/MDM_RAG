@@ -1,0 +1,101 @@
+{
+  "query_results": [
+    {
+      "query": "What is the supply voltage?",
+      "answer": "l.com | 2 TECHNICAL SPECIFICATION POWER CHARACTERISTICS Power Supply Rated voltage: 24VAC \n50/60Hz, \nWorking voltage range: 2030VAC, UL listed class-2 \ntransformer or IEC 61558 \nlisted transformer.\nPower Consumption\n(Display ON)\nMax. 8.5VA @ 24VAC\n(355mA @ 24VAC)\nMin. Load 4VA (a ±0.5V Max. load 15 mA USB serial communication USB standard 1.1 (full speed)\nUSB plug USB type B device plug CONTROL CHARACTERISTICS Resolution of output frequency at 0-590Hz ± 0.003Hz Repeat accuracy of Precise start/stop (terminals 18, 19) ≤± 0.1 ms System response time (termin m)\nVoltage\n Input \nin VacRunning Holding MS4104F 0.18A, 18W 0.11A, \n9W 30 (3.4) 120 ±10%,\n50/60Hz MS4109F 0.25A, 23W 0.13A, \n7W 80 (9)\nMS4604F 0.13A, 18W 0.10A, \n11W 30 (3.4) 230 ±10%,\n50/60Hz MS4609F 0.13A, 23W 0.09A, \n7W 80 (9)\nMS8104F 16 VA 8 VA 30 (3.4) 24Vac/dc \n+20%, -10%, the Combined Supply Outputs (Wallbus, and analogue outputs \nsee page 9). The IQECO input power earth (ground) terminal \n(terminal 3) is isolated from the input power neutral, and must \nbe separately earthed (grounded) locally; this ground terminal \nis internally connected to the – 24 VAC @ 50-60Hz. 28 VA minimum (maximum 100 \nVA across all BO loads). Half-wave rectified. See IMPORTANT \nNOTE below.\nINPUTS – 16-bit universal inputs accept 3k (Ibex) or 10k \nthermistor (type II), dry contact, 0-20 mA, 0-10V, 0-5V, or \ndry-contact pulse. External 250-ohm resi",
+      "citations": [
+        "dm_0-23b5f0ee4b7b0a958d2a75741aa6bfa6_c0003",
+        "dm_0-32a32ad37666d4da97f7d26b80b13407_c0007",
+        "dm_563aae1eeec4a16718288f14ace97b2c_c0005",
+        "dm_4c7f6183d3e9af5dd2e9b0c83003d16c_c0024",
+        "dm_0-22e80ce9b39c859a0cb9e49ffde6ed84_c0002"
+      ],
+      "scores": [
+        0.45435,
+        0.41244,
+        0.41224,
+        0.38136,
+        0.38108
+      ],
+      "latency_ms": 10.96
+    },
+    {
+      "query": "What are the key features?",
+      "answer": "000, overview of features \n1 Earth ground 6 PRI (primary) LAN1, 10/100-Mbit Ethernet connection \n2 Terminal block for 24 VAC/DC power supply 7 SEC (secondary) LAN2, 10/100-Mbit Ethernet connection \n3 RS485-A port and bias / termination switch 8 Access shutter for microSD card (sl controller.\n• Built-in advanced diagnostics \nsoftware facilitating troubleshooting \nfor IP and MS/TP devices.\n• Ferroelectric RAM (FRAM) to store \nthe live data for the controller, \nincluding storing the last known \nvalues when power is removed.\n• UTF-8 and UCS-2 character \nencod .\n• Property-health scorecard helps identify gaps in \nGuest Comfort and Energy Optimization.\n\nMobile Alerts for Operational Efficiency \n• Make-up room and other guest requests.\n• Comfort alarms, such as unusual \nhumidity levels or “can’t achieve \ndesired setpoint.”\n• “Offline” or SPECIFICATIONS HTML5 and Java-enabled user interface (UI); \nJavaScript data interface library included (BajaScript)\nSupports unlimited users over the internet/intranet \nvia standard web browsers (depending on the host \nPC resources)\nOptional enterprise-level data archival (SQL, M e. \nSecure Cloud Hosting for Cost-Effective Access \n• Simplifies both centralized and onsite management.\n• Automatic software updates deliver latest features.\n• Secure mobile access, as well as enhanced data security \nand backups.\n• Flexible pricing choices and subscription level",
+      "citations": [
+        "dm_58e2d17f2dcbe06ea02a08401d35dd34_c0010",
+        "dm_0-56f8dad5f7de7eb4f810b1a5edd9bdd0_c0002",
+        "dm_7ac7e9dc595be859bc2fa4b6c6df2db3_c0005",
+        "dm_0-64adf2b6475d2c4c3a93263f76139de0_c0002",
+        "dm_7ac7e9dc595be859bc2fa4b6c6df2db3_c0006"
+      ],
+      "scores": [
+        0.52174,
+        0.42734,
+        0.41947,
+        0.41546,
+        0.41043
+      ],
+      "latency_ms": 5.91
+    },
+    {
+      "query": "What is the operating temperature range?",
+      "answer": "with user-selectable temperature setpoint dials in Fahrenheit, Celsius, and \nRelative (- to +).\nSPECIFICATIONS Models: See Table 1 on page 2.\nConstruction: Two-piece construction, cover and \ninternally wired subbase. Field wiring 16 to 22 AWG \n(1.31-0.33 sq. mm) connects to a ter 85°F) / 5 to 95 % RH non-condensing.\nIMPORTANT NOTE This device is UL listed and limited to 100VA maximum. This maximum VA \nrating restricts binary output loads. If all 6 binary outputs are connected and \nfully loaded (@24VA each), the total VA of the device will exceed the UL li 0 to 50°C)\nAmbient \nOperating \nHumidity 10 to 90% relative humidity (noncondensing)\nStorage \nTemperature\n-40 to 150 °F(-40 to 65.5°C)\nProtection \nClass IP20 Table 5. Onboard Sensors Temperature Heat: 40 to 90°F (4.5 to 32°C)\nCool: 50 to 99°F (10 to 37°C)\nResolution: 1 °F (0.5°C) ating Temperature Range: -40–185 deg. F (-40–85 deg. C).\nRepeatability: ± 0.5% RH.\nAccuracy: ± 5% RH up to 60%RH, ± 8% RH from 60% to 90% RH (typical \nhumidity).\n• Ratings Listed Underwriters Laboratory as an accessory for VAVs and VLCs.\nEMC Directive (European CE Mark)\nFCC Part ol.\n• Supports a software configurable safety position per UIO (AO/DO) channel in the event of a \ncommunication loss with the controller\n• 24VDC/GND for externally powered sensors I/O CHARACTERISTICS I/O TYPE SENSOR TYPE I/O Modules - Product Datasheet | www.honeywell.com 8 SUPPO",
+      "citations": [
+        "dm_79b68c251970ca4adede304f29a2c63e_c0001",
+        "dm_0-3b2cd4b4e0ee6b66fb912d909db42f6c_c0004",
+        "dm_0-22b0f281ea6fcd9b2ca679d808d48bf4_c0005",
+        "dm_0-1f0c3fd885c3f82c895dc9a0ac5de8f2_c0004",
+        "dm_3db7d4b7b49043ec6b37cf68cde43e68_c0013"
+      ],
+      "scores": [
+        0.59183,
+        0.56696,
+        0.56165,
+        0.53905,
+        0.51177
+      ],
+      "latency_ms": 5.25
+    },
+    {
+      "query": "What communication protocols are supported?",
+      "answer": "AND COMMUNICATION SYSTEM ......... 20 Emergency Warning Systems 20 FIRE FIGHTER TELEPHONE SYSTEM .......................................................... 20 DIGITAL VOICE COMMAND ......................................................................... 21 UNP - UNIFIED NOTIFICA SPECIFICATIONS HTML5 and Java-enabled user interface (UI); \nJavaScript data interface library included (BajaScript)\nSupports unlimited users over the internet/intranet \nvia standard web browsers (depending on the host \nPC resources)\nOptional enterprise-level data archival (SQL, M s configurables \naux régulateurs librement programmables Saia PG5 \npermettant la mise en œuvre de solutions flexibles \npersonnalisées, les produits de régulation d’ambiance \nexistants proposent différents protocoles de \ncommunication. Un fonctionnement entièrement \nautonome est a y or vertically orientations. \nFEATURES AND HIGHLIGHTS SIMPLE AND FLEXIBLE \nENGINEERING\n• Conforms to BACnet™ Standard 135 \nprotocol version 1.15 (ISO 16484-5).\n• N-ADV-112-H controller has Ethernet \nports - one isolated Ethernet port \nand one switched IP ports.\n• N-ADV-133-H ser net Provides online/offline use of the Niagara \nFramework® Workbench AX graphical configuration \ntool and a comprehensive Java Object Library Optional direct Ethernet-based driver support for \nmost Open IP field bus protocols (see supported \ndrivers document)\nFIPS 140-2 Level 1 c",
+      "citations": [
+        "dm_0-3ec761dbea33439290bd8fe3299a84c3_c0002",
+        "dm_0-64adf2b6475d2c4c3a93263f76139de0_c0002",
+        "dm_0c1b44abd05abff8aeecabf6e9fdef9f_c0001",
+        "dm_0-56f8dad5f7de7eb4f810b1a5edd9bdd0_c0001",
+        "dm_0-64adf2b6475d2c4c3a93263f76139de0_c0003"
+      ],
+      "scores": [
+        0.4297,
+        0.40612,
+        0.38941,
+        0.38299,
+        0.38171
+      ],
+      "latency_ms": 4.38
+    },
+    {
+      "query": "What are the dimensions of the product?",
+      "answer": "es; 7.88”/200mm OD \n10 = For 10-in valves; 9.88”/251mm OD 12 = For12-in valves; 11.88”/302mm OD 14 = For 14-in valves; 13.88”/353mm OD \nDBK 1 12 SERIES 1 = First generation product VIT 100 PRODUCT FAMILY VIT = Valve Installation Tape; \n 2\" (51mm) wide PTFE tape\n 36 yards (32.9 m) 6 (30)\n1-3/16 (30)\nNOTE: SOLDER ENDS CONFORM TO ANSI B16-18.\nD\n(SWEAT)\n5/8 (16)\n7/8 (22)\nE\n(SWEAT)\nVALVE SIZE VALVE SIZE V5853 (SWEAT)\n2-5/7 (69)\n3-2/9 (82)\n1/2 NPT 3/4 NPT 1-1/4 (32)\n1-3/5 (41)\n1-1/3 (34)\n1-2/7 (33)\n1/2 (13)\n3/4 (19)\nA B\nNPT C D 1/2 NPT 3/4 NPT E\n(NPT)\nVALVE SIZ sion of Honeywell Products and Solutions Sàr, \nRolle, Z.A. La Pièce 16, Switzerland by its Authorized Representative:\nOrdering information Part Number Type Description WEB-HMI7/CF 7\" HTML5 Web Panel, \ncapacitive touch 7\" HTML5 Web Panel, TFT color, 800 × 480 pixel, capacitive mul D ‘SHOWER’\nMOUNTING BOXES:\nFLUSH 886ZIC (6mm2 conductors) \n878ZIC (10mm2 conductors)\nSURFACE K2172WHI \nK5205WHI and K5215WHI \nSupplied with 8 self-adhesive plastic \nidentification labels marked hob, \nfan, oven, water heater, shower, air \nconditioner, cooker and washing \nmachine. PAC16 16A breaker \nOn off ignition panel with thermal magnetic protection 16A, indicator LED ON/OFF, It occupies one standard 19 \" rack unit.\nPAC16 Technical Features \nLAYOUT Black painted powder sheet metal. 1 HU rack standard 19” \nDIMENSIONS 44 x 482 x 70mm (H x W x D) \nWEIGHT",
+      "citations": [
+        "dm_0-28faa6759e6428aef5b7d1d448557dbd_c0003",
+        "dm_0-bb48d0429c8b343e6983f4d67c7f77_c0008",
+        "dm_50099c3219586f92ed06d0edaa6f4c2f_c0003",
+        "dm_0-2fe388bb498781050400c66e35d32c2e_c0018",
+        "dm_2794c12eb2f3fe3ab58bf41324f97463_c0000"
+      ],
+      "scores": [
+        0.28227,
+        0.28066,
+        0.26989,
+        0.26762,
+        0.26677
+      ],
+      "latency_ms": 5.23
+    }
+  ],
+  "latency_p50_ms": 5.25,
+  "latency_p95_ms": 9.95
+}

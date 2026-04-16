@@ -1,0 +1,142 @@
+{
+  "profile": "full",
+  "input_path": "data/raw",
+  "ingestion_report": {
+    "source_files": [
+      "data\\raw\\100_sample_advanced_rag.csv",
+      "data\\raw\\advanced_rag_full_dataset.csv"
+    ],
+    "rows_read": 8711,
+    "rows_skipped_empty": 0,
+    "rows_skipped_invalid": 3793,
+    "rows_parsed": 4918,
+    "schema_ok": true,
+    "required_columns": [
+      "id",
+      "title",
+      "file_name",
+      "file_content",
+      "document_type",
+      "product_id"
+    ],
+    "per_file_counts": {
+      "data\\raw\\100_sample_advanced_rag.csv": 3690,
+      "data\\raw\\advanced_rag_full_dataset.csv": 5021
+    },
+    "files_seen": 2,
+    "files_loaded": 2,
+    "files_skipped_schema": 0,
+    "files_skipped_read_error": 0
+  },
+  "invalid_schema_records": 0,
+  "chunks_created": 70697,
+  "index_size": 70697,
+  "embedding_backend": "hash-fallback",
+  "artifact_paths": {
+    "index_path": "data\\processed\\baseline.index",
+    "metadata_path": "data\\processed\\baseline_metadata.json",
+    "manifest_path": "data\\processed\\baseline_manifest.json"
+  },
+  "dataset_profile_path": "reports/week1_dataset_profile.json",
+  "query_smoke": {
+    "query_results": [
+      {
+        "query": "What is the supply voltage?",
+        "answer": "norm specifies that each slave consumes 1.5 mA maximum when it is \non “standby” state. During a communication the slave consumes 1.5 mA maximum \nfor a “0” and when sending a “1”, the slave increases its current consumption by \n11…20 mA.\nThe design of the supply M-Bus is based on p-2022 \nAbout the Dialler Window Applet \nDialler Window Applet Manual TE200530 Issue 4 05-Sep-2022 7 \n2 ABOUT THE DIALLER WINDOW APPLET \nThe Dialler Window Applet provides the facility to display information about the autodialling devices on the \nnetwork. \n2.1 The Dialler Window -232 key is then \nconnected to an available RS-485 jack in the meter using an RJ-11 cable.\nNOTE: Don’t confuse the modem’s telephone jacks with the RS-485 jacks!!!\nNOTE: When using one meter with an external modem, only the telephone line is \nconnected. RS-485 is not needed.\nGREE uction Standard housing N 45 Weight approx. 0.35 kg\n Function The air flow monitors work according to the calorimetric principle. A thermistor is heated up. As heat is \nwithdrawn by the flowing air, the thermistor resistance alters. The change in resistance is evaluated. As \nthe ode and cool mode by comparing the air supply temperature with the ambient temperature. If the thermostat is in heat mode, it switches to cool mode when the air supply is cooler than ambient by 9°F (5°C) or more. If it is in cool mode, it switches to heat mode when the air supply",
+        "citations": [
+          "dm_0-2426ff20a417fda7967a9ee28db8ca93_c0009",
+          "dm_c8c58664ae0e7b11f212dbaf05b1bc63_c0005",
+          "dm_0701bcaa625af862c7893a16e79d211e_c0026",
+          "dm_15269a1ce35e75cc3f50a11315cbf1f4_c0002",
+          "dm_ae7ba15df3684afee57b799efec8f5b9_c0015"
+        ],
+        "scores": [
+          0.54614,
+          0.53604,
+          0.52909,
+          0.52428,
+          0.51433
+        ],
+        "latency_ms": 2.4
+      },
+      {
+        "query": "What are the key features?",
+        "answer": "Series│Document 26/856; Version EN 12│2014-07-24 Saia-Burgess Controls AG PCD2.M5_ Graphical index 1-1 1\n1 Graphical index The graphical index singles out some highlights from the Hardware Manual for the \nPCD2.M5_ Series, and allows you to click on a component/connector to jump s Port assignments PCD1 1 Communication ports 1.1 Port assignments on the communications interface I/O slot 0: Port 100 for the x.0 port on the PCD3.F261 / PCD2.F2610 module \nPort 101 not used I/O slot 1: Port 110 for the x.0 port on the PCD3.F261 / PCD2.F2610 module \nPort 111 not afterwards 0.2 Trademarks Saia PCD® and Saia PG5® \nare registered trademarks of Saia-Burgess Controls AG.\nTechnical changes are subject to the state of technology Saia-Burgess Controls AG, 2011. © All rights reserved.\nPublished in Switzerland.\nSaia-Burgess Controls AG Manual M-Bu CD7.F1xxS module Port x.0 Port x.1 PCD3.F215 RS-232 suitable for modem. \n + free slot for PCD7.F1xxS module Port x.0 Port x.1 PCD3.F221 Belimo MP-Bus \n + free slot for PCD7.F1xxS module Port x.0 Port x.1 PCD3.F281 3.4 Port x.1: List of the possible interface modules PCD7.FxxxS Or port matches the lowest \ninput pressure from the zone thermostat, and the output of \nthe H port matches the highest input pressure signal. \n� Plug the unused H or L port, and connect the\n\nunused input ports to used input ports.\n\n� Adjust all inputs so they are equal, then lower o",
+        "citations": [
+          "dm_168a0601a78f7bd24e132008aed8b18b_c0015",
+          "dm_104c8e06b139b5eef65e2d88937c159c_c0004",
+          "dm_0-2426ff20a417fda7967a9ee28db8ca93_c0003",
+          "dm_0-2f2bc7957731083a61f27fa950ba0e62_c0027",
+          "dm_f1d9ea7122843cacb4e959fbb6ecfba7_c0002"
+        ],
+        "scores": [
+          0.52361,
+          0.51218,
+          0.51077,
+          0.50449,
+          0.48063
+        ],
+        "latency_ms": 2.29
+      },
+      {
+        "query": "What is the operating temperature range?",
+        "answer": "2 is activated as soon as Output 1 reaches its full capacity. When the thermostat is in cool mode, Output 2 is activated when the measured temperature drops below the setpoint.\nThe following table shows the output types for Output 2 and their corresponding settings in the configu 2 is activated as soon as Output 1 reaches its full capacity. When the thermostat is in cool mode, Output 2 is activated when the measured temperature drops below the setpoint.\nThe following table shows the output types for Output 2 and their corresponding settings in the configu the offset value. \n\nAny change in the offset value is detected by the strategy and will start Logic timer ‘Adjustment active’. The offset value on Function \n‘Selected setpoint offset’ is gated through Function ‘Active setpoint offset’ it is then scaled using the value on Function ’ is gated through Function ‘Active setpoint offset’ it is then scaled using the value on Function ‘Selected \noffset range’. Function ‘Setpoint offset’ value is added to the ‘Minimum setpoint’ and ‘Maximum setpoint’ to provide the ‘Heat \nsetpoint’ and ‘Cool setpoint’ respectively ic timer ‘Adjustment active’. The offset value on Function \n‘Selected setpoint offset’ is gated through Function ‘Active setpoint offset’ it is then scaled using the value on Function ‘Selected \noffset range’. Function ‘Setpoint offset’ value is added to the ‘Minimum setpoint’ an",
+        "citations": [
+          "dm_ae7ba15df3684afee57b799efec8f5b9_c0009",
+          "dm_0-51845ea20c97b5011a84866101370a47_c0009",
+          "dm_a84beefa0e5faa5b76c57714ff740e23_c0019",
+          "dm_a733faae48daf8c9976948102b6fffa4_c0019",
+          "dm_4f68ec55718d33c0bfc427f1652b0f84_c0020"
+        ],
+        "scores": [
+          0.51053,
+          0.51053,
+          0.50063,
+          0.49922,
+          0.49877
+        ],
+        "latency_ms": 2.46
+      },
+      {
+        "query": "What communication protocols are supported?",
+        "answer": "m 20mm 20mm 20mm \nVerfahrzeit bei 50Hz 1 min 0,5 min 1,8 min 1,8 min 1,8 min 1,8 min 1,8 min 1,8 min 1 min 0,5 min \nSchliesskraft 600 \nN \n600 N 600 N 600 N 600 N 600 N 600 N 600 N 600 N 600 N \nDauer \nFederrückstellung \n-- -- 12 s 12 s 12 s 12 s 12 s 12 s -- -- \nRi .............................................................................................................. 14 \nAbout the JNLP file ................................................................................................................................................. ENG07│2015-06-03 Saia-Burgess Controls AG Application overview Overview 1-7 1\n1.3.3 Device overview and technical details of the room controller S-Bus LonWorks®\nPCD7 product line 1)\nInputs L600-1 L601-1 L603-1 L604-1 L610 L611 L614 L615 L616 Digital inputs 1× window \ncontact \nand supported (AX-3.8 and forward; Niagara 4.4U1 \nand forward) for some period of time. The complication for customers using Web Start is that there \nare no more free auto-updates available for Java 8 JRE; i.e., keeping their systems up-to-date with \nthe latest security fixes from Or ifunktional 1× Fensterkontakt \nund 1× \nMultifunktional 1× Fensterkontakt \nund 1× \nMultifunktional 1× Fensterkontakt \nund 1× \nMultifunktional 4× Multifunktional 1× Fensterkontakt \nund 1× \nMultifunktional 4× Multifunktional 4× Multifunktional 4× Multifunktional Betriebszustandsrück",
+        "citations": [
+          "dm_50726224d5c689f43f40b119f8489d23_c0003",
+          "dm_1f0508beb81f5ba47f61e8b0bd47fbb9_c0004",
+          "dm_0-1c8efe3107944c4c509c4afb21191669_c0019",
+          "dm_1f0508beb81f5ba47f61e8b0bd47fbb9_c0009",
+          "dm_0-33ddcd290592b7b6c101a4394335f7b4_c0016"
+        ],
+        "scores": [
+          0.33662,
+          0.3,
+          0.26658,
+          0.26131,
+          0.26106
+        ],
+        "latency_ms": 2.11
+      },
+      {
+        "query": "What are the dimensions of the product?",
+        "answer": "adjusting \nscrew (9) (switching point adjustment). Turning the setting spindle (9) moves the running nut (10) and \nmodifies the pre-tension of the spring (8). The screw (11) is used to calibrate the microswitch in the \nfactory. The counter pressure spring (12) ensures stable swit th those of the backbox \nand position both above the hole in the ceiling tile. Now offer the below-ceiling half of the flush ring \nto the underside of the ceiling tile and align the mounting screw holes with those above. Note that \nthe locking screw tab on the under-ceiling half EN61800-3 defines the division of frequency converters into four classes \naccording to the level of electromagnetic disturbances emitted, the requirements of a power system network and the installation environment (see below). The EMC class of each product is defined in the type EN61800-3 defines the division of frequency converters into four classes \naccording to the level of electromagnetic disturbances emitted, the requirements of a power system network and the installation environment (see below). The EMC class of each product is defined in the type EN61800-3 defines the division of frequency converters into four classes \naccording to the level of electromagnetic disturbances emitted, the requirements of a power system network and the installation environment (see below). The EMC class of each product is defined in the type",
+        "citations": [
+          "dm_0-151d4841d02efd421d989801014570fa_c0010",
+          "dm_2b035cf378a05f10f69a56411a7ee838_c0002",
+          "dm_c553582ac7554d9d4329e717007df693_c0028",
+          "dm_3e78fa04796bfb010e58dbccd2d45ce6_c0028",
+          "dm_0-3aaca7d538aab262bcd618e8ff82096d_c0028"
+        ],
+        "scores": [
+          0.67003,
+          0.66952,
+          0.66396,
+          0.66396,
+          0.66396
+        ],
+        "latency_ms": 1.97
+      }
+    ],
+    "latency_p50_ms": 2.29,
+    "latency_p95_ms": 2.45
+  }
+}
