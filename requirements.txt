@@ -2,6 +2,7 @@ pandas
 numpy
 langdetect
 sentence-transformers
+rank-bm25
 faiss-cpu
 pytest
 langchain

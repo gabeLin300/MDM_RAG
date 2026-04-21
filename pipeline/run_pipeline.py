@@ -33,11 +33,22 @@ logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 
 DEFAULT_SAMPLE_QUERIES = [
-    "What is the supply voltage?",
-    "What are the key features?",
-    "What is the operating temperature range?",
-    "What communication protocols are supported?",
-    "What are the dimensions of the product?",
+    "Which panels are supported by the Universal CLSS Gateway Modbus and BACnet feature?",
+    "Will there be a price increase for the Universal CLSS Gateway Modbus/BACnet feature?",
+    "What communication protocols are mentioned for the CLSS Gateway?",
+    "In the Li-Ion Tamer Rack Monitor, what is the maximum number of sensors per controller?",
+    "What is the Li-Ion Tamer controller input power range?",
+    "What are the controller and sensor power consumption values for Li-Ion Tamer?",
+    "What are the gas detection threshold and response time in the Li-Ion Tamer datasheet?",
+    "What key features are listed for the TC300 Commercial Thermostat?",
+    "What user interface/display capabilities are listed for the TC300 thermostat?",
+    "What is the ALER-9000 controller described as (controller/server/platform)?",
+    "What kind of valves are in the VN Series Zone Valves datasheet (2-way or 3-way)?",
+    "What actuator behavior is described for VN Series valves (fail-safe/fail-in-place)?",
+    "What are the TR21/TR22/TR23 wall modules used for?",
+    "What sensor inputs or measurements are mentioned for TR21/TR22/TR23 wall modules?",
+    "¿Cuál es la finalidad del controlador IQ5 según la ficha técnica en español?",
+    "Welche Funktionen bietet die IQ5-DDC-Station laut Datenblatt?"
 ]
 
 
@@ -231,11 +242,19 @@ def run_query_smoke(
     index: Any,
     metadata_store: List[Dict[str, Any]],
     embedding_model: str,
+    enable_sparse: bool = True,
+    enable_reranker: bool = True,
     queries: List[str] | None = None,
     top_k: int = 5,
 ) -> Dict[str, Any]:
     queries = queries or DEFAULT_SAMPLE_QUERIES
-    rag = BaselineRAG(index=index, metadata=metadata_store, embedding_model=embedding_model)
+    rag = BaselineRAG(
+        index=index,
+        metadata=metadata_store,
+        embedding_model=embedding_model,
+        enable_sparse=enable_sparse,
+        enable_reranker=enable_reranker,
+    )
 
     outputs = []
     latencies_ms = []
@@ -260,6 +279,8 @@ def run_week1_pipeline(
     input_path: Union[str, Path] | None = None,
     output_dir: Union[str, Path] = "data/processed",
     embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2",
+    enable_sparse: bool = True,
+    enable_reranker: bool = True,
 ) -> Dict[str, Any]:
     profile = profile.lower().strip()
     if input_path is None:
@@ -278,6 +299,8 @@ def run_week1_pipeline(
             index=artifacts["index"],
             metadata_store=artifacts["metadata_store"],
             embedding_model=embedding_model,
+            enable_sparse=enable_sparse,
+            enable_reranker=enable_reranker,
             queries=DEFAULT_SAMPLE_QUERIES,
             top_k=5,
         )
@@ -291,6 +314,8 @@ def run_week1_pipeline(
         "chunks_created": len(artifacts["chunks"]),
         "index_size": artifacts["manifest"]["index_size"],
         "embedding_backend": artifacts["manifest"]["embedding_backend"],
+        "hybrid_sparse_enabled": bool(enable_sparse),
+        "reranker_enabled": bool(enable_reranker),
         "artifact_paths": artifacts["artifact_paths"],
         "dataset_profile_path": "reports/week1_dataset_profile.json",
         "query_smoke": smoke,
@@ -331,6 +356,8 @@ def _build_cli() -> argparse.ArgumentParser:
     parser.add_argument("--input", dest="input_path", default=None)
     parser.add_argument("--output-dir", default="data/processed")
     parser.add_argument("--embedding-model", default="sentence-transformers/all-MiniLM-L6-v2")
+    parser.add_argument("--disable-sparse", action="store_true")
+    parser.add_argument("--disable-reranker", action="store_true")
     return parser
 
 
@@ -341,5 +368,7 @@ if __name__ == "__main__":
         input_path=args.input_path,
         output_dir=args.output_dir,
         embedding_model=args.embedding_model,
+        enable_sparse=not args.disable_sparse,
+        enable_reranker=not args.disable_reranker,
     )
     print(json.dumps(result, indent=2, ensure_ascii=True))

@@ -1,37 +1,35 @@
-"""Deterministic local baseline RAG with extractive answer synthesis."""
+"""Hybrid baseline RAG with dense+sparse retrieval and optional reranking."""
 
 from __future__ import annotations
 
-from dataclasses import dataclass
 from typing import Any, Dict, List, Optional
 
-import numpy as np
-
-from embeddings import EmbeddingConfig, EmbeddingGenerator
-
-
-@dataclass
-class RetrievalResult:
-    chunk_id: str
-    score: float
-    chunk_text: str
-    metadata: Dict[str, Any]
+from .dense import DenseRetriever
+from .fusion import reciprocal_rank_fusion
+from .reranker import CrossEncoderReranker
+from .sparse import BM25SparseRetriever
+from .types import RetrievalResult
 
 
 class BaselineRAG:
-    """Simple retrieval + extractive composition chain."""
+    """Entry point orchestrating hybrid search + optional reranking."""
 
     def __init__(
         self,
         index: Any,
         metadata: List[Dict[str, Any]],
         embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2",
+        enable_sparse: bool = True,
+        enable_reranker: bool = True,
     ) -> None:
-        self.index = index
         self.metadata = metadata
-        self.embedder = EmbeddingGenerator(
-            EmbeddingConfig(model_name=embedding_model, dimensions=index.d)
+        self.dense_retriever = DenseRetriever(
+            index=index,
+            metadata=metadata,
+            embedding_model=embedding_model,
         )
+        self.sparse_retriever = BM25SparseRetriever(metadata=metadata) if enable_sparse else None
+        self.reranker = CrossEncoderReranker(enabled=enable_reranker)
 
     def search(
         self,
@@ -39,30 +37,39 @@ class BaselineRAG:
         top_k: int = 5,
         product_id: Optional[str] = None,
         document_type: Optional[str] = None,
+        dense_top_k: Optional[int] = None,
+        sparse_top_k: Optional[int] = None,
+        rrf_k: int = 60,
+        rerank: bool = True,
     ) -> List[RetrievalResult]:
-        query_vec = self.embedder.embed_texts([query]).astype("float32")
-        scores, ids = self.index.search(query_vec, max(top_k * 5, top_k))
+        if top_k <= 0:
+            return []
 
-        filtered: List[RetrievalResult] = []
-        for score, idx in zip(scores[0], ids[0]):
-            if idx < 0 or idx >= len(self.metadata):
-                continue
-            record = self.metadata[idx]
-            if product_id and product_id not in record.get("product_id", []):
-                continue
-            if document_type and record.get("document_type") != document_type:
-                continue
-            filtered.append(
-                RetrievalResult(
-                    chunk_id=record["chunk_id"],
-                    score=float(score),
-                    chunk_text=record["chunk_text"],
-                    metadata=record,
-                )
+        dense_results = self.dense_retriever.search(
+            query=query,
+            top_k=dense_top_k or max(top_k * 5, top_k),
+            product_id=product_id,
+            document_type=document_type,
+        )
+        result_lists: List[List[RetrievalResult]] = [dense_results]
+
+        if self.sparse_retriever is not None:
+            sparse_results = self.sparse_retriever.search(
+                query=query,
+                top_k=sparse_top_k or max(top_k * 5, top_k),
+                product_id=product_id,
+                document_type=document_type,
             )
-            if len(filtered) >= top_k:
-                break
-        return filtered
+            result_lists.append(sparse_results)
+
+        fused = reciprocal_rank_fusion(
+            result_lists=result_lists,
+            rrf_k=rrf_k,
+            top_k=max(top_k * 5, top_k),
+        )
+        if rerank:
+            return self.reranker.rerank(query=query, candidates=fused, top_k=top_k)
+        return fused[:top_k]
 
     def answer(
         self,
