@@ -11,3 +11,5 @@ langchain-openai
 python-dotenv
 pypdf
 requests
+groq
+langchain-groq

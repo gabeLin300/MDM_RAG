@@ -59,3 +59,6 @@ __pycache__/
 tmp/
 temp/
 .cache/
+
+# Claude
+.claude/
