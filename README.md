@@ -5,6 +5,33 @@ Advanced RAG + Multi-Agent pipeline for transforming unstructured product docume
 ## Objective
 Build an end-to-end system that processes ~5,000 product documents and produces structured attribute records with retrieval traceability, validation, and human approval before export.
 
+## Installation
+1. Clone the repository and enter the project directory.
+   ```bash
+   git clone https://github.com/gabeLin300/MDM_RAG
+   cd MDM_RAG
+   ```
+2. Create and activate a virtual environment.
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
+3. Upgrade `pip` and install all project dependencies.
+   ```bash
+   python3 -m pip install --upgrade pip
+   python3 -m pip install -r requirements.txt
+   ```
+
+## Optional Setup
+- If you want to run the multi-agent extraction smoke test, set your Groq API key first:
+  ```bash
+  export GROQ_API_KEY=your_key_here
+  ```
+- If Hugging Face model downloads are slow or rate-limited, you can optionally set:
+  ```bash
+  export HF_TOKEN=your_token_here
+  ```
+
 ## Architecture
 
 ```text
@@ -69,17 +96,18 @@ PIM Export Layer
 - Human validation for trust and correction
 - Export outputs ready for downstream PIM ingestion
 
-## Week 1 Commands
+## Commands
 - Sample run:
   - `python -m pipeline.run_pipeline --profile sample`
 - Full run:
   - `python -m pipeline.run_pipeline --profile full`
 
 Outputs:
-- `reports/week1_dataset_profile.json`
-- `reports/week1_dataset_profile.md`
-- `reports/week1_query_results.json`
+- `reports/dataset_profile.json`
+- `reports/dataset_profile.md`
+- `reports/query_results.json`
+- `reports/acceptance_report.md`
 - `data/processed/baseline.index`
 - `data/processed/baseline_metadata.json`
 - `data/processed/baseline_manifest.json`
-- `data/processed/week1_metrics_<profile>.json`
+- `data/processed/metrics_<profile>.json`

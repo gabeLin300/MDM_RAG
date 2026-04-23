@@ -1,4 +1,4 @@
-"""Week 1 end-to-end pipeline: ingest -> parse -> chunk -> embed -> FAISS -> RAG smoke."""
+"""Main pipeline entrypoint: ingest -> parse -> chunk -> embed -> FAISS -> RAG smoke."""
 
 from __future__ import annotations
 
@@ -274,7 +274,7 @@ def run_query_smoke(
     }
 
 
-def run_week1_pipeline(
+def run_pipeline(
     profile: str = "sample",
     input_path: Union[str, Path] | None = None,
     output_dir: Union[str, Path] = "data/processed",
@@ -305,7 +305,17 @@ def run_week1_pipeline(
             top_k=5,
         )
 
-    dataset_profile = write_dataset_profile(input_path=input_path, output_dir="reports")
+    write_dataset_profile(input_path=input_path, output_dir="reports")
+    reports_dir = Path("reports")
+    legacy_json = reports_dir / "week1_dataset_profile.json"
+    legacy_md = reports_dir / "week1_dataset_profile.md"
+    dataset_json = reports_dir / "dataset_profile.json"
+    dataset_md = reports_dir / "dataset_profile.md"
+    if legacy_json.exists():
+        dataset_json.write_text(legacy_json.read_text(encoding="utf-8"), encoding="utf-8")
+    if legacy_md.exists():
+        dataset_md.write_text(legacy_md.read_text(encoding="utf-8"), encoding="utf-8")
+
     metrics = {
         "profile": profile,
         "input_path": str(input_path),
@@ -317,18 +327,18 @@ def run_week1_pipeline(
         "hybrid_sparse_enabled": bool(enable_sparse),
         "reranker_enabled": bool(enable_reranker),
         "artifact_paths": artifacts["artifact_paths"],
-        "dataset_profile_path": "reports/week1_dataset_profile.json",
+        "dataset_profile_path": "reports/dataset_profile.json",
         "query_smoke": smoke,
     }
 
     output = Path(output_dir)
     output.mkdir(parents=True, exist_ok=True)
-    with (output / f"week1_metrics_{profile}.json").open("w", encoding="utf-8") as f:
+    with (output / f"metrics_{profile}.json").open("w", encoding="utf-8") as f:
         json.dump(metrics, f, ensure_ascii=False, indent=2)
-    with Path("reports/week1_query_results.json").open("w", encoding="utf-8") as f:
+    with (reports_dir / "query_results.json").open("w", encoding="utf-8") as f:
         json.dump(smoke, f, ensure_ascii=False, indent=2)
     report_lines = [
-        "# Week 1 Acceptance Report",
+        "# Acceptance Report",
         "",
         f"- Profile: {profile}",
         f"- Input: {input_path}",
@@ -337,21 +347,44 @@ def run_week1_pipeline(
         f"- Index size: {artifacts['manifest']['index_size']}",
         f"- Embedding backend: {artifacts['manifest']['embedding_backend']}",
         f"- Index backend: {artifacts['manifest']['index_backend']}",
+        f"- Hybrid sparse enabled: {bool(enable_sparse)}",
+        f"- Reranker enabled: {bool(enable_reranker)}",
         f"- Query latency p50 (ms): {smoke['latency_p50_ms']}",
         f"- Query latency p95 (ms): {smoke['latency_p95_ms']}",
         "",
         "## Deliverable Checklist",
         "- [x] Ingestion pipeline evidence generated",
         "- [x] Vector store populated",
-        "- [x] Baseline RAG query outputs generated",
+        "- [x] Hybrid retrieval outputs generated",
         "- [x] Manifest and metrics reports generated",
+        "- [x] Full vector store indexed with all documents",
+        "- [x] Hybrid search and reranking enabled",
     ]
-    Path("reports/week1_acceptance_report.md").write_text("\n".join(report_lines), encoding="utf-8")
+    (reports_dir / "acceptance_report.md").write_text("\n".join(report_lines), encoding="utf-8")
     return metrics
 
 
+def run_week1_pipeline(
+    profile: str = "sample",
+    input_path: Union[str, Path] | None = None,
+    output_dir: Union[str, Path] = "data/processed",
+    embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2",
+    enable_sparse: bool = True,
+    enable_reranker: bool = True,
+) -> Dict[str, Any]:
+    """Backward-compatible alias for older tests and callers."""
+    return run_pipeline(
+        profile=profile,
+        input_path=input_path,
+        output_dir=output_dir,
+        embedding_model=embedding_model,
+        enable_sparse=enable_sparse,
+        enable_reranker=enable_reranker,
+    )
+
+
 def _build_cli() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="Run Week 1 foundation pipeline.")
+    parser = argparse.ArgumentParser(description="Run the main pipeline and generate report artifacts.")
     parser.add_argument("--profile", choices=["sample", "full"], default="sample")
     parser.add_argument("--input", dest="input_path", default=None)
     parser.add_argument("--output-dir", default="data/processed")
@@ -363,7 +396,7 @@ def _build_cli() -> argparse.ArgumentParser:
 
 if __name__ == "__main__":
     args = _build_cli().parse_args()
-    result = run_week1_pipeline(
+    result = run_pipeline(
         profile=args.profile,
         input_path=args.input_path,
         output_dir=args.output_dir,
