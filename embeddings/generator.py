@@ -3,10 +3,13 @@
 from __future__ import annotations
 
 import hashlib
+import logging
 from dataclasses import dataclass
 from typing import Iterable, List, Sequence, Tuple
 
 import numpy as np
+
+logger = logging.getLogger(__name__)
 
 
 @dataclass
@@ -15,6 +18,7 @@ class EmbeddingConfig:
     dimensions: int = 384
     batch_size: int = 64
     normalize: bool = True
+    enforce_sentence_transformers: bool = True
 
 
 class EmbeddingGenerator:
@@ -30,8 +34,17 @@ class EmbeddingGenerator:
 
             self._model = SentenceTransformer(self.config.model_name)
             self.backend = "sentence-transformers"
-        except Exception:
-            self._model = None
+            logger.info(f"Using sentence-transformers backend with model: {self.config.model_name}")
+        except Exception as e:
+            if self.config.enforce_sentence_transformers:
+                logger.error(f"Failed to load sentence-transformers: {e}")
+                raise RuntimeError(
+                    "sentence-transformers backend is required but failed to load. "
+                    "Please install sentence-transformers: pip install sentence-transformers"
+                ) from e
+            else:
+                logger.warning(f"sentence-transformers unavailable, falling back to hash-based embeddings: {e}")
+                self._model = None
 
     def embed_texts(self, texts: Sequence[str]) -> np.ndarray:
         """Embed texts and return shape [n, dim] float32 matrix."""
@@ -51,6 +64,15 @@ class EmbeddingGenerator:
         for start in range(0, len(texts), self.config.batch_size):
             batch = texts[start : start + self.config.batch_size]
             yield start, self.embed_texts(batch)
+
+    def validate_backend(self) -> str:
+        """Return current backend and validate it's sentence-transformers if enforced."""
+        if self.config.enforce_sentence_transformers and self.backend != "sentence-transformers":
+            raise RuntimeError(
+                "sentence-transformers backend is required but hash-fallback is being used"
+            )
+        logger.info(f"Current embedding backend: {self.backend}")
+        return self.backend
 
     def _hash_embed(self, texts: Sequence[str]) -> np.ndarray:
         dim = self.config.dimensions

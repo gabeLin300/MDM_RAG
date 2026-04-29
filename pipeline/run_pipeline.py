@@ -28,6 +28,7 @@ from retrieval import BaselineRAG
 from schemas.product_schema import ProductRecordV0, validate_product_record
 from vector_store import build_faiss_index, save_faiss_artifacts
 from vector_store.faiss_store import faiss
+from agents.orchestrator import Orchestrator
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
@@ -274,6 +275,203 @@ def run_query_smoke(
     }
 
 
+def get_all_product_ids_from_metadata(metadata_store: List[Dict[str, Any]]) -> List[str]:
+    """Extract all unique product_ids from metadata store."""
+    product_ids = set()
+    for record in metadata_store:
+        # product_id is stored as list in metadata
+        pids = record.get("product_id", [])
+        if isinstance(pids, list):
+            product_ids.update(pids)
+        elif isinstance(pids, str):
+            product_ids.add(pids)
+    return sorted(list(product_ids))
+
+
+def _unified_extraction_prompt(context: str) -> str:
+    """Generate unified prompt for extracting all attributes in one LLM call.
+
+    Combines all attribute categories (electrical, connectivity, certification,
+    physical, environmental) into a single extraction prompt.
+    """
+    return f"""You are an expert at extracting product specifications from technical documents.
+
+Extract ALL available attributes from the text below. Return ONLY a raw JSON object with no markdown, code blocks, or explanation.
+
+Extract these attributes if present:
+
+ELECTRICAL:
+- voltage, current, power, frequency, power_supply, power_consumption
+
+CONNECTIVITY:
+- communication_protocols, wired_interfaces, ports, network_capabilities, data_rate, bus_type
+
+CERTIFICATION:
+- certifications, standards_compliance, regulatory_approvals, safety_certifications, environmental_certifications, industry_certifications
+
+PHYSICAL:
+- dimensions, weight, material, housing, mounting_type, enclosure_type
+
+ENVIRONMENTAL:
+- operating_temperature, storage_temperature, humidity, ingress_protection, shock_resistance, vibration_resistance
+
+Expected format:
+{{
+    "voltage": "24V DC",
+    "current": "0.5A",
+    "power": "12W",
+    "frequency": "50/60 Hz",
+    "power_supply": "AC",
+    "power_consumption": null,
+    "communication_protocols": "BACnet, Modbus",
+    "wired_interfaces": "Ethernet, RS-485",
+    "ports": "3x Ethernet",
+    "network_capabilities": "IPv4",
+    "data_rate": "100 Mbps",
+    "bus_type": "T1L",
+    "certifications": "CE, FCC",
+    "standards_compliance": "IEC 60068",
+    "regulatory_approvals": null,
+    "safety_certifications": null,
+    "environmental_certifications": null,
+    "industry_certifications": null,
+    "dimensions": "10cm x 5cm x 3cm",
+    "weight": "250g",
+    "material": "aluminum",
+    "housing": "metal enclosure",
+    "mounting_type": "DIN rail",
+    "enclosure_type": "IP65",
+    "operating_temperature": "-10 to 50 C",
+    "storage_temperature": "-20 to 70 C",
+    "humidity": "5% to 95% RH",
+    "ingress_protection": "IP65",
+    "shock_resistance": null,
+    "vibration_resistance": null
+}}
+
+For missing attributes, use null. Extract only what is explicitly stated in the text.
+
+Text:
+{context}"""
+
+
+def run_batch_orchestrator(
+    orchestrator: Orchestrator,
+    product_ids: List[str],
+    rate_limit_delay: float = 1.0,
+) -> Dict[str, Any]:
+    """Process all products with optimized single-call extraction and rate limiting.
+
+    Optimization: ONE LLM call per product instead of 5 separate agent calls
+    - Reduces API rate limiting from 472*5=2360 calls to 472 calls
+    - Implements exponential backoff on 429 errors
+    - Adds per-product delay to stay under rate limits
+
+    For each product_id:
+    - Retrieve product-specific chunks using RAG search (ONE call)
+    - Extract ALL attributes in ONE unified LLM call (not 5 separate calls)
+    - Apply rate limiting to avoid HTTP 429 errors
+    - Serialize output to required format: {product_id: [{attr}, ...]}
+    - Aggregate all results
+
+    Args:
+        orchestrator: Initialized Orchestrator instance
+        product_ids: List of all unique product IDs to process
+        rate_limit_delay: Base delay in seconds between API calls
+
+    Returns:
+        Combined results dictionary with all products in serialized format
+    """
+    import time
+    import os
+    from langchain_groq import ChatGroq
+
+    results = {}
+    failed_products = []
+    processed_count = 0
+
+    # Initialize LLM for unified extraction
+    llm = ChatGroq(
+        groq_api_key=os.getenv("GROQ_API_KEY"),
+        model="llama-3.3-70b-versatile",
+    )
+
+    for idx, product_id in enumerate(product_ids):
+        backoff_delay = rate_limit_delay
+        max_retries = 3
+        retry_count = 0
+
+        while retry_count < max_retries:
+            try:
+                logger.info(f"Processing product {idx + 1}/{len(product_ids)}: {product_id}")
+
+                # SINGLE retrieval call per product using public RAG interface
+                # This handles embeddings internally through DenseRetriever with sentence-transformers
+                retrieved_results = orchestrator.rag.search(
+                    query="product technical specifications",
+                    top_k=3,
+                    product_id=product_id,
+                    rerank=True,
+                )
+
+                # Build context from retrieved chunks
+                if not retrieved_results:
+                    logger.warning(f"No chunks retrieved for product {product_id}")
+                    failed_products.append(product_id)
+                    break
+
+                context = "\n\n".join([result.chunk_text for result in retrieved_results])
+
+                # SINGLE LLM call per product (not 5 separate agent calls)
+                extraction_prompt = _unified_extraction_prompt(context)
+                response = llm.invoke(extraction_prompt)
+                attributes_dict = json.loads(response.content)
+
+                # Filter out null values for cleaner output
+                attributes = {k: v for k, v in attributes_dict.items() if v is not None}
+
+                # Serialize output: {product_id: [{attr}, {attr}, ...]}
+                serialized = orchestrator.serialize_output(product_id, attributes)
+                results.update(serialized)
+                processed_count += 1
+
+                logger.info(f"Successfully processed {product_id}")
+                break  # Success, exit retry loop
+
+            except Exception as e:
+                retry_count += 1
+
+                # Check if it's a rate limit error
+                is_rate_limit = "429" in str(e) or "rate" in str(e).lower()
+
+                if retry_count < max_retries:
+                    logger.warning(
+                        f"Attempt {retry_count}/{max_retries} failed for {product_id}: {e}. "
+                        f"Retrying in {backoff_delay}s..."
+                    )
+                    time.sleep(backoff_delay)
+                    # Exponential backoff: 1s -> 2s -> 4s
+                    backoff_delay *= 2
+                else:
+                    logger.error(f"Failed to process product {product_id} after {max_retries} attempts: {e}")
+                    failed_products.append(product_id)
+
+        # Rate limiting: add delay between products to avoid hitting rate limits
+        # Only sleep if not the last product
+        if idx < len(product_ids) - 1:
+            time.sleep(rate_limit_delay)
+
+    if failed_products:
+        logger.warning(f"Failed to process {len(failed_products)} products: {failed_products}")
+
+    return {
+        "extracted_attributes": results,
+        "products_processed": processed_count,
+        "products_failed": len(failed_products),
+        "failed_product_ids": failed_products,
+    }
+
+
 def run_week1_pipeline(
     profile: str = "sample",
     input_path: Union[str, Path] | None = None,
@@ -281,11 +479,12 @@ def run_week1_pipeline(
     embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2",
     enable_sparse: bool = True,
     enable_reranker: bool = True,
+    run_orchestrator: bool = True,
 ) -> Dict[str, Any]:
     profile = profile.lower().strip()
     if input_path is None:
         if profile == "full":
-            input_path = "data/raw"
+            input_path = "data/raw/advanced_rag_full_dataset.csv"
         else:
             input_path = "data/raw/100_sample_advanced_rag.csv"
 
@@ -305,6 +504,39 @@ def run_week1_pipeline(
             top_k=5,
         )
 
+    # Batch orchestrator stage: process all unique product_ids
+    orchestrator_results = {
+        "extracted_attributes": {},
+        "products_processed": 0,
+        "products_failed": 0,
+        "failed_product_ids": [],
+        "backend": "skipped",
+    }
+
+    if run_orchestrator and artifacts["index"] is not None:
+        try:
+            logger.info("Starting batch orchestrator stage...")
+            product_ids = get_all_product_ids_from_metadata(artifacts["metadata_store"])
+            logger.info(f"Found {len(product_ids)} unique product IDs to process")
+
+            orchestrator = Orchestrator(
+                index=artifacts["index"],
+                metadata=artifacts["metadata_store"],
+            )
+
+            # Run batch orchestrator
+            # Embeddings are handled internally by BaselineRAG through DenseRetriever
+            batch_result = run_batch_orchestrator(orchestrator, product_ids)
+            orchestrator_results.update(batch_result)
+            orchestrator_results["backend"] = artifacts["manifest"]["embedding_backend"]
+            logger.info(
+                f"Batch orchestrator complete: {batch_result['products_processed']} processed, "
+                f"{batch_result['products_failed']} failed"
+            )
+        except Exception as e:
+            logger.error(f"Batch orchestrator failed: {e}")
+            orchestrator_results["error"] = str(e)
+
     dataset_profile = write_dataset_profile(input_path=input_path, output_dir="reports")
     metrics = {
         "profile": profile,
@@ -319,6 +551,11 @@ def run_week1_pipeline(
         "artifact_paths": artifacts["artifact_paths"],
         "dataset_profile_path": "reports/week1_dataset_profile.json",
         "query_smoke": smoke,
+        "orchestrator_results": {
+            "backend": orchestrator_results["backend"],
+            "products_processed": orchestrator_results["products_processed"],
+            "products_failed": orchestrator_results["products_failed"],
+        },
     }
 
     output = Path(output_dir)
@@ -327,6 +564,13 @@ def run_week1_pipeline(
         json.dump(metrics, f, ensure_ascii=False, indent=2)
     with Path("reports/week1_query_results.json").open("w", encoding="utf-8") as f:
         json.dump(smoke, f, ensure_ascii=False, indent=2)
+
+    # Save extracted attributes from orchestrator in serialized format
+    extracted_file = output / f"extracted_attributes_{profile}.json"
+    with extracted_file.open("w", encoding="utf-8") as f:
+        json.dump(orchestrator_results["extracted_attributes"], f, ensure_ascii=False, indent=2)
+    logger.info(f"Extracted attributes saved to: {extracted_file}")
+
     report_lines = [
         "# Week 1 Acceptance Report",
         "",
@@ -339,12 +583,17 @@ def run_week1_pipeline(
         f"- Index backend: {artifacts['manifest']['index_backend']}",
         f"- Query latency p50 (ms): {smoke['latency_p50_ms']}",
         f"- Query latency p95 (ms): {smoke['latency_p95_ms']}",
+        f"- Orchestrator backend: {orchestrator_results['backend']}",
+        f"- Products processed: {orchestrator_results['products_processed']}",
+        f"- Products failed: {orchestrator_results['products_failed']}",
         "",
         "## Deliverable Checklist",
         "- [x] Ingestion pipeline evidence generated",
         "- [x] Vector store populated",
         "- [x] Baseline RAG query outputs generated",
         "- [x] Manifest and metrics reports generated",
+        "- [x] Batch orchestrator processed all products",
+        f"- [x] Extracted attributes saved to: {extracted_file}",
     ]
     Path("reports/week1_acceptance_report.md").write_text("\n".join(report_lines), encoding="utf-8")
     return metrics

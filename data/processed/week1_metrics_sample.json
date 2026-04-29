@@ -30,6 +30,8 @@
   "chunks_created": 1252,
   "index_size": 1252,
   "embedding_backend": "sentence-transformers",
+  "hybrid_sparse_enabled": true,
+  "reranker_enabled": true,
   "artifact_paths": {
     "index_path": "data\\processed\\baseline.index",
     "metadata_path": "data\\processed\\baseline_metadata.json",
@@ -39,102 +41,316 @@
   "query_smoke": {
     "query_results": [
       {
-        "query": "What is the supply voltage?",
-        "answer": "l.com | 2 TECHNICAL SPECIFICATION POWER CHARACTERISTICS Power Supply Rated voltage: 24VAC \n50/60Hz, \nWorking voltage range: 2030VAC, UL listed class-2 \ntransformer or IEC 61558 \nlisted transformer.\nPower Consumption\n(Display ON)\nMax. 8.5VA @ 24VAC\n(355mA @ 24VAC)\nMin. Load 4VA (a ±0.5V Max. load 15 mA USB serial communication USB standard 1.1 (full speed)\nUSB plug USB type B device plug CONTROL CHARACTERISTICS Resolution of output frequency at 0-590Hz ± 0.003Hz Repeat accuracy of Precise start/stop (terminals 18, 19) ≤± 0.1 ms System response time (termin m)\nVoltage\n Input \nin VacRunning Holding MS4104F 0.18A, 18W 0.11A, \n9W 30 (3.4) 120 ±10%,\n50/60Hz MS4109F 0.25A, 23W 0.13A, \n7W 80 (9)\nMS4604F 0.13A, 18W 0.10A, \n11W 30 (3.4) 230 ±10%,\n50/60Hz MS4609F 0.13A, 23W 0.09A, \n7W 80 (9)\nMS8104F 16 VA 8 VA 30 (3.4) 24Vac/dc \n+20%, -10%, the Combined Supply Outputs (Wallbus, and analogue outputs \nsee page 9). The IQECO input power earth (ground) terminal \n(terminal 3) is isolated from the input power neutral, and must \nbe separately earthed (grounded) locally; this ground terminal \nis internally connected to the – 24 VAC @ 50-60Hz. 28 VA minimum (maximum 100 \nVA across all BO loads). Half-wave rectified. See IMPORTANT \nNOTE below.\nINPUTS – 16-bit universal inputs accept 3k (Ibex) or 10k \nthermistor (type II), dry contact, 0-20 mA, 0-10V, 0-5V, or \ndry-contact pulse. External 250-ohm resi",
+        "query": "Which panels are supported by the Universal CLSS Gateway Modbus and BACnet feature?",
+        "answer": "© 2023 Honeywell Inc. All rights reserved. | www.notifier.com.au \nHoneywell Universal CLSS Gateway \nModbus and BACnet Feature \n\nFAQ’s \n\n1. Which panels will the CLSS Gateway – Modbus and BACnet support? \nUniversal CLSS Gateway will support ONYX AFP-3030 and AFP-2800 Panels. \n\n2. rdered from Honeywell Customer Service. \n\n6. What gateway firmware is required for the Modbus and BACnet licence \nfeatures? \nCLSS Gateway firmware 3.2.4.12 or higher is required. \n7. Are there any panel firmware updates needed? \nThe Universal CLSS gateway is compatible with the l an increased capacity to integrate more panels, the \nregister values would change as compared to the legacy gateways. \nThe legacy gateways and CLSS Gateway can reside on the same network. Install \nthe CLSS Gateway with these new licence features in accordance with Section 7.8 \n– I/O MODULES EXPANSION MODULES &\nWIRING ADAPTER FEATURES AND \nBENEFITS\n• UIO or Universal Input / Output \nmodules provide maximum \nflexibility which minimizes unused \nIO in the panel and reduces the \noverall I/O footprint by using the \nleast amount of I/O modules to \ncover the app tion ModBus-GW Modbus/TCP GatewayModBus Gateway Provides a ModBus interface from a \nNoti·Fire·Net to BMS system etc.\n • Monitors up to 4 nodes\n • Uses ModBus over IP\n • Requires network control module Part # Description VESDA-HLI-GW VesdaNet gatewayVESDAnet Gateway The VESDA Gate",
         "citations": [
-          "dm_0-23b5f0ee4b7b0a958d2a75741aa6bfa6_c0003",
-          "dm_0-32a32ad37666d4da97f7d26b80b13407_c0007",
-          "dm_563aae1eeec4a16718288f14ace97b2c_c0005",
-          "dm_4c7f6183d3e9af5dd2e9b0c83003d16c_c0024",
-          "dm_0-22e80ce9b39c859a0cb9e49ffde6ed84_c0002"
+          "dm_0-7f4b0076d147778819ece847ef80f810_c0000",
+          "dm_0-7f4b0076d147778819ece847ef80f810_c0001",
+          "dm_0-7f4b0076d147778819ece847ef80f810_c0002",
+          "dm_3db7d4b7b49043ec6b37cf68cde43e68_c0000",
+          "dm_0-3ec761dbea33439290bd8fe3299a84c3_c0025"
         ],
         "scores": [
-          0.45435,
-          0.41244,
-          0.41224,
-          0.38136,
-          0.38108
+          8.83082,
+          7.69085,
+          5.50095,
+          1.95605,
+          0.10927
         ],
-        "latency_ms": 10.96
+        "latency_ms": 3138.76
       },
       {
-        "query": "What are the key features?",
-        "answer": "000, overview of features \n1 Earth ground 6 PRI (primary) LAN1, 10/100-Mbit Ethernet connection \n2 Terminal block for 24 VAC/DC power supply 7 SEC (secondary) LAN2, 10/100-Mbit Ethernet connection \n3 RS485-A port and bias / termination switch 8 Access shutter for microSD card (sl controller.\n• Built-in advanced diagnostics \nsoftware facilitating troubleshooting \nfor IP and MS/TP devices.\n• Ferroelectric RAM (FRAM) to store \nthe live data for the controller, \nincluding storing the last known \nvalues when power is removed.\n• UTF-8 and UCS-2 character \nencod .\n• Property-health scorecard helps identify gaps in \nGuest Comfort and Energy Optimization.\n\nMobile Alerts for Operational Efficiency \n• Make-up room and other guest requests.\n• Comfort alarms, such as unusual \nhumidity levels or “can’t achieve \ndesired setpoint.”\n• “Offline” or SPECIFICATIONS HTML5 and Java-enabled user interface (UI); \nJavaScript data interface library included (BajaScript)\nSupports unlimited users over the internet/intranet \nvia standard web browsers (depending on the host \nPC resources)\nOptional enterprise-level data archival (SQL, M e. \nSecure Cloud Hosting for Cost-Effective Access \n• Simplifies both centralized and onsite management.\n• Automatic software updates deliver latest features.\n• Secure mobile access, as well as enhanced data security \nand backups.\n• Flexible pricing choices and subscription level",
+        "query": "Will there be a price increase for the Universal CLSS Gateway Modbus/BACnet feature?",
+        "answer": "© 2023 Honeywell Inc. All rights reserved. | www.notifier.com.au \nHoneywell Universal CLSS Gateway \nModbus and BACnet Feature \n\nFAQ’s \n\n1. Which panels will the CLSS Gateway – Modbus and BACnet support? \nUniversal CLSS Gateway will support ONYX AFP-3030 and AFP-2800 Panels. \n\n2. rdered from Honeywell Customer Service. \n\n6. What gateway firmware is required for the Modbus and BACnet licence \nfeatures? \nCLSS Gateway firmware 3.2.4.12 or higher is required. \n7. Are there any panel firmware updates needed? \nThe Universal CLSS gateway is compatible with the l an increased capacity to integrate more panels, the \nregister values would change as compared to the legacy gateways. \nThe legacy gateways and CLSS Gateway can reside on the same network. Install \nthe CLSS Gateway with these new licence features in accordance with Section 7.8 \n– tion ModBus-GW Modbus/TCP GatewayModBus Gateway Provides a ModBus interface from a \nNoti·Fire·Net to BMS system etc.\n • Monitors up to 4 nodes\n • Uses ModBus over IP\n • Requires network control module Part # Description VESDA-HLI-GW VesdaNet gatewayVESDAnet Gateway The VESDA Gate up to 10 alarms\n Includes BACnet comms and BACnet U-COV support.\n For Wallbus devices.\n These modules are always present.\nThe quantity of each type of module may be adjusted to match \nthe requirements of the application subject to the following:\n ▪ A maximum of 300 modules in",
         "citations": [
-          "dm_58e2d17f2dcbe06ea02a08401d35dd34_c0010",
-          "dm_0-56f8dad5f7de7eb4f810b1a5edd9bdd0_c0002",
-          "dm_7ac7e9dc595be859bc2fa4b6c6df2db3_c0005",
-          "dm_0-64adf2b6475d2c4c3a93263f76139de0_c0002",
-          "dm_7ac7e9dc595be859bc2fa4b6c6df2db3_c0006"
+          "dm_0-7f4b0076d147778819ece847ef80f810_c0000",
+          "dm_0-7f4b0076d147778819ece847ef80f810_c0001",
+          "dm_0-7f4b0076d147778819ece847ef80f810_c0002",
+          "dm_0-3ec761dbea33439290bd8fe3299a84c3_c0025",
+          "dm_4c7f6183d3e9af5dd2e9b0c83003d16c_c0029"
         ],
         "scores": [
-          0.52174,
-          0.42734,
-          0.41947,
-          0.41546,
-          0.41043
+          8.85071,
+          2.92514,
+          2.8472,
+          -3.6162,
+          -5.53042
         ],
-        "latency_ms": 5.91
+        "latency_ms": 2365.62
       },
       {
-        "query": "What is the operating temperature range?",
-        "answer": "with user-selectable temperature setpoint dials in Fahrenheit, Celsius, and \nRelative (- to +).\nSPECIFICATIONS Models: See Table 1 on page 2.\nConstruction: Two-piece construction, cover and \ninternally wired subbase. Field wiring 16 to 22 AWG \n(1.31-0.33 sq. mm) connects to a ter 85°F) / 5 to 95 % RH non-condensing.\nIMPORTANT NOTE This device is UL listed and limited to 100VA maximum. This maximum VA \nrating restricts binary output loads. If all 6 binary outputs are connected and \nfully loaded (@24VA each), the total VA of the device will exceed the UL li 0 to 50°C)\nAmbient \nOperating \nHumidity 10 to 90% relative humidity (noncondensing)\nStorage \nTemperature\n-40 to 150 °F(-40 to 65.5°C)\nProtection \nClass IP20 Table 5. Onboard Sensors Temperature Heat: 40 to 90°F (4.5 to 32°C)\nCool: 50 to 99°F (10 to 37°C)\nResolution: 1 °F (0.5°C) ating Temperature Range: -40–185 deg. F (-40–85 deg. C).\nRepeatability: ± 0.5% RH.\nAccuracy: ± 5% RH up to 60%RH, ± 8% RH from 60% to 90% RH (typical \nhumidity).\n• Ratings Listed Underwriters Laboratory as an accessory for VAVs and VLCs.\nEMC Directive (European CE Mark)\nFCC Part ol.\n• Supports a software configurable safety position per UIO (AO/DO) channel in the event of a \ncommunication loss with the controller\n• 24VDC/GND for externally powered sensors I/O CHARACTERISTICS I/O TYPE SENSOR TYPE I/O Modules - Product Datasheet | www.honeywell.com 8 SUPPO",
+        "query": "What communication protocols are mentioned for the CLSS Gateway?",
+        "answer": "an increased capacity to integrate more panels, the \nregister values would change as compared to the legacy gateways. \nThe legacy gateways and CLSS Gateway can reside on the same network. Install \nthe CLSS Gateway with these new licence features in accordance with Section 7.8 \n– rdered from Honeywell Customer Service. \n\n6. What gateway firmware is required for the Modbus and BACnet licence \nfeatures? \nCLSS Gateway firmware 3.2.4.12 or higher is required. \n7. Are there any panel firmware updates needed? \nThe Universal CLSS gateway is compatible with the l © 2023 Honeywell Inc. All rights reserved. | www.notifier.com.au \nHoneywell Universal CLSS Gateway \nModbus and BACnet Feature \n\nFAQ’s \n\n1. Which panels will the CLSS Gateway – Modbus and BACnet support? \nUniversal CLSS Gateway will support ONYX AFP-3030 and AFP-2800 Panels. \n\n2. tion ModBus-GW Modbus/TCP GatewayModBus Gateway Provides a ModBus interface from a \nNoti·Fire·Net to BMS system etc.\n • Monitors up to 4 nodes\n • Uses ModBus over IP\n • Requires network control module Part # Description VESDA-HLI-GW VesdaNet gatewayVESDAnet Gateway The VESDA Gate tes etc…    \nSupport for a wide variety of meter communications including \nModbus & MBUS protocols    \nImport or export meter data using .csv files, SQL, web services, \netc…  limited   \nKiosk mode – displays a selection of pages in a rotating \nsequence for display in a b",
         "citations": [
-          "dm_79b68c251970ca4adede304f29a2c63e_c0001",
-          "dm_0-3b2cd4b4e0ee6b66fb912d909db42f6c_c0004",
-          "dm_0-22b0f281ea6fcd9b2ca679d808d48bf4_c0005",
-          "dm_0-1f0c3fd885c3f82c895dc9a0ac5de8f2_c0004",
-          "dm_3db7d4b7b49043ec6b37cf68cde43e68_c0013"
+          "dm_0-7f4b0076d147778819ece847ef80f810_c0002",
+          "dm_0-7f4b0076d147778819ece847ef80f810_c0001",
+          "dm_0-7f4b0076d147778819ece847ef80f810_c0000",
+          "dm_0-3ec761dbea33439290bd8fe3299a84c3_c0025",
+          "dm_0-25475694a00f654961cde6705f41d883_c0012"
         ],
         "scores": [
-          0.59183,
-          0.56696,
-          0.56165,
-          0.53905,
-          0.51177
+          -0.9336,
+          -0.93532,
+          -1.64565,
+          -4.37977,
+          -5.65078
         ],
-        "latency_ms": 5.25
+        "latency_ms": 2064.0
       },
       {
-        "query": "What communication protocols are supported?",
-        "answer": "AND COMMUNICATION SYSTEM ......... 20 Emergency Warning Systems 20 FIRE FIGHTER TELEPHONE SYSTEM .......................................................... 20 DIGITAL VOICE COMMAND ......................................................................... 21 UNP - UNIFIED NOTIFICA SPECIFICATIONS HTML5 and Java-enabled user interface (UI); \nJavaScript data interface library included (BajaScript)\nSupports unlimited users over the internet/intranet \nvia standard web browsers (depending on the host \nPC resources)\nOptional enterprise-level data archival (SQL, M s configurables \naux régulateurs librement programmables Saia PG5 \npermettant la mise en œuvre de solutions flexibles \npersonnalisées, les produits de régulation d’ambiance \nexistants proposent différents protocoles de \ncommunication. Un fonctionnement entièrement \nautonome est a y or vertically orientations. \nFEATURES AND HIGHLIGHTS SIMPLE AND FLEXIBLE \nENGINEERING\n• Conforms to BACnet™ Standard 135 \nprotocol version 1.15 (ISO 16484-5).\n• N-ADV-112-H controller has Ethernet \nports - one isolated Ethernet port \nand one switched IP ports.\n• N-ADV-133-H ser net Provides online/offline use of the Niagara \nFramework® Workbench AX graphical configuration \ntool and a comprehensive Java Object Library Optional direct Ethernet-based driver support for \nmost Open IP field bus protocols (see supported \ndrivers document)\nFIPS 140-2 Level 1 c",
+        "query": "In the Li-Ion Tamer Rack Monitor, what is the maximum number of sensors per controller?",
+        "answer": "information:\nContact your local \nHoneywell representative.\n\nLi-ion Tamer Rack Monitor Lithium Ion Battery Rack Monitoring System SPECIFICATIONS CONTROLLER SPECIFICATIONS Dimensions [mm] 210 (W) x 113 (L) x 63 (H)\nInput power range 12 – 28 VDC Max sensors per \ncontroller 15 System information:\nContact your local \nHoneywell representative.\n\nLi-ion Tamer Rack Monitor Lithium Ion Battery Rack Monitoring System SPECIFICATIONS CONTROLLER SPECIFICATIONS Dimensions [mm] 210 (W) x 113 (L) x 63 (H)\nInput power range 12 – 28 VDC Max sensors per \ncontroller 15 System LI-ION TAMER \nRACK MONITOR Lithium Ion Battery Rack Monitoring System SYSTEM CONFIGURATION The Li-ion Tamer Rack Monitoring system is a versatile solution that accommodates \nthe vast range of lithium-ion battery systems.\nIn a typical setup, system configuration will consist of th LI-ION TAMER \nRACK MONITOR Lithium Ion Battery Rack Monitoring System SYSTEM CONFIGURATION The Li-ion Tamer Rack Monitoring system is a versatile solution that accommodates \nthe vast range of lithium-ion battery systems.\nIn a typical setup, system configuration will consist of th device and \nshould be incorporated into a proper safety system. If device responds, there is a risk \nof battery fault which could lead to thermal runaway. To avoid injury, leave area \nimmediately.\nThe Li-ion Tamer Rack Monitoring system is designed to be plug-and -play, easy to i",
         "citations": [
-          "dm_0-3ec761dbea33439290bd8fe3299a84c3_c0002",
-          "dm_0-64adf2b6475d2c4c3a93263f76139de0_c0002",
-          "dm_0c1b44abd05abff8aeecabf6e9fdef9f_c0001",
-          "dm_0-56f8dad5f7de7eb4f810b1a5edd9bdd0_c0001",
-          "dm_0-64adf2b6475d2c4c3a93263f76139de0_c0003"
+          "dm_39b11bac443269aec0351da9c1849723_c0003",
+          "dm_19bd658ed62f605fe334d08ffcce505c_c0003",
+          "dm_19bd658ed62f605fe334d08ffcce505c_c0000",
+          "dm_39b11bac443269aec0351da9c1849723_c0000",
+          "dm_19bd658ed62f605fe334d08ffcce505c_c0002"
         ],
         "scores": [
-          0.4297,
-          0.40612,
-          0.38941,
-          0.38299,
-          0.38171
+          6.37969,
+          6.37774,
+          3.06769,
+          3.06769,
+          2.65707
         ],
-        "latency_ms": 4.38
+        "latency_ms": 2180.17
       },
       {
-        "query": "What are the dimensions of the product?",
-        "answer": "es; 7.88”/200mm OD \n10 = For 10-in valves; 9.88”/251mm OD 12 = For12-in valves; 11.88”/302mm OD 14 = For 14-in valves; 13.88”/353mm OD \nDBK 1 12 SERIES 1 = First generation product VIT 100 PRODUCT FAMILY VIT = Valve Installation Tape; \n 2\" (51mm) wide PTFE tape\n 36 yards (32.9 m) 6 (30)\n1-3/16 (30)\nNOTE: SOLDER ENDS CONFORM TO ANSI B16-18.\nD\n(SWEAT)\n5/8 (16)\n7/8 (22)\nE\n(SWEAT)\nVALVE SIZE VALVE SIZE V5853 (SWEAT)\n2-5/7 (69)\n3-2/9 (82)\n1/2 NPT 3/4 NPT 1-1/4 (32)\n1-3/5 (41)\n1-1/3 (34)\n1-2/7 (33)\n1/2 (13)\n3/4 (19)\nA B\nNPT C D 1/2 NPT 3/4 NPT E\n(NPT)\nVALVE SIZ sion of Honeywell Products and Solutions Sàr, \nRolle, Z.A. La Pièce 16, Switzerland by its Authorized Representative:\nOrdering information Part Number Type Description WEB-HMI7/CF 7\" HTML5 Web Panel, \ncapacitive touch 7\" HTML5 Web Panel, TFT color, 800 × 480 pixel, capacitive mul D ‘SHOWER’\nMOUNTING BOXES:\nFLUSH 886ZIC (6mm2 conductors) \n878ZIC (10mm2 conductors)\nSURFACE K2172WHI \nK5205WHI and K5215WHI \nSupplied with 8 self-adhesive plastic \nidentification labels marked hob, \nfan, oven, water heater, shower, air \nconditioner, cooker and washing \nmachine. PAC16 16A breaker \nOn off ignition panel with thermal magnetic protection 16A, indicator LED ON/OFF, It occupies one standard 19 \" rack unit.\nPAC16 Technical Features \nLAYOUT Black painted powder sheet metal. 1 HU rack standard 19” \nDIMENSIONS 44 x 482 x 70mm (H x W x D) \nWEIGHT",
+        "query": "What is the Li-Ion Tamer controller input power range?",
+        "answer": "information:\nContact your local \nHoneywell representative.\n\nLi-ion Tamer Rack Monitor Lithium Ion Battery Rack Monitoring System SPECIFICATIONS CONTROLLER SPECIFICATIONS Dimensions [mm] 210 (W) x 113 (L) x 63 (H)\nInput power range 12 – 28 VDC Max sensors per \ncontroller 15 System information:\nContact your local \nHoneywell representative.\n\nLi-ion Tamer Rack Monitor Lithium Ion Battery Rack Monitoring System SPECIFICATIONS CONTROLLER SPECIFICATIONS Dimensions [mm] 210 (W) x 113 (L) x 63 (H)\nInput power range 12 – 28 VDC Max sensors per \ncontroller 15 System LI-ION TAMER \nRACK MONITOR Lithium Ion Battery Rack Monitoring System SYSTEM CONFIGURATION The Li-ion Tamer Rack Monitoring system is a versatile solution that accommodates \nthe vast range of lithium-ion battery systems.\nIn a typical setup, system configuration will consist of th LI-ION TAMER \nRACK MONITOR Lithium Ion Battery Rack Monitoring System SYSTEM CONFIGURATION The Li-ion Tamer Rack Monitoring system is a versatile solution that accommodates \nthe vast range of lithium-ion battery systems.\nIn a typical setup, system configuration will consist of th device and \nshould be incorporated into a proper safety system. If device responds, there is a risk \nof battery fault which could lead to thermal runaway. To avoid injury, leave area \nimmediately.\nThe Li-ion Tamer Rack Monitoring system is designed to be plug-and -play, easy to i",
         "citations": [
-          "dm_0-28faa6759e6428aef5b7d1d448557dbd_c0003",
-          "dm_0-bb48d0429c8b343e6983f4d67c7f77_c0008",
-          "dm_50099c3219586f92ed06d0edaa6f4c2f_c0003",
-          "dm_0-2fe388bb498781050400c66e35d32c2e_c0018",
-          "dm_2794c12eb2f3fe3ab58bf41324f97463_c0000"
+          "dm_39b11bac443269aec0351da9c1849723_c0003",
+          "dm_19bd658ed62f605fe334d08ffcce505c_c0003",
+          "dm_19bd658ed62f605fe334d08ffcce505c_c0000",
+          "dm_39b11bac443269aec0351da9c1849723_c0000",
+          "dm_39b11bac443269aec0351da9c1849723_c0002"
         ],
         "scores": [
-          0.28227,
-          0.28066,
-          0.26989,
-          0.26762,
-          0.26677
+          7.06666,
+          7.06079,
+          1.99395,
+          1.99395,
+          0.9746
         ],
-        "latency_ms": 5.23
+        "latency_ms": 2602.56
+      },
+      {
+        "query": "What are the controller and sensor power consumption values for Li-Ion Tamer?",
+        "answer": "information:\nContact your local \nHoneywell representative.\n\nLi-ion Tamer Rack Monitor Lithium Ion Battery Rack Monitoring System SPECIFICATIONS CONTROLLER SPECIFICATIONS Dimensions [mm] 210 (W) x 113 (L) x 63 (H)\nInput power range 12 – 28 VDC Max sensors per \ncontroller 15 System information:\nContact your local \nHoneywell representative.\n\nLi-ion Tamer Rack Monitor Lithium Ion Battery Rack Monitoring System SPECIFICATIONS CONTROLLER SPECIFICATIONS Dimensions [mm] 210 (W) x 113 (L) x 63 (H)\nInput power range 12 – 28 VDC Max sensors per \ncontroller 15 System LI-ION TAMER \nRACK MONITOR Lithium Ion Battery Rack Monitoring System SYSTEM CONFIGURATION The Li-ion Tamer Rack Monitoring system is a versatile solution that accommodates \nthe vast range of lithium-ion battery systems.\nIn a typical setup, system configuration will consist of th LI-ION TAMER \nRACK MONITOR Lithium Ion Battery Rack Monitoring System SYSTEM CONFIGURATION The Li-ion Tamer Rack Monitoring system is a versatile solution that accommodates \nthe vast range of lithium-ion battery systems.\nIn a typical setup, system configuration will consist of th trical or mechanical contact of cells\n• Extended product lifetime\n• Calibration-free product\n• Highly reliable output signal\n• Low power consumption\n• Compatible with all lithium-ion battery \nform factors and chemistries\n• Easy installation\n• Independent and redundant \nperspectiv",
+        "citations": [
+          "dm_39b11bac443269aec0351da9c1849723_c0003",
+          "dm_19bd658ed62f605fe334d08ffcce505c_c0003",
+          "dm_19bd658ed62f605fe334d08ffcce505c_c0000",
+          "dm_39b11bac443269aec0351da9c1849723_c0000",
+          "dm_39b11bac443269aec0351da9c1849723_c0001"
+        ],
+        "scores": [
+          6.09673,
+          6.09634,
+          1.50385,
+          1.50385,
+          1.3895
+        ],
+        "latency_ms": 2507.74
+      },
+      {
+        "query": "What are the gas detection threshold and response time in the Li-Ion Tamer datasheet?",
+        "answer": "information:\nContact your local \nHoneywell representative.\n\nLi-ion Tamer Rack Monitor Lithium Ion Battery Rack Monitoring System SPECIFICATIONS CONTROLLER SPECIFICATIONS Dimensions [mm] 210 (W) x 113 (L) x 63 (H)\nInput power range 12 – 28 VDC Max sensors per \ncontroller 15 System information:\nContact your local \nHoneywell representative.\n\nLi-ion Tamer Rack Monitor Lithium Ion Battery Rack Monitoring System SPECIFICATIONS CONTROLLER SPECIFICATIONS Dimensions [mm] 210 (W) x 113 (L) x 63 (H)\nInput power range 12 – 28 VDC Max sensors per \ncontroller 15 System device and \nshould be incorporated into a proper safety system. If device responds, there is a risk \nof battery fault which could lead to thermal runaway. To avoid injury, leave area \nimmediately.\nThe Li-ion Tamer Rack Monitoring system is designed to be plug-and -play, easy to i device and \nshould be incorporated into a proper safety system. If device responds, there is a risk \nof battery fault which could lead to thermal runaway. To avoid injury, leave area \nimmediately.\nThe Li-ion Tamer Rack Monitoring system is designed to be plug-and -play, easy to i trical or mechanical contact of cells\n• Extended product lifetime\n• Calibration-free product\n• Highly reliable output signal\n• Low power consumption\n• Compatible with all lithium-ion battery \nform factors and chemistries\n• Easy installation\n• Independent and redundant \nperspectiv",
+        "citations": [
+          "dm_39b11bac443269aec0351da9c1849723_c0003",
+          "dm_19bd658ed62f605fe334d08ffcce505c_c0003",
+          "dm_39b11bac443269aec0351da9c1849723_c0002",
+          "dm_19bd658ed62f605fe334d08ffcce505c_c0002",
+          "dm_19bd658ed62f605fe334d08ffcce505c_c0001"
+        ],
+        "scores": [
+          1.7906,
+          1.78737,
+          1.0712,
+          1.06437,
+          0.59302
+        ],
+        "latency_ms": 2671.63
+      },
+      {
+        "query": "What key features are listed for the TC300 Commercial Thermostat?",
+        "answer": "TC300 THERMOSTAT CONNECTED DEVICE FOR \nCOMMERCIAL BUILDINGS FEATURES AND \nBENEFITS\n• Color, capacitive-touch screen \ndisplay for intuitive, fast \ncommissioning and exceptional \nuser experience.\n• Multiple, configurable user types \nwith customizable privileges to \nprevent unauthor Connect Me app. The Honeywell Connect Me \napp gives authorized users access to the Honeywell TC500 \nThermostats in their commercial buildings. They can \nremotely monitor sites, schedules, settings, and override \ncontrols. Users can add and configure devices, manage \nusers, and mo PRODUCT DATA TC500A Commercial Thermostat \nCONNECTED DEVICE FOR COMMERCIAL BUILDINGS APPLICATION TC500A-N Thermostats is an advanced, configurable, \nconnected devices for commercial buildings. It controls \nand monitors Rooftop Unit, Heat Pump equipment, and \ntheir accessories. Th ironments.\nTC300 Thermostat is an independently mounted electronic \ncontrol system with fixed wiring.\nTC300 Thermostat is used for the purpose of building HVAC \ncontrol and is suitable for use only in non-safety controls for \ninstallation on or in appliances.\nNote All images used • Demand Limit Control to save energy\n• System Switch Options\n• Smoke Monitor\n• Purge, Delta T, Internal, External Economizer controls, \nand Auto Demand Response.\n• Exhaust fan configuration in the Internal Economizer \ncontrols.\nTC500A COMMERCIAL THERMOSTAT 31-00398M-06 | Rev. 02",
+        "citations": [
+          "dm_0-23b5f0ee4b7b0a958d2a75741aa6bfa6_c0000",
+          "dm_0-22b0f281ea6fcd9b2ca679d808d48bf4_c0001",
+          "dm_0-22b0f281ea6fcd9b2ca679d808d48bf4_c0000",
+          "dm_0-23b5f0ee4b7b0a958d2a75741aa6bfa6_c0013",
+          "dm_0-22b0f281ea6fcd9b2ca679d808d48bf4_c0003"
+        ],
+        "scores": [
+          6.47436,
+          3.71491,
+          3.06668,
+          3.00326,
+          2.20056
+        ],
+        "latency_ms": 2584.55
+      },
+      {
+        "query": "What user interface/display capabilities are listed for the TC300 thermostat?",
+        "answer": "TC300 THERMOSTAT CONNECTED DEVICE FOR \nCOMMERCIAL BUILDINGS FEATURES AND \nBENEFITS\n• Color, capacitive-touch screen \ndisplay for intuitive, fast \ncommissioning and exceptional \nuser experience.\n• Multiple, configurable user types \nwith customizable privileges to \nprevent unauthor Connect Me app. The Honeywell Connect Me \napp gives authorized users access to the Honeywell TC500 \nThermostats in their commercial buildings. They can \nremotely monitor sites, schedules, settings, and override \ncontrols. Users can add and configure devices, manage \nusers, and mo ironments.\nTC300 Thermostat is an independently mounted electronic \ncontrol system with fixed wiring.\nTC300 Thermostat is used for the purpose of building HVAC \ncontrol and is suitable for use only in non-safety controls for \ninstallation on or in appliances.\nNote All images used ons. The product has flexible I/O that will satisfy the needs of most 2-pipe or 4-Pipe fan coil applications.\nSupported functions include dehumidification w/reheat using an embedded humidity sensor, auxiliary heat functions, and more rapid transitional 2-pipe system seasonal chan • Product standards are EN 60730-1 and EN 60730-2-9.\n• TC300 Thermostat is Class B digital apparatus and \ncomplies with Canadian ICES-003.\n• This device complies with part 15 of the FCC Rules. \nOperation is subject to the following two conditions: (1) \nThis device may not cause h",
+        "citations": [
+          "dm_0-23b5f0ee4b7b0a958d2a75741aa6bfa6_c0000",
+          "dm_0-22b0f281ea6fcd9b2ca679d808d48bf4_c0001",
+          "dm_0-23b5f0ee4b7b0a958d2a75741aa6bfa6_c0013",
+          "dm_0-23b5f0ee4b7b0a958d2a75741aa6bfa6_c0002",
+          "dm_0-23b5f0ee4b7b0a958d2a75741aa6bfa6_c0011"
+        ],
+        "scores": [
+          5.31893,
+          2.57554,
+          2.52189,
+          1.55409,
+          0.81375
+        ],
+        "latency_ms": 2156.42
+      },
+      {
+        "query": "What is the ALER-9000 controller described as (controller/server/platform)?",
+        "answer": "ALER-9000 CONTROLLER The Alerton ALER-9000 controller is a compact, embedded IoT \n(Internet of Things) controller and server platform for connecting \nmultiple and diverse devices and sub-systems. With internet \nconnectivity and web-serving capability, the ALER-9000 \ncontroller pr mise analytic control OPTIMIZED FOR NIAGARA\n• The ALER-9000 controller leverages \nthe exciting features of Alki supervisor \nN4.13u2 and higher version. \n• It adds to the enhanced user \nexperience, maximizing Niagara 4’s \nkey advantages: pure Web interface \nbased on HTML5 views, r nd historical \nand real-time data, to create a single, unified application.\nFEATURES AND BENEFITS EFFICIENT GLOBAL DESIGN\n• The modular design of the ALER9000 controller makes it easy to \ninstall, integrate and deploy. \n• Tool-less installation with expansion \ncapability reduces NSION\n 1 \nEXPANSION\n 2 \nEXPANSION\n 3 \nEXPANSION\n 4 \n232 or \nLON 232 or \nLON 232 or \nLON 232 or \nLON 232 or \nLON 232 or \nLON 232 or \nLON 232 or \nLON 485 485 485 485 485 485 485 485 485 485 EXPANSION MODULE AND IO CONFIGURATIONS COM 1 COM 2 DUAL RS-485 OPTION LON OPTION LISTED E207 ALER-EDGE-10 PRODUCT DEFINITION \nALER-EDGE-10 is an IP-based field equipment controller powered by the Niagara \nFramework®. ALER-EDGE-10 controllers drive applications such as zone \ntemperature control, and the operation of fan coil units, single-stage air handling \nunits, water-",
+        "citations": [
+          "dm_28f601c005783aa08cd5a5792658dd16_c0000",
+          "dm_28f601c005783aa08cd5a5792658dd16_c0002",
+          "dm_28f601c005783aa08cd5a5792658dd16_c0001",
+          "dm_28f601c005783aa08cd5a5792658dd16_c0004",
+          "dm_0-517af26459391906c701b1e0a51c943f_c0000"
+        ],
+        "scores": [
+          8.50182,
+          4.06961,
+          3.88897,
+          1.98029,
+          1.84536
+        ],
+        "latency_ms": 2157.1
+      },
+      {
+        "query": "What kind of valves are in the VN Series Zone Valves datasheet (2-way or 3-way)?",
+        "answer": "The VN series zone valves and actuators are \nspace-saving compact 2 or 3-way ball valves, \nfactory assembled and tested with electronic \nrotary fail-in-place or electronic-fail-safe \nactuators.\nZONE VALVES VN SERIES DIMENSIONS Actuators provide 2-position or modulating control (w position of the actuator.\nValve Flow TWO-WAY VALVES In the two-way valves, the direction of flow is always from inlet \nport to outlet port as indicated by the arrows on the valve body \n(see Fig. 15).\nTHREE-WAY VALVES Three-way valves are designed to be used as mixing valves. \nThi (see Fig. 12).\nTHREE-WAY VALVES Three-way valves are designed to be used as mixing valves. \nThis means that port AB is the total flow outlet; port A is the \ncontrolled flow inlet; and port B is the bypass inlet \n(see Fig. 13).\nFig. 12. Two-way valve operation block diagram.\nFig. 8ZZA00T0L Two-position 24 VAC Fail-in-place VN8ZZA00TEL 24 VAC/DC Electronic Fail-Safe Closed VN8ZZA00TFL Electronic Fail-Safe Open VN8ZZB00T0L 110 VAC Fail-in-place VN8ZZB00TEL 100-240 VAC Electronic Fail-Safe Closed VN8ZZB00TFL Electronic Fail-Safe Open VN8ZZC00T0L 230 VAC Fail Stroke Y VGF FLANGED GLOBE VALVES 9 63-2618—03 a With stem fully down.\nTable 8. Valve Sizes, Flow Capacities, and Dimensions. \nModel \nNumber Size Cv (kvs)\nDimensions, in. (mm)\nSee Fig. 3 (Two-way Valves) or Fig. 4 (Three-way Valves)\nin. DN A B C D Ea Y (stroke)\n2-way valves, ANSI",
+        "citations": [
+          "dm_34508a62afbb69b0d677c1e80fee29a1_c0000",
+          "dm_0-bb48d0429c8b343e6983f4d67c7f77_c0017",
+          "dm_4d99e43fdcdbfc9b3e42611c0a14c401_c0013",
+          "dm_34508a62afbb69b0d677c1e80fee29a1_c0006",
+          "dm_260d14acbb0077b88af6fa2312982ef6_c0016"
+        ],
+        "scores": [
+          7.16557,
+          2.16245,
+          2.05798,
+          2.03139,
+          1.7538
+        ],
+        "latency_ms": 2560.81
+      },
+      {
+        "query": "What actuator behavior is described for VN Series valves (fail-safe/fail-in-place)?",
+        "answer": "The VN series zone valves and actuators are \nspace-saving compact 2 or 3-way ball valves, \nfactory assembled and tested with electronic \nrotary fail-in-place or electronic-fail-safe \nactuators.\nZONE VALVES VN SERIES DIMENSIONS Actuators provide 2-position or modulating control (w protection\n• Modulating (VN3) valves \nhave characterized ports for equal percentage flow.\n• Modulating (VN3) & 2-Position (VN8)\n• Suitable Medium - Closed Loop Hot or Chilled Water, up to 50 % glycol\n(3-Way)\nHoneywell 4 2 3/4 B\nA C 3 \n1/\n8 VN Series Zones Valve Product Data Sheet 8ZZA00T0L Two-position 24 VAC Fail-in-place VN8ZZA00TEL 24 VAC/DC Electronic Fail-Safe Closed VN8ZZA00TFL Electronic Fail-Safe Open VN8ZZB00T0L 110 VAC Fail-in-place VN8ZZB00TEL 100-240 VAC Electronic Fail-Safe Closed VN8ZZB00TFL Electronic Fail-Safe Open VN8ZZC00T0L 230 VAC Fail ries, from and against any liability, cost, or damages, including attorneys’ fees, arising out of, or resulting from, any modification to the literature by you.\nHoneywell Building Technologies 715 Peachtree St NE Atlanta, Georgia 30308 buildings.honeywell.com\n@U.S. Registered Tra tracts upon power failure).\nMP958: Pneumatic Valve Actuator.\nValve inserts are provided as spare parts. See Table 2.\nRangeability:\nTwo-way Valve: 100:1.\nThree-way Valve: 50:1 for controlled port (A to AB).\nFlow Characteristic:\nV5853, V5863: A to AB: Equal Percentage.\nB to AB: Lin",
+        "citations": [
+          "dm_34508a62afbb69b0d677c1e80fee29a1_c0000",
+          "dm_34508a62afbb69b0d677c1e80fee29a1_c0001",
+          "dm_34508a62afbb69b0d677c1e80fee29a1_c0006",
+          "dm_34508a62afbb69b0d677c1e80fee29a1_c0007",
+          "dm_0-bb48d0429c8b343e6983f4d67c7f77_c0006"
+        ],
+        "scores": [
+          5.93979,
+          4.27274,
+          3.73732,
+          1.89943,
+          -0.945
+        ],
+        "latency_ms": 2556.23
+      },
+      {
+        "query": "What are the TR21/TR22/TR23 wall modules used for?",
+        "answer": "SPECIFICATION DATA\n® U.S. Registered Trademark Copyright © 2023 Honeywell Inc. • All Rights Reserved 63-1321E-06 TR21, TR22, and TR23 Wall Modules GENERAL The TR21, TR22, and TR23 are a family of direct wired wall \nmodules for use with: \n• Honeywell Excel 800, 600, 500, 100, and MODULES 63-1321E-06 2 Approvals:\nCE; UL94 plastic enclosure; FCC Part 15, Class B Temperature Sensor TR21, TR22, and TR23 20K Ohm Nonlinearized Sensor:\nAll models are furnished with a 20K Ohm non-linear \nNTC temperature sensor that follows a specific \ntemperature resistance curve en the humidity sensor on the wall module \nand the connected controller model.\nDIP Switches S2 and S3 See Fig. 3 on page 3 for location of these DIP switches. \nTo set these DIP switches, refer to the TR21, TR22, and \nTR23 Wall Modules – Installation Instructions, form 620267.\nTR2 50K 40K 30K 20K 10K oC M5874A Table 1. TR21-TR23 Wall Module Features.a a A check mark () indicates the feature is included with the wall module.\nModel Number Sensor \nElement Type Sensor Type Selectable \nSetpoint \nAdjustment:\n55°F to 85°F, \n13°C to 30°C, or Relative (- to +)\nOve FAN SWITCH (TR22 AND TR23) WITHOUT TEMPERATURE DIAL OR FAN SWITCH (TR21 AND TR24)\n3 (76.5)\n4 9/16 (116)\n4 3/4 (120)\n7/8 (22) 1 (26.5)\nM28139 7/8 (22)\n60 70 80 M28140 TERMINAL BLOCK LONTALK CONNECTOR SWITCH DIP S1 DIP SWITCH S2 DIP SWITCH S3 OVERRIDE\n(BYPASS)\nPUSHBUTTON FAN SWITCH",
+        "citations": [
+          "dm_79b68c251970ca4adede304f29a2c63e_c0000",
+          "dm_79b68c251970ca4adede304f29a2c63e_c0002",
+          "dm_79b68c251970ca4adede304f29a2c63e_c0007",
+          "dm_79b68c251970ca4adede304f29a2c63e_c0003",
+          "dm_79b68c251970ca4adede304f29a2c63e_c0004"
+        ],
+        "scores": [
+          8.58767,
+          6.84377,
+          6.24226,
+          5.73314,
+          5.46477
+        ],
+        "latency_ms": 2333.27
+      },
+      {
+        "query": "What sensor inputs or measurements are mentioned for TR21/TR22/TR23 wall modules?",
+        "answer": "50K 40K 30K 20K 10K oC M5874A Table 1. TR21-TR23 Wall Module Features.a a A check mark () indicates the feature is included with the wall module.\nModel Number Sensor \nElement Type Sensor Type Selectable \nSetpoint \nAdjustment:\n55°F to 85°F, \n13°C to 30°C, or Relative (- to +)\nOve MODULES 63-1321E-06 2 Approvals:\nCE; UL94 plastic enclosure; FCC Part 15, Class B Temperature Sensor TR21, TR22, and TR23 20K Ohm Nonlinearized Sensor:\nAll models are furnished with a 20K Ohm non-linear \nNTC temperature sensor that follows a specific \ntemperature resistance curve SPECIFICATION DATA\n® U.S. Registered Trademark Copyright © 2023 Honeywell Inc. • All Rights Reserved 63-1321E-06 TR21, TR22, and TR23 Wall Modules GENERAL The TR21, TR22, and TR23 are a family of direct wired wall \nmodules for use with: \n• Honeywell Excel 800, 600, 500, 100, and FAN SWITCH (TR22 AND TR23) WITHOUT TEMPERATURE DIAL OR FAN SWITCH (TR21 AND TR24)\n3 (76.5)\n4 9/16 (116)\n4 3/4 (120)\n7/8 (22) 1 (26.5)\nM28139 7/8 (22)\n60 70 80 M28140 TERMINAL BLOCK LONTALK CONNECTOR SWITCH DIP S1 DIP SWITCH S2 DIP SWITCH S3 OVERRIDE\n(BYPASS)\nPUSHBUTTON FAN SWITCH with user-selectable temperature setpoint dials in Fahrenheit, Celsius, and \nRelative (- to +).\nSPECIFICATIONS Models: See Table 1 on page 2.\nConstruction: Two-piece construction, cover and \ninternally wired subbase. Field wiring 16 to 22 AWG \n(1.31-0.33 sq. mm) connects to a ter",
+        "citations": [
+          "dm_79b68c251970ca4adede304f29a2c63e_c0003",
+          "dm_79b68c251970ca4adede304f29a2c63e_c0002",
+          "dm_79b68c251970ca4adede304f29a2c63e_c0000",
+          "dm_79b68c251970ca4adede304f29a2c63e_c0004",
+          "dm_79b68c251970ca4adede304f29a2c63e_c0001"
+        ],
+        "scores": [
+          5.79197,
+          5.61476,
+          4.83134,
+          4.1704,
+          3.73
+        ],
+        "latency_ms": 2383.05
+      },
+      {
+        "query": "¿Cuál es la finalidad del controlador IQ5 según la ficha técnica en español?",
+        "answer": "prolongado en estas condiciones puede reducir \npermanentemente la capacidad de este componente y resultar en \nuna reducción en el número de días que el controlador es capaz \nde mantener correctamente la indicación de hora y fecha.\nEtiquetado Se suministran dos etiquetas adhesivas n máximo de 4000 módulos en total, \n ▪ máximo para cada tipo de módulo y\n ▪ la capacidad de memoria del controlador IQ5 (medida en “brIQs”).\nDatos técnicos del controlador IQ5 TA201480SPA Edición 1, 23-Octubre-2023. Se aplica a la versión v1.00. 9 Datos técnicos IQ5 El número máx Datos técnicos del controlador IQ5 TA201480SPA Edición 1, 23-Octubre-2023. Se aplica a la versión v1.00. 1 Datos técnicos IQ5 Controlador Controlador IQ5 Descripción El controlador IQ™5 proporciona una plataforma de control \nsegura y versátil para sistemas de gestión de edificios ntrolador con la dirección IP más baja asume \nla funcionalidad INC (utilizando su vINC en la dirección 126); \ncualquier vINC en otros controladores en esa LAN se desactivará \nautomáticamente.\nComunicación entre controladores: El IQ5 puede comunicarse \ncon otros IQ5, IQECO y dispo formación.\n8 Datos técnicos del controlador IQ5 TA201480SPA Edición 1, 23-Octubre-2023. Se aplica a la versión v1.00.\nIQ5 Datos técnicos FIRMWARE El firmware del controlador IQ5 rige su funcionalidad básica y \nproporciona una serie de módulos que se pueden configurar \npara produc",
+        "citations": [
+          "dm_08b090e653626be185662599c27471b9_c0021",
+          "dm_08b090e653626be185662599c27471b9_c0025",
+          "dm_08b090e653626be185662599c27471b9_c0000",
+          "dm_08b090e653626be185662599c27471b9_c0014",
+          "dm_08b090e653626be185662599c27471b9_c0022"
+        ],
+        "scores": [
+          4.44372,
+          4.32368,
+          4.19689,
+          4.02481,
+          3.78901
+        ],
+        "latency_ms": 2472.35
+      },
+      {
+        "query": "Welche Funktionen bietet die IQ5-DDC-Station laut Datenblatt?",
+        "answer": "IQ5-DDC-Station Datenblatt TA201480GER Version 1, 30. Oktober 2023. Gilt für v1.00 1 Datenblatt IQ5 DDC-Station IQ5 DDC-Station Beschreibung Die IQ™5-DDC-Station bietet eine sichere und \nvielseitige Automatisierungsplattform für Gebäude- und \nEnergiemanagementsysteme. Mit drei in (MS/TP-Segment) und einem \nTrend-Internetnetzwerk (Ethernet) ermöglicht.\nHinweis: Die Netzwerkadapter-Funktionalität muss mit einer \noptionalen NC-Lizenz aktiviert werden (siehe “Lizenzen” auf Seite \n14). Nur ein RS-485-Port kann für MSTP aktiviert werden.\nIQ5-DDC-Station Datenbl er Klappe auf der \nVorderseite der IQ5. Sie verfügt über die folgenden Funktionen:\n ▪ Zur Identifizierung der IQ5 mit IQSET während der \nInbetriebnahme,\n ▪ Zum Zurücksetzen der IQ5 auf die Werkseinstellungen.\nAnzeigen Auf der IQ5 sind verschiedene Anzeigen vorhanden, die \nAuskunf definiert wird. Diese Konfiguration wird als \nStrategie bezeichnet. Strategien werden mithilfe des System \nEngineering Tool (IQSET) konfiguriert.\nDadurch wird eine Strategiedatei (Dateiname.IQ5) erstellt, die in die \nDDC-Station heruntergeladen werden kann, um die notwendige \nFun montiert und mittels des \nVerdrahtungsadapters IQ5-IO-ADPT und eines geeigneten \nKabels mit dem E/A-Bus verbunden werden.\nAngrenzend montierte Module können über die verbundene \nDDC-Station (oder das Modul) mit Strom versorgt werden. \nEntfernte Module (oder entfernte Modulbänke)",
+        "citations": [
+          "dm_72f9785f3355cf2cab75a74e2daf5acd_c0000",
+          "dm_72f9785f3355cf2cab75a74e2daf5acd_c0012",
+          "dm_72f9785f3355cf2cab75a74e2daf5acd_c0019",
+          "dm_72f9785f3355cf2cab75a74e2daf5acd_c0022",
+          "dm_72f9785f3355cf2cab75a74e2daf5acd_c0015"
+        ],
+        "scores": [
+          5.76875,
+          4.13784,
+          3.6418,
+          3.44331,
+          2.96112
+        ],
+        "latency_ms": 2499.62
       }
     ],
-    "latency_p50_ms": 5.25,
-    "latency_p95_ms": 9.95
+    "latency_p50_ms": 2485.98,
+    "latency_p95_ms": 2788.41
+  },
+  "orchestrator_results": {
+    "backend": "skipped",
+    "products_processed": 0,
+    "products_failed": 0
   }
 }
