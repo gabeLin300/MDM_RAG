@@ -472,7 +472,7 @@ def run_batch_orchestrator(
     }
 
 
-def run_week1_pipeline(
+def run_pipeline(
     profile: str = "sample",
     input_path: Union[str, Path] | None = None,
     output_dir: Union[str, Path] = "data/processed",
@@ -629,6 +629,7 @@ def run_week1_pipeline(
         embedding_model=embedding_model,
         enable_sparse=enable_sparse,
         enable_reranker=enable_reranker,
+        run_orchestrator=True,
     )
 
 
