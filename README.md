@@ -98,9 +98,11 @@ PIM Export Layer
 
 ## Commands
 - Sample run:
-  - `python -m pipeline.run_pipeline --profile sample`
+  - `python3 -m pipeline.run_pipeline --profile sample`
 - Full run:
-  - `python -m pipeline.run_pipeline --profile full`
+  - `python3 -m pipeline.run_pipeline --profile full`
+- Export existing extractions to PIM-compatible JSON and CSV:
+  - `python3 -m pipeline.export_pim --input data/processed/extracted_attributes_full.json --output-dir data/processed/pim_exports --basename pim_export_full`
 
 Outputs:
 - `reports/dataset_profile.json`
@@ -111,3 +113,10 @@ Outputs:
 - `data/processed/baseline_metadata.json`
 - `data/processed/baseline_manifest.json`
 - `data/processed/metrics_<profile>.json`
+- `data/processed/extracted_attributes_<profile>.json`
+- `data/processed/pim_exports/pim_export_<profile>.json`
+- `data/processed/pim_exports/pim_export_<profile>.csv`
+
+## PIM Export Format
+- JSON export: canonical product records with `schema_version`, generation metadata, `product_id`, and an `attributes` list containing `name`, `value`, review `status`, source fields, confidence, reviewer, and notes.
+- CSV export: one row per product attribute with columns suitable for import mapping: `product_id`, `attribute_name`, `attribute_value`, `status`, `source_document_id`, `source_chunk_id`, `confidence`, `reviewed_at`, `reviewer`, and `notes`.

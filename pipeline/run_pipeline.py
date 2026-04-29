@@ -29,6 +29,7 @@ from schemas.product_schema import ProductRecordV0, validate_product_record
 from vector_store import build_faiss_index, save_faiss_artifacts
 from vector_store.faiss_store import faiss
 from agents.orchestrator import Orchestrator
+from pim_export import export_pim_files
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
@@ -548,6 +549,23 @@ def run_pipeline(
     if legacy_md.exists():
         dataset_md.write_text(legacy_md.read_text(encoding="utf-8"), encoding="utf-8")
 
+    output = Path(output_dir)
+    output.mkdir(parents=True, exist_ok=True)
+
+    # Save extracted attributes from orchestrator in serialized format.
+    extracted_file = output / f"extracted_attributes_{profile}.json"
+    with extracted_file.open("w", encoding="utf-8") as f:
+        json.dump(orchestrator_results["extracted_attributes"], f, ensure_ascii=False, indent=2)
+    logger.info(f"Extracted attributes saved to: {extracted_file}")
+
+    pim_export = export_pim_files(
+        extracted=orchestrator_results["extracted_attributes"],
+        output_dir=output / "pim_exports",
+        basename=f"pim_export_{profile}",
+        approved_only=True,
+    )
+    logger.info("PIM export files written: %s", pim_export)
+
     metrics = {
         "profile": profile,
         "input_path": str(input_path),
@@ -566,20 +584,14 @@ def run_pipeline(
             "products_processed": orchestrator_results["products_processed"],
             "products_failed": orchestrator_results["products_failed"],
         },
+        "extracted_attributes_path": str(extracted_file),
+        "pim_export": pim_export,
     }
 
-    output = Path(output_dir)
-    output.mkdir(parents=True, exist_ok=True)
     with (output / f"metrics_{profile}.json").open("w", encoding="utf-8") as f:
         json.dump(metrics, f, ensure_ascii=False, indent=2)
     with (reports_dir / "query_results.json").open("w", encoding="utf-8") as f:
         json.dump(smoke, f, ensure_ascii=False, indent=2)
-
-    # Save extracted attributes from orchestrator in serialized format
-    extracted_file = output / f"extracted_attributes_{profile}.json"
-    with extracted_file.open("w", encoding="utf-8") as f:
-        json.dump(orchestrator_results["extracted_attributes"], f, ensure_ascii=False, indent=2)
-    logger.info(f"Extracted attributes saved to: {extracted_file}")
 
     report_lines = [
         "# Acceptance Report",
@@ -608,6 +620,8 @@ def run_pipeline(
         "- [x] Hybrid search and reranking enabled",
         "- [x] Batch orchestrator processed all products",
         f"- [x] Extracted attributes saved to: {extracted_file}",
+        f"- [x] PIM JSON export saved to: {pim_export['json_path']}",
+        f"- [x] PIM CSV export saved to: {pim_export['csv_path']}",
     ]
     (reports_dir / "acceptance_report.md").write_text("\n".join(report_lines), encoding="utf-8")
     return metrics
