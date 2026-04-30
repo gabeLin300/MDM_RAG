@@ -1,0 +1,5279 @@
+{
+  "P1921461": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1922910": [
+    {
+      "certifications": "RCM"
+    },
+    {
+      "communication_protocols": "Modbus, BACnet"
+    },
+    {
+      "regulatory_approvals": "RCM"
+    },
+    {
+      "firmware": "3.2.4.12"
+    }
+  ],
+  "UKF00231": [
+    {
+      "communication_protocols": "Ethernet, Wi-Fi, USB, VESDAnet"
+    },
+    {
+      "wired_interfaces": "Ethernet, USB"
+    },
+    {
+      "network_capabilities": "VESDAnet"
+    },
+    {
+      "power_consumption": "up to 8% less"
+    },
+    {
+      "power_supply": "optional integrated Power Supply"
+    }
+  ],
+  "P1907321": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "M2M-FIRE": [
+    {
+      "certifications": "EN54-12"
+    },
+    {
+      "wired_interfaces": "4÷20mA"
+    },
+    {
+      "voltage_rating": "24V"
+    },
+    {
+      "current_rating": "1A@30V"
+    },
+    {
+      "power_consumption": "42mA"
+    },
+    {
+      "frequency": "2KHz"
+    },
+    {
+      "operating_temperature": "-20°C ÷ +55°C"
+    },
+    {
+      "ingress_protection": "IP44"
+    },
+    {
+      "dimensions": "80mm; 150mm; 80mm"
+    },
+    {
+      "weight": "1,0kg"
+    },
+    {
+      "material": "ABS"
+    },
+    {
+      "housing": "ABS"
+    }
+  ],
+  "VESDA-E": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1907299": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002009": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1907246": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1915334": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002073": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1913496": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1922516": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1906414": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1902282": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1913934": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002078": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002012": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1913912": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1907298": [
+    {
+      "certifications": "UL, ULC, FM, CFE, LPCB, VdS, VNIIPO, AFNOR, ActivFire, CE"
+    },
+    {
+      "voltage_rating": "24 Vcc"
+    },
+    {
+      "current_rating": "410 mA"
+    },
+    {
+      "operating_temperature": "0°C to 39°C"
+    },
+    {
+      "storage_temperature": "-10°C to 55°C"
+    },
+    {
+      "humidity_range": "5-95%"
+    },
+    {
+      "ingress_protection": "IP30"
+    },
+    {
+      "dimensions": "256mm x 183mm x 92mm"
+    },
+    {
+      "weight": "2 kg"
+    },
+    {
+      "mounting_type": "verticale, capovolta, orizzontale"
+    }
+  ],
+  "P1913990": [
+    {
+      "certifications": "UL, ULC, FM, CFE, LPCB, VdS, VNIIPO, AFNOR, ActivFire, CE"
+    },
+    {
+      "voltage_rating": "24 Vcc"
+    },
+    {
+      "current_rating": "410 mA"
+    },
+    {
+      "operating_temperature": "0°C to 39°C"
+    },
+    {
+      "storage_temperature": "-10°C to 55°C"
+    },
+    {
+      "humidity_range": "5-95%"
+    },
+    {
+      "ingress_protection": "IP30"
+    },
+    {
+      "dimensions": "256mm x 183mm x 92mm"
+    },
+    {
+      "weight": "2 kg"
+    },
+    {
+      "mounting_type": "verticale, capovolta, orizzontale"
+    }
+  ],
+  "E0002013": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1915276": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002142": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001502": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1913495": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "VESDA-GATEWAY": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002030": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1907250": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001987": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001954": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002008": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1907299-NTF": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002002": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1907305": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002141": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "CN4000007": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1908336": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1909007": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001984": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001958": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001998": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1920418": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002105": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1913963": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002077": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1902280": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002001": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002386": [
+    {
+      "certifications": "UL, ULC, FM, CFE, LPCB, VdS, VNIIPO, AFNOR, ActivFire, CE"
+    },
+    {
+      "voltage_rating": "24 Vcc"
+    },
+    {
+      "current_rating": "410 mA"
+    },
+    {
+      "operating_temperature": "0°C to 39°C"
+    },
+    {
+      "storage_temperature": "-10°C to 55°C"
+    },
+    {
+      "humidity_range": "5-95%"
+    },
+    {
+      "ingress_protection": "IP30"
+    },
+    {
+      "dimensions": "256mm x 183mm x 92mm"
+    },
+    {
+      "weight": "2 kg"
+    },
+    {
+      "mounting_type": "verticale, capovolta, orizzontale"
+    }
+  ],
+  "P1915609": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1907202": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1909275": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1914585": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1907254": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1906429": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001991": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1912897-NTF": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1907310": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002057": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002144": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1913656": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001975": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002149": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001956": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002106": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1901473": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1907449": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1914805": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002029": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001960": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001981": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1913848": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001495": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1906374": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1913991": [
+    {
+      "certifications": "UL, ULC, FM, CFE, LPCB, VdS, VNIIPO, AFNOR, ActivFire, CE"
+    },
+    {
+      "voltage_rating": "24 Vcc"
+    },
+    {
+      "current_rating": "410 mA"
+    },
+    {
+      "operating_temperature": "0°C to 39°C"
+    },
+    {
+      "storage_temperature": "-10°C to 55°C"
+    },
+    {
+      "humidity_range": "5-95%"
+    },
+    {
+      "ingress_protection": "IP30"
+    },
+    {
+      "dimensions": "256mm x 183mm x 92mm"
+    },
+    {
+      "weight": "2 kg"
+    },
+    {
+      "mounting_type": "verticale, capovolta, orizzontale"
+    }
+  ],
+  "P1907436": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002034": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002072": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1902248": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1906430": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1914725": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002067": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002066": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "CN4000006": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002004": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001503": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001995": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "CN4000011": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1919974": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "CN4000009": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001996": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1913835": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1908982": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1907228": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1919993": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002177": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1913832": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1913849": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1914001": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002007": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002028": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1902275": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1908208": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002056": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1901995": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1913443": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1908555": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1913850": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002186": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002041": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1915210": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1922360": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1906375": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1902247": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1908280": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001986": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001985": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1914559": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002079": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1919977": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1907304": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1908229": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002143": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1913916": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002000": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1908592": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1908579": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002038": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002040": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1907162": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1909113": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001990": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1919976": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002076": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001959": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1907375": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001837": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001966": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1922390": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001501": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1907373": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1902690": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1907253": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001955": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1907203": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1923309": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1913932": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002042": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1907374": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001969": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001983": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0002104": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1908994": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001494": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1908562": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1907231": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001970": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "P1909006": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0001957": [
+    {
+      "certifications": "AS7240.24"
+    }
+  ],
+  "E0010056": [
+    {
+      "communication_protocols": "Modbus"
+    },
+    {
+      "wired_interfaces": "RS232"
+    },
+    {
+      "data_rate": "9600"
+    },
+    {
+      "bus_type": "RS232"
+    },
+    {
+      "voltage_rating": "8-28 VDC"
+    },
+    {
+      "current_rating": "3.5A"
+    },
+    {
+      "power_consumption": "2.4W (@ 24VDC), 1.4W (@ 12 VDC)"
+    },
+    {
+      "operating_temperature": "-10 to +60°C"
+    },
+    {
+      "humidity_range": "5-95%"
+    },
+    {
+      "dimensions": "210 (W) x 113 (L) x 63 (H)"
+    }
+  ],
+  "IQ5IO816": [
+    {
+      "bus_type": "T1L"
+    },
+    {
+      "voltage_rating": "24V DC"
+    },
+    {
+      "power_supply": "Alimentado desde el controlador o desde una fuente de alimentación externa"
+    },
+    {
+      "ingress_protection": "IP20"
+    },
+    {
+      "dimensions": "67,5mm (2,66\") 54,5mm (2,15\") 60mm (2,36'') 105mm (4,13\") 109,5mm (4,31'')"
+    },
+    {
+      "material": "policarbonato"
+    },
+    {
+      "housing": "compatible con la norma DIN43880 y DIN 19 tamaño 2"
+    },
+    {
+      "mounting_type": "Montaje en carril DIN"
+    }
+  ],
+  "IQ50024": [
+    {
+      "certifications": "ISA/IEC 62443-4-2"
+    },
+    {
+      "communication_protocols": "BACnet, Modbus, M-Bus, MSTP"
+    },
+    {
+      "wired_interfaces": "Ethernet, RS-485, USB"
+    },
+    {
+      "ports": "3 puertos Gigabit Ethernet, 3 puertos RS-485"
+    },
+    {
+      "network_capabilities": "LAN Trend, red interna mediante INC virtual"
+    },
+    {
+      "bus_type": "T1L, IQ3/4 IO"
+    },
+    {
+      "voltage_rating": "24 VCA/CC"
+    },
+    {
+      "power_supply": "24 VCA/CC"
+    },
+    {
+      "dimensions": "144,5mm x 140mm x 54,5mm"
+    },
+    {
+      "mounting_type": "Montaje en carril DIN"
+    }
+  ],
+  "VN32A": [
+    {
+      "certifications": "IP54, Class II"
+    },
+    {
+      "voltage_rating": "24 VAC/DC, 110 VAC, 230 VAC"
+    },
+    {
+      "power_consumption": "3.5 VA, 7.5 VA"
+    },
+    {
+      "operating_temperature": "32 °F - 150 °F (0 °C - 65 °C)"
+    },
+    {
+      "storage_temperature": "-40 °F - 150 °F (-40 °C - 65 °C)"
+    },
+    {
+      "humidity_range": "10 % - 95 % RH"
+    },
+    {
+      "ingress_protection": "IP54"
+    },
+    {
+      "dimensions": "varies by model"
+    },
+    {
+      "material": "Forged brass, Stainless steel, Nickel plated brass, PTFE, EPDM"
+    }
+  ],
+  "20240904I": [
+    {
+      "certifications": "IP54, Class II"
+    },
+    {
+      "voltage_rating": "24 VAC/DC, 110 VAC, 230 VAC"
+    },
+    {
+      "power_consumption": "3.5 VA, 7.5 VA"
+    },
+    {
+      "operating_temperature": "32 °F - 150 °F (0 °C - 65 °C)"
+    },
+    {
+      "storage_temperature": "-40 °F - 150 °F (-40 °C - 65 °C)"
+    },
+    {
+      "humidity_range": "10 % - 95 % RH"
+    },
+    {
+      "ingress_protection": "IP54"
+    },
+    {
+      "dimensions": "varies by model"
+    },
+    {
+      "material": "Forged brass, Stainless steel, Nickel plated brass, PTFE, EPDM"
+    }
+  ],
+  "VN3ZZA00T": [
+    {
+      "certifications": "IP54, Class II"
+    },
+    {
+      "voltage_rating": "24 VAC/DC, 110 VAC, 230 VAC"
+    },
+    {
+      "power_consumption": "3.5 VA, 7.5 VA"
+    },
+    {
+      "operating_temperature": "32 °F - 150 °F (0 °C - 65 °C)"
+    },
+    {
+      "storage_temperature": "-40 °F - 150 °F (-40 °C - 65 °C)"
+    },
+    {
+      "humidity_range": "10 % - 95 % RH"
+    },
+    {
+      "ingress_protection": "IP54"
+    },
+    {
+      "dimensions": "varies by model"
+    },
+    {
+      "material": "Forged brass, Stainless steel, Nickel plated brass, PTFE, EPDM"
+    }
+  ],
+  "TC300": [
+    {
+      "certifications": "CE, FCC, ICES, UL/cUL, RoHs, REACH, Prop65"
+    },
+    {
+      "communication_protocols": "BACnet MS/TP, Modbus RTU"
+    },
+    {
+      "wired_interfaces": "RS485"
+    },
+    {
+      "data_rate": "9.6, 19.2, 38.4, 76.8, 115.2 Kbps"
+    },
+    {
+      "bus_type": "RS485"
+    },
+    {
+      "voltage_rating": "24VAC"
+    },
+    {
+      "current_rating": "355mA"
+    },
+    {
+      "power_consumption": "8.5VA"
+    },
+    {
+      "power_supply": "24VAC 50/60Hz"
+    },
+    {
+      "frequency": "50/60Hz"
+    },
+    {
+      "operating_temperature": "32 to 122 °F (0 to 50°C)"
+    },
+    {
+      "storage_temperature": "-40 to 150 °F(-40 to 65.5°C)"
+    },
+    {
+      "humidity_range": "10 to 90% relative humidity (noncondensing)"
+    },
+    {
+      "ingress_protection": "IP20"
+    }
+  ],
+  "P1908036": [
+    {
+      "certifications": "FCC part 15b, CE Mark"
+    },
+    {
+      "communication_protocols": "802.15.4, RF"
+    },
+    {
+      "network_capabilities": "Wireless"
+    },
+    {
+      "data_rate": "250kbps"
+    },
+    {
+      "voltage_rating": "9 to 16 VDC, 9 to 15 VDC"
+    },
+    {
+      "current_rating": "Max. 9 mA @ 12 VDC, Max. 10 mA @ 12 VDC"
+    },
+    {
+      "power_supply": "Battery powered (4AAA)"
+    },
+    {
+      "frequency": "2.4Ghz"
+    },
+    {
+      "operating_temperature": "32° F to 120° F (0° C to 49° C)"
+    },
+    {
+      "dimensions": "3.5in H x 3.5in W x 2.5in D (88.9mm H x 88.9mm W x 63.5mm D), 4.7in H x 2.9in W x 0.29in D (119mm H x 74mm W x 7.40mm D), 3.35in W x 0.98in D (85mm W x 25mm D), 4.2in H x 2.4in W x 1.7in D (105mm H x 61mm W x 44mm D)"
+    },
+    {
+      "mounting_type": "Wall, Ceiling"
+    }
+  ],
+  "P1908030": [
+    {
+      "certifications": "FCC part 15b, CE Mark"
+    },
+    {
+      "communication_protocols": "802.15.4, RF"
+    },
+    {
+      "network_capabilities": "Wireless"
+    },
+    {
+      "data_rate": "250kbps"
+    },
+    {
+      "voltage_rating": "9 to 16 VDC, 9 to 15 VDC"
+    },
+    {
+      "current_rating": "Max. 9 mA @ 12 VDC, Max. 10 mA @ 12 VDC"
+    },
+    {
+      "power_supply": "Battery powered (4AAA)"
+    },
+    {
+      "frequency": "2.4Ghz"
+    },
+    {
+      "operating_temperature": "32° F to 120° F (0° C to 49° C)"
+    },
+    {
+      "dimensions": "3.5in H x 3.5in W x 2.5in D (88.9mm H x 88.9mm W x 63.5mm D), 4.7in H x 2.9in W x 0.29in D (119mm H x 74mm W x 7.40mm D), 3.35in W x 0.98in D (85mm W x 25mm D), 4.2in H x 2.4in W x 1.7in D (105mm H x 61mm W x 44mm D)"
+    },
+    {
+      "mounting_type": "Wall, Ceiling"
+    }
+  ],
+  "P1905883": [],
+  "P1905884": [],
+  "ALER9000": [
+    {
+      "certifications": "UL 916, CE, EN 61326-1, RCM, UL/ULC 60730-1, FCC Part 15 Subpart B, Class B, FCC Part 15 Subpart C, 1999/5/EC R&TTE Directive, CCC, SRRC, RSS, RoHS, C-UL"
+    },
+    {
+      "communication_protocols": "WiFi 5 (802.11ac), 802.11 a/b/g/n/ac, RS-485, Ethernet"
+    },
+    {
+      "wired_interfaces": "2x 10/100/1000MB Ethernet ports, 2x isolated RS-485"
+    },
+    {
+      "ports": "2x 10/100/1000MB Ethernet ports, 2x RS-485, USB type C connector"
+    },
+    {
+      "voltage_rating": "24VAC or 24VDC"
+    },
+    {
+      "current_rating": "1A (24W) or 24VA"
+    },
+    {
+      "operating_temperature": "-20 °C to 60 °C"
+    },
+    {
+      "storage_temperature": "-40 °F to 150 °F (-40 °C to 66 °C)"
+    },
+    {
+      "humidity_range": "5% to 95% non-condensing"
+    },
+    {
+      "dimensions": "6.38in (162mm), 6.74in (171.1mm), 2.13in (54mm)"
+    }
+  ],
+  "P1912220": [
+    {
+      "certifications": "RoHS3, HCAI, ISO 9001:2015, WEEE Directive 2012/10/EC"
+    },
+    {
+      "dimensions": "5.83\"/148mm, 7.88\"/200mm, 9.88\"/251mm, 11.88\"/302mm, 13.88\"/353mm"
+    },
+    {
+      "material": "Galvanized Steel, UL94 Neoprene"
+    },
+    {
+      "tightening_torque": "40 in-lbs"
+    }
+  ],
+  "P1902526": [
+    {
+      "wired_interfaces": "7-way Wieland GST style locking connector"
+    },
+    {
+      "ports": "6-pole sockets, 7-pole presence detector input ports"
+    },
+    {
+      "bus_type": "QuickLink bus"
+    },
+    {
+      "voltage_rating": "230V"
+    },
+    {
+      "current_rating": "16A"
+    },
+    {
+      "frequency": "50Hz"
+    },
+    {
+      "dimensions": "Height = 50mm, Width = 315mm, Depth = 205mm"
+    },
+    {
+      "weight": "1.85kg"
+    },
+    {
+      "material": "Polycarbonate"
+    },
+    {
+      "finish": "Lightly textured light grey"
+    }
+  ],
+  "P1904587": [
+    {
+      "wired_interfaces": "7-way Wieland GST style locking connector"
+    },
+    {
+      "ports": "6-pole sockets, 7-pole presence detector input ports"
+    },
+    {
+      "bus_type": "QuickLink bus"
+    },
+    {
+      "voltage_rating": "230V"
+    },
+    {
+      "current_rating": "16A"
+    },
+    {
+      "frequency": "50Hz"
+    },
+    {
+      "dimensions": "Height = 50mm, Width = 315mm, Depth = 205mm"
+    },
+    {
+      "weight": "1.85kg"
+    },
+    {
+      "material": "Polycarbonate"
+    },
+    {
+      "finish": "Lightly textured light grey"
+    }
+  ],
+  "P1902527": [
+    {
+      "wired_interfaces": "7-way Wieland GST style locking connector"
+    },
+    {
+      "ports": "6-pole sockets, 7-pole presence detector input ports"
+    },
+    {
+      "bus_type": "QuickLink bus"
+    },
+    {
+      "voltage_rating": "230V"
+    },
+    {
+      "current_rating": "16A"
+    },
+    {
+      "frequency": "50Hz"
+    },
+    {
+      "dimensions": "Height = 50mm, Width = 315mm, Depth = 205mm"
+    },
+    {
+      "weight": "1.85kg"
+    },
+    {
+      "material": "Polycarbonate"
+    },
+    {
+      "finish": "Lightly textured light grey"
+    }
+  ],
+  "P1902525": [
+    {
+      "wired_interfaces": "7-way Wieland GST style locking connector"
+    },
+    {
+      "ports": "6-pole sockets, 7-pole presence detector input ports"
+    },
+    {
+      "bus_type": "QuickLink bus"
+    },
+    {
+      "voltage_rating": "230V"
+    },
+    {
+      "current_rating": "16A"
+    },
+    {
+      "frequency": "50Hz"
+    },
+    {
+      "dimensions": "Height = 50mm, Width = 315mm, Depth = 205mm"
+    },
+    {
+      "weight": "1.85kg"
+    },
+    {
+      "material": "Polycarbonate"
+    },
+    {
+      "finish": "Lightly textured light grey"
+    }
+  ],
+  "P1902523": [
+    {
+      "wired_interfaces": "7-way Wieland GST style locking connector"
+    },
+    {
+      "ports": "6-pole sockets, 7-pole presence detector input ports"
+    },
+    {
+      "bus_type": "QuickLink bus"
+    },
+    {
+      "voltage_rating": "230V"
+    },
+    {
+      "current_rating": "16A"
+    },
+    {
+      "frequency": "50Hz"
+    },
+    {
+      "dimensions": "Height = 50mm, Width = 315mm, Depth = 205mm"
+    },
+    {
+      "weight": "1.85kg"
+    },
+    {
+      "material": "Polycarbonate"
+    },
+    {
+      "finish": "Lightly textured light grey"
+    }
+  ],
+  "P1904588": [
+    {
+      "wired_interfaces": "7-way Wieland GST style locking connector"
+    },
+    {
+      "ports": "6-pole sockets, 7-pole presence detector input ports"
+    },
+    {
+      "bus_type": "QuickLink bus"
+    },
+    {
+      "voltage_rating": "230V"
+    },
+    {
+      "current_rating": "16A"
+    },
+    {
+      "frequency": "50Hz"
+    },
+    {
+      "dimensions": "Height = 50mm, Width = 315mm, Depth = 205mm"
+    },
+    {
+      "weight": "1.85kg"
+    },
+    {
+      "material": "Polycarbonate"
+    },
+    {
+      "finish": "Lightly textured light grey"
+    }
+  ],
+  "P1904589": [
+    {
+      "wired_interfaces": "7-way Wieland GST style locking connector"
+    },
+    {
+      "ports": "6-pole sockets, 7-pole presence detector input ports"
+    },
+    {
+      "bus_type": "QuickLink bus"
+    },
+    {
+      "voltage_rating": "230V"
+    },
+    {
+      "current_rating": "16A"
+    },
+    {
+      "frequency": "50Hz"
+    },
+    {
+      "dimensions": "Height = 50mm, Width = 315mm, Depth = 205mm"
+    },
+    {
+      "weight": "1.85kg"
+    },
+    {
+      "material": "Polycarbonate"
+    },
+    {
+      "finish": "Lightly textured light grey"
+    }
+  ],
+  "P1902522": [
+    {
+      "wired_interfaces": "7-way Wieland GST style locking connector"
+    },
+    {
+      "ports": "6-pole sockets, 7-pole presence detector input ports"
+    },
+    {
+      "bus_type": "QuickLink bus"
+    },
+    {
+      "voltage_rating": "230V"
+    },
+    {
+      "current_rating": "16A"
+    },
+    {
+      "frequency": "50Hz"
+    },
+    {
+      "dimensions": "Height = 50mm, Width = 315mm, Depth = 205mm"
+    },
+    {
+      "weight": "1.85kg"
+    },
+    {
+      "material": "Polycarbonate"
+    },
+    {
+      "finish": "Lightly textured light grey"
+    }
+  ],
+  "EP00110": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP6-063": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00020": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00021": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00022": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00027": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00024": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00018": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00009": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00005": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00017": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00011": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00008": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00003": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP4-008": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00002": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00026": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00019": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP4-006": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "M2M-EP": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00023": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP6-007": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00028": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00001": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00112": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00010": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00016": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00111": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP5-002": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00007": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00029": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP5-023": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP5-035": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP5-062": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00025": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00004": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00013": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00012": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP5-028": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00014": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00109": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00015": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP5-065": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "K2766": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP5-063": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "EP00030": [
+    {
+      "certifications": "BS 1363 Pt 2:1995, British Standard"
+    },
+    {
+      "voltage_rating": "13A"
+    },
+    {
+      "dimensions": "86 x 86mm, 86 x 146mm, 86 x 206mm"
+    },
+    {
+      "material": "thermoset material"
+    }
+  ],
+  "P1906885": [
+    {
+      "certifications": "CE, UL94"
+    },
+    {
+      "communication_protocols": "LONWORKS"
+    },
+    {
+      "wired_interfaces": "terminal block"
+    },
+    {
+      "bus_type": "LONWORKS"
+    },
+    {
+      "operating_temperature": "45°F to 99°F (7°C to 37°C)"
+    },
+    {
+      "storage_temperature": "-40°F to 150°F (-40°C to 65.5°C)"
+    },
+    {
+      "humidity_range": "5% to 95% non-condensing"
+    },
+    {
+      "dimensions": "see Fig. 2 on page 3"
+    },
+    {
+      "material": "plastic"
+    },
+    {
+      "housing": "two-piece construction"
+    },
+    {
+      "mounting_type": "standard two by four in junction box or 60mm diameter junction box"
+    },
+    {
+      "enclosure_type": "plastic enclosure"
+    }
+  ],
+  "P1907046": [
+    {
+      "certifications": "PED 2014/68/EU, IP 54"
+    },
+    {
+      "voltage_rating": "250 VAC, 250 VDC, 24 VDC"
+    },
+    {
+      "operating_temperature": "-20 to +70°C"
+    },
+    {
+      "material": "Diecast aluminium, Stainless steel"
+    },
+    {
+      "ingress_protection": "IP 54"
+    },
+    {
+      "ports": "G 1/2\" external, G 1/4\" internal"
+    }
+  ],
+  "P1907081": [
+    {
+      "certifications": "PED 2014/68/EU, IP 54"
+    },
+    {
+      "voltage_rating": "250 VAC, 250 VDC, 24 VDC"
+    },
+    {
+      "operating_temperature": "-20 to +70°C"
+    },
+    {
+      "material": "Diecast aluminium, Stainless steel"
+    },
+    {
+      "ingress_protection": "IP 54"
+    },
+    {
+      "ports": "G 1/2\" external, G 1/4\" internal"
+    }
+  ],
+  "P1904634": [
+    {
+      "certifications": "BACnet MS/TP, eu.bac, CE, UL"
+    },
+    {
+      "communication_protocols": "BACnet MS/TP"
+    },
+    {
+      "wired_interfaces": "USB, Wallbus"
+    },
+    {
+      "bus_type": "MS/TP"
+    },
+    {
+      "voltage_rating": "230VAC, 24VAC"
+    },
+    {
+      "power_supply": "230VAC, 24VAC"
+    },
+    {
+      "dimensions": "170mm x 152mm x 45mm, 205mm x 189mm x 63mm"
+    },
+    {
+      "mounting_type": "DIN rail, surface mounting"
+    }
+  ],
+  "P1904636": [
+    {
+      "certifications": "BACnet MS/TP, eu.bac, CE, UL"
+    },
+    {
+      "communication_protocols": "BACnet MS/TP"
+    },
+    {
+      "wired_interfaces": "USB, Wallbus"
+    },
+    {
+      "bus_type": "MS/TP"
+    },
+    {
+      "voltage_rating": "230VAC, 24VAC"
+    },
+    {
+      "power_supply": "230VAC, 24VAC"
+    },
+    {
+      "dimensions": "170mm x 152mm x 45mm, 205mm x 189mm x 63mm"
+    },
+    {
+      "mounting_type": "DIN rail, surface mounting"
+    }
+  ],
+  "P1904633": [
+    {
+      "certifications": "BACnet MS/TP, eu.bac, CE, UL"
+    },
+    {
+      "communication_protocols": "BACnet MS/TP"
+    },
+    {
+      "wired_interfaces": "USB, Wallbus"
+    },
+    {
+      "bus_type": "MS/TP"
+    },
+    {
+      "voltage_rating": "230VAC, 24VAC"
+    },
+    {
+      "power_supply": "230VAC, 24VAC"
+    },
+    {
+      "dimensions": "170mm x 152mm x 45mm, 205mm x 189mm x 63mm"
+    },
+    {
+      "mounting_type": "DIN rail, surface mounting"
+    }
+  ],
+  "0": [
+    {
+      "certifications": "CE"
+    },
+    {
+      "voltage_rating": "AC 220 ~ 240V"
+    },
+    {
+      "current_rating": "6A"
+    },
+    {
+      "power_supply": "AC 220 ~ 240V / 50Hz"
+    },
+    {
+      "frequency": "50Hz"
+    },
+    {
+      "ingress_protection": "IP44 (Surface Mount), IP44 (Sensor section only) IP20 (Ceiling Board onwards) (Flush Mount)"
+    },
+    {
+      "dimensions": "86mm 76mm 76mm (Flush Mount), 86mm 86mm 54.5mm (Surface Mount)"
+    },
+    {
+      "weight": "269g (Flush Mount), 105g (Surface Mount)"
+    },
+    {
+      "material": "Flame retardant PC"
+    },
+    {
+      "finish": "White (RAL9010)"
+    },
+    {
+      "mounting_type": "Flush mount, Surface Mount"
+    }
+  ],
+  "EP6-061": [
+    {
+      "certifications": "CE"
+    },
+    {
+      "voltage_rating": "AC 220 ~ 240V"
+    },
+    {
+      "current_rating": "6A"
+    },
+    {
+      "power_supply": "AC 220 ~ 240V / 50Hz"
+    },
+    {
+      "frequency": "50Hz"
+    },
+    {
+      "ingress_protection": "IP44 (Surface Mount), IP44 (Sensor section only) IP20 (Ceiling Board onwards) (Flush Mount)"
+    },
+    {
+      "dimensions": "86mm 76mm 76mm (Flush Mount), 86mm 86mm 54.5mm (Surface Mount)"
+    },
+    {
+      "weight": "269g (Flush Mount), 105g (Surface Mount)"
+    },
+    {
+      "material": "Flame retardant PC"
+    },
+    {
+      "finish": "White (RAL9010)"
+    },
+    {
+      "mounting_type": "Flush mount, Surface Mount"
+    }
+  ],
+  "EP6-018": [
+    {
+      "certifications": "CE"
+    },
+    {
+      "voltage_rating": "AC 220 ~ 240V"
+    },
+    {
+      "current_rating": "6A"
+    },
+    {
+      "power_supply": "AC 220 ~ 240V / 50Hz"
+    },
+    {
+      "frequency": "50Hz"
+    },
+    {
+      "ingress_protection": "IP44 (Surface Mount), IP44 (Sensor section only) IP20 (Ceiling Board onwards) (Flush Mount)"
+    },
+    {
+      "dimensions": "86mm 76mm 76mm (Flush Mount), 86mm 86mm 54.5mm (Surface Mount)"
+    },
+    {
+      "weight": "269g (Flush Mount), 105g (Surface Mount)"
+    },
+    {
+      "material": "Flame retardant PC"
+    },
+    {
+      "finish": "White (RAL9010)"
+    },
+    {
+      "mounting_type": "Flush mount, Surface Mount"
+    }
+  ],
+  "P1906665": [
+    {
+      "voltage_rating": "24 Vac/dc"
+    },
+    {
+      "power_supply": "24 Vac/dc"
+    },
+    {
+      "operating_temperature": "0 to +40 °C (32 to +104 °F)"
+    },
+    {
+      "humidity_range": "0 to 95 %RH"
+    },
+    {
+      "dimensions": "86mm x 26mm"
+    },
+    {
+      "mounting_type": "surface mounted"
+    }
+  ],
+  "P1921653": [
+    {
+      "certifications": "DIN EN60751, IEC 751"
+    },
+    {
+      "wired_interfaces": "1 part screw terminals"
+    },
+    {
+      "voltage_rating": "24 Vdc"
+    },
+    {
+      "current_rating": "4 to 20 mA"
+    },
+    {
+      "power_supply": "24 Vdc"
+    },
+    {
+      "operating_temperature": "-10 °C to +40 °C"
+    },
+    {
+      "storage_temperature": "-10 °C to +50 °C"
+    },
+    {
+      "dimensions": "86mm x 86mm x 26mm"
+    },
+    {
+      "material": "Flame retardant (V0) ABS"
+    },
+    {
+      "housing": "Low profile enclosure"
+    },
+    {
+      "mounting_type": "Wall mounting"
+    },
+    {
+      "enclosure_type": "Enclosure"
+    }
+  ],
+  "P1911842": [
+    {
+      "CERTIFICATIONS": "UL"
+    }
+  ],
+  "P1911613": [
+    {
+      "certifications": "UL, CE, CSA"
+    },
+    {
+      "voltage_rating": "24 Vac"
+    },
+    {
+      "power_consumption": "See Table 2"
+    },
+    {
+      "power_supply": "24 Vac"
+    },
+    {
+      "frequency": "50/60 Hz"
+    },
+    {
+      "operating_temperature": "-18°C to 50°C"
+    },
+    {
+      "storage_temperature": "-29°C to 54°C"
+    },
+    {
+      "humidity_range": "5% to 95% RH"
+    },
+    {
+      "ingress_protection": "NEMA 1, IP54"
+    },
+    {
+      "dimensions": "See Figures 1, 1A, and 1B"
+    },
+    {
+      "weight": "1.3 lb"
+    },
+    {
+      "mounting_type": "Direct mount"
+    }
+  ],
+  "P1921819": [
+    {
+      "communication_protocols": "S-Bus, Modbus, EnOcean"
+    },
+    {
+      "wired_interfaces": "RS-485, USB"
+    },
+    {
+      "bus_type": "RS-485"
+    }
+  ],
+  "P1906692": [],
+  "P1911791": [],
+  "P1911794": [],
+  "P1912759": [],
+  "E0004197": [],
+  "P1912215": [],
+  "P1911750": [
+    {
+      "CERTIFICATIONS": "CE, UL"
+    },
+    {
+      "wired_interfaces": "M20, M18"
+    },
+    {
+      "voltage_rating": "24 Vac"
+    },
+    {
+      "power_consumption": "5 VA, 7 VA, 12 VA"
+    },
+    {
+      "power_supply": "24 Vac"
+    },
+    {
+      "frequency": "50/60 Hz"
+    },
+    {
+      "operating_temperature": "-10...+50 °C"
+    },
+    {
+      "storage_temperature": "-40...+70 °C"
+    },
+    {
+      "humidity_range": "5...95% h. r."
+    },
+    {
+      "ingress_protection": "IP54"
+    },
+    {
+      "weight": "1.3 kg, 2.4 kg"
+    },
+    {
+      "material": "ABS-FR, fibre de verre renforcée de matière plastique, aluminium"
+    }
+  ],
+  "P1921650": [],
+  "P1919730": [],
+  "P1919723": [],
+  "P1904392": [],
+  "P1911749": [],
+  "P1919721": [],
+  "E0007046": [],
+  "P1906688": [],
+  "P1907078": [],
+  "P1912513": [],
+  "P1912517": [],
+  "VSMF41520": [],
+  "P1919727": [],
+  "P1911774": [],
+  "E0004182": [],
+  "P1911787": [],
+  "P1919722": [],
+  "P1912195": [],
+  "P1911789": [],
+  "P1912060": [],
+  "P1912401": [],
+  "P1906677": [],
+  "P1906686": [],
+  "P1919729": [],
+  "P1911753": [],
+  "P1911784": [],
+  "P1911730": [],
+  "TMP-0239": [],
+  "E0004183": [],
+  "P1907076": [],
+  "P1919725": [],
+  "P1912043": [],
+  "P1912044": [],
+  "P1911779": [],
+  "P1906687": [],
+  "P1912058": [],
+  "P1922260": [],
+  "P1919724": [],
+  "P1911557": [],
+  "P1912402": [],
+  "P1906690": [],
+  "P1912512": [],
+  "P1904391": [],
+  "P1921860": [],
+  "P1912042": [],
+  "P1912395": [],
+  "P1919720": [],
+  "P1921333": [],
+  "P1911556": [],
+  "P1922042": [],
+  "E0004178": [],
+  "P1906678": [],
+  "P1904394": [],
+  "P1921578": [],
+  "P1912045": [],
+  "P1912516": [],
+  "VSMC41520": [],
+  "P1906683": [],
+  "ML6421A300": [],
+  "E0004186": [],
+  "P1907115": [],
+  "P1919732": [],
+  "P1911776": [],
+  "P1911760": [],
+  "P1906685": [],
+  "P1912041": [
+    {
+      "operating_temperature": "2 to 120 °C"
+    },
+    {
+      "dimensions": "See Fig. 1 on page 3"
+    },
+    {
+      "material": "Brass"
+    },
+    {
+      "housing": "Brass"
+    },
+    {
+      "mounting_type": "Internal threaded end connections"
+    }
+  ],
+  "P1911553": [],
+  "P1912214": [],
+  "P1919726": [],
+  "P1912546": [],
+  "P1912061": [],
+  "P1906884": [],
+  "P1911550": [],
+  "P1919731": [],
+  "CN1000305": [],
+  "P1912085": [],
+  "E0005061": [],
+  "P1912741": [],
+  "P1911785": [],
+  "P1924354": [],
+  "ML7421AB00": [],
+  "P1912084": [],
+  "P1906691": [],
+  "P1919728": [],
+  "E0004181": [],
+  "P1920438": [],
+  "P1912994": [],
+  "P00500100": [
+    {
+      "certifications": "BACnet Standard 135 protocol version 1.15 (ISO 16484-5)"
+    },
+    {
+      "communication_protocols": "BACnet MS/TP, BACnet IP, Modbus RTU, M-Bus, Panel Bus"
+    },
+    {
+      "wired_interfaces": "RS485, Ethernet, RJ11, USB Type-C"
+    },
+    {
+      "ports": "4 (RS485), 1 (isolated Ethernet), 1-3 (switched IP)"
+    },
+    {
+      "network_capabilities": "DHCP (Automatic IP address assignment), Peer-to-Peer communication"
+    },
+    {
+      "bus_type": "BACnet, Modbus, M-Bus"
+    },
+    {
+      "frequency": "1.2 GHz"
+    },
+    {
+      "dimensions": "5.51in (140mm), 5.69in (144.52mm), 4.7in (119.4mm), 4.33in (110mm), 1.77in (45mm), 2.36in (60mm), 2.14in (54.5mm), 0.68in (17.5mm), 1.92in (48.7mm)"
+    },
+    {
+      "mounting_type": "DIN rail or wall mounted"
+    }
+  ],
+  "IO16UIODI": [
+    {
+      "certifications": "EN ISO 164-84-2:2004, DIN19/DIN43880"
+    },
+    {
+      "communication_protocols": "Panel Bus, Modbus, BACnet MS/TP"
+    },
+    {
+      "voltage_rating": "24 Vdc"
+    },
+    {
+      "ports": "RS485"
+    },
+    {
+      "network_capabilities": "Touchflake connections"
+    },
+    {
+      "bus_type": "Panel Bus"
+    },
+    {
+      "mounting_type": "DIN rail"
+    }
+  ],
+  "P1923525": [
+    {
+      "communication_protocols": "Sylk"
+    },
+    {
+      "wired_interfaces": "2 wires"
+    },
+    {
+      "bus_type": "two-wire, polarity-insensitive"
+    },
+    {
+      "weight": "27 lb-in, 44 lb-in, 88 lb-in, 175 lb-in"
+    }
+  ],
+  "P1923532": [
+    {
+      "communication_protocols": "Sylk"
+    },
+    {
+      "wired_interfaces": "2 wires"
+    },
+    {
+      "bus_type": "two-wire, polarity-insensitive"
+    },
+    {
+      "weight": "27 lb-in, 44 lb-in, 88 lb-in, 175 lb-in"
+    }
+  ],
+  "P1904733": [
+    {
+      "communication_protocols": "Sylk"
+    },
+    {
+      "wired_interfaces": "2 wires"
+    },
+    {
+      "bus_type": "two-wire, polarity-insensitive"
+    },
+    {
+      "weight": "27 lb-in, 44 lb-in, 88 lb-in, 175 lb-in"
+    }
+  ],
+  "P1921322": [
+    {
+      "communication_protocols": "Sylk"
+    },
+    {
+      "wired_interfaces": "2 wires"
+    },
+    {
+      "bus_type": "two-wire, polarity-insensitive"
+    },
+    {
+      "weight": "27 lb-in, 44 lb-in, 88 lb-in, 175 lb-in"
+    }
+  ],
+  "P1923531": [
+    {
+      "communication_protocols": "Sylk"
+    },
+    {
+      "wired_interfaces": "2 wires"
+    },
+    {
+      "bus_type": "two-wire, polarity-insensitive"
+    },
+    {
+      "weight": "27 lb-in, 44 lb-in, 88 lb-in, 175 lb-in"
+    }
+  ],
+  "P1911770": [
+    {
+      "certifications": "UL, CE"
+    },
+    {
+      "communication_protocols": "Bus Sylk"
+    },
+    {
+      "wired_interfaces": "bornes à vis"
+    },
+    {
+      "operating_temperature": "-40 à 65 °C"
+    },
+    {
+      "storage_temperature": "-40 à 65 °C"
+    },
+    {
+      "humidity_range": "5 à 95 %"
+    },
+    {
+      "ingress_protection": "IP54"
+    },
+    {
+      "weight": "1,60 kg"
+    },
+    {
+      "voltage_rating": "24V c.a./c.c."
+    }
+  ],
+  "P1911853": [
+    {
+      "communication_protocols": "Mod/Floating, Analog (2-10Vdc), Universal (2-10Vdc, floating, 2-position)"
+    },
+    {
+      "voltage_rating": "24Vac / 24Vdc"
+    },
+    {
+      "power_consumption": "Low energy consumption"
+    },
+    {
+      "operating_temperature": "-40° to 150°F (-40° to 65°C)"
+    },
+    {
+      "humidity_range": "5% to 95% R.H. non-condensing"
+    },
+    {
+      "torque": "27 lb-in (3 Nm)"
+    }
+  ],
+  "P1911746": [
+    {
+      "CERTIFICATIONS": "CE, UL"
+    },
+    {
+      "wired_interfaces": "M20, M18"
+    },
+    {
+      "voltage_rating": "24 Vac"
+    },
+    {
+      "power_consumption": "5 VA, 7 VA, 12 VA"
+    },
+    {
+      "power_supply": "24 Vac"
+    },
+    {
+      "frequency": "50/60 Hz"
+    },
+    {
+      "operating_temperature": "-10...+50 °C"
+    },
+    {
+      "storage_temperature": "-40...+70 °C"
+    },
+    {
+      "humidity_range": "5...95% h. r."
+    },
+    {
+      "ingress_protection": "IP54"
+    },
+    {
+      "weight": "1.3 kg, 2.4 kg"
+    },
+    {
+      "material": "ABS-FR, fibre de verre renforcée de matière plastique, aluminium"
+    }
+  ],
+  "RBM": [
+    {
+      "communication_protocols": "LoRaWAN"
+    },
+    {
+      "network_capabilities": "Wi-Fi"
+    }
+  ],
+  "P1911807": [
+    {
+      "voltage_rating": "24 Vac"
+    },
+    {
+      "ingress_protection": "NEMA 3"
+    },
+    {
+      "material": "Die-cast aluminum"
+    },
+    {
+      "housing": "Die-cast aluminum"
+    }
+  ],
+  "P1911824": [
+    {
+      "certifications": "Underwriters Laboratories Inc. Listed, Canadian Standards Association Certified"
+    },
+    {
+      "voltage_rating": "24, 120, 208, 240"
+    },
+    {
+      "current_rating": "1.0, 0.28, 0.16, 0.14"
+    },
+    {
+      "power_consumption": "23, 28"
+    },
+    {
+      "operating_temperature": "-40°F to 150°F"
+    },
+    {
+      "ingress_protection": "NEMA 3 weather protection"
+    },
+    {
+      "dimensions": "See Fig. 1"
+    },
+    {
+      "material": "Die-cast aluminum"
+    },
+    {
+      "housing": "Die-cast aluminum"
+    }
+  ],
+  "P1912067": [
+    {
+      "certifications": "UL"
+    },
+    {
+      "wired_interfaces": "cable"
+    },
+    {
+      "voltage_rating": "24 Vac"
+    },
+    {
+      "power_consumption": "0.7 VA, 1.4 VA"
+    },
+    {
+      "power_supply": "24 Vac"
+    },
+    {
+      "frequency": "50/60Hz"
+    },
+    {
+      "operating_temperature": "32° to 122°F (0° to 50°C)"
+    },
+    {
+      "storage_temperature": "-40° to 158°F (-40° to 70°C)"
+    },
+    {
+      "humidity_range": "5 to 95% RH"
+    },
+    {
+      "dimensions": "See Fig. 1, Fig. 2"
+    },
+    {
+      "weight": "5 oz (0.15 kg), 5.6 oz (0.16 kg)"
+    },
+    {
+      "material": "Brass, Stainless steel"
+    },
+    {
+      "housing": "plastic"
+    },
+    {
+      "mounting_type": "screws onto valve body"
+    }
+  ],
+  "20240904E": [
+    {
+      "voltage_rating": "24 Vac"
+    },
+    {
+      "power_consumption": "0.7 VA, 1.4 VA, 10 VA, 5 VA"
+    },
+    {
+      "frequency": "50/60Hz"
+    },
+    {
+      "operating_temperature": "32° to 122°F (0° to 50°C)"
+    },
+    {
+      "storage_temperature": "-40° to 158°F (-40° to 70°C)"
+    },
+    {
+      "humidity_range": "5 to 95% RH (noncondensing)"
+    },
+    {
+      "dimensions": "See Fig. 1, Fig. 2, Fig. 3"
+    },
+    {
+      "weight": "40.5 LB (180N)"
+    },
+    {
+      "housing": "Low-maintenance plastic housing"
+    },
+    {
+      "mounting_type": "Actuator screws onto valve body"
+    }
+  ],
+  "E0001544": [],
+  "E0001535": [],
+  "P1919718": [
+    {
+      "communication_protocols": "Modbus RTU"
+    },
+    {
+      "wired_interfaces": "RS485"
+    },
+    {
+      "bus_type": "RS485"
+    },
+    {
+      "power_supply": "+24V"
+    }
+  ],
+  "E0004167": [
+    {
+      "communication_protocols": "Modbus RTU"
+    },
+    {
+      "wired_interfaces": "RS485"
+    },
+    {
+      "bus_type": "RS485"
+    },
+    {
+      "power_supply": "+24V"
+    }
+  ],
+  "E0001546": [],
+  "P1912055": [],
+  "E0004168": [
+    {
+      "communication_protocols": "Modbus RTU"
+    },
+    {
+      "wired_interfaces": "RS485"
+    },
+    {
+      "bus_type": "RS485"
+    },
+    {
+      "power_supply": "+24V"
+    }
+  ],
+  "E0001536": [],
+  "P1911765": [],
+  "E0007071": [],
+  "E0001547": [],
+  "E0005275": [],
+  "P1924074": [
+    {
+      "certifications": "CE"
+    },
+    {
+      "wired_interfaces": "5-wire mode, 3-wire mode"
+    },
+    {
+      "voltage_rating": "24 Vac or 28 Vdc"
+    },
+    {
+      "current_rating": "6 VA (Running), 12 VA (Valve seating)"
+    },
+    {
+      "power_consumption": "6 VA (Running), 12 VA (Valve seating)"
+    },
+    {
+      "power_supply": "24 Vac or 28 Vdc"
+    },
+    {
+      "frequency": "50/60Hz"
+    },
+    {
+      "operating_temperature": "32° to 130° F (0° to 54° C)"
+    },
+    {
+      "storage_temperature": "-40° to 150° F (-40° to +65° C)"
+    },
+    {
+      "humidity_range": "15% to 95% up to 104° F (40° C)"
+    },
+    {
+      "ingress_protection": "NEMA-3R/IP54"
+    },
+    {
+      "weight": "2.2 lb (1 kg)"
+    },
+    {
+      "enclosure_type": "NEMA 3R"
+    }
+  ],
+  "P1921583": [
+    {
+      "communication_protocols": "Wi-Fi (IEEE802.11a/b/g/n), RS485, Ethernet (10/100 MB)"
+    },
+    {
+      "wired_interfaces": "RS485, Ethernet"
+    },
+    {
+      "ports": "USB type A, 2 x RS485, 2 x Ethernet"
+    },
+    {
+      "network_capabilities": "Wi-Fi, Ethernet"
+    },
+    {
+      "bus_type": "RS485, Ethernet"
+    },
+    {
+      "voltage_rating": "24 VAC/DC"
+    },
+    {
+      "power_consumption": "18 VA (without Expansion Modules), 20 VA (fully loaded)"
+    },
+    {
+      "power_supply": "24 VAC (24 VA) / 24 VDC (1A)"
+    },
+    {
+      "frequency": "50/60Hz"
+    },
+    {
+      "mounting_type": "panel or DIN43880 enclosures, 35-mm rail"
+    },
+    {
+      "enclosure_type": "DIN43880, EN50022"
+    }
+  ],
+  "P1921587": [
+    {
+      "communication_protocols": "Wi-Fi (IEEE802.11a/b/g/n), RS485, Ethernet (10/100 MB)"
+    },
+    {
+      "wired_interfaces": "RS485, Ethernet"
+    },
+    {
+      "ports": "USB type A, 2 x RS485, 2 x Ethernet"
+    },
+    {
+      "network_capabilities": "Wi-Fi, Ethernet"
+    },
+    {
+      "bus_type": "RS485, Ethernet"
+    },
+    {
+      "voltage_rating": "24 VAC/DC"
+    },
+    {
+      "power_consumption": "18 VA (without Expansion Modules), 20 VA (fully loaded)"
+    },
+    {
+      "power_supply": "24 VAC (24 VA) / 24 VDC (1A)"
+    },
+    {
+      "frequency": "50/60Hz"
+    },
+    {
+      "mounting_type": "panel or DIN43880 enclosures, 35-mm rail"
+    },
+    {
+      "enclosure_type": "DIN43880, EN50022"
+    }
+  ],
+  "P1912646": [
+    {
+      "communication_protocols": "Wi-Fi (IEEE802.11a/b/g/n), RS485, Ethernet (10/100 MB)"
+    },
+    {
+      "wired_interfaces": "RS485, Ethernet"
+    },
+    {
+      "ports": "USB type A, 2 x RS485, 2 x Ethernet"
+    },
+    {
+      "network_capabilities": "Wi-Fi, Ethernet"
+    },
+    {
+      "bus_type": "RS485, Ethernet"
+    },
+    {
+      "voltage_rating": "24 VAC/DC"
+    },
+    {
+      "power_consumption": "18 VA (without Expansion Modules), 20 VA (fully loaded)"
+    },
+    {
+      "power_supply": "24 VAC (24 VA) / 24 VDC (1A)"
+    },
+    {
+      "frequency": "50/60Hz"
+    },
+    {
+      "mounting_type": "panel or DIN43880 enclosures, 35-mm rail"
+    },
+    {
+      "enclosure_type": "DIN43880, EN50022"
+    }
+  ],
+  "E0004142": [
+    {
+      "communication_protocols": "LONWORKS, M-Bus, BACnet"
+    },
+    {
+      "network_capabilities": "web-enabled"
+    },
+    {
+      "bus_type": "LONWORKS, M-Bus"
+    }
+  ],
+  "P1914865": [
+    {
+      "communication_protocols": "Wi-Fi (IEEE802.11a/b/g/n), RS485, Ethernet (10/100 MB)"
+    },
+    {
+      "wired_interfaces": "RS485, Ethernet"
+    },
+    {
+      "ports": "USB type A, 2 x RS485, 2 x Ethernet"
+    },
+    {
+      "network_capabilities": "Wi-Fi, Ethernet"
+    },
+    {
+      "bus_type": "RS485, Ethernet"
+    },
+    {
+      "voltage_rating": "24 VAC/DC"
+    },
+    {
+      "power_consumption": "18 VA (without Expansion Modules), 20 VA (fully loaded)"
+    },
+    {
+      "power_supply": "24 VAC (24 VA) / 24 VDC (1A)"
+    },
+    {
+      "frequency": "50/60Hz"
+    },
+    {
+      "mounting_type": "panel or DIN43880 enclosures, 35-mm rail"
+    },
+    {
+      "enclosure_type": "DIN43880, EN50022"
+    }
+  ],
+  "P1920532": [
+    {
+      "communication_protocols": "Wi-Fi (IEEE802.11a/b/g/n), RS485, Ethernet (10/100 MB)"
+    },
+    {
+      "wired_interfaces": "RS485, Ethernet"
+    },
+    {
+      "ports": "USB type A, 2 x RS485, 2 x Ethernet"
+    },
+    {
+      "network_capabilities": "Wi-Fi, Ethernet"
+    },
+    {
+      "bus_type": "RS485, Ethernet"
+    },
+    {
+      "voltage_rating": "24 VAC/DC"
+    },
+    {
+      "power_consumption": "18 VA (without Expansion Modules), 20 VA (fully loaded)"
+    },
+    {
+      "power_supply": "24 VAC (24 VA) / 24 VDC (1A)"
+    },
+    {
+      "frequency": "50/60Hz"
+    },
+    {
+      "mounting_type": "panel or DIN43880 enclosures, 35-mm rail"
+    },
+    {
+      "enclosure_type": "DIN43880, EN50022"
+    }
+  ],
+  "P1915194": [
+    {
+      "communication_protocols": "Wi-Fi (IEEE802.11a/b/g/n), RS485, Ethernet (10/100 MB)"
+    },
+    {
+      "wired_interfaces": "RS485, Ethernet"
+    },
+    {
+      "ports": "USB type A, 2 x RS485, 2 x Ethernet"
+    },
+    {
+      "network_capabilities": "Wi-Fi, Ethernet"
+    },
+    {
+      "bus_type": "RS485, Ethernet"
+    },
+    {
+      "voltage_rating": "24 VAC/DC"
+    },
+    {
+      "power_consumption": "18 VA (without Expansion Modules), 20 VA (fully loaded)"
+    },
+    {
+      "power_supply": "24 VAC (24 VA) / 24 VDC (1A)"
+    },
+    {
+      "frequency": "50/60Hz"
+    },
+    {
+      "mounting_type": "panel or DIN43880 enclosures, 35-mm rail"
+    },
+    {
+      "enclosure_type": "DIN43880, EN50022"
+    }
+  ],
+  "P1912642": [
+    {
+      "communication_protocols": "LONWORKS, M-Bus, BACnet"
+    },
+    {
+      "network_capabilities": "web-enabled"
+    },
+    {
+      "bus_type": "LONWORKS, M-Bus"
+    }
+  ],
+  "P1912648": [
+    {
+      "communication_protocols": "BACnet, C-Bus, Modbus IP, LON IP, MBUS, KNX IP, OPC, SNMP"
+    },
+    {
+      "wired_interfaces": "Ethernet"
+    },
+    {
+      "network_capabilities": "Internet/Intranet access"
+    }
+  ],
+  "P1921582": [
+    {
+      "communication_protocols": "Wi-Fi (IEEE802.11a/b/g/n), RS485, Ethernet (10/100 MB)"
+    },
+    {
+      "wired_interfaces": "RS485, Ethernet"
+    },
+    {
+      "ports": "USB type A, 2 x RS485, 2 x Ethernet"
+    },
+    {
+      "network_capabilities": "Wi-Fi, Ethernet"
+    },
+    {
+      "bus_type": "RS485, Ethernet"
+    },
+    {
+      "voltage_rating": "24 VAC/DC"
+    },
+    {
+      "power_consumption": "18 VA (without Expansion Modules), 20 VA (fully loaded)"
+    },
+    {
+      "power_supply": "24 VAC (24 VA) / 24 VDC (1A)"
+    },
+    {
+      "frequency": "50/60Hz"
+    },
+    {
+      "mounting_type": "panel or DIN43880 enclosures, 35-mm rail"
+    },
+    {
+      "enclosure_type": "DIN43880, EN50022"
+    }
+  ],
+  "P1921581": [
+    {
+      "communication_protocols": "Wi-Fi (IEEE802.11a/b/g/n), RS485, Ethernet (10/100 MB)"
+    },
+    {
+      "wired_interfaces": "RS485, Ethernet"
+    },
+    {
+      "ports": "USB type A, 2 x RS485, 2 x Ethernet"
+    },
+    {
+      "network_capabilities": "Wi-Fi, Ethernet"
+    },
+    {
+      "bus_type": "RS485, Ethernet"
+    },
+    {
+      "voltage_rating": "24 VAC/DC"
+    },
+    {
+      "power_consumption": "18 VA (without Expansion Modules), 20 VA (fully loaded)"
+    },
+    {
+      "power_supply": "24 VAC (24 VA) / 24 VDC (1A)"
+    },
+    {
+      "frequency": "50/60Hz"
+    },
+    {
+      "mounting_type": "panel or DIN43880 enclosures, 35-mm rail"
+    },
+    {
+      "enclosure_type": "DIN43880, EN50022"
+    }
+  ],
+  "TC500": [
+    {
+      "certifications": "UL"
+    },
+    {
+      "communication_protocols": "Wi-Fi, Bluetooth, BACnet I/P, BACnet MS/TP, Sylk"
+    },
+    {
+      "wired_interfaces": "UI x 2, DO (G, Y1,Y2,Y3,W1,W2,W3), DO (AUX)"
+    },
+    {
+      "voltage_rating": "24VAC"
+    },
+    {
+      "current_rating": "1A"
+    },
+    {
+      "power_consumption": "8.5VA"
+    },
+    {
+      "operating_temperature": "32 to 122 °F (0 to 50°C)"
+    },
+    {
+      "storage_temperature": "-40 to 150 °F(-40 to 65.5°C)"
+    },
+    {
+      "humidity_range": "10 to 90%"
+    }
+  ],
+  "DECO": [
+    {
+      "certifications": "UL"
+    },
+    {
+      "communication_protocols": "Wi-Fi, Bluetooth, BACnet I/P, BACnet MS/TP, Sylk"
+    },
+    {
+      "wired_interfaces": "UI x 2, DO (G, Y1,Y2,Y3,W1,W2,W3), DO (AUX)"
+    },
+    {
+      "voltage_rating": "24VAC"
+    },
+    {
+      "current_rating": "1A"
+    },
+    {
+      "power_consumption": "8.5VA"
+    },
+    {
+      "operating_temperature": "32 to 122 °F (0 to 50°C)"
+    },
+    {
+      "storage_temperature": "-40 to 150 °F(-40 to 65.5°C)"
+    },
+    {
+      "humidity_range": "10 to 90%"
+    }
+  ],
+  "WEB-HMI": [
+    {
+      "CERTIFICATIONS": "CE, UL"
+    }
+  ],
+  "P1911857": [
+    {
+      "certifications": "UL555S"
+    },
+    {
+      "wired_interfaces": "Power Lead Wires: 18 AWG"
+    },
+    {
+      "voltage_rating": "120 Vac, 230 Vac, 24 Vac"
+    },
+    {
+      "current_rating": "0.18A, 0.25A, 0.13A"
+    },
+    {
+      "power_consumption": "18W, 23W"
+    },
+    {
+      "frequency": "50/60Hz"
+    },
+    {
+      "operating_temperature": "0°F to 130°F (-18°C to 55°C)"
+    },
+    {
+      "storage_temperature": "-40°F to 140°F (-40°C to 60°C)"
+    },
+    {
+      "humidity_range": "5% to 95% RH noncondensing"
+    },
+    {
+      "dimensions": "See Fig. 1"
+    },
+    {
+      "weight": "5 lb (2.3 kg)"
+    },
+    {
+      "material": "Die-cast aluminum"
+    },
+    {
+      "housing": "Die-cast aluminum"
+    },
+    {
+      "mounting_type": "Reversible mounting"
+    }
+  ],
+  "P1911848": [
+    {
+      "certifications": "IP54, NEMA2, EN 60730-1"
+    },
+    {
+      "voltage_rating": "24 Vac"
+    },
+    {
+      "power_consumption": "6 VA / 6W (MN6120), 9 VA / 9W (MN6134)"
+    },
+    {
+      "operating_temperature": "-5...+140 °F (-20...+60 °C)"
+    },
+    {
+      "storage_temperature": "-40...+175 °F (-40...+80 °C)"
+    },
+    {
+      "humidity_range": "5...95%, non-condensing"
+    },
+    {
+      "ingress_protection": "IP54"
+    },
+    {
+      "weight": "1.45 kg (3 lbs. 3 oz.)"
+    },
+    {
+      "mounting_type": "Round damper shaft: 3/8...1-1/16” (10...27mm) Square damper shaft: 3/8...11/16” (10...18mm)"
+    },
+    {
+      "frequency": "50/60Hz"
+    }
+  ],
+  "P1911844": [
+    {
+      "certifications": "IP54, Class II, EN 60730-1"
+    },
+    {
+      "wired_interfaces": "24 Vac/Vdc"
+    },
+    {
+      "voltage_rating": "24 Vac/Vdc"
+    },
+    {
+      "power_consumption": "5 VA / 2W"
+    },
+    {
+      "power_supply": "24 Vac/Vdc"
+    },
+    {
+      "frequency": "50/60Hz"
+    },
+    {
+      "operating_temperature": "-5...+140° F (20...+60° C)"
+    },
+    {
+      "storage_temperature": "-22...+176° F (-30...+80° C)"
+    },
+    {
+      "humidity_range": "5...95%, non-condensing"
+    },
+    {
+      "ingress_protection": "IP54"
+    },
+    {
+      "dimensions": "See Fig. 10"
+    },
+    {
+      "weight": "1 lbs (0.45 kg)"
+    },
+    {
+      "mounting_type": "any orientation"
+    }
+  ],
+  "P1912071": [
+    {
+      "certifications": "ANSI Class 125, ANSI Class 250"
+    },
+    {
+      "ports": "Flanged"
+    },
+    {
+      "operating_temperature": "up to 337°F (170°C)"
+    },
+    {
+      "dimensions": "2-1/2 to 6in (DN65 to DN150)"
+    },
+    {
+      "material": "Cast iron, ASTM A126 Class B (GG25)"
+    },
+    {
+      "housing": "Cast iron"
+    }
+  ],
+  "P1904402": [
+    {
+      "certifications": "CA Title 24"
+    },
+    {
+      "voltage_rating": "line voltage and low voltage"
+    },
+    {
+      "network_capabilities": "networked with property management system (PMS)"
+    }
+  ],
+  "P1904407": [
+    {
+      "certifications": "CA Title 24"
+    },
+    {
+      "voltage_rating": "line voltage and low voltage"
+    },
+    {
+      "network_capabilities": "networked with property management system (PMS)"
+    }
+  ],
+  "P1904401": [
+    {
+      "certifications": "CA Title 24"
+    },
+    {
+      "voltage_rating": "line voltage and low voltage"
+    },
+    {
+      "network_capabilities": "networked with property management system (PMS)"
+    }
+  ],
+  "P1901011": [
+    {
+      "communication_protocols": "Modbus RTU"
+    },
+    {
+      "wired_interfaces": "RS485"
+    },
+    {
+      "bus_type": "RS485"
+    },
+    {
+      "power_supply": "+24V"
+    }
+  ],
+  "P1901004": [
+    {
+      "communication_protocols": "Modbus RTU"
+    },
+    {
+      "wired_interfaces": "RS485"
+    },
+    {
+      "bus_type": "RS485"
+    },
+    {
+      "power_supply": "+24V"
+    }
+  ],
+  "P1901017": [
+    {
+      "communication_protocols": "Modbus RTU"
+    },
+    {
+      "wired_interfaces": "RS485"
+    },
+    {
+      "bus_type": "RS485"
+    },
+    {
+      "power_supply": "+24V"
+    }
+  ],
+  "P1901016": [
+    {
+      "communication_protocols": "Modbus RTU"
+    },
+    {
+      "wired_interfaces": "RS485"
+    },
+    {
+      "bus_type": "RS485"
+    },
+    {
+      "power_supply": "+24V"
+    }
+  ],
+  "P1901010": [
+    {
+      "communication_protocols": "Modbus RTU"
+    },
+    {
+      "wired_interfaces": "RS485"
+    },
+    {
+      "bus_type": "RS485"
+    },
+    {
+      "power_supply": "+24V"
+    }
+  ],
+  "P1901014": [
+    {
+      "communication_protocols": "Modbus RTU"
+    },
+    {
+      "wired_interfaces": "RS485"
+    },
+    {
+      "bus_type": "RS485"
+    },
+    {
+      "power_supply": "+24V"
+    }
+  ],
+  "P1901005": [
+    {
+      "communication_protocols": "Modbus RTU"
+    },
+    {
+      "wired_interfaces": "RS485"
+    },
+    {
+      "bus_type": "RS485"
+    },
+    {
+      "power_supply": "+24V"
+    }
+  ],
+  "P1901008": [
+    {
+      "communication_protocols": "Modbus RTU"
+    },
+    {
+      "wired_interfaces": "RS485"
+    },
+    {
+      "bus_type": "RS485"
+    },
+    {
+      "power_supply": "+24V"
+    }
+  ],
+  "P1919717": [
+    {
+      "communication_protocols": "Modbus RTU"
+    },
+    {
+      "wired_interfaces": "RS485"
+    },
+    {
+      "bus_type": "RS485"
+    },
+    {
+      "power_supply": "+24V"
+    }
+  ],
+  "P1901015": [
+    {
+      "communication_protocols": "Modbus RTU"
+    },
+    {
+      "wired_interfaces": "RS485"
+    },
+    {
+      "bus_type": "RS485"
+    },
+    {
+      "power_supply": "+24V"
+    }
+  ],
+  "P1919719": [
+    {
+      "communication_protocols": "Modbus RTU"
+    },
+    {
+      "wired_interfaces": "RS485"
+    },
+    {
+      "bus_type": "RS485"
+    },
+    {
+      "power_supply": "+24V"
+    }
+  ],
+  "P1901006": [
+    {
+      "communication_protocols": "Modbus RTU"
+    },
+    {
+      "wired_interfaces": "RS485"
+    },
+    {
+      "bus_type": "RS485"
+    },
+    {
+      "power_supply": "+24V"
+    }
+  ],
+  "P1919818": [
+    {
+      "communication_protocols": "Modbus RTU"
+    },
+    {
+      "wired_interfaces": "RS485"
+    },
+    {
+      "bus_type": "RS485"
+    },
+    {
+      "power_supply": "+24V"
+    }
+  ],
+  "P1919819": [
+    {
+      "communication_protocols": "Modbus RTU"
+    },
+    {
+      "wired_interfaces": "RS485"
+    },
+    {
+      "bus_type": "RS485"
+    },
+    {
+      "power_supply": "+24V"
+    }
+  ],
+  "P1901003": [
+    {
+      "communication_protocols": "Modbus RTU"
+    },
+    {
+      "wired_interfaces": "RS485"
+    },
+    {
+      "bus_type": "RS485"
+    },
+    {
+      "power_supply": "+24V"
+    }
+  ],
+  "P1901012": [
+    {
+      "communication_protocols": "Modbus RTU"
+    },
+    {
+      "wired_interfaces": "RS485"
+    },
+    {
+      "bus_type": "RS485"
+    },
+    {
+      "power_supply": "+24V"
+    }
+  ],
+  "P1901013": [
+    {
+      "communication_protocols": "Modbus RTU"
+    },
+    {
+      "wired_interfaces": "RS485"
+    },
+    {
+      "bus_type": "RS485"
+    },
+    {
+      "power_supply": "+24V"
+    }
+  ],
+  "P1901009": [
+    {
+      "communication_protocols": "Modbus RTU"
+    },
+    {
+      "wired_interfaces": "RS485"
+    },
+    {
+      "bus_type": "RS485"
+    },
+    {
+      "power_supply": "+24V"
+    }
+  ],
+  "P1901007": [
+    {
+      "communication_protocols": "Modbus RTU"
+    },
+    {
+      "wired_interfaces": "RS485"
+    },
+    {
+      "bus_type": "RS485"
+    },
+    {
+      "power_supply": "+24V"
+    }
+  ],
+  "P1923602": [
+    {
+      "communication_protocols": "BACnet, C-Bus, Modbus IP, LON IP, MBUS, KNX IP, OPC, SNMP"
+    },
+    {
+      "wired_interfaces": "Ethernet"
+    },
+    {
+      "network_capabilities": "Internet/Intranet access"
+    }
+  ],
+  "E0011298": [
+    {
+      "communication_protocols": "BACnet, C-Bus, Modbus IP, LON IP, MBUS, KNX IP, OPC, SNMP"
+    },
+    {
+      "wired_interfaces": "Ethernet"
+    },
+    {
+      "network_capabilities": "Internet/Intranet access"
+    }
+  ],
+  "P1904831": [
+    {
+      "communication_protocols": "BACnet, C-Bus, IP Modbus, IP LON, MBUS, IP KNX, OPC, SNMP"
+    },
+    {
+      "wired_interfaces": "Ethernet"
+    },
+    {
+      "network_capabilities": "Support de réseau Ethernet et Internet"
+    }
+  ],
+  "P1904836": [
+    {
+      "communication_protocols": "BACnet, C-Bus, IP Modbus, IP LON, MBUS, IP KNX, OPC, SNMP"
+    },
+    {
+      "wired_interfaces": "Ethernet"
+    },
+    {
+      "network_capabilities": "Support de réseau Ethernet et Internet"
+    }
+  ],
+  "P1912383": [
+    {
+      "communication_protocols": "BACnet, C-Bus, IP Modbus, IP LON, MBUS, IP KNX, OPC, SNMP"
+    },
+    {
+      "wired_interfaces": "Ethernet"
+    },
+    {
+      "network_capabilities": "Support de réseau Ethernet et Internet"
+    }
+  ],
+  "E0006716": [
+    {
+      "communication_protocols": "BACnet, C-Bus, Modbus IP, LON IP, MBUS, KNX IP, OPC, SNMP"
+    },
+    {
+      "wired_interfaces": "Ethernet"
+    },
+    {
+      "network_capabilities": "Internet/Intranet access"
+    }
+  ],
+  "E0007098": [
+    {
+      "communication_protocols": "BACnet, C-Bus, Modbus IP, LON IP, MBUS, KNX IP, OPC, SNMP"
+    },
+    {
+      "wired_interfaces": "Ethernet"
+    },
+    {
+      "network_capabilities": "Internet/Intranet access"
+    }
+  ],
+  "P1904898": [
+    {
+      "communication_protocols": "BACnet, C-Bus, Modbus IP, LON IP, MBUS, KNX IP, OPC, SNMP"
+    },
+    {
+      "wired_interfaces": "Ethernet"
+    },
+    {
+      "network_capabilities": "Internet/Intranet access"
+    }
+  ],
+  "P1904911": [
+    {
+      "communication_protocols": "BACnet, C-Bus, Modbus IP, LON IP, MBUS, KNX IP, OPC, SNMP"
+    },
+    {
+      "wired_interfaces": "Ethernet"
+    },
+    {
+      "network_capabilities": "Internet/Intranet access"
+    }
+  ],
+  "P1905310": [
+    {
+      "communication_protocols": "BACnet, C-Bus, Modbus IP, LON IP, MBUS, KNX IP, OPC, SNMP"
+    },
+    {
+      "wired_interfaces": "Ethernet"
+    },
+    {
+      "network_capabilities": "Internet/Intranet access"
+    }
+  ],
+  "P1912382": [
+    {
+      "communication_protocols": "BACnet, C-Bus, Modbus IP, LON IP, MBUS, KNX IP, OPC, SNMP"
+    },
+    {
+      "wired_interfaces": "Ethernet"
+    },
+    {
+      "network_capabilities": "Internet/Intranet access"
+    }
+  ],
+  "P1904899": [
+    {
+      "communication_protocols": "BACnet, C-Bus, Modbus IP, LON IP, MBUS, KNX IP, OPC, SNMP"
+    },
+    {
+      "wired_interfaces": "Ethernet"
+    },
+    {
+      "network_capabilities": "Internet/Intranet access"
+    }
+  ],
+  "P1905613": [
+    {
+      "communication_protocols": "BACnet, C-Bus, Modbus IP, LON IP, MBUS, KNX IP, OPC, SNMP"
+    },
+    {
+      "wired_interfaces": "Ethernet"
+    },
+    {
+      "network_capabilities": "Internet/Intranet access"
+    }
+  ],
+  "P1921621": [
+    {
+      "communication_protocols": "BACnet, C-Bus, Modbus IP, LON IP, MBUS, KNX IP, OPC, SNMP"
+    },
+    {
+      "wired_interfaces": "Ethernet"
+    },
+    {
+      "network_capabilities": "Internet/Intranet access"
+    }
+  ],
+  "P1923601": [
+    {
+      "communication_protocols": "BACnet, C-Bus, Modbus IP, LON IP, MBUS, KNX IP, OPC, SNMP"
+    },
+    {
+      "wired_interfaces": "Ethernet"
+    },
+    {
+      "network_capabilities": "Internet/Intranet access"
+    }
+  ],
+  "P1905612": [
+    {
+      "communication_protocols": "BACnet, C-Bus, Modbus IP, LON IP, MBUS, KNX IP, OPC, SNMP"
+    },
+    {
+      "wired_interfaces": "Ethernet"
+    },
+    {
+      "network_capabilities": "Internet/Intranet access"
+    }
+  ],
+  "P1904885": [
+    {
+      "communication_protocols": "BACnet, C-Bus, Modbus IP, LON IP, MBUS, KNX IP, OPC, SNMP"
+    },
+    {
+      "wired_interfaces": "Ethernet"
+    },
+    {
+      "network_capabilities": "Internet/Intranet access"
+    }
+  ],
+  "P1923600": [
+    {
+      "communication_protocols": "BACnet, C-Bus, Modbus IP, LON IP, MBUS, KNX IP, OPC, SNMP"
+    },
+    {
+      "wired_interfaces": "Ethernet"
+    },
+    {
+      "network_capabilities": "Internet/Intranet access"
+    }
+  ],
+  "P1904652": [
+    {
+      "communication_protocols": "S-Bus, Modbus, EnOcean"
+    },
+    {
+      "wired_interfaces": "RS-485, USB"
+    },
+    {
+      "bus_type": "RS-485"
+    }
+  ],
+  "P1920541": [
+    {
+      "communication_protocols": "S-Bus, Modbus, EnOcean"
+    },
+    {
+      "wired_interfaces": "RS-485, USB"
+    },
+    {
+      "bus_type": "RS-485"
+    }
+  ],
+  "P1920543": [
+    {
+      "communication_protocols": "S-Bus, Modbus, EnOcean"
+    },
+    {
+      "wired_interfaces": "RS-485, USB"
+    },
+    {
+      "bus_type": "RS-485"
+    }
+  ],
+  "P1912381": [
+    {
+      "communication_protocols": "S-Bus, Modbus, EnOcean"
+    },
+    {
+      "wired_interfaces": "RS-485, USB"
+    },
+    {
+      "bus_type": "RS-485"
+    }
+  ],
+  "P1912384": [
+    {
+      "communication_protocols": "S-Bus, Modbus, EnOcean"
+    },
+    {
+      "wired_interfaces": "RS-485, USB"
+    },
+    {
+      "bus_type": "RS-485"
+    }
+  ],
+  "P1904775": [
+    {
+      "communication_protocols": "S-Bus, Modbus, EnOcean"
+    },
+    {
+      "wired_interfaces": "RS-485, USB"
+    },
+    {
+      "bus_type": "RS-485"
+    }
+  ],
+  "P1904654": [
+    {
+      "communication_protocols": "S-Bus, Modbus, EnOcean"
+    },
+    {
+      "wired_interfaces": "RS-485, USB"
+    },
+    {
+      "bus_type": "RS-485"
+    }
+  ],
+  "P1904778": [
+    {
+      "communication_protocols": "S-Bus, Modbus, EnOcean"
+    },
+    {
+      "wired_interfaces": "RS-485, USB"
+    },
+    {
+      "bus_type": "RS-485"
+    }
+  ],
+  "P1904797": [
+    {
+      "communication_protocols": "S-Bus, Modbus, EnOcean"
+    },
+    {
+      "wired_interfaces": "RS-485, USB"
+    },
+    {
+      "bus_type": "RS-485"
+    }
+  ],
+  "P1921811": [
+    {
+      "communication_protocols": "S-Bus, Modbus, EnOcean"
+    },
+    {
+      "wired_interfaces": "RS-485, USB"
+    },
+    {
+      "bus_type": "RS-485"
+    }
+  ],
+  "P1921809": [
+    {
+      "communication_protocols": "S-Bus, Modbus, EnOcean"
+    },
+    {
+      "wired_interfaces": "RS-485, USB"
+    },
+    {
+      "bus_type": "RS-485"
+    }
+  ],
+  "P1904798": [
+    {
+      "communication_protocols": "S-Bus, Modbus, EnOcean"
+    },
+    {
+      "wired_interfaces": "RS-485, USB"
+    },
+    {
+      "bus_type": "RS-485"
+    }
+  ],
+  "P1904780": [
+    {
+      "communication_protocols": "S-Bus, Modbus, EnOcean"
+    },
+    {
+      "wired_interfaces": "RS-485, USB"
+    },
+    {
+      "bus_type": "RS-485"
+    }
+  ],
+  "P1904653": [
+    {
+      "communication_protocols": "S-Bus, Modbus, EnOcean"
+    },
+    {
+      "wired_interfaces": "RS-485, USB"
+    },
+    {
+      "bus_type": "RS-485"
+    }
+  ],
+  "P1904761": [
+    {
+      "communication_protocols": "S-Bus, Modbus, EnOcean"
+    },
+    {
+      "wired_interfaces": "RS-485, USB"
+    },
+    {
+      "bus_type": "RS-485"
+    }
+  ],
+  "P1921810": [
+    {
+      "communication_protocols": "S-Bus, Modbus, EnOcean"
+    },
+    {
+      "wired_interfaces": "RS-485, USB"
+    },
+    {
+      "bus_type": "RS-485"
+    }
+  ],
+  "P1904785": [
+    {
+      "communication_protocols": "S-Bus, Modbus, EnOcean"
+    },
+    {
+      "wired_interfaces": "RS-485, USB"
+    },
+    {
+      "bus_type": "RS-485"
+    }
+  ],
+  "P1904762": [
+    {
+      "communication_protocols": "S-Bus, Modbus, EnOcean"
+    },
+    {
+      "wired_interfaces": "RS-485, USB"
+    },
+    {
+      "bus_type": "RS-485"
+    }
+  ],
+  "P1904755": [
+    {
+      "communication_protocols": "S-Bus, Modbus, EnOcean"
+    },
+    {
+      "wired_interfaces": "RS-485, USB"
+    },
+    {
+      "bus_type": "RS-485"
+    }
+  ],
+  "E0001822": [
+    {
+      "communication_protocols": "Modbus"
+    },
+    {
+      "wired_interfaces": "RS232"
+    },
+    {
+      "data_rate": "9600"
+    },
+    {
+      "bus_type": "RS232"
+    },
+    {
+      "voltage_rating": "8-28 VDC"
+    },
+    {
+      "current_rating": "3.5A"
+    },
+    {
+      "power_consumption": "2.4W (@ 24VDC), 1.4W (@ 12 VDC)"
+    },
+    {
+      "operating_temperature": "-10 to +60°C"
+    },
+    {
+      "humidity_range": "5-95%"
+    },
+    {
+      "dimensions": "210 (W) x 113 (L) x 63 (H)"
+    }
+  ],
+  "E0001818": [
+    {
+      "communication_protocols": "Modbus"
+    },
+    {
+      "wired_interfaces": "RS232"
+    },
+    {
+      "data_rate": "9600"
+    },
+    {
+      "bus_type": "RS232"
+    },
+    {
+      "voltage_rating": "8-28 VDC"
+    },
+    {
+      "current_rating": "3.5A"
+    },
+    {
+      "power_consumption": "2.4W (@ 24VDC), 1.4W (@ 12 VDC)"
+    },
+    {
+      "operating_temperature": "-10 to +60°C"
+    },
+    {
+      "humidity_range": "5-95%"
+    },
+    {
+      "dimensions": "210 (W) x 113 (L) x 63 (H)"
+    }
+  ],
+  "E0010055": [
+    {
+      "communication_protocols": "Modbus"
+    },
+    {
+      "wired_interfaces": "RS232"
+    },
+    {
+      "data_rate": "9600"
+    },
+    {
+      "bus_type": "RS232"
+    },
+    {
+      "voltage_rating": "8-28 VDC"
+    },
+    {
+      "current_rating": "3.5A"
+    },
+    {
+      "power_consumption": "2.4W (@ 24VDC), 1.4W (@ 12 VDC)"
+    },
+    {
+      "operating_temperature": "-10 to +60°C"
+    },
+    {
+      "humidity_range": "5-95%"
+    },
+    {
+      "dimensions": "210 (W) x 113 (L) x 63 (H)"
+    }
+  ],
+  "E0010046": [
+    {
+      "communication_protocols": "Modbus"
+    },
+    {
+      "wired_interfaces": "RS232"
+    },
+    {
+      "data_rate": "9600"
+    },
+    {
+      "bus_type": "RS232"
+    },
+    {
+      "voltage_rating": "8-28 VDC"
+    },
+    {
+      "current_rating": "3.5A"
+    },
+    {
+      "power_consumption": "2.4W (@ 24VDC), 1.4W (@ 12 VDC)"
+    },
+    {
+      "operating_temperature": "-10 to +60°C"
+    },
+    {
+      "humidity_range": "5-95%"
+    },
+    {
+      "dimensions": "210 (W) x 113 (L) x 63 (H)"
+    }
+  ],
+  "E0001817": [
+    {
+      "communication_protocols": "Modbus"
+    },
+    {
+      "wired_interfaces": "RS232"
+    },
+    {
+      "data_rate": "9600"
+    },
+    {
+      "bus_type": "RS232"
+    },
+    {
+      "voltage_rating": "8-28 VDC"
+    },
+    {
+      "current_rating": "3.5A"
+    },
+    {
+      "power_consumption": "2.4W (@ 24VDC), 1.4W (@ 12 VDC)"
+    },
+    {
+      "operating_temperature": "-10 to +60°C"
+    },
+    {
+      "humidity_range": "5-95%"
+    },
+    {
+      "dimensions": "210 (W) x 113 (L) x 63 (H)"
+    }
+  ],
+  "E0008000": [
+    {
+      "certifications": "IEC 61508 - SIL 2, ATEX, IEC Ex, FM, CSA, UNI EN ISO 9001:2008, UNI EN ISO 14001:2004, FM-3260, EN54-10"
+    },
+    {
+      "communication_protocols": "RS-485, Modbus"
+    },
+    {
+      "voltage_rating": "24 Vcc"
+    },
+    {
+      "current_rating": "100mA max (riposo), 150mA max (allarme)"
+    },
+    {
+      "operating_temperature": "-55°C to +75°C"
+    },
+    {
+      "storage_temperature": "-55°C to +85°C"
+    },
+    {
+      "dimensions": "90 x 114 x 156mm"
+    },
+    {
+      "weight": "1.2 kg"
+    },
+    {
+      "material": "Acciaio 316"
+    }
+  ],
+  "E0007078": [
+    {
+      "current_rating": "16A"
+    },
+    {
+      "operating_temperature": "-5 °C to +60 °C"
+    },
+    {
+      "humidity_range": "25% - 75%"
+    },
+    {
+      "dimensions": "44 x 482 x 70mm"
+    },
+    {
+      "weight": "0.75 Kg"
+    },
+    {
+      "material": "powder sheet metal"
+    },
+    {
+      "finish": "Black painted"
+    },
+    {
+      "mounting_type": "19\" rack unit"
+    }
+  ],
+  "P1913337": [
+    {
+      "certifications": "CE, EN50200, CEI 20-36/4-0 (PH30), CEI 20-105, CEI UNI 36762"
+    },
+    {
+      "voltage_rating": "100/100V"
+    },
+    {
+      "operating_temperature": "-10 ÷ +70°C"
+    },
+    {
+      "dimensions": "varies by model"
+    },
+    {
+      "material": "copper, thermoplastic"
+    }
+  ],
+  "P1913332": [
+    {
+      "certifications": "CE, EN50200, CEI 20-36/4-0 (PH30), CEI 20-105, CEI UNI 36762"
+    },
+    {
+      "voltage_rating": "100/100V"
+    },
+    {
+      "operating_temperature": "-10 ÷ +70°C"
+    },
+    {
+      "dimensions": "varies by model"
+    },
+    {
+      "material": "copper, thermoplastic"
+    }
+  ],
+  "P1913328": [
+    {
+      "certifications": "CE, EN50200, CEI 20-36/4-0 (PH30), CEI 20-105, CEI UNI 36762"
+    },
+    {
+      "voltage_rating": "100/100V"
+    },
+    {
+      "operating_temperature": "-10 ÷ +70°C"
+    },
+    {
+      "dimensions": "varies by model"
+    },
+    {
+      "material": "copper, thermoplastic"
+    }
+  ],
+  "P1913329": [
+    {
+      "certifications": "CE, EN50200, CEI 20-36/4-0 (PH30), CEI 20-105, CEI UNI 36762"
+    },
+    {
+      "voltage_rating": "100/100V"
+    },
+    {
+      "operating_temperature": "-10 ÷ +70°C"
+    },
+    {
+      "dimensions": "varies by model"
+    },
+    {
+      "material": "copper, thermoplastic"
+    }
+  ],
+  "P1913335": [
+    {
+      "certifications": "CE, EN50200, CEI 20-36/4-0 (PH30), CEI 20-105, CEI UNI 36762"
+    },
+    {
+      "voltage_rating": "100/100V"
+    },
+    {
+      "operating_temperature": "-10 ÷ +70°C"
+    },
+    {
+      "dimensions": "varies by model"
+    },
+    {
+      "material": "copper, thermoplastic"
+    }
+  ],
+  "P1913334": [
+    {
+      "certifications": "CE, EN50200, CEI 20-36/4-0 (PH30), CEI 20-105, CEI UNI 36762"
+    },
+    {
+      "voltage_rating": "100/100V"
+    },
+    {
+      "operating_temperature": "-10 ÷ +70°C"
+    },
+    {
+      "dimensions": "varies by model"
+    },
+    {
+      "material": "copper, thermoplastic"
+    }
+  ],
+  "P1913330": [
+    {
+      "certifications": "CE, EN50200, CEI 20-36/4-0 (PH30), CEI 20-105, CEI UNI 36762"
+    },
+    {
+      "voltage_rating": "100/100V"
+    },
+    {
+      "operating_temperature": "-10 ÷ +70°C"
+    },
+    {
+      "dimensions": "varies by model"
+    },
+    {
+      "material": "copper, thermoplastic"
+    }
+  ],
+  "P1913333": [
+    {
+      "certifications": "CE, EN50200, CEI 20-36/4-0 (PH30), CEI 20-105, CEI UNI 36762"
+    },
+    {
+      "voltage_rating": "100/100V"
+    },
+    {
+      "operating_temperature": "-10 ÷ +70°C"
+    },
+    {
+      "dimensions": "varies by model"
+    },
+    {
+      "material": "copper, thermoplastic"
+    }
+  ],
+  "P1906011": [
+    {
+      "certifications": "IEC 61508 - SIL 2, ATEX, IEC Ex, FM, CSA, UNI EN ISO 9001:2008, UNI EN ISO 14001:2004, FM-3260, EN54-10"
+    },
+    {
+      "communication_protocols": "RS-485, Modbus"
+    },
+    {
+      "voltage_rating": "24 Vcc"
+    },
+    {
+      "current_rating": "100mA max (riposo), 150mA max (allarme)"
+    },
+    {
+      "operating_temperature": "-55°C to +75°C"
+    },
+    {
+      "storage_temperature": "-55°C to +85°C"
+    },
+    {
+      "dimensions": "90 x 114 x 156mm"
+    },
+    {
+      "weight": "1.2 kg"
+    },
+    {
+      "material": "Acciaio 316"
+    }
+  ],
+  "MCM3420": [
+    {
+      "certifications": "FCC PART 15B, CE-LVD, CE-EMC, CB"
+    },
+    {
+      "communication_protocols": "RS-485"
+    },
+    {
+      "wired_interfaces": "RS-485, S5bus"
+    },
+    {
+      "ports": "H2, H4, H7"
+    },
+    {
+      "voltage_rating": "12 ± 0.25 VDC"
+    },
+    {
+      "current_rating": "15mA to 35mA"
+    },
+    {
+      "operating_temperature": "0 - 40 °C"
+    },
+    {
+      "humidity_range": "0 - 95 % RH"
+    }
+  ],
+  "X45B0314": [
+    {
+      "certifications": "ICES-003, CE, EN 61000-3-2, EN 61000-3-3, EN61000-6-3, EN 61000-6-1, RoHS, FCC Part 15"
+    },
+    {
+      "communication_protocols": "S5bus"
+    },
+    {
+      "wired_interfaces": "S5bus, RS485"
+    },
+    {
+      "ports": "8-pin connector, 3-pin Pigtail, 5-pin Pigtail, 6-pin Pigtail"
+    },
+    {
+      "voltage_rating": "12 VDC"
+    },
+    {
+      "current_rating": "70 mA"
+    },
+    {
+      "power_consumption": "12 VDC, 70 mA"
+    },
+    {
+      "operating_temperature": "40 to 150 ˚F (5 to 65 ˚C)"
+    },
+    {
+      "humidity_range": "15-99% RH"
+    },
+    {
+      "dimensions": "3 x 2 3/5 x 3/5in (76 x 66 x 15mm)"
+    },
+    {
+      "mounting_type": "Mounting rail"
+    }
+  ],
+  "P1909410": [
+    {
+      "certifications": "FCC Part 15, UL/ULC"
+    },
+    {
+      "communication_protocols": "IEEE 802.15.4"
+    },
+    {
+      "wired_interfaces": "UART pins"
+    },
+    {
+      "network_capabilities": "INNCOM Deep Mesh Network (DMN)"
+    },
+    {
+      "data_rate": "2550 bps"
+    },
+    {
+      "voltage_rating": "120 VAC"
+    },
+    {
+      "current_rating": "3.15A (Triac), 1.65A (FET)"
+    },
+    {
+      "power_consumption": "12 VDC, 100 mA"
+    },
+    {
+      "frequency": "60 Hz"
+    },
+    {
+      "operating_temperature": "0 - 30 ºC"
+    },
+    {
+      "storage_temperature": "-10 – 50 ºC"
+    },
+    {
+      "humidity_range": "10 – 90% RH, Non-Condensing"
+    }
+  ],
+  "P1909412": [
+    {
+      "certifications": "FCC Part 15, UL/ULC"
+    },
+    {
+      "communication_protocols": "IEEE 802.15.4"
+    },
+    {
+      "wired_interfaces": "UART pins"
+    },
+    {
+      "network_capabilities": "INNCOM Deep Mesh Network (DMN)"
+    },
+    {
+      "data_rate": "2550 bps"
+    },
+    {
+      "voltage_rating": "120 VAC"
+    },
+    {
+      "current_rating": "3.15A (Triac), 1.65A (FET)"
+    },
+    {
+      "power_consumption": "12 VDC, 100 mA"
+    },
+    {
+      "frequency": "60 Hz"
+    },
+    {
+      "operating_temperature": "0 - 30 ºC"
+    },
+    {
+      "storage_temperature": "-10 – 50 ºC"
+    },
+    {
+      "humidity_range": "10 – 90% RH, Non-Condensing"
+    }
+  ],
+  "P1904613": [
+    {
+      "certifications": "FCC Part 15A, IC, EN60730-1, EN61000-6-3, EN61000-6-1, RoHS EN 50581, UL 244A, UL 508"
+    },
+    {
+      "communication_protocols": "S5bus"
+    },
+    {
+      "wired_interfaces": "Digital Inputs and Outputs"
+    },
+    {
+      "network_capabilities": "Optional in-room wireless network communications"
+    },
+    {
+      "bus_type": "S5bus"
+    },
+    {
+      "voltage_rating": "12VDC"
+    },
+    {
+      "current_rating": "300mA"
+    },
+    {
+      "operating_temperature": "0 °C - 40 °C"
+    },
+    {
+      "humidity_range": "0 - 90 % RH"
+    },
+    {
+      "dimensions": "86.2 X 78.4 X 60mm"
+    },
+    {
+      "mounting_type": "DIN Rail"
+    }
+  ],
+  "P1603890113160661": [
+    {
+      "certifications": "FCC Part 15A, IC, EN60730-1, EN61000-6-3, EN61000-6-1, RoHS EN 50581, UL 244A, UL 508"
+    },
+    {
+      "communication_protocols": "S5bus"
+    },
+    {
+      "wired_interfaces": "Digital Inputs and Outputs"
+    },
+    {
+      "network_capabilities": "Optional in-room wireless network communications"
+    },
+    {
+      "bus_type": "S5bus"
+    },
+    {
+      "voltage_rating": "12VDC"
+    },
+    {
+      "current_rating": "300mA"
+    },
+    {
+      "operating_temperature": "0 °C - 40 °C"
+    },
+    {
+      "humidity_range": "0 - 90 % RH"
+    },
+    {
+      "dimensions": "86.2 X 78.4 X 60mm"
+    },
+    {
+      "mounting_type": "DIN Rail"
+    }
+  ],
+  "MCM4420": [
+    {
+      "certifications": "FCC Part 15, CE"
+    },
+    {
+      "communication_protocols": "INNCOM S5bus"
+    },
+    {
+      "wired_interfaces": "multiplex signals for switch and LED"
+    },
+    {
+      "voltage_rating": "12 VDC"
+    },
+    {
+      "current_rating": "13 mA + N (3mA)"
+    },
+    {
+      "power_consumption": "12 VDC, 13 mA + N (3mA)"
+    },
+    {
+      "operating_temperature": "40 to 150 ˚F (5 to 65 ˚C)"
+    },
+    {
+      "bus_type": "INNCOM S5bus"
+    },
+    {
+      "ports": "multiplex signals for switch and LED"
+    }
+  ],
+  "P1921539": [],
+  "X45BX021": [
+    {
+      "certifications": "CE, ICES-003, EN 61000-3-2, EN 61000-3-3, EN61000-6-3, EN 61000-6-1, RoHS, FCC Part 15"
+    },
+    {
+      "communication_protocols": "Wired S5bus, RF transceiver (PC502)"
+    },
+    {
+      "wired_interfaces": "S5bus"
+    },
+    {
+      "bus_type": "S5bus"
+    },
+    {
+      "voltage_rating": "100-277VAC"
+    },
+    {
+      "current_rating": "30A / 15A"
+    },
+    {
+      "power_supply": "12VDC 400mA"
+    },
+    {
+      "operating_temperature": "40 to 150 ˚F (5 to 65 ˚C)"
+    },
+    {
+      "humidity_range": "15-99% RH"
+    },
+    {
+      "dimensions": "X45B_X06: 6” W x 3” H x 2” D (152.3mm W x 76.1mm H x 50.8mm D), X06.DIN: 6 1/8” W x 3 3/8” H x 2 5/16” D (156mm W x 85mm H x 58mm D)"
+    },
+    {
+      "mounting_type": "DIN rail mountable"
+    }
+  ],
+  "HVFD3G": [
+    {
+      "certifications": "EN 61000-3-12, EN 61800-3, RoHS"
+    },
+    {
+      "communication_protocols": "BACnet, Modbus, FLN, N2"
+    },
+    {
+      "voltage_rating": "208/230V AC, 460V AC, 600V AC"
+    },
+    {
+      "operating_temperature": "32°F [0°C] to 122°F [50°C]"
+    },
+    {
+      "enclosure_type": "NEMA 1, NEMA 12"
+    },
+    {
+      "frequency": "50/60Hz"
+    },
+    {
+      "ingress_protection": "IP21, IP54, IP55"
+    },
+    {
+      "output_frequency": "0-590Hz"
+    }
+  ],
+  "P1906354": [
+    {
+      "certifications": "CE, UL"
+    },
+    {
+      "wired_interfaces": "20-gauge cable with six leadwires"
+    },
+    {
+      "voltage_rating": "24 Vac/dc"
+    },
+    {
+      "current_rating": "600 mA"
+    },
+    {
+      "power_consumption": "3W"
+    },
+    {
+      "power_supply": "24 Vac/dc ±20%, 50/60Hz (Class 2)"
+    },
+    {
+      "frequency": "50/60Hz"
+    },
+    {
+      "operating_temperature": "+32°F to +122°F (0°C to +50°C)"
+    },
+    {
+      "storage_temperature": "-4°F to +158°F (-20°C to +70°C)"
+    },
+    {
+      "humidity_range": "0 to 95 percent"
+    },
+    {
+      "dimensions": "See Fig. 1 and Fig. 2"
+    },
+    {
+      "mounting_type": "Vertical surface with standard single-gang junction box or sheet metal duct"
+    },
+    {
+      "enclosure_type": "NEMA1, NEMA3"
+    }
+  ],
+  "P1905788": [
+    {
+      "certifications": "GSA Certified, BTL certified, FIPS 140-2 Level 1"
+    },
+    {
+      "communication_protocols": "HTTP, HTML, XML, CSV, TCP/IP"
+    },
+    {
+      "wired_interfaces": "Ethernet"
+    },
+    {
+      "network_capabilities": "802.1x"
+    }
+  ],
+  "P1904686": [
+    {
+      "certifications": "BACnet, UL, CE, FCC"
+    },
+    {
+      "communication_protocols": "BACnet MS/TP"
+    },
+    {
+      "wired_interfaces": "EIA-485 (RS-485)"
+    },
+    {
+      "network_capabilities": "auto-baud switching"
+    },
+    {
+      "data_rate": "up to 115.2 Kbps"
+    },
+    {
+      "bus_type": "MS/TP LAN"
+    },
+    {
+      "voltage_rating": "24 VAC"
+    },
+    {
+      "current_rating": "9 VA minimum, 90 VA maximum"
+    },
+    {
+      "power_consumption": "9 VA minimum, 90 VA maximum"
+    },
+    {
+      "power_supply": "24 VAC @ 50-60Hz"
+    },
+    {
+      "frequency": "50-60Hz"
+    },
+    {
+      "operating_temperature": "0 to 158°F (-17 to 70°C)"
+    },
+    {
+      "humidity_range": "5 to 95%RH, non-condensing"
+    },
+    {
+      "dimensions": "4.9\" (125mm) H x 5\" (127mm) W x 1.4\" (36mm) D"
+    },
+    {
+      "mounting_type": "screw mounting"
+    }
+  ],
+  "P1912670": [
+    {
+      "certifications": "FCC Part 15, C-UL, CE, UL916, RoHS2, REACH, WEEE"
+    },
+    {
+      "communication_protocols": "BACNet/IP, Modbus, SNMP, BACnet, Modbus over IP and RS-485"
+    },
+    {
+      "wired_interfaces": "2 10/100MB Ethernet ports, 1 RS-485 serial port"
+    },
+    {
+      "voltage_rating": "24VAC/DC"
+    },
+    {
+      "operating_temperature": "-20 to 60°C"
+    },
+    {
+      "storage_temperature": "-40 to 85°C"
+    },
+    {
+      "humidity_range": "5-95% non-condensing"
+    },
+    {
+      "mounting_type": "DIN rail or panel mounting"
+    },
+    {
+      "bus_type": "485 bus"
+    },
+    {
+      "network_capabilities": "daisy chaining"
+    },
+    {
+      "vibration_resistance": "ASTM D4169, Assurance Level II"
+    }
+  ],
+  "P1921838": [
+    {
+      "certifications": "UL, CE"
+    },
+    {
+      "wired_interfaces": "18–22 AWG, shielded, 3-conductor"
+    },
+    {
+      "voltage_rating": "24 VAC"
+    },
+    {
+      "current_rating": "25 mA"
+    },
+    {
+      "operating_temperature": "32–158 deg. F (0–70 deg. C)"
+    },
+    {
+      "humidity_range": "0–90% RH, non-condensing"
+    },
+    {
+      "dimensions": "4.6” (117mm) H X 3.0” (76mm) L X 0.7” (18mm) D"
+    }
+  ],
+  "P1921833": [
+    {
+      "communication_protocols": "BACnet/IP, BACnet MS/TP, EIA-485"
+    },
+    {
+      "wired_interfaces": "Ethernet, EIA-485"
+    },
+    {
+      "ports": "RJ45, EIA-485"
+    },
+    {
+      "network_capabilities": "10/100 Mbps"
+    },
+    {
+      "data_rate": "9.6, 19.2, 38.4, 76.8, or 115.2kbps"
+    },
+    {
+      "bus_type": "EIA-485"
+    },
+    {
+      "voltage_rating": "110-240VAC, 9-30VDC"
+    },
+    {
+      "current_rating": "0.65a"
+    },
+    {
+      "power_consumption": "15.4W"
+    },
+    {
+      "power_supply": "AC-adapter, PoE, DC"
+    },
+    {
+      "frequency": "50/60Hz"
+    },
+    {
+      "operating_temperature": "-15 to 60°C"
+    },
+    {
+      "humidity_range": "5 to 95%RH"
+    },
+    {
+      "dimensions": "7.74\" x 4.92\" x 0.57\""
+    },
+    {
+      "mounting_type": "In-wall flush, on-wall surface, tabletop"
+    }
+  ],
+  "P1913815": [
+    {
+      "certifications": "UL, CE, RoHS, FCC, IC"
+    },
+    {
+      "communication_protocols": "RS-485"
+    },
+    {
+      "voltage_rating": "24 VAC"
+    },
+    {
+      "power_consumption": "35 VA minimum / 15 VA minimum"
+    },
+    {
+      "operating_temperature": "-20 to 55°C"
+    },
+    {
+      "storage_temperature": "-20 to 85°C"
+    },
+    {
+      "humidity_range": "5 to 95 % RH"
+    },
+    {
+      "dimensions": "VXIO-965-HOA: 5.32\" x 4.33\" x 2.26\", VXIO-322-HOA: 3.35\" x 4.33\" x 2.26\""
+    },
+    {
+      "mounting_type": "35mm DIN rail or screw mounting"
+    }
+  ]
+}

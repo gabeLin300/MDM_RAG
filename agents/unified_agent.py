@@ -33,6 +33,7 @@ class UnifiedAgent:
         self.llm = ChatGroq(
             groq_api_key=os.getenv("GROQ_API_KEY"),
             model=model_name,
+            max_retries=0,  # disable built-in retry — orchestrator handles backoff
         )
 
     def extract(self, chunks: list[str]) -> dict:

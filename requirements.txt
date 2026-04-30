@@ -12,4 +12,5 @@ python-dotenv
 pypdf
 requests
 groq
-langchain-groq
+langchain-groq 
+streamlit

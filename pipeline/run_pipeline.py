@@ -291,7 +291,7 @@ def get_all_product_ids_from_metadata(metadata_store: List[Dict[str, Any]]) -> L
 def run_batch_orchestrator(
     orchestrator: Orchestrator,
     metadata_store: List[Dict[str, Any]],
-    rate_limit_delay: float = 1.0,
+    rate_limit_delay: float = 3.0,
 ) -> Dict[str, Any]:
     """Process all documents once, mapping extracted attributes to all product IDs they cover.
 
@@ -323,6 +323,7 @@ def run_batch_orchestrator(
         backoff_delay = rate_limit_delay
         max_retries = 3
         retry_count = 0
+        had_retry = False
 
         while retry_count < max_retries:
             try:
@@ -344,6 +345,7 @@ def run_batch_orchestrator(
 
             except Exception as e:
                 retry_count += 1
+                had_retry = True
                 if retry_count < max_retries:
                     logger.warning(
                         f"Attempt {retry_count}/{max_retries} failed for {doc_id}: {e}. "
@@ -356,7 +358,8 @@ def run_batch_orchestrator(
                     failed_docs.append(doc_id)
 
         if idx < len(doc_list) - 1:
-            time.sleep(rate_limit_delay)
+            # After a retry, use the doubled backoff so Groq has time to recover
+            time.sleep(backoff_delay if had_retry else rate_limit_delay)
 
     if failed_docs:
         logger.warning(f"Failed documents: {failed_docs}")
