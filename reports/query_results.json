@@ -17,7 +17,7 @@
         1.95605,
         0.10927
       ],
-      "latency_ms": 762.76
+      "latency_ms": 3307.91
     },
     {
       "query": "Will there be a price increase for the Universal CLSS Gateway Modbus/BACnet feature?",
@@ -36,7 +36,7 @@
         -3.6162,
         -5.53041
       ],
-      "latency_ms": 662.66
+      "latency_ms": 2642.15
     },
     {
       "query": "What communication protocols are mentioned for the CLSS Gateway?",
@@ -53,9 +53,9 @@
         -0.93532,
         -1.64565,
         -4.37977,
-        -5.65078
+        -5.65079
       ],
-      "latency_ms": 584.52
+      "latency_ms": 2264.54
     },
     {
       "query": "In the Li-Ion Tamer Rack Monitor, what is the maximum number of sensors per controller?",
@@ -74,7 +74,7 @@
         3.06769,
         2.65707
       ],
-      "latency_ms": 592.08
+      "latency_ms": 2518.31
     },
     {
       "query": "What is the Li-Ion Tamer controller input power range?",
@@ -93,7 +93,7 @@
         1.99395,
         0.9746
       ],
-      "latency_ms": 732.27
+      "latency_ms": 3118.26
     },
     {
       "query": "What are the controller and sensor power consumption values for Li-Ion Tamer?",
@@ -112,7 +112,7 @@
         1.50385,
         1.3895
       ],
-      "latency_ms": 695.71
+      "latency_ms": 2995.73
     },
     {
       "query": "What are the gas detection threshold and response time in the Li-Ion Tamer datasheet?",
@@ -131,7 +131,7 @@
         1.06437,
         0.59302
       ],
-      "latency_ms": 752.38
+      "latency_ms": 3148.22
     },
     {
       "query": "What key features are listed for the TC300 Commercial Thermostat?",
@@ -150,7 +150,7 @@
         3.00326,
         2.20056
       ],
-      "latency_ms": 737.46
+      "latency_ms": 3190.26
     },
     {
       "query": "What user interface/display capabilities are listed for the TC300 thermostat?",
@@ -167,9 +167,9 @@
         2.57554,
         2.52189,
         1.55409,
-        0.81376
+        0.81375
       ],
-      "latency_ms": 639.02
+      "latency_ms": 2490.49
     },
     {
       "query": "What is the ALER-9000 controller described as (controller/server/platform)?",
@@ -186,9 +186,9 @@
         4.06961,
         3.88897,
         1.98029,
-        1.84535
+        1.84536
       ],
-      "latency_ms": 606.32
+      "latency_ms": 2429.08
     },
     {
       "query": "What kind of valves are in the VN Series Zone Valves datasheet (2-way or 3-way)?",
@@ -203,11 +203,11 @@
       "scores": [
         7.16557,
         2.16245,
-        2.05797,
+        2.05798,
         2.03139,
         1.7538
       ],
-      "latency_ms": 751.64
+      "latency_ms": 3337.74
     },
     {
       "query": "What actuator behavior is described for VN Series valves (fail-safe/fail-in-place)?",
@@ -226,7 +226,7 @@
         1.89943,
         -0.945
       ],
-      "latency_ms": 770.82
+      "latency_ms": 3218.0
     },
     {
       "query": "What are the TR21/TR22/TR23 wall modules used for?",
@@ -245,7 +245,7 @@
         5.73314,
         5.46477
       ],
-      "latency_ms": 694.01
+      "latency_ms": 2958.05
     },
     {
       "query": "What sensor inputs or measurements are mentioned for TR21/TR22/TR23 wall modules?",
@@ -264,7 +264,7 @@
         4.1704,
         3.73
       ],
-      "latency_ms": 680.85
+      "latency_ms": 2929.99
     },
     {
       "query": "¿Cuál es la finalidad del controlador IQ5 según la ficha técnica en español?",
@@ -277,13 +277,13 @@
         "dm_08b090e653626be185662599c27471b9_c0022"
       ],
       "scores": [
-        4.44373,
+        4.44372,
         4.32368,
-        4.1969,
+        4.19689,
         4.02481,
         3.78901
       ],
-      "latency_ms": 729.52
+      "latency_ms": 3105.71
     },
     {
       "query": "Welche Funktionen bietet die IQ5-DDC-Station laut Datenblatt?",
@@ -296,15 +296,15 @@
         "dm_72f9785f3355cf2cab75a74e2daf5acd_c0015"
       ],
       "scores": [
-        5.76876,
+        5.76875,
         4.13784,
-        3.64181,
+        3.6418,
         3.44331,
-        2.96112
+        2.96111
       ],
-      "latency_ms": 718.1
+      "latency_ms": 3127.27
     }
   ],
-  "latency_p50_ms": 706.91,
-  "latency_p95_ms": 764.78
+  "latency_p50_ms": 3050.72,
+  "latency_p95_ms": 3315.37
 }

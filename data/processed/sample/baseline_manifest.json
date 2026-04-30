@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-04-30T07:41:15.927577+00:00",
+  "created_at_utc": "2026-04-30T04:26:31.619163+00:00",
   "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
   "embedding_backend": "sentence-transformers",
   "index_backend": "faiss",
@@ -8,6 +8,6 @@
   "chunks_count": 1252,
   "index_size": 1252,
   "source_files": [
-    "/home/gabel/ITCS_4681/MDM_RAG/app/data/uploaded_data.csv"
+    "data/raw/100_sample_advanced_rag.csv"
   ]
 }

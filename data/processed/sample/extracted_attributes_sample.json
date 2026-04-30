@@ -1,0 +1,2207 @@
+{
+  "0": [
+    {
+      "Mounting Height": "86mm"
+    },
+    {
+      "Dimensions": "86mm x 54.5mm"
+    }
+  ],
+  "20240904E": [
+    {
+      "Temperature Range": "-40° to 158°F"
+    },
+    {
+      "Humidity Range": "5 to 95% RH"
+    },
+    {
+      "Mounting": "Actuator screws onto valve body"
+    },
+    {
+      "Driving Power Consumption": "Low"
+    }
+  ],
+  "20240904I": [
+    {
+      "Control Mode": "On/Off type"
+    },
+    {
+      "Control Signal": "3-wire"
+    },
+    {
+      "Control Signal": "2-wire"
+    }
+  ],
+  "ALER9000": [
+    {
+      "CPU": "iMX8M+ Quad Core"
+    },
+    {
+      "RAM": "2GB LPDDR4"
+    },
+    {
+      "Storage": "8GB micro-SD card"
+    },
+    {
+      "WiFi": "WiFi 5 (802.11ac)"
+    }
+  ],
+  "CN1000305": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "CN4000006": [],
+  "CN4000007": [],
+  "CN4000009": [],
+  "CN4000011": [],
+  "DECO": [
+    {
+      "Dimensions": "3 -19/32 ” (91.2mm)"
+    }
+  ],
+  "E0001494": [],
+  "E0001495": [],
+  "E0001501": [],
+  "E0001502": [],
+  "E0001503": [],
+  "E0001535": [
+    {
+      "Valve Insert": "kvs 0.25"
+    },
+    {
+      "Valve Insert": "kvs 0.40"
+    },
+    {
+      "Valve Insert": "kvs 0.63"
+    }
+  ],
+  "E0001536": [
+    {
+      "Valve Insert": "kvs 0.25"
+    },
+    {
+      "Valve Insert": "kvs 0.40"
+    },
+    {
+      "Valve Insert": "kvs 0.63"
+    }
+  ],
+  "E0001544": [
+    {
+      "Valve Insert": "kvs 0.25"
+    },
+    {
+      "Valve Insert": "kvs 0.40"
+    },
+    {
+      "Valve Insert": "kvs 0.63"
+    }
+  ],
+  "E0001546": [
+    {
+      "Valve Insert": "kvs 0.25"
+    },
+    {
+      "Valve Insert": "kvs 0.40"
+    },
+    {
+      "Valve Insert": "kvs 0.63"
+    }
+  ],
+  "E0001547": [
+    {
+      "Valve Insert": "kvs 0.25"
+    },
+    {
+      "Valve Insert": "kvs 0.40"
+    },
+    {
+      "Valve Insert": "kvs 0.63"
+    }
+  ],
+  "E0001817": [
+    {
+      "Gas Detection": "Componenti off-gas delle batterie al litio"
+    },
+    {
+      "Temperature Range": "-10 to +60oC"
+    },
+    {
+      "Humidity Range": "5-95% RH"
+    },
+    {
+      "Response Time": "5 secondi"
+    }
+  ],
+  "E0001818": [
+    {
+      "Gas Detection": "Componenti off-gas delle batterie al litio"
+    },
+    {
+      "Temperature Range": "-10 to +60oC"
+    },
+    {
+      "Humidity Range": "5-95% RH"
+    },
+    {
+      "Response Time": "5 secondi"
+    }
+  ],
+  "E0001822": [
+    {
+      "Gas Detection": "Componenti off-gas delle batterie al litio"
+    },
+    {
+      "Temperature Range": "-10 to +60oC"
+    },
+    {
+      "Humidity Range": "5-95% RH"
+    },
+    {
+      "Response Time": "5 secondi"
+    }
+  ],
+  "E0001837": [],
+  "E0001954": [],
+  "E0001955": [],
+  "E0001956": [],
+  "E0001957": [],
+  "E0001958": [],
+  "E0001959": [],
+  "E0001960": [],
+  "E0001966": [],
+  "E0001969": [],
+  "E0001970": [],
+  "E0001975": [],
+  "E0001981": [],
+  "E0001983": [],
+  "E0001984": [],
+  "E0001985": [],
+  "E0001986": [],
+  "E0001987": [],
+  "E0001990": [],
+  "E0001991": [],
+  "E0001995": [],
+  "E0001996": [],
+  "E0001998": [],
+  "E0002000": [],
+  "E0002001": [],
+  "E0002002": [],
+  "E0002004": [],
+  "E0002007": [],
+  "E0002008": [],
+  "E0002009": [],
+  "E0002012": [],
+  "E0002013": [],
+  "E0002028": [],
+  "E0002029": [],
+  "E0002030": [],
+  "E0002034": [],
+  "E0002038": [],
+  "E0002040": [],
+  "E0002041": [],
+  "E0002042": [],
+  "E0002056": [],
+  "E0002057": [],
+  "E0002066": [],
+  "E0002067": [],
+  "E0002072": [],
+  "E0002073": [],
+  "E0002076": [],
+  "E0002077": [],
+  "E0002078": [],
+  "E0002079": [],
+  "E0002104": [],
+  "E0002105": [],
+  "E0002106": [],
+  "E0002141": [],
+  "E0002142": [],
+  "E0002143": [],
+  "E0002144": [],
+  "E0002149": [],
+  "E0002177": [],
+  "E0002186": [],
+  "E0002386": [],
+  "E0004142": [],
+  "E0004167": [
+    {
+      "Supply Voltage": "Adequate"
+    }
+  ],
+  "E0004168": [
+    {
+      "Supply Voltage": "Adequate"
+    }
+  ],
+  "E0004178": [
+    {
+      "Stroke": "20/38mm"
+    },
+    {
+      "Force": "600 N"
+    }
+  ],
+  "E0004181": [
+    {
+      "Stroke": "20/38mm"
+    },
+    {
+      "Force": "600 N"
+    }
+  ],
+  "E0004182": [
+    {
+      "Stroke": "20/38mm"
+    },
+    {
+      "Force": "600 N"
+    }
+  ],
+  "E0004183": [],
+  "E0004186": [],
+  "E0004197": [],
+  "E0005061": [],
+  "E0005275": [],
+  "E0006716": [],
+  "E0007046": [],
+  "E0007071": [],
+  "E0007078": [],
+  "E0007098": [],
+  "E0008000": [],
+  "E0010046": [],
+  "E0010055": [],
+  "E0010056": [],
+  "E0011298": [],
+  "EP00001": [],
+  "EP00002": [],
+  "EP00003": [],
+  "EP00004": [],
+  "EP00005": [],
+  "EP00007": [],
+  "EP00008": [],
+  "EP00009": [],
+  "EP00010": [],
+  "EP00011": [],
+  "EP00012": [],
+  "EP00013": [],
+  "EP00014": [],
+  "EP00015": [],
+  "EP00016": [],
+  "EP00017": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP00018": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP00019": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP00020": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP00021": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP00022": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP00023": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP00024": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP00025": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP00026": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP00027": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP00028": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP00029": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP00030": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP00109": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP00110": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP00111": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP00112": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP4-006": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP4-008": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP5-002": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP5-023": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP5-028": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP5-035": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP5-062": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP5-063": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP5-065": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP6-007": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "EP6-018": [
+    {
+      "Mounting Height": "Not specified"
+    },
+    {
+      "Technology": "PIR"
+    }
+  ],
+  "EP6-061": [
+    {
+      "Mounting Height": "Not specified"
+    },
+    {
+      "Technology": "PIR"
+    }
+  ],
+  "EP6-063": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "HVFD3G": [
+    {
+      "Input Voltage": "208/230V AC"
+    }
+  ],
+  "IO16UIODI": [],
+  "IQ50024": [],
+  "IQ5IO816": [
+    {
+      "Number of Digital Inputs": "16"
+    },
+    {
+      "Number of Digital Outputs": "8"
+    }
+  ],
+  "K2766": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "M2M-EP": [
+    {
+      "Supply Voltage": "200-250V"
+    }
+  ],
+  "M2M-FIRE": [
+    {
+      "Ambient Temperature": "-25°C / 70°C"
+    }
+  ],
+  "MCM3420": [],
+  "MCM4420": [],
+  "ML6421A300": [
+    {
+      "Operating Range": "10 kohm"
+    }
+  ],
+  "ML7421AB00": [
+    {
+      "Operating Range": "10 kohm"
+    }
+  ],
+  "P00500100": [
+    {
+      "CPU": "i.MX 8M Plus"
+    },
+    {
+      "RAM": "2 GB"
+    },
+    {
+      "Storage": "8 GB"
+    },
+    {
+      "Operating System": "LINUX 64-bit"
+    }
+  ],
+  "P1603890113160661": [
+    {
+      "Input Voltage": "12VDC"
+    }
+  ],
+  "P1901003": [],
+  "P1901004": [],
+  "P1901005": [],
+  "P1901006": [],
+  "P1901007": [],
+  "P1901008": [],
+  "P1901009": [],
+  "P1901010": [],
+  "P1901011": [],
+  "P1901012": [],
+  "P1901013": [],
+  "P1901014": [],
+  "P1901015": [],
+  "P1901016": [],
+  "P1901017": [],
+  "P1901473": [],
+  "P1901995": [],
+  "P1902247": [],
+  "P1902248": [],
+  "P1902275": [],
+  "P1902280": [],
+  "P1902282": [],
+  "P1902522": [
+    {
+      "Height": "50mm"
+    }
+  ],
+  "P1902523": [
+    {
+      "Height": "50mm"
+    }
+  ],
+  "P1902525": [
+    {
+      "Height": "50mm"
+    }
+  ],
+  "P1902526": [
+    {
+      "Height": "50mm"
+    }
+  ],
+  "P1902527": [
+    {
+      "Height": "50mm"
+    }
+  ],
+  "P1902690": [],
+  "P1904391": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Operating Range": "43191679-012"
+    }
+  ],
+  "P1904392": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Operating Range": "43191679-012"
+    }
+  ],
+  "P1904394": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Operating Range": "43191679-012"
+    }
+  ],
+  "P1904401": [],
+  "P1904402": [],
+  "P1904407": [],
+  "P1904587": [
+    {
+      "Height": "50mm"
+    }
+  ],
+  "P1904588": [
+    {
+      "Height": "50mm"
+    }
+  ],
+  "P1904589": [
+    {
+      "Height": "50mm"
+    }
+  ],
+  "P1904613": [
+    {
+      "Input Voltage": "12VDC"
+    },
+    {
+      "Current Consumption": "300mA"
+    }
+  ],
+  "P1904633": [],
+  "P1904634": [],
+  "P1904636": [],
+  "P1904652": [],
+  "P1904653": [
+    {
+      "Supply Voltage": "230 VAC"
+    },
+    {
+      "Supply Voltage": "24 VAC"
+    }
+  ],
+  "P1904654": [
+    {
+      "Supply Voltage": "230 VAC"
+    },
+    {
+      "Supply Voltage": "24 VAC"
+    }
+  ],
+  "P1904686": [
+    {
+      "Input Voltage": "24 VAC"
+    }
+  ],
+  "P1904733": [],
+  "P1904755": [
+    {
+      "Supply Voltage": "230 VAC"
+    },
+    {
+      "Supply Voltage": "24 VAC"
+    },
+    {
+      "Current Rating": "300 mA"
+    },
+    {
+      "Current Rating": "600 mA"
+    },
+    {
+      "Analogue Outputs": "6"
+    },
+    {
+      "Output Voltage": "0…10 VDC"
+    }
+  ],
+  "P1904761": [
+    {
+      "Supply Voltage": "230 VAC"
+    },
+    {
+      "Supply Voltage": "24 VAC"
+    },
+    {
+      "Current Rating": "300 mA"
+    },
+    {
+      "Current Rating": "600 mA"
+    },
+    {
+      "Analogue Outputs": "6"
+    },
+    {
+      "Output Voltage": "0…10 VDC"
+    }
+  ],
+  "P1904762": [
+    {
+      "Supply Voltage": "230 VAC"
+    },
+    {
+      "Supply Voltage": "24 VAC"
+    },
+    {
+      "Current Rating": "300 mA"
+    },
+    {
+      "Current Rating": "600 mA"
+    },
+    {
+      "Analogue Outputs": "6"
+    },
+    {
+      "Output Voltage": "0…10 VDC"
+    }
+  ],
+  "P1904775": [
+    {
+      "Supply Voltage": "230 VAC"
+    },
+    {
+      "Supply Voltage": "24 VAC"
+    },
+    {
+      "Current Rating": "300 mA"
+    },
+    {
+      "Current Rating": "600 mA"
+    },
+    {
+      "Analogue Outputs": "6"
+    },
+    {
+      "Output Voltage": "0…10 VDC"
+    }
+  ],
+  "P1904778": [
+    {
+      "Supply Voltage": "230 VAC"
+    },
+    {
+      "Supply Voltage": "24 VAC"
+    },
+    {
+      "Current Rating": "300 mA"
+    },
+    {
+      "Current Rating": "600 mA"
+    },
+    {
+      "Analogue Outputs": "6"
+    },
+    {
+      "Output Voltage": "0…10 VDC"
+    }
+  ],
+  "P1904780": [
+    {
+      "Supply Voltage": "230 VAC"
+    },
+    {
+      "Supply Voltage": "24 VAC"
+    },
+    {
+      "Current Rating": "300 mA"
+    },
+    {
+      "Current Rating": "600 mA"
+    },
+    {
+      "Analogue Outputs": "6"
+    },
+    {
+      "Output Voltage": "0…10 VDC"
+    }
+  ],
+  "P1904785": [
+    {
+      "Supply Voltage": "230 VAC"
+    },
+    {
+      "Supply Voltage": "24 VAC"
+    },
+    {
+      "Current Rating": "300 mA"
+    },
+    {
+      "Current Rating": "600 mA"
+    },
+    {
+      "Analogue Outputs": "6"
+    },
+    {
+      "Output Voltage": "0…10 VDC"
+    }
+  ],
+  "P1904797": [
+    {
+      "Supply Voltage": "230 VAC"
+    },
+    {
+      "Supply Voltage": "24 VAC"
+    },
+    {
+      "Current Rating": "300 mA"
+    },
+    {
+      "Current Rating": "600 mA"
+    },
+    {
+      "Analogue Outputs": "6"
+    },
+    {
+      "Output Voltage": "0…10 VDC"
+    }
+  ],
+  "P1904798": [
+    {
+      "Supply Voltage": "230 VAC"
+    },
+    {
+      "Supply Voltage": "24 VAC"
+    },
+    {
+      "Current Rating": "300 mA"
+    },
+    {
+      "Current Rating": "600 mA"
+    },
+    {
+      "Analogue Outputs": "6"
+    },
+    {
+      "Output Voltage": "0…10 VDC"
+    }
+  ],
+  "P1904831": [
+    {
+      "Operating System": "SQL"
+    },
+    {
+      "Operating System": "MySQL"
+    }
+  ],
+  "P1904836": [
+    {
+      "Operating System": "SQL"
+    },
+    {
+      "Operating System": "MySQL"
+    }
+  ],
+  "P1904885": [
+    {
+      "Processor": "Core i5-3470"
+    },
+    {
+      "Supply Voltage Frequency": "3.2GHz"
+    }
+  ],
+  "P1904898": [
+    {
+      "Processor": "Core i5-3470"
+    },
+    {
+      "Supply Voltage Frequency": "3.2GHz"
+    }
+  ],
+  "P1904899": [
+    {
+      "Processor": "Core i5-3470"
+    },
+    {
+      "Supply Voltage Frequency": "3.2GHz"
+    }
+  ],
+  "P1904911": [
+    {
+      "Processor": "Core i5-3470"
+    },
+    {
+      "Supply Voltage Frequency": "3.2GHz"
+    }
+  ],
+  "P1905310": [
+    {
+      "Processor": "Core i5-3470"
+    },
+    {
+      "Supply Voltage Frequency": "3.2GHz"
+    }
+  ],
+  "P1905612": [
+    {
+      "Processor": "Core i5-3470"
+    },
+    {
+      "Supply Voltage Frequency": "3.2GHz"
+    }
+  ],
+  "P1905613": [
+    {
+      "Processor": "Core i5-3470"
+    },
+    {
+      "Supply Voltage Frequency": "3.2GHz"
+    }
+  ],
+  "P1905788": [
+    {
+      "System Management": "Centralized"
+    }
+  ],
+  "P1905883": [
+    {
+      "Energy Management": "EMS"
+    }
+  ],
+  "P1905884": [
+    {
+      "Energy Management": "EMS"
+    }
+  ],
+  "P1906011": [
+    {
+      "Flame Detector": "40/40"
+    }
+  ],
+  "P1906354": [
+    {
+      "CO2 Measurement": "0 to 2000 ppm"
+    },
+    {
+      "Accuracy": "± (30 ppm +2% of reading)"
+    }
+  ],
+  "P1906374": [],
+  "P1906375": [],
+  "P1906414": [],
+  "P1906429": [],
+  "P1906430": [],
+  "P1906665": [
+    {
+      "CO2 Measurement": "0 to 2000 ppm"
+    },
+    {
+      "Accuracy": "±(50 ppm + 2% of measured value)"
+    }
+  ],
+  "P1906677": [
+    {
+      "Actuator": "V5011"
+    },
+    {
+      "Actuator": "V5013"
+    },
+    {
+      "Actuator": "V5016A"
+    },
+    {
+      "Actuator": "V5025"
+    },
+    {
+      "Actuator": "V5049"
+    },
+    {
+      "Actuator": "V5050"
+    }
+  ],
+  "P1906678": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Linear Actuator Stroke": "20/38mm"
+    },
+    {
+      "Valve Series": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329"
+    }
+  ],
+  "P1906683": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Linear Actuator Stroke": "20/38mm"
+    },
+    {
+      "Valve Series": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329"
+    }
+  ],
+  "P1906685": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Linear Actuator Stroke": "20/38mm"
+    },
+    {
+      "Valve Series": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329"
+    }
+  ],
+  "P1906686": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Linear Actuator Stroke": "20/38mm"
+    },
+    {
+      "Valve Series": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329"
+    }
+  ],
+  "P1906687": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Linear Actuator Stroke": "20/38mm"
+    },
+    {
+      "Valve Series": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329"
+    }
+  ],
+  "P1906688": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Linear Actuator Stroke": "20/38mm"
+    },
+    {
+      "Valve Series": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329"
+    }
+  ],
+  "P1906690": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Linear Actuator Stroke": "20/38mm"
+    },
+    {
+      "Valve Series": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329"
+    }
+  ],
+  "P1906691": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Linear Actuator Stroke": "20/38mm"
+    },
+    {
+      "Valve Series": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329"
+    }
+  ],
+  "P1906692": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Linear Actuator Stroke": "20/38mm"
+    },
+    {
+      "Valve Series": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329"
+    }
+  ],
+  "P1906884": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Linear Actuator Stroke": "20/38mm"
+    },
+    {
+      "Valve Series": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329"
+    }
+  ],
+  "P1906885": [
+    {
+      "Temperature Setpoint Dials": "Fahrenheit, Celsius, and Relative (- to +)"
+    },
+    {
+      "Operating Temperature Range": "7 °C to 37 °C (45 °F to 99 °F)"
+    }
+  ],
+  "P1907046": [
+    {
+      "Switch Housing Material": "GD AI Si 12 according to DIN 1725"
+    },
+    {
+      "Mounting Position": "Vertically upright and horizontal"
+    }
+  ],
+  "P1907076": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Linear Actuator Stroke": "20/38mm"
+    },
+    {
+      "Valve Series": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329"
+    }
+  ],
+  "P1907078": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Linear Actuator Stroke": "20/38mm"
+    },
+    {
+      "Valve Series": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329"
+    }
+  ],
+  "P1907081": [
+    {
+      "Switch Housing Material": "GD AI Si 12 according to DIN 1725"
+    },
+    {
+      "Mounting Position": "Vertically upright and horizontal"
+    }
+  ],
+  "P1907115": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Linear Actuator Stroke": "20/38mm"
+    },
+    {
+      "Valve Series": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329"
+    }
+  ],
+  "P1907162": [],
+  "P1907202": [],
+  "P1907203": [],
+  "P1907228": [],
+  "P1907231": [],
+  "P1907246": [],
+  "P1907250": [],
+  "P1907253": [],
+  "P1907254": [],
+  "P1907298": [],
+  "P1907299": [],
+  "P1907299-NTF": [],
+  "P1907304": [],
+  "P1907305": [],
+  "P1907310": [],
+  "P1907321": [],
+  "P1907373": [],
+  "P1907374": [],
+  "P1907375": [],
+  "P1907436": [],
+  "P1907449": [],
+  "P1908030": [
+    {
+      "Power Source": "Battery"
+    },
+    {
+      "Communication Method": "RF"
+    }
+  ],
+  "P1908036": [
+    {
+      "Power Source": "Battery"
+    },
+    {
+      "Communication Method": "RF"
+    }
+  ],
+  "P1908208": [],
+  "P1908229": [],
+  "P1908280": [],
+  "P1908336": [],
+  "P1908555": [],
+  "P1908562": [],
+  "P1908579": [],
+  "P1908592": [],
+  "P1908982": [],
+  "P1908994": [],
+  "P1909006": [],
+  "P1909007": [],
+  "P1909113": [],
+  "P1909275": [],
+  "P1909410": [
+    {
+      "Operating Temperature": "0 - 30 ºC"
+    },
+    {
+      "Storage Temperature": "-10 – 50 ºC"
+    },
+    {
+      "Humidity": "10 – 90% RH, Non-Condensing"
+    },
+    {
+      "Supply Voltage": "120 VAC"
+    },
+    {
+      "Supply Voltage Frequency": "60Hz"
+    }
+  ],
+  "P1909412": [
+    {
+      "Operating Temperature": "0 - 30 ºC"
+    },
+    {
+      "Storage Temperature": "-10 – 50 ºC"
+    },
+    {
+      "Humidity": "10 – 90% RH, Non-Condensing"
+    },
+    {
+      "Supply Voltage": "120 VAC"
+    },
+    {
+      "Supply Voltage Frequency": "60Hz"
+    }
+  ],
+  "P1911550": [
+    {
+      "Potentiometer": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer": "220 ohm"
+    }
+  ],
+  "P1911553": [
+    {
+      "Potentiometer": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer": "220 ohm"
+    }
+  ],
+  "P1911556": [
+    {
+      "Potentiometer": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer": "220 ohm"
+    }
+  ],
+  "P1911557": [
+    {
+      "Potentiometer": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer": "220 ohm"
+    }
+  ],
+  "P1911613": [],
+  "P1911730": [
+    {
+      "Potentiometer": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer": "220 ohm"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1911746": [
+    {
+      "Operating Torque": "8 Nm"
+    }
+  ],
+  "P1911749": [
+    {
+      "Potentiometer": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer": "220 ohm"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1911750": [
+    {
+      "Potentiometer": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer": "220 ohm"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1911753": [
+    {
+      "Potentiometer": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer": "220 ohm"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1911760": [
+    {
+      "Potentiometer": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer": "220 ohm"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1911765": [
+    {
+      "Kvs": "0.25"
+    },
+    {
+      "Kvs": "0.40"
+    },
+    {
+      "Kvs": "0.63"
+    }
+  ],
+  "P1911770": [
+    {
+      "Operating Torque": "8 Nm"
+    }
+  ],
+  "P1911774": [
+    {
+      "Potentiometer": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer": "220 ohm"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1911776": [
+    {
+      "Potentiometer": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer": "220 ohm"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1911779": [
+    {
+      "Potentiometer": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer": "220 ohm"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1911784": [
+    {
+      "Potentiometer": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer": "220 ohm"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1911785": [
+    {
+      "Potentiometer": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer": "220 ohm"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1911787": [
+    {
+      "Potentiometer": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer": "220 ohm"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1911789": [
+    {
+      "Potentiometer": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer": "220 ohm"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1911791": [
+    {
+      "Potentiometer": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer": "220 ohm"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1911794": [
+    {
+      "Potentiometer": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer": "220 ohm"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1911807": [
+    {
+      "Stroke": "90° to 160°"
+    }
+  ],
+  "P1911824": [
+    {
+      "Supply Voltage": "24 Vac"
+    }
+  ],
+  "P1911842": [
+    {
+      "Operating Torque": "Angular degree maximum"
+    }
+  ],
+  "P1911844": [
+    {
+      "Ambient Operating Limits": "-5...+140° F"
+    },
+    {
+      "Ambient Storage Limits": "-22...+176° F"
+    }
+  ],
+  "P1911848": [
+    {
+      "Ambient Operating Limits": "-5...+140 °F"
+    },
+    {
+      "Ambient Storage Limits": "-40...+175 °F"
+    }
+  ],
+  "P1911853": [],
+  "P1911857": [],
+  "P1912041": [
+    {
+      "Potentiometer": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer": "220 ohm"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1912042": [
+    {
+      "Potentiometer": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer": "220 ohm"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1912043": [
+    {
+      "Potentiometer": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer": "220 ohm"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1912044": [
+    {
+      "Potentiometer": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer": "220 ohm"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1912045": [
+    {
+      "Potentiometer": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer": "220 ohm"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1912055": [
+    {
+      "Kvs": "0.25"
+    },
+    {
+      "Kvs": "0.40"
+    },
+    {
+      "Kvs": "0.63"
+    }
+  ],
+  "P1912058": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Actuator Stroke": "20/38mm"
+    }
+  ],
+  "P1912060": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Actuator Stroke": "20/38mm"
+    }
+  ],
+  "P1912061": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Actuator Stroke": "20/38mm"
+    }
+  ],
+  "P1912067": [
+    {
+      "Actuator Force": "300 N"
+    }
+  ],
+  "P1912071": [],
+  "P1912084": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Actuator Stroke": "20/38mm"
+    }
+  ],
+  "P1912085": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Actuator Stroke": "20/38mm"
+    }
+  ],
+  "P1912195": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Actuator Stroke": "20/38mm"
+    }
+  ],
+  "P1912214": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Actuator Stroke": "20/38mm"
+    }
+  ],
+  "P1912215": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Actuator Stroke": "20/38mm"
+    }
+  ],
+  "P1912220": [],
+  "P1912381": [
+    {
+      "Input Voltage": "230 VAC"
+    },
+    {
+      "Input Voltage": "24 VAC"
+    }
+  ],
+  "P1912382": [],
+  "P1912383": [],
+  "P1912384": [
+    {
+      "Input Voltage": "230 VAC"
+    },
+    {
+      "Input Voltage": "24 VAC"
+    }
+  ],
+  "P1912395": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Actuator Stroke": "20/38mm"
+    }
+  ],
+  "P1912401": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Actuator Stroke": "20/38mm"
+    }
+  ],
+  "P1912402": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Actuator Stroke": "20/38mm"
+    }
+  ],
+  "P1912512": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Actuator Stroke": "20/38mm"
+    }
+  ],
+  "P1912513": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Actuator Stroke": "20/38mm"
+    }
+  ],
+  "P1912516": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Actuator Stroke": "20/38mm"
+    }
+  ],
+  "P1912517": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Actuator Stroke": "20/38mm"
+    }
+  ],
+  "P1912546": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Actuator Stroke": "20/38mm"
+    }
+  ],
+  "P1912642": [],
+  "P1912646": [],
+  "P1912648": [],
+  "P1912670": [],
+  "P1912741": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Actuator Stroke": "20/38mm"
+    }
+  ],
+  "P1912759": [
+    {
+      "Potentiometer Resistance": "10 kohm"
+    },
+    {
+      "Feedback Potentiometer Resistance": "220 ohm"
+    },
+    {
+      "Actuator Stroke": "20/38mm"
+    }
+  ],
+  "P1912897-NTF": [],
+  "P1912994": [],
+  "P1913328": [
+    {
+      "Norme di riferimento": "EN 50200, CEI 20-36/4-0 (PH30) CEI 20-105"
+    }
+  ],
+  "P1913329": [
+    {
+      "Norme di riferimento": "EN 50200, CEI 20-36/4-0 (PH30) CEI 20-105"
+    }
+  ],
+  "P1913330": [
+    {
+      "Norme di riferimento": "EN 50200, CEI 20-36/4-0 (PH30) CEI 20-105"
+    }
+  ],
+  "P1913332": [
+    {
+      "Norme di riferimento": "EN 50200, CEI 20-36/4-0 (PH30) CEI 20-105"
+    }
+  ],
+  "P1913333": [
+    {
+      "Norme di riferimento": "EN 50200, CEI 20-36/4-0 (PH30) CEI 20-105"
+    }
+  ],
+  "P1913334": [
+    {
+      "Norme di riferimento": "EN 50200, CEI 20-36/4-0 (PH30) CEI 20-105"
+    }
+  ],
+  "P1913335": [
+    {
+      "Norme di riferimento": "EN 50200, CEI 20-36/4-0 (PH30) CEI 20-105"
+    }
+  ],
+  "P1913337": [
+    {
+      "Norme di riferimento": "EN 50200, CEI 20-36/4-0 (PH30) CEI 20-105"
+    }
+  ],
+  "P1913443": [],
+  "P1913495": [],
+  "P1913496": [],
+  "P1913656": [],
+  "P1913815": [
+    {
+      "Pulse input maximum frequency": "100Hz"
+    },
+    {
+      "Pulse input minimum duty cycle": "5ms ON / 5ms OFF"
+    }
+  ],
+  "P1913832": [],
+  "P1913835": [],
+  "P1913848": [],
+  "P1913849": [],
+  "P1913850": [],
+  "P1913912": [],
+  "P1913916": [],
+  "P1913932": [],
+  "P1913934": [],
+  "P1913963": [],
+  "P1913990": [],
+  "P1913991": [],
+  "P1914001": [],
+  "P1914559": [],
+  "P1914585": [],
+  "P1914725": [],
+  "P1914805": [],
+  "P1914865": [],
+  "P1915194": [],
+  "P1915210": [],
+  "P1915276": [],
+  "P1915334": [],
+  "P1915609": [],
+  "P1919717": [
+    {
+      "Supply Voltage": "24"
+    }
+  ],
+  "P1919718": [
+    {
+      "Supply Voltage": "24"
+    },
+    {
+      "kvs": "0.25"
+    }
+  ],
+  "P1919719": [
+    {
+      "Supply Voltage": "24"
+    }
+  ],
+  "P1919720": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Operating Range": "43191679-012"
+    }
+  ],
+  "P1919721": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Operating Range": "43191679-012"
+    }
+  ],
+  "P1919722": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Operating Range": "43191679-012"
+    }
+  ],
+  "P1919723": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Operating Range": "43191679-012"
+    }
+  ],
+  "P1919724": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Operating Range": "43191679-012"
+    }
+  ],
+  "P1919725": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Operating Range": "43191679-012"
+    }
+  ],
+  "P1919726": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Operating Range": "43191679-012"
+    }
+  ],
+  "P1919727": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Operating Range": "43191679-012"
+    }
+  ],
+  "P1919728": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Operating Range": "43191679-012"
+    }
+  ],
+  "P1919729": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Operating Range": "43191679-012"
+    }
+  ],
+  "P1919730": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Operating Range": "43191679-012"
+    }
+  ],
+  "P1919731": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Operating Range": "43191679-012"
+    }
+  ],
+  "P1919732": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Operating Range": "43191679-012"
+    }
+  ],
+  "P1919818": [
+    {
+      "Supply Voltage": "24"
+    }
+  ],
+  "P1919819": [
+    {
+      "Supply Voltage": "24"
+    }
+  ],
+  "P1919974": [],
+  "P1919976": [],
+  "P1919977": [],
+  "P1919993": [],
+  "P1920418": [],
+  "P1920438": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Operating Range": "43191679-012"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1920532": [],
+  "P1920541": [
+    {
+      "Supply Voltage": "230 VAC"
+    },
+    {
+      "Supply Voltage": "24 VAC"
+    },
+    {
+      "Current Rating": "300 mA"
+    },
+    {
+      "Current Rating": "600 mA"
+    }
+  ],
+  "P1920543": [
+    {
+      "Supply Voltage": "230 VAC"
+    },
+    {
+      "Supply Voltage": "24 VAC"
+    },
+    {
+      "Current Rating": "300 mA"
+    },
+    {
+      "Current Rating": "600 mA"
+    }
+  ],
+  "P1921322": [],
+  "P1921333": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Operating Range": "43191679-012"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1921461": [],
+  "P1921539": [],
+  "P1921578": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Operating Range": "43191679-012"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1921581": [],
+  "P1921582": [],
+  "P1921583": [],
+  "P1921587": [],
+  "P1921621": [
+    {
+      "Processor": "Core i5-3470"
+    }
+  ],
+  "P1921650": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Operating Range": "43191679-012"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1921653": [
+    {
+      "Temperature Range": "-10 °C to +50 °C"
+    },
+    {
+      "Enclosure Material": "Flame retardant (V0) ABS"
+    }
+  ],
+  "P1921809": [
+    {
+      "Supply Voltage": "230 VAC"
+    },
+    {
+      "Supply Voltage": "24 VAC"
+    },
+    {
+      "Current Rating": "300 mA"
+    },
+    {
+      "Current Rating": "600 mA"
+    }
+  ],
+  "P1921810": [
+    {
+      "Supply Voltage": "230 VAC"
+    },
+    {
+      "Supply Voltage": "24 VAC"
+    },
+    {
+      "Current Rating": "300 mA"
+    },
+    {
+      "Current Rating": "600 mA"
+    }
+  ],
+  "P1921811": [
+    {
+      "Supply Voltage": "230 VAC"
+    },
+    {
+      "Supply Voltage": "24 VAC"
+    },
+    {
+      "Current Rating": "300 mA"
+    },
+    {
+      "Current Rating": "600 mA"
+    }
+  ],
+  "P1921819": [
+    {
+      "Supply Voltage": "230V AC"
+    },
+    {
+      "Supply Voltage": "24V AC"
+    },
+    {
+      "Current Rating": "300 mA"
+    },
+    {
+      "Current Rating": "600 mA"
+    }
+  ],
+  "P1921833": [],
+  "P1921838": [
+    {
+      "Temperature Range": "-40–185 deg. F"
+    }
+  ],
+  "P1921860": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Operating Range": "43191679-012"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1922042": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Operating Range": "43191679-012"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1922260": [
+    {
+      "Operating Range": "43191679-011"
+    },
+    {
+      "Operating Range": "43191679-012"
+    },
+    {
+      "Stroke": "20/38mm"
+    }
+  ],
+  "P1922360": [],
+  "P1922390": [],
+  "P1922516": [],
+  "P1922910": [],
+  "P1923309": [],
+  "P1923525": [],
+  "P1923531": [],
+  "P1923532": [],
+  "P1923600": [],
+  "P1923601": [],
+  "P1923602": [],
+  "P1924074": [],
+  "P1924354": [],
+  "RBM": [],
+  "TC300": [],
+  "TC500": [],
+  "TMP-0239": [],
+  "UKF00231": [],
+  "VESDA-E": [],
+  "VESDA-GATEWAY": [],
+  "VN32A": [],
+  "VN3ZZA00T": [],
+  "VSMC41520": [],
+  "VSMF41520": [],
+  "WEB-HMI": [],
+  "X45B0314": [],
+  "X45BX021": []
+}

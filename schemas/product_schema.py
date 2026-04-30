@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import re
 from dataclasses import asdict, dataclass, field
-from datetime import datetime, timezone
 from typing import Any, Dict, List, Tuple
 
 REQUIRED_TOP_LEVEL_FIELDS = (
@@ -73,36 +72,93 @@ def validate_product_record(record: Dict[str, Any]) -> Tuple[bool, List[str]]:
 
 
 ATTRIBUTE_PATTERNS: Dict[str, str] = {
-    "voltage_rating":        r"\d+\.?\d*\s*[Vv]",
-    "current_rating":        r"\d+\.?\d*\s*[Aa]",
-    "power_consumption":     r"\d+\.?\d*\s*[Ww]",
-    "frequency":             r"\d+\.?\d*\s*[Hh][Zz]",
+    "voltage_rating": r"\d+\.?\d*\s*[Vv]",
+    "current_rating": r"\d+\.?\d*\s*[Aa]",
+    "power_consumption": r"\d+\.?\d*\s*[Ww]",
+    "frequency": r"\d+\.?\d*\s*[Hh][Zz]",
     "operating_temperature": r"-?\d+",
-    "storage_temperature":   r"-?\d+",
-    "dimensions":            r"\d+",
-    "weight":                r"\d+\.?\d*\s*(?:g|kg|lb|oz)",
+    "storage_temperature": r"-?\d+",
+    "dimensions": r"\d+",
+    "weight": r"\d+\.?\d*\s*(?:g|kg|lb|oz)",
 }
 
 _LOW_CONFIDENCE_THRESHOLD = 60
 _MIN_FILLED_FOR_AUTO_APPROVE = 3
 
 
+def _normalize_key(name: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "_", str(name).strip().lower()).strip("_")
+
+
+def _iter_attribute_entries(attributes: Any) -> List[Tuple[str, Dict[str, Any]]]:
+    entries: List[Tuple[str, Dict[str, Any]]] = []
+
+    if isinstance(attributes, dict):
+        for name, entry in attributes.items():
+            if isinstance(entry, dict):
+                value = entry.get("value")
+                confidence = entry.get("confidence", 0)
+            else:
+                value = entry
+                confidence = 0
+            entries.append((str(name), {"value": value, "confidence": confidence}))
+        return entries
+
+    if isinstance(attributes, list):
+        for item in attributes:
+            if not isinstance(item, dict):
+                continue
+            if "name" in item:
+                name = str(item.get("name") or "").strip()
+                if not name:
+                    continue
+                entries.append(
+                    (
+                        name,
+                        {
+                            "value": item.get("value"),
+                            "confidence": item.get("confidence", 0),
+                        },
+                    )
+                )
+                continue
+
+            # Fallback for [{"Supply Voltage": "24"}] shape.
+            if len(item) == 1:
+                (name, value), = item.items()
+                entries.append((str(name), {"value": value, "confidence": 0}))
+
+    return entries
+
+
 class AttributeValidator:
-    def validate(self, attributes: dict) -> Tuple[List[str], bool]:
-        """Return (quality_flags, review_required) for a set of extracted attributes."""
+    def validate(self, attributes: Any) -> Tuple[List[str], bool]:
+        """Return (quality_flags, review_required) for extracted attributes."""
         flags: List[str] = []
+        entries = _iter_attribute_entries(attributes)
+
         filled = [
-            name for name, entry in attributes.items()
-            if isinstance(entry, dict) and entry.get("value") is not None
+            name
+            for name, entry in entries
+            if entry.get("value") is not None and str(entry.get("value")).strip() != ""
         ]
 
-        for name, entry in attributes.items():
-            if not isinstance(entry, dict) or entry.get("value") is None:
+        for name, entry in entries:
+            value = entry.get("value")
+            if value is None or str(value).strip() == "":
                 continue
-            if entry.get("confidence", 0) < _LOW_CONFIDENCE_THRESHOLD:
+
+            try:
+                confidence = int(float(entry.get("confidence", 0) or 0))
+            except (TypeError, ValueError):
+                confidence = 0
+
+            if confidence < _LOW_CONFIDENCE_THRESHOLD:
                 flags.append(f"low_confidence:{name}")
-            pattern = ATTRIBUTE_PATTERNS.get(name)
-            if pattern and not re.search(pattern, str(entry["value"]), re.IGNORECASE):
+
+            normalized = _normalize_key(name)
+            pattern = ATTRIBUTE_PATTERNS.get(name) or ATTRIBUTE_PATTERNS.get(normalized)
+            if pattern and not re.search(pattern, str(value), re.IGNORECASE):
                 flags.append(f"format_mismatch:{name}")
 
         review_required = bool(flags) or len(filled) < _MIN_FILLED_FOR_AUTO_APPROVE

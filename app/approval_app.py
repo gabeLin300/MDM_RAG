@@ -13,6 +13,7 @@ from __future__ import annotations
 import json
 import sys
 from pathlib import Path
+from typing import Any
 
 import pandas as pd
 import streamlit as st
@@ -33,18 +34,6 @@ REVIEWED_CSV_PATH = DATA_DIR / "reviewed_output.csv"
 APPROVED_CSV_PATH = DATA_DIR / "approved_pim_export.csv"
 FAISS_DIR = DATA_DIR / "processed"
 DEFAULT_CSV_PATH = REPO_ROOT / "data" / "raw" / "100_sample_advanced_rag.csv"
-
-# ── Attribute list (mirrors UnifiedAgent.ATTRIBUTES) ──────────────────────────
-ATTRIBUTES = [
-    "certifications", "standards_compliance", "regulatory_approvals",
-    "safety_certifications", "environmental_certifications", "industry_certifications",
-    "communication_protocols", "wired_interfaces", "ports",
-    "network_capabilities", "data_rate", "bus_type",
-    "voltage_rating", "current_rating", "power_consumption", "power_supply", "frequency",
-    "operating_temperature", "storage_temperature", "humidity_range",
-    "ingress_protection", "shock_resistance", "vibration_resistance", "altitude_rating",
-    "dimensions", "weight", "material", "housing", "finish", "mounting_type", "enclosure_type",
-]
 
 STATUS_ICON = {
     "Approved": "🟢",
@@ -75,16 +64,73 @@ def _init_ss() -> None:
 
 # ── Data helpers ───────────────────────────────────────────────────────────────
 
-def flatten_attributes(full_result: dict) -> dict:
-    """Convert {attr: {"value": X, "confidence": N}} → {attr: X or ""}."""
+def _attribute_entries(full_result: dict) -> list[dict[str, Any]]:
+    """Normalize attributes into [{name,value,confidence,source_excerpt}, ...]."""
     attrs = full_result.get("attributes", {})
+    entries: list[dict[str, Any]] = []
+
+    if isinstance(attrs, list):
+        for item in attrs:
+            if not isinstance(item, dict):
+                continue
+            if "name" in item:
+                name = str(item.get("name") or "").strip()
+                if not name:
+                    continue
+                entries.append(
+                    {
+                        "name": name,
+                        "value": item.get("value"),
+                        "confidence": item.get("confidence", 0) or 0,
+                        "source_excerpt": item.get("source_excerpt"),
+                    }
+                )
+                continue
+            if len(item) == 1:
+                (name, value), = item.items()
+                entries.append(
+                    {
+                        "name": str(name).strip(),
+                        "value": value,
+                        "confidence": 0,
+                        "source_excerpt": None,
+                    }
+                )
+        return [e for e in entries if e.get("name")]
+
+    if isinstance(attrs, dict):
+        for name, item in attrs.items():
+            if isinstance(item, dict):
+                value = item.get("value")
+                confidence = item.get("confidence", 0) or 0
+                source_excerpt = item.get("source_excerpt")
+            else:
+                value = item
+                confidence = 0
+                source_excerpt = None
+            entries.append(
+                {
+                    "name": str(name).strip(),
+                    "value": value,
+                    "confidence": confidence,
+                    "source_excerpt": source_excerpt,
+                }
+            )
+    return [e for e in entries if e.get("name")]
+
+
+def flatten_attributes(full_result: dict) -> dict:
+    """Convert dynamic attributes into a flat editable dict for review."""
     flat: dict = {}
-    for attr_name in ATTRIBUTES:
-        entry = attrs.get(attr_name, {})
-        if isinstance(entry, dict):
-            flat[attr_name] = entry.get("value") or ""
+    for entry in _attribute_entries(full_result):
+        name = entry["name"]
+        value = entry.get("value")
+        text = "" if value is None else str(value)
+        if name in flat and text:
+            if text not in str(flat[name]):
+                flat[name] = f"{flat[name]} | {text}".strip(" |")
         else:
-            flat[attr_name] = str(entry) if entry else ""
+            flat[name] = text
     return flat
 
 
@@ -106,15 +152,15 @@ def load_extracted_json() -> dict:
     except Exception:
         return {}
 
-    # Convert the saved [{attr: val}, ...] format back to full result format
+    # Convert saved dynamic JSON back to full result shape used by the UI.
     result: dict = {}
     for pid, content in raw.items():
         if isinstance(content, list):
-            attrs = {}
+            attrs = []
             for item in content:
                 if isinstance(item, dict):
                     for k, v in item.items():
-                        attrs[k] = {"value": v, "confidence": 0, "source_excerpt": None}
+                        attrs.append({"name": k, "value": v, "confidence": 0, "source_excerpt": None})
             result[pid] = {
                 "product_id":      pid,
                 "attributes":      attrs,
@@ -130,12 +176,10 @@ def save_extracted_json(extracted_full: dict) -> None:
     """Persist extracted data as {pid: [{attr: val}, ...]}."""
     output: dict = {}
     for pid, full_result in extracted_full.items():
-        attrs = full_result.get("attributes", {})
         output[pid] = [
-            {attr_name: entry.get("value") if isinstance(entry, dict) else entry}
-            for attr_name, entry in attrs.items()
-            if (isinstance(entry, dict) and entry.get("value") is not None)
-            or (not isinstance(entry, dict) and entry)
+            {entry["name"]: entry.get("value")}
+            for entry in _attribute_entries(full_result)
+            if entry.get("value") is not None and str(entry.get("value")).strip() != ""
         ]
     with open(EXTRACTED_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
@@ -301,7 +345,7 @@ def run_extraction_pipeline(csv_path: Path) -> tuple[bool, list[str]]:
         extracted_full = batch_result.get("extracted_attributes", {})
         n_ok   = batch_result.get("products_processed", 0)
         n_fail = batch_result.get("products_failed", 0)
-        messages.append(f"✅ Extraction done: {n_ok} documents processed, {n_fail} failed")
+        messages.append(f"✅ Extraction done: {n_ok} products processed, {n_fail} failed")
 
         if not extracted_full:
             messages.append("⚠️ No attributes were extracted. Check GROQ_API_KEY in .env.")
@@ -423,11 +467,12 @@ def render_sidebar() -> None:
                 extracted_full: dict = {}
                 for pid, content in raw.items():
                     if isinstance(content, list):
-                        attrs = {
-                            k: {"value": v, "confidence": 0, "source_excerpt": None}
+                        attrs = [
+                            {"name": k, "value": v, "confidence": 0, "source_excerpt": None}
                             for item in content
+                            if isinstance(item, dict)
                             for k, v in item.items()
-                        }
+                        ]
                         extracted_full[pid] = {
                             "product_id": pid, "attributes": attrs,
                             "quality_flags": [], "review_required": True,
@@ -545,17 +590,17 @@ def render_product_card() -> None:
             for flag in quality_flags:
                 st.warning(flag)
 
-    attrs_with_conf = full_result.get("attributes", {})
-    if attrs_with_conf:
+    entries = _attribute_entries(full_result)
+    if entries:
         with st.expander("📊 Extraction confidence scores", expanded=False):
             conf_rows = [
                 {
-                    "Attribute": attr_name,
-                    "Extracted Value": entry.get("value", "") if isinstance(entry, dict) else entry,
-                    "Confidence %": entry.get("confidence", 0) if isinstance(entry, dict) else 0,
-                    "Source excerpt": (entry.get("source_excerpt") or "") if isinstance(entry, dict) else "",
+                    "Attribute": entry["name"],
+                    "Extracted Value": entry.get("value", ""),
+                    "Confidence %": entry.get("confidence", 0),
+                    "Source excerpt": entry.get("source_excerpt") or "",
                 }
-                for attr_name, entry in attrs_with_conf.items()
+                for entry in entries
             ]
             st.dataframe(
                 pd.DataFrame(conf_rows),
@@ -565,8 +610,8 @@ def render_product_card() -> None:
 
     # ── Editable attribute table ──────────────────────────────────────────────
     attrs = record.get("attributes", {})
-    if not attrs:
-        attrs = {a: "" for a in ATTRIBUTES}
+    if attrs is None:
+        attrs = {}
         st.session_state.review_records[pid]["attributes"] = attrs
 
     attrs_df = pd.DataFrame(

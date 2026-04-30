@@ -62,6 +62,26 @@ class Orchestrator:
             "review_required": review_required,
         }
 
+    def run_for_product_batch(
+        self,
+        product_contexts: dict[str, str],
+        source_chunk_ids_by_product: dict[str, list[str]],
+    ) -> dict[str, dict]:
+        raw = self.agent.extract_batch(product_contexts)
+        output: dict[str, dict] = {}
+        for product_id, result in raw.items():
+            attrs = result.get("attributes", {})
+            flags, review_required = self.validator.validate(attrs)
+            output[product_id] = {
+                "product_id": product_id,
+                "extracted_at": datetime.now(timezone.utc).isoformat(),
+                "source_chunk_ids": source_chunk_ids_by_product.get(product_id, []),
+                "attributes": attrs,
+                "quality_flags": flags,
+                "review_required": review_required,
+            }
+        return output
+
     def run(self, product_id: str) -> dict:
         retrieved = self.rag.search(
             "product technical specifications",

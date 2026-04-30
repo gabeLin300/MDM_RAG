@@ -1,0 +1,6649 @@
+{
+  "schema_version": "pim_export_v1",
+  "generated_at_utc": "2026-04-30T07:04:58.582763+00:00",
+  "record_count": 215,
+  "attribute_count": 506,
+  "records": [
+    {
+      "product_id": "0",
+      "attributes": [
+        {
+          "name": "Mounting Height",
+          "value": "86mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Dimensions",
+          "value": "86mm x 54.5mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "20240904E",
+      "attributes": [
+        {
+          "name": "Temperature Range",
+          "value": "-40° to 158°F",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Humidity Range",
+          "value": "5 to 95% RH",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Mounting",
+          "value": "Actuator screws onto valve body",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Driving Power Consumption",
+          "value": "Low",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "20240904I",
+      "attributes": [
+        {
+          "name": "Control Mode",
+          "value": "On/Off type",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Control Signal",
+          "value": "3-wire",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Control Signal",
+          "value": "2-wire",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "ALER9000",
+      "attributes": [
+        {
+          "name": "CPU",
+          "value": "iMX8M+ Quad Core",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "RAM",
+          "value": "2GB LPDDR4",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Storage",
+          "value": "8GB micro-SD card",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "WiFi",
+          "value": "WiFi 5 (802.11ac)",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "CN1000305",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "DECO",
+      "attributes": [
+        {
+          "name": "Dimensions",
+          "value": "3 -19/32 ” (91.2mm)",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "E0001535",
+      "attributes": [
+        {
+          "name": "Valve Insert",
+          "value": "kvs 0.25",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Valve Insert",
+          "value": "kvs 0.40",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Valve Insert",
+          "value": "kvs 0.63",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "E0001536",
+      "attributes": [
+        {
+          "name": "Valve Insert",
+          "value": "kvs 0.25",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Valve Insert",
+          "value": "kvs 0.40",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Valve Insert",
+          "value": "kvs 0.63",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "E0001544",
+      "attributes": [
+        {
+          "name": "Valve Insert",
+          "value": "kvs 0.25",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Valve Insert",
+          "value": "kvs 0.40",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Valve Insert",
+          "value": "kvs 0.63",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "E0001546",
+      "attributes": [
+        {
+          "name": "Valve Insert",
+          "value": "kvs 0.25",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Valve Insert",
+          "value": "kvs 0.40",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Valve Insert",
+          "value": "kvs 0.63",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "E0001547",
+      "attributes": [
+        {
+          "name": "Valve Insert",
+          "value": "kvs 0.25",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Valve Insert",
+          "value": "kvs 0.40",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Valve Insert",
+          "value": "kvs 0.63",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "E0001817",
+      "attributes": [
+        {
+          "name": "Gas Detection",
+          "value": "Componenti off-gas delle batterie al litio",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Temperature Range",
+          "value": "-10 to +60oC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Humidity Range",
+          "value": "5-95% RH",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Response Time",
+          "value": "5 secondi",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "E0001818",
+      "attributes": [
+        {
+          "name": "Gas Detection",
+          "value": "Componenti off-gas delle batterie al litio",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Temperature Range",
+          "value": "-10 to +60oC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Humidity Range",
+          "value": "5-95% RH",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Response Time",
+          "value": "5 secondi",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "E0001822",
+      "attributes": [
+        {
+          "name": "Gas Detection",
+          "value": "Componenti off-gas delle batterie al litio",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Temperature Range",
+          "value": "-10 to +60oC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Humidity Range",
+          "value": "5-95% RH",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Response Time",
+          "value": "5 secondi",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "E0004167",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "Adequate",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "E0004168",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "Adequate",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "E0004178",
+      "attributes": [
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Force",
+          "value": "600 N",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "E0004181",
+      "attributes": [
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Force",
+          "value": "600 N",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "E0004182",
+      "attributes": [
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Force",
+          "value": "600 N",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP00017",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP00018",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP00019",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP00020",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP00021",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP00022",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP00023",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP00024",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP00025",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP00026",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP00027",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP00028",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP00029",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP00030",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP00109",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP00110",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP00111",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP00112",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP4-006",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP4-008",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP5-002",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP5-023",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP5-028",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP5-035",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP5-062",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP5-063",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP5-065",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP6-007",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP6-018",
+      "attributes": [
+        {
+          "name": "Mounting Height",
+          "value": "Not specified",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Technology",
+          "value": "PIR",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP6-061",
+      "attributes": [
+        {
+          "name": "Mounting Height",
+          "value": "Not specified",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Technology",
+          "value": "PIR",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "EP6-063",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "HVFD3G",
+      "attributes": [
+        {
+          "name": "Input Voltage",
+          "value": "208/230V AC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "IQ5IO816",
+      "attributes": [
+        {
+          "name": "Number of Digital Inputs",
+          "value": "16",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Number of Digital Outputs",
+          "value": "8",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "K2766",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "M2M-EP",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "200-250V",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "M2M-FIRE",
+      "attributes": [
+        {
+          "name": "Ambient Temperature",
+          "value": "-25°C / 70°C",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "ML6421A300",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "ML7421AB00",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P00500100",
+      "attributes": [
+        {
+          "name": "CPU",
+          "value": "i.MX 8M Plus",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "RAM",
+          "value": "2 GB",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Storage",
+          "value": "8 GB",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating System",
+          "value": "LINUX 64-bit",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1603890113160661",
+      "attributes": [
+        {
+          "name": "Input Voltage",
+          "value": "12VDC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1902522",
+      "attributes": [
+        {
+          "name": "Height",
+          "value": "50mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1902523",
+      "attributes": [
+        {
+          "name": "Height",
+          "value": "50mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1902525",
+      "attributes": [
+        {
+          "name": "Height",
+          "value": "50mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1902526",
+      "attributes": [
+        {
+          "name": "Height",
+          "value": "50mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1902527",
+      "attributes": [
+        {
+          "name": "Height",
+          "value": "50mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904391",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Range",
+          "value": "43191679-012",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904392",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Range",
+          "value": "43191679-012",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904394",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Range",
+          "value": "43191679-012",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904587",
+      "attributes": [
+        {
+          "name": "Height",
+          "value": "50mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904588",
+      "attributes": [
+        {
+          "name": "Height",
+          "value": "50mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904589",
+      "attributes": [
+        {
+          "name": "Height",
+          "value": "50mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904613",
+      "attributes": [
+        {
+          "name": "Input Voltage",
+          "value": "12VDC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Consumption",
+          "value": "300mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904653",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "230 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage",
+          "value": "24 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904654",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "230 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage",
+          "value": "24 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904686",
+      "attributes": [
+        {
+          "name": "Input Voltage",
+          "value": "24 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904755",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "230 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage",
+          "value": "24 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "300 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "600 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Analogue Outputs",
+          "value": "6",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Output Voltage",
+          "value": "0…10 VDC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904761",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "230 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage",
+          "value": "24 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "300 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "600 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Analogue Outputs",
+          "value": "6",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Output Voltage",
+          "value": "0…10 VDC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904762",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "230 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage",
+          "value": "24 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "300 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "600 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Analogue Outputs",
+          "value": "6",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Output Voltage",
+          "value": "0…10 VDC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904775",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "230 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage",
+          "value": "24 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "300 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "600 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Analogue Outputs",
+          "value": "6",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Output Voltage",
+          "value": "0…10 VDC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904778",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "230 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage",
+          "value": "24 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "300 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "600 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Analogue Outputs",
+          "value": "6",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Output Voltage",
+          "value": "0…10 VDC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904780",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "230 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage",
+          "value": "24 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "300 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "600 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Analogue Outputs",
+          "value": "6",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Output Voltage",
+          "value": "0…10 VDC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904785",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "230 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage",
+          "value": "24 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "300 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "600 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Analogue Outputs",
+          "value": "6",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Output Voltage",
+          "value": "0…10 VDC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904797",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "230 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage",
+          "value": "24 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "300 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "600 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Analogue Outputs",
+          "value": "6",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Output Voltage",
+          "value": "0…10 VDC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904798",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "230 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage",
+          "value": "24 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "300 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "600 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Analogue Outputs",
+          "value": "6",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Output Voltage",
+          "value": "0…10 VDC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904831",
+      "attributes": [
+        {
+          "name": "Operating System",
+          "value": "SQL",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating System",
+          "value": "MySQL",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904836",
+      "attributes": [
+        {
+          "name": "Operating System",
+          "value": "SQL",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating System",
+          "value": "MySQL",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904885",
+      "attributes": [
+        {
+          "name": "Processor",
+          "value": "Core i5-3470",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage Frequency",
+          "value": "3.2GHz",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904898",
+      "attributes": [
+        {
+          "name": "Processor",
+          "value": "Core i5-3470",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage Frequency",
+          "value": "3.2GHz",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904899",
+      "attributes": [
+        {
+          "name": "Processor",
+          "value": "Core i5-3470",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage Frequency",
+          "value": "3.2GHz",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1904911",
+      "attributes": [
+        {
+          "name": "Processor",
+          "value": "Core i5-3470",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage Frequency",
+          "value": "3.2GHz",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1905310",
+      "attributes": [
+        {
+          "name": "Processor",
+          "value": "Core i5-3470",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage Frequency",
+          "value": "3.2GHz",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1905612",
+      "attributes": [
+        {
+          "name": "Processor",
+          "value": "Core i5-3470",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage Frequency",
+          "value": "3.2GHz",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1905613",
+      "attributes": [
+        {
+          "name": "Processor",
+          "value": "Core i5-3470",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage Frequency",
+          "value": "3.2GHz",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1905788",
+      "attributes": [
+        {
+          "name": "System Management",
+          "value": "Centralized",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1905883",
+      "attributes": [
+        {
+          "name": "Energy Management",
+          "value": "EMS",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1905884",
+      "attributes": [
+        {
+          "name": "Energy Management",
+          "value": "EMS",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1906011",
+      "attributes": [
+        {
+          "name": "Flame Detector",
+          "value": "40/40",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1906354",
+      "attributes": [
+        {
+          "name": "CO2 Measurement",
+          "value": "0 to 2000 ppm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Accuracy",
+          "value": "± (30 ppm +2% of reading)",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1906665",
+      "attributes": [
+        {
+          "name": "CO2 Measurement",
+          "value": "0 to 2000 ppm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Accuracy",
+          "value": "±(50 ppm + 2% of measured value)",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1906677",
+      "attributes": [
+        {
+          "name": "Actuator",
+          "value": "V5011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Actuator",
+          "value": "V5013",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Actuator",
+          "value": "V5016A",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Actuator",
+          "value": "V5025",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Actuator",
+          "value": "V5049",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Actuator",
+          "value": "V5050",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1906678",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Linear Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Valve Series",
+          "value": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1906683",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Linear Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Valve Series",
+          "value": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1906685",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Linear Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Valve Series",
+          "value": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1906686",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Linear Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Valve Series",
+          "value": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1906687",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Linear Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Valve Series",
+          "value": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1906688",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Linear Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Valve Series",
+          "value": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1906690",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Linear Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Valve Series",
+          "value": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1906691",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Linear Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Valve Series",
+          "value": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1906692",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Linear Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Valve Series",
+          "value": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1906884",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Linear Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Valve Series",
+          "value": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1906885",
+      "attributes": [
+        {
+          "name": "Temperature Setpoint Dials",
+          "value": "Fahrenheit, Celsius, and Relative (- to +)",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Temperature Range",
+          "value": "7 °C to 37 °C (45 °F to 99 °F)",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1907046",
+      "attributes": [
+        {
+          "name": "Switch Housing Material",
+          "value": "GD AI Si 12 according to DIN 1725",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Mounting Position",
+          "value": "Vertically upright and horizontal",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1907076",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Linear Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Valve Series",
+          "value": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1907078",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Linear Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Valve Series",
+          "value": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1907081",
+      "attributes": [
+        {
+          "name": "Switch Housing Material",
+          "value": "GD AI Si 12 according to DIN 1725",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Mounting Position",
+          "value": "Vertically upright and horizontal",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1907115",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Linear Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Valve Series",
+          "value": "V5011, V5013, V5016A, V5025, V5049, V5050, V5328, V5329",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1908030",
+      "attributes": [
+        {
+          "name": "Power Source",
+          "value": "Battery",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Communication Method",
+          "value": "RF",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1908036",
+      "attributes": [
+        {
+          "name": "Power Source",
+          "value": "Battery",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Communication Method",
+          "value": "RF",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1909410",
+      "attributes": [
+        {
+          "name": "Operating Temperature",
+          "value": "0 - 30 ºC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Storage Temperature",
+          "value": "-10 – 50 ºC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Humidity",
+          "value": "10 – 90% RH, Non-Condensing",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage",
+          "value": "120 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage Frequency",
+          "value": "60Hz",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1909412",
+      "attributes": [
+        {
+          "name": "Operating Temperature",
+          "value": "0 - 30 ºC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Storage Temperature",
+          "value": "-10 – 50 ºC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Humidity",
+          "value": "10 – 90% RH, Non-Condensing",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage",
+          "value": "120 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage Frequency",
+          "value": "60Hz",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911550",
+      "attributes": [
+        {
+          "name": "Potentiometer",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911553",
+      "attributes": [
+        {
+          "name": "Potentiometer",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911556",
+      "attributes": [
+        {
+          "name": "Potentiometer",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911557",
+      "attributes": [
+        {
+          "name": "Potentiometer",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911730",
+      "attributes": [
+        {
+          "name": "Potentiometer",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911746",
+      "attributes": [
+        {
+          "name": "Operating Torque",
+          "value": "8 Nm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911749",
+      "attributes": [
+        {
+          "name": "Potentiometer",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911750",
+      "attributes": [
+        {
+          "name": "Potentiometer",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911753",
+      "attributes": [
+        {
+          "name": "Potentiometer",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911760",
+      "attributes": [
+        {
+          "name": "Potentiometer",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911765",
+      "attributes": [
+        {
+          "name": "Kvs",
+          "value": "0.25",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Kvs",
+          "value": "0.40",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Kvs",
+          "value": "0.63",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911770",
+      "attributes": [
+        {
+          "name": "Operating Torque",
+          "value": "8 Nm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911774",
+      "attributes": [
+        {
+          "name": "Potentiometer",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911776",
+      "attributes": [
+        {
+          "name": "Potentiometer",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911779",
+      "attributes": [
+        {
+          "name": "Potentiometer",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911784",
+      "attributes": [
+        {
+          "name": "Potentiometer",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911785",
+      "attributes": [
+        {
+          "name": "Potentiometer",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911787",
+      "attributes": [
+        {
+          "name": "Potentiometer",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911789",
+      "attributes": [
+        {
+          "name": "Potentiometer",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911791",
+      "attributes": [
+        {
+          "name": "Potentiometer",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911794",
+      "attributes": [
+        {
+          "name": "Potentiometer",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911807",
+      "attributes": [
+        {
+          "name": "Stroke",
+          "value": "90° to 160°",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911824",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "24 Vac",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911842",
+      "attributes": [
+        {
+          "name": "Operating Torque",
+          "value": "Angular degree maximum",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911844",
+      "attributes": [
+        {
+          "name": "Ambient Operating Limits",
+          "value": "-5...+140° F",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Ambient Storage Limits",
+          "value": "-22...+176° F",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1911848",
+      "attributes": [
+        {
+          "name": "Ambient Operating Limits",
+          "value": "-5...+140 °F",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Ambient Storage Limits",
+          "value": "-40...+175 °F",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912041",
+      "attributes": [
+        {
+          "name": "Potentiometer",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912042",
+      "attributes": [
+        {
+          "name": "Potentiometer",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912043",
+      "attributes": [
+        {
+          "name": "Potentiometer",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912044",
+      "attributes": [
+        {
+          "name": "Potentiometer",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912045",
+      "attributes": [
+        {
+          "name": "Potentiometer",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912055",
+      "attributes": [
+        {
+          "name": "Kvs",
+          "value": "0.25",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Kvs",
+          "value": "0.40",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Kvs",
+          "value": "0.63",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912058",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912060",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912061",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912067",
+      "attributes": [
+        {
+          "name": "Actuator Force",
+          "value": "300 N",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912084",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912085",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912195",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912214",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912215",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912381",
+      "attributes": [
+        {
+          "name": "Input Voltage",
+          "value": "230 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Input Voltage",
+          "value": "24 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912384",
+      "attributes": [
+        {
+          "name": "Input Voltage",
+          "value": "230 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Input Voltage",
+          "value": "24 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912395",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912401",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912402",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912512",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912513",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912516",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912517",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912546",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912741",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1912759",
+      "attributes": [
+        {
+          "name": "Potentiometer Resistance",
+          "value": "10 kohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Feedback Potentiometer Resistance",
+          "value": "220 ohm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Actuator Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1913328",
+      "attributes": [
+        {
+          "name": "Norme di riferimento",
+          "value": "EN 50200, CEI 20-36/4-0 (PH30) CEI 20-105",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1913329",
+      "attributes": [
+        {
+          "name": "Norme di riferimento",
+          "value": "EN 50200, CEI 20-36/4-0 (PH30) CEI 20-105",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1913330",
+      "attributes": [
+        {
+          "name": "Norme di riferimento",
+          "value": "EN 50200, CEI 20-36/4-0 (PH30) CEI 20-105",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1913332",
+      "attributes": [
+        {
+          "name": "Norme di riferimento",
+          "value": "EN 50200, CEI 20-36/4-0 (PH30) CEI 20-105",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1913333",
+      "attributes": [
+        {
+          "name": "Norme di riferimento",
+          "value": "EN 50200, CEI 20-36/4-0 (PH30) CEI 20-105",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1913334",
+      "attributes": [
+        {
+          "name": "Norme di riferimento",
+          "value": "EN 50200, CEI 20-36/4-0 (PH30) CEI 20-105",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1913335",
+      "attributes": [
+        {
+          "name": "Norme di riferimento",
+          "value": "EN 50200, CEI 20-36/4-0 (PH30) CEI 20-105",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1913337",
+      "attributes": [
+        {
+          "name": "Norme di riferimento",
+          "value": "EN 50200, CEI 20-36/4-0 (PH30) CEI 20-105",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1913815",
+      "attributes": [
+        {
+          "name": "Pulse input maximum frequency",
+          "value": "100Hz",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Pulse input minimum duty cycle",
+          "value": "5ms ON / 5ms OFF",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1919717",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "24",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1919718",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "24",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "kvs",
+          "value": "0.25",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1919719",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "24",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1919720",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Range",
+          "value": "43191679-012",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1919721",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Range",
+          "value": "43191679-012",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1919722",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Range",
+          "value": "43191679-012",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1919723",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Range",
+          "value": "43191679-012",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1919724",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Range",
+          "value": "43191679-012",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1919725",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Range",
+          "value": "43191679-012",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1919726",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Range",
+          "value": "43191679-012",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1919727",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Range",
+          "value": "43191679-012",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1919728",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Range",
+          "value": "43191679-012",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1919729",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Range",
+          "value": "43191679-012",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1919730",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Range",
+          "value": "43191679-012",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1919731",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Range",
+          "value": "43191679-012",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1919732",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Range",
+          "value": "43191679-012",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1919818",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "24",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1919819",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "24",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1920438",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Range",
+          "value": "43191679-012",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1920541",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "230 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage",
+          "value": "24 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "300 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "600 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1920543",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "230 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage",
+          "value": "24 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "300 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "600 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1921333",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Range",
+          "value": "43191679-012",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1921578",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Range",
+          "value": "43191679-012",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1921621",
+      "attributes": [
+        {
+          "name": "Processor",
+          "value": "Core i5-3470",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1921650",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Range",
+          "value": "43191679-012",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1921653",
+      "attributes": [
+        {
+          "name": "Temperature Range",
+          "value": "-10 °C to +50 °C",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Enclosure Material",
+          "value": "Flame retardant (V0) ABS",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1921809",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "230 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage",
+          "value": "24 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "300 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "600 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1921810",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "230 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage",
+          "value": "24 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "300 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "600 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1921811",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "230 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage",
+          "value": "24 VAC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "300 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "600 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1921819",
+      "attributes": [
+        {
+          "name": "Supply Voltage",
+          "value": "230V AC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Supply Voltage",
+          "value": "24V AC",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "300 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Current Rating",
+          "value": "600 mA",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1921838",
+      "attributes": [
+        {
+          "name": "Temperature Range",
+          "value": "-40–185 deg. F",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1921860",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Range",
+          "value": "43191679-012",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1922042",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Range",
+          "value": "43191679-012",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "product_id": "P1922260",
+      "attributes": [
+        {
+          "name": "Operating Range",
+          "value": "43191679-011",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Operating Range",
+          "value": "43191679-012",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        },
+        {
+          "name": "Stroke",
+          "value": "20/38mm",
+          "status": "APPROVED",
+          "source_document_id": "",
+          "source_chunk_id": "",
+          "confidence": null,
+          "reviewed_at": "",
+          "reviewer": "",
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}

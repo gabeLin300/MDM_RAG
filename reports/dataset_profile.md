@@ -1,7 +1,7 @@
 # Week 1 Dataset Profile
 
 - Rows total: 3690
-- Source files: data\raw\100_sample_advanced_rag.csv
+- Source files: data/raw/100_sample_advanced_rag.csv
 
 ## Document Type Counts
 - unknown: 3590

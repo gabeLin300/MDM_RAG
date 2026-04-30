@@ -1,6 +1,6 @@
 {
   "source_files": [
-    "data\\raw\\100_sample_advanced_rag.csv"
+    "data/raw/100_sample_advanced_rag.csv"
   ],
   "rows_total": 3690,
   "document_type_counts": {
