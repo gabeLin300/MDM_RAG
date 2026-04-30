@@ -6,7 +6,7 @@ from langchain_groq import ChatGroq
 load_dotenv()
 
 class BaseAgent:
-    def __init__(self, model_name):
+    def __init__(self, model_name="meta-llama/llama-4-scout-17b-16e-instruct"):
         self.model_name = model_name
         self.llm = ChatGroq(
             groq_api_key=os.getenv("GROQ_API_KEY"),

@@ -1,63 +1,93 @@
+from datetime import datetime, timezone
 from retrieval.baseline_rag import BaselineRAG
 from agents.unified_agent import UnifiedAgent
+from schemas.product_schema import AttributeValidator
 
 class Orchestrator:
     def __init__(self, index, metadata):
-        self.unified_agent = UnifiedAgent()
         self.rag = BaselineRAG(index=index, metadata=metadata)
-        # Max context length per chunk (tokens ~= chars/4)
-        self.max_chunk_length = 800
+        self.agent = UnifiedAgent()
+        self.validator = AttributeValidator()
+        self.max_chunk_chars = 1200
+        self.max_total_chars = 6000
 
-    def _limit_context_length(self, chunks: list[str], max_total_chars: int = 4000) -> list[str]:
-        """Limit total context by truncating chunks if needed."""
-        result = []
-        total_chars = 0
-        for chunk in chunks:
-            if total_chars >= max_total_chars:
+    def _select_chunks(self, retrieved_results):
+        texts, ids = [], []
+        total = 0
+        for result in retrieved_results:
+            if total >= self.max_total_chars:
                 break
-            # Limit individual chunk to prevent excessive context
-            truncated = chunk[:self.max_chunk_length]
-            if total_chars + len(truncated) <= max_total_chars:
-                result.append(truncated)
-                total_chars += len(truncated)
+            text = result.chunk_text[:self.max_chunk_chars] 
+            remaining_chars = self.max_total_chars - total
+            if len(text) <= remaining_chars:
+                texts.append(text)
+                ids.append(result.chunk_id)
+                total += len(text)
+            elif remaining_chars > 100: 
+                texts.append(result.chunk_text[:remaining_chars])
+                ids.append(result.chunk_id)
+                break
             else:
-                # Add partial chunk to fill up to limit
-                remaining = max_total_chars - total_chars
-                if remaining > 100:  # Only add if meaningful content
-                    result.append(chunk[:remaining])
                 break
-        return result
+        return texts, ids
+    
+    def run_for_document(self, doc_chunks: list[dict]) -> dict:
+        """Extract attributes from a document's chunks directly — no RAG search needed."""
+        sorted_chunks = sorted(doc_chunks, key=lambda c: c.get("char_start", 0))
 
-    def serialize_output(self, product_id, attributes):
-        """Convert flat attributes dict to wrapped format.
+        texts, chunk_ids = [], []
+        total = 0
+        for chunk in sorted_chunks:
+            text = chunk["chunk_text"][:self.max_chunk_chars]
+            if total + len(text) > self.max_total_chars:
+                break
+            texts.append(text)
+            chunk_ids.append(chunk["chunk_id"])
+            total += len(text)
 
-        Transform {"voltage": "24V", "current": "0.5A"}
-        into {"product_id": [{"voltage": "24V"}, {"current": "0.5A"}]}
-        """
+        if not texts:
+            return {
+                "source_chunk_ids": [],
+                "attributes": {},
+                "quality_flags": ["no_chunks"],
+                "review_required": True,
+            }
+
+        raw = self.agent.extract(texts)
+        flags, review_required = self.validator.validate(raw["attributes"])
         return {
-            product_id: [
-                {key: value} for key, value in attributes.items()
-            ]
+            "source_chunk_ids": chunk_ids,
+            "attributes": raw["attributes"],
+            "quality_flags": flags,
+            "review_required": review_required,
         }
 
-    def run(self, product_id):
-        # Retrieve with reduced top_k (2 instead of 5) to reduce token usage
-        retrieved_chunks = self.rag.search(
+    def run(self, product_id: str) -> dict:
+        retrieved = self.rag.search(
             "product technical specifications",
             product_id=product_id,
-            top_k=2
+            top_k=3,
         )
 
-        # CRITICAL: Skip LLM call if no chunks retrieved
-        if not retrieved_chunks:
-            # Return empty attributes without LLM call
-            return self.serialize_output(product_id, {})
+        if not retrieved:
+            return {
+                "product_id": product_id,
+                "extracted_at": datetime.now(timezone.utc).isoformat(),
+                "source_chunk_ids": [],
+                "attributes": {},
+                "quality_flags": ["no_chunks_retrieved"],
+                "review_required": True,
+            }
 
-        # Extract chunk text and limit context length
-        chunks = [result.chunk_text for result in retrieved_chunks]
-        chunks = self._limit_context_length(chunks)
+        texts, chunk_ids = self._select_chunks(retrieved)
+        raw = self.agent.extract(texts)
+        flags, review_required = self.validator.validate(raw["attributes"])
 
-        # CRITICAL: Single unified LLM call instead of 5 separate calls
-        unified_results = self.unified_agent.extract(chunks)
-
-        return self.serialize_output(product_id, unified_results["attributes"])
+        return {
+            "product_id": product_id,
+            "extracted_at": datetime.now(timezone.utc).isoformat(),
+            "source_chunk_ids": chunk_ids,
+            "attributes": raw["attributes"],
+            "quality_flags": flags,
+            "review_required": review_required,
+        }

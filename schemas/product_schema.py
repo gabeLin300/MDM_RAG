@@ -1,8 +1,10 @@
-"""Week 1 baseline PIM schema definitions and validators."""
+"""PIM schema definitions and validators."""
 
 from __future__ import annotations
 
+import re
 from dataclasses import asdict, dataclass, field
+from datetime import datetime, timezone
 from typing import Any, Dict, List, Tuple
 
 REQUIRED_TOP_LEVEL_FIELDS = (
@@ -68,3 +70,40 @@ def validate_product_record(record: Dict[str, Any]) -> Tuple[bool, List[str]]:
         errors.append("quality_flags_not_list")
 
     return len(errors) == 0, errors
+
+
+ATTRIBUTE_PATTERNS: Dict[str, str] = {
+    "voltage_rating":        r"\d+\.?\d*\s*[Vv]",
+    "current_rating":        r"\d+\.?\d*\s*[Aa]",
+    "power_consumption":     r"\d+\.?\d*\s*[Ww]",
+    "frequency":             r"\d+\.?\d*\s*[Hh][Zz]",
+    "operating_temperature": r"-?\d+",
+    "storage_temperature":   r"-?\d+",
+    "dimensions":            r"\d+",
+    "weight":                r"\d+\.?\d*\s*(?:g|kg|lb|oz)",
+}
+
+_LOW_CONFIDENCE_THRESHOLD = 60
+_MIN_FILLED_FOR_AUTO_APPROVE = 3
+
+
+class AttributeValidator:
+    def validate(self, attributes: dict) -> Tuple[List[str], bool]:
+        """Return (quality_flags, review_required) for a set of extracted attributes."""
+        flags: List[str] = []
+        filled = [
+            name for name, entry in attributes.items()
+            if isinstance(entry, dict) and entry.get("value") is not None
+        ]
+
+        for name, entry in attributes.items():
+            if not isinstance(entry, dict) or entry.get("value") is None:
+                continue
+            if entry.get("confidence", 0) < _LOW_CONFIDENCE_THRESHOLD:
+                flags.append(f"low_confidence:{name}")
+            pattern = ATTRIBUTE_PATTERNS.get(name)
+            if pattern and not re.search(pattern, str(entry["value"]), re.IGNORECASE):
+                flags.append(f"format_mismatch:{name}")
+
+        review_required = bool(flags) or len(filled) < _MIN_FILLED_FOR_AUTO_APPROVE
+        return flags, review_required

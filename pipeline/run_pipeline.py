@@ -288,188 +288,84 @@ def get_all_product_ids_from_metadata(metadata_store: List[Dict[str, Any]]) -> L
             product_ids.add(pids)
     return sorted(list(product_ids))
 
-
-def _unified_extraction_prompt(context: str) -> str:
-    """Generate unified prompt for extracting all attributes in one LLM call.
-
-    Combines all attribute categories (electrical, connectivity, certification,
-    physical, environmental) into a single extraction prompt.
-    """
-    return f"""You are an expert at extracting product specifications from technical documents.
-
-Extract ALL available attributes from the text below. Return ONLY a raw JSON object with no markdown, code blocks, or explanation.
-
-Extract these attributes if present:
-
-ELECTRICAL:
-- voltage, current, power, frequency, power_supply, power_consumption
-
-CONNECTIVITY:
-- communication_protocols, wired_interfaces, ports, network_capabilities, data_rate, bus_type
-
-CERTIFICATION:
-- certifications, standards_compliance, regulatory_approvals, safety_certifications, environmental_certifications, industry_certifications
-
-PHYSICAL:
-- dimensions, weight, material, housing, mounting_type, enclosure_type
-
-ENVIRONMENTAL:
-- operating_temperature, storage_temperature, humidity, ingress_protection, shock_resistance, vibration_resistance
-
-Expected format:
-{{
-    "voltage": "24V DC",
-    "current": "0.5A",
-    "power": "12W",
-    "frequency": "50/60 Hz",
-    "power_supply": "AC",
-    "power_consumption": null,
-    "communication_protocols": "BACnet, Modbus",
-    "wired_interfaces": "Ethernet, RS-485",
-    "ports": "3x Ethernet",
-    "network_capabilities": "IPv4",
-    "data_rate": "100 Mbps",
-    "bus_type": "T1L",
-    "certifications": "CE, FCC",
-    "standards_compliance": "IEC 60068",
-    "regulatory_approvals": null,
-    "safety_certifications": null,
-    "environmental_certifications": null,
-    "industry_certifications": null,
-    "dimensions": "10cm x 5cm x 3cm",
-    "weight": "250g",
-    "material": "aluminum",
-    "housing": "metal enclosure",
-    "mounting_type": "DIN rail",
-    "enclosure_type": "IP65",
-    "operating_temperature": "-10 to 50 C",
-    "storage_temperature": "-20 to 70 C",
-    "humidity": "5% to 95% RH",
-    "ingress_protection": "IP65",
-    "shock_resistance": null,
-    "vibration_resistance": null
-}}
-
-For missing attributes, use null. Extract only what is explicitly stated in the text.
-
-Text:
-{context}"""
-
-
 def run_batch_orchestrator(
     orchestrator: Orchestrator,
-    product_ids: List[str],
+    metadata_store: List[Dict[str, Any]],
     rate_limit_delay: float = 1.0,
 ) -> Dict[str, Any]:
-    """Process all products with optimized single-call extraction and rate limiting.
+    """Process all documents once, mapping extracted attributes to all product IDs they cover.
 
-    Optimization: ONE LLM call per product instead of 5 separate agent calls
-    - Reduces API rate limiting from 472*5=2360 calls to 472 calls
-    - Implements exponential backoff on 429 errors
-    - Adds per-product delay to stay under rate limits
-
-    For each product_id:
-    - Retrieve product-specific chunks using RAG search (ONE call)
-    - Extract ALL attributes in ONE unified LLM call (not 5 separate calls)
-    - Apply rate limiting to avoid HTTP 429 errors
-    - Serialize output to required format: {product_id: [{attr}, ...]}
-    - Aggregate all results
-
-    Args:
-        orchestrator: Initialized Orchestrator instance
-        product_ids: List of all unique product IDs to process
-        rate_limit_delay: Base delay in seconds between API calls
-
-    Returns:
-        Combined results dictionary with all products in serialized format
+    One LLM call per document (not per product ID) — avoids redundant extraction
+    when multiple products share the same source document.
     """
     import time
-    import os
-    from langchain_groq import ChatGroq
+    from collections import defaultdict
+
+    docs: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
+    for chunk in metadata_store:
+        docs[chunk["doc_id"]].append(chunk)
 
     results = {}
-    failed_products = []
+    failed_docs = []
     processed_count = 0
+    doc_list = list(docs.items())
 
-    # Initialize LLM for unified extraction
-    llm = ChatGroq(
-        groq_api_key=os.getenv("GROQ_API_KEY"),
-        model="llama-3.3-70b-versatile",
-    )
+    for idx, (doc_id, doc_chunks) in enumerate(doc_list):
+        product_ids = set()
+        for chunk in doc_chunks:
+            pids = chunk.get("product_id", [])
+            if isinstance(pids, list):
+                product_ids.update(pids)
+            elif isinstance(pids, str):
+                product_ids.add(pids)
+        product_ids.discard("")
 
-    for idx, product_id in enumerate(product_ids):
         backoff_delay = rate_limit_delay
         max_retries = 3
         retry_count = 0
 
         while retry_count < max_retries:
             try:
-                logger.info(f"Processing product {idx + 1}/{len(product_ids)}: {product_id}")
+                logger.info(f"Processing document {idx + 1}/{len(doc_list)}: {doc_id} ({len(product_ids)} products)")
+                doc_result = orchestrator.run_for_document(doc_chunks)
+                extracted_at = datetime.now(timezone.utc).isoformat()
 
-                # SINGLE retrieval call per product using public RAG interface
-                # This handles embeddings internally through DenseRetriever with sentence-transformers
-                retrieved_results = orchestrator.rag.search(
-                    query="product technical specifications",
-                    top_k=3,
-                    product_id=product_id,
-                    rerank=True,
-                )
+                for product_id in product_ids:
+                    results[product_id] = {
+                        "product_id": product_id,
+                        "doc_id": doc_id,
+                        "extracted_at": extracted_at,
+                        **doc_result,
+                    }
 
-                # Build context from retrieved chunks
-                if not retrieved_results:
-                    logger.warning(f"No chunks retrieved for product {product_id}")
-                    failed_products.append(product_id)
-                    break
-
-                context = "\n\n".join([result.chunk_text for result in retrieved_results])
-
-                # SINGLE LLM call per product (not 5 separate agent calls)
-                extraction_prompt = _unified_extraction_prompt(context)
-                response = llm.invoke(extraction_prompt)
-                attributes_dict = json.loads(response.content)
-
-                # Filter out null values for cleaner output
-                attributes = {k: v for k, v in attributes_dict.items() if v is not None}
-
-                # Serialize output: {product_id: [{attr}, {attr}, ...]}
-                serialized = orchestrator.serialize_output(product_id, attributes)
-                results.update(serialized)
                 processed_count += 1
-
-                logger.info(f"Successfully processed {product_id}")
-                break  # Success, exit retry loop
+                logger.info(f"Processed {doc_id}: {len(doc_result.get('attributes', {}))} attributes → {len(product_ids)} products")
+                break
 
             except Exception as e:
                 retry_count += 1
-
-                # Check if it's a rate limit error
-                is_rate_limit = "429" in str(e) or "rate" in str(e).lower()
-
                 if retry_count < max_retries:
                     logger.warning(
-                        f"Attempt {retry_count}/{max_retries} failed for {product_id}: {e}. "
+                        f"Attempt {retry_count}/{max_retries} failed for {doc_id}: {e}. "
                         f"Retrying in {backoff_delay}s..."
                     )
                     time.sleep(backoff_delay)
-                    # Exponential backoff: 1s -> 2s -> 4s
                     backoff_delay *= 2
                 else:
-                    logger.error(f"Failed to process product {product_id} after {max_retries} attempts: {e}")
-                    failed_products.append(product_id)
+                    logger.error(f"Failed to process {doc_id} after {max_retries} attempts: {e}")
+                    failed_docs.append(doc_id)
 
-        # Rate limiting: add delay between products to avoid hitting rate limits
-        # Only sleep if not the last product
-        if idx < len(product_ids) - 1:
+        if idx < len(doc_list) - 1:
             time.sleep(rate_limit_delay)
 
-    if failed_products:
-        logger.warning(f"Failed to process {len(failed_products)} products: {failed_products}")
+    if failed_docs:
+        logger.warning(f"Failed documents: {failed_docs}")
 
     return {
         "extracted_attributes": results,
         "products_processed": processed_count,
-        "products_failed": len(failed_products),
-        "failed_product_ids": failed_products,
+        "products_failed": len(failed_docs),
+        "failed_product_ids": failed_docs,
     }
 
 
@@ -527,7 +423,7 @@ def run_pipeline(
 
             # Run batch orchestrator
             # Embeddings are handled internally by BaselineRAG through DenseRetriever
-            batch_result = run_batch_orchestrator(orchestrator, product_ids)
+            batch_result = run_batch_orchestrator(orchestrator, artifacts["metadata_store"])
             orchestrator_results.update(batch_result)
             orchestrator_results["backend"] = artifacts["manifest"]["embedding_backend"]
             logger.info(

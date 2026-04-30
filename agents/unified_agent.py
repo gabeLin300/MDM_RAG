@@ -1,14 +1,34 @@
 import os
 import json
+import re
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 
 load_dotenv()
 
-class UnifiedAgent:
-    """Single unified agent that extracts all attributes in one LLM call."""
+ATTRIBUTES = [
+    # Certifications
+    "certifications", "standards_compliance", "regulatory_approvals",
+    "safety_certifications", "environmental_certifications", "industry_certifications",
+    # Connectivity
+    "communication_protocols", "wired_interfaces", "ports",
+    "network_capabilities", "data_rate", "bus_type",
+    # Electrical
+    "voltage_rating", "current_rating", "power_consumption", "power_supply", "frequency",
+    # Environmental
+    "operating_temperature", "storage_temperature", "humidity_range",
+    "ingress_protection", "shock_resistance", "vibration_resistance", "altitude_rating",
+    # Physical
+    "dimensions", "weight", "material", "housing", "finish", "mounting_type", "enclosure_type",
+]
 
-    def __init__(self, model_name="llama-3.3-70b-versatile"):
+_NULL_ENTRY = {"value": None, "confidence": 0, "source_excerpt": None}
+
+
+class UnifiedAgent:
+    """Extracts all product attributes with confidence scores in a single LLM call."""
+
+    def __init__(self, model_name="meta-llama/llama-4-scout-17b-16e-instruct"):
         self.model_name = model_name
         self.llm = ChatGroq(
             groq_api_key=os.getenv("GROQ_API_KEY"),
@@ -18,112 +38,53 @@ class UnifiedAgent:
     def extract(self, chunks: list[str]) -> dict:
         """Extract all attributes from chunks in a single LLM call."""
         if not chunks:
-            return {
-                "attributes": {
-                    "certifications": None,
-                    "standards_compliance": None,
-                    "regulatory_approvals": None,
-                    "safety_certifications": None,
-                    "environmental_certifications": None,
-                    "industry_certifications": None,
-                    "connectivity_interfaces": None,
-                    "protocols": None,
-                    "communication_standards": None,
-                    "network_compatibility": None,
-                    "voltage_rating": None,
-                    "current_rating": None,
-                    "power_consumption": None,
-                    "electrical_specifications": None,
-                    "frequency": None,
-                    "operating_temperature": None,
-                    "storage_temperature": None,
-                    "humidity_range": None,
-                    "environmental_conditions": None,
-                    "altitude_rating": None,
-                    "dimensions": None,
-                    "weight": None,
-                    "material": None,
-                    "finish": None,
-                    "mounting_type": None,
-                }
-            }
+            return {"attributes": {name: _NULL_ENTRY.copy() for name in ATTRIBUTES}}
 
-        prompt = self.get_prompt(chunks)
+        prompt = self._build_prompt(chunks)
         response = self.llm.invoke(prompt)
-        response_dict = json.loads(response.content)
-        return response_dict
+        return self._parse_response(response.content)
 
-    def get_prompt(self, chunks: list[str]) -> str:
+    def _build_prompt(self, chunks: list[str]) -> str:
         chunks_text = "\n\n".join(chunks)
-        return f"""You are a specialist in extracting product specifications from technical documents.
+        example_found = '{"value": "CE, UL", "confidence": 92, "source_excerpt": "CE and UL certified for industrial use"}'
+        example_null = '{"value": null, "confidence": 0, "source_excerpt": null}'
+        return f"""You are a specialist extracting product specifications from Honeywell technical documents.
 
-Extract the following attributes from the text below if present. Return ONLY a raw JSON object with no markdown, no code blocks, no explanation. If an attribute is not found, set its value to null.
+For each attribute return an object with three fields:
+- "value": extracted string or null if not found
+- "confidence": integer 0-100 (90-100 verbatim match, 70-89 clearly stated, 50-69 inferred, 1-49 uncertain, 0 not found)
+- "source_excerpt": a direct quote of 20 words or fewer from the text that supports the value, or null
 
-Certifications (from documents):
-- certifications: CE, UL, FCC, etc.
-- standards_compliance: RoHS, REACH, etc.
-- regulatory_approvals: ETL Listed, etc.
-- safety_certifications: UL 61010-1, etc.
-- environmental_certifications: Energy Star, etc.
-- industry_certifications: ISA 95, etc.
+Return ONLY a raw JSON object — no markdown, no code blocks, no explanation.
 
-Connectivity (interfaces and protocols):
-- connectivity_interfaces: USB, Ethernet, Serial, etc.
-- protocols: Modbus, TCP/IP, CAN, etc.
-- communication_standards: IEC 60870-5-104, etc.
-- network_compatibility: IPv4, IPv6, etc.
+Attributes to extract:
+CERTIFICATIONS:  certifications, standards_compliance, regulatory_approvals, safety_certifications, environmental_certifications, industry_certifications
+CONNECTIVITY:    communication_protocols, wired_interfaces, ports, network_capabilities, data_rate, bus_type
+ELECTRICAL:      voltage_rating, current_rating, power_consumption, power_supply, frequency
+ENVIRONMENTAL:   operating_temperature, storage_temperature, humidity_range, ingress_protection, shock_resistance, vibration_resistance, altitude_rating
+PHYSICAL:        dimensions, weight, material, housing, finish, mounting_type, enclosure_type
 
-Electrical specifications:
-- voltage_rating: e.g., 24V DC
-- current_rating: e.g., 0.5A
-- power_consumption: e.g., 12W
-- electrical_specifications: Max current, etc.
-- frequency: e.g., 50-60 Hz
-
-Environmental conditions:
-- operating_temperature: e.g., -10 to 50°C
-- storage_temperature: e.g., -20 to 70°C
-- humidity_range: e.g., 0-95% RH
-- environmental_conditions: IP rating, etc.
-- altitude_rating: e.g., up to 2000m
-
-Physical attributes:
-- dimensions: e.g., 100mm x 50mm x 25mm
-- weight: e.g., 150g
-- material: e.g., aluminum, steel
-- finish: e.g., powder coated
-- mounting_type: e.g., DIN rail, panel mount
-
-Expected format:
+Example output:
 {{
-    "attributes": {{
-        "certifications": null,
-        "standards_compliance": null,
-        "regulatory_approvals": null,
-        "safety_certifications": null,
-        "environmental_certifications": null,
-        "industry_certifications": null,
-        "connectivity_interfaces": null,
-        "protocols": null,
-        "communication_standards": null,
-        "network_compatibility": null,
-        "voltage_rating": null,
-        "current_rating": null,
-        "power_consumption": null,
-        "electrical_specifications": null,
-        "frequency": null,
-        "operating_temperature": null,
-        "storage_temperature": null,
-        "humidity_range": null,
-        "environmental_conditions": null,
-        "altitude_rating": null,
-        "dimensions": null,
-        "weight": null,
-        "material": null,
-        "finish": null,
-        "mounting_type": null
-    }}
+  "attributes": {{
+    "certifications": {example_found},
+    "voltage_rating": {example_null}
+  }}
 }}
 
 Text:
 {chunks_text}"""
+
+    def _parse_response(self, content: str) -> dict:
+        content = re.sub(r"```(?:json)?\s*", "", content)
+        content = content.strip()
+        try:
+            parsed = json.loads(content)
+        except json.JSONDecodeError:
+            return {"attributes": {name: _NULL_ENTRY.copy() for name in ATTRIBUTES}}
+        
+        attrs = parsed.get("attributes", {})
+        for name in ATTRIBUTES:
+            if name not in attrs:
+                attrs[name] = _NULL_ENTRY.copy()
+        return {"attributes": attrs}
